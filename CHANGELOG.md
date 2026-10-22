@@ -12,5 +12,7 @@ release. Dates are the day the change went online.
 - Static site on Cloudflare Workers (assets only, no Worker script), built by Workers Builds from `main`.
 - Strict headers (`default-src 'none'`, HSTS preload, COOP/COEP/CORP, Permissions-Policy), no inline code,
   no third-party request, no cookie, no analytics.
+- Fixed before the end of the day, found by CI: the wordmark drawn grey instead of the wall's colour, fine
+  print below WCAG AA contrast, Arabic pages scrolling sideways because of the skip link's offset.
 - CI: npm audit, gitleaks, build, astro check, html-validate, csp-check, placeholders-check, i18n-check,
   lychee, Playwright on every page in every language, computer and phone, with axe.
