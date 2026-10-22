@@ -5,7 +5,6 @@ lang: sw
 page: about
 updated: 2026-10-22
 reviewed: false
-draft: true
 next:
   label: "Jenga kipokezi chako"
   href: build

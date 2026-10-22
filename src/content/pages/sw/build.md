@@ -5,7 +5,6 @@ lang: sw
 page: build
 updated: 2026-10-22
 reviewed: false
-draft: true
 next:
   label: "Kisha jiunge na jumuiya"
   href: join

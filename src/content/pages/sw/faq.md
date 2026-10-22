@@ -5,7 +5,6 @@ lang: sw
 page: faq
 updated: 2026-10-22
 reviewed: false
-draft: true
 next:
   label: "Nani anatengeneza hiki, na jinsi ya kusema asante"
   href: about

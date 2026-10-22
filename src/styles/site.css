@@ -4,7 +4,9 @@
    --on is the wall's colour; data-theme on <html> changes it, public/js/theme.js remembers the choice. */
 :root {
   --on: #ffb000; --on-hot: #ffd36b; --on-dim: rgba(255, 176, 0, .14); --bg: #030303; --panel: #0a0a0a; --panel2: #101010;
-  --line: #1b1b1b; --line2: #262626; --ink: #e2e2e2; --muted: #8c8c8c; --faint: #555; --off: #1c1c1c;
+  --line: #1b1b1b; --line2: #262626; --ink: #e2e2e2; --muted: #8c8c8c; --faint: #8c8c8c; --off: #1c1c1c;
+  /* --faint is #555 in the console; here it is the same as --muted: at 12 px on black, #555 reads at 2.7:1 and
+     WCAG AA asks 4.5:1 (axe, first CI run). The console shows it on a screen the owner chose; a site cannot. */
   --ok: #39d353; --bad: #ff5a4f; --warn: #ffb000;
   --mono: ui-monospace, Menlo, Consolas, monospace; --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color-scheme: dark;
@@ -137,7 +139,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 24px 28px; }
 .swatch[data-theme="amber"] { --c: #ffb000; } .swatch[data-theme="green"] { --c: #39ff6a; } .swatch[data-theme="red"] { --c: #ff3b30; }
 .swatch[data-theme="white"] { --c: #e8e8e8; } .swatch[data-theme="turquoise"] { --c: #00d6d7; }
 .fine { color: var(--faint); font-size: 12px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
-.fine a { color: var(--muted); }
+.fine a { color: var(--ink); }
 
 @media (max-width: 760px) {
   .bar { padding: 10px 16px; padding-top: max(10px, env(safe-area-inset-top)); }

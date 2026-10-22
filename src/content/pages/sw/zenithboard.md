@@ -5,7 +5,6 @@ lang: sw
 page: zenithboard
 updated: 2026-10-22
 reviewed: false
-draft: true
 next:
   label: "Isakinishe: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard

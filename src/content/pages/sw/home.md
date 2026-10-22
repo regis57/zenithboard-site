@@ -5,7 +5,6 @@ lang: sw
 page: home
 updated: 2026-10-22
 reviewed: false
-draft: true
 next:
   label: "Anza hapa: ADS-B ni nini"
   href: adsb
