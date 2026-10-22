@@ -1,4 +1,10 @@
 # The site's own address: checked by the Playwright run, not reachable from a checkout before go-live.
 https://zenithboard.app
-# Placeholders inside commands
+https://www.zenithboard.app
+http://zenithboard.app
+# Placeholders inside commands and local addresses
 zenithboard.local
+localhost
+# Scanners with a query string on our domain: they answer 200 only once the site is live
+securityheaders.com
+developer.mozilla.org/en-US/observatory
