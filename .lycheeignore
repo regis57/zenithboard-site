@@ -1,0 +1,4 @@
+# The site's own address: checked by the Playwright run, not reachable from a checkout before go-live.
+https://zenithboard.app
+# Placeholders inside commands
+zenithboard.local
