@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Taškų siena arba oro uosto perverčiamų plokštelių lenta senoje planšetėje, žiniatinklio konsolė, įrašai Bluesky. Nemokama, atvira, vienas meniu viskam įdiegti."
 lang: lt
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Įdiekite: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Imtuvo stiprinimą galima derinti iš meniu arba konsolės, po vieną žingsnį,
 
 ## Konsolė
 
-Nuo 0.39 versijos `http://<the Pi>:8080/console` rodo nustatymus sienos išvaizda: Pi apžvalgą (veikimo laikas, temperatūra, atmintis, kiekviena tarnyba), sieną, imtuvą, Bluesky, prižiūrėtojus (watchdogs), atnaujinimus. Po vieną skiltį, šoninė juosta kompiuteryje, kortelės telefone. Kiekvienas pakeitimas vykdo tą pačią komandą, kurią vykdytų meniu, ir parodo jums, ką ji išspausdino. Konsolė yra dvidešimčia kalbų; ši svetainė naudoja tą patį sąrašą ir tas pačias vėliavas.
+Nuo 0.39 versijos `http://<the Pi>:8080/console` rodo nustatymus sienos išvaizda: Pi apžvalgą (veikimo laikas, temperatūra, atmintis, kiekviena tarnyba), sieną, imtuvą, Bluesky, prižiūrėtojus (watchdogs), atnaujinimus. Po vieną skiltį, šoninė juosta kompiuteryje, kortelės telefone. Kiekvienas pakeitimas vykdo tą pačią komandą, kurią vykdytų meniu, ir parodo jums, ką ji išspausdino. Konsolė yra dvidešimt viena kalba; ši svetainė naudoja tą patį sąrašą ir tas pačias vėliavas.
 
 ![Konsolė: imtuvo skiltis, žaliai](/img/banner-radar.webp)
 

@@ -3,7 +3,7 @@ title: "Chi siamo e supporto"
 description: "Chi fa ZenithBoard e questo sito, con quali licenze, con quale rispetto per te, e come dire grazie."
 lang: it
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Costruisci il tuo ricevitore"
@@ -26,9 +26,9 @@ Il codice di ZenithBoard è sotto **GNU General Public License, versione 3 o suc
 
 Il tabellone e i post non rivelano mai la posizione di un ricevitore. Nessun logo di compagnia e nessun logo di costruttore viene disegnato, a puntini o altrimenti: sono marchi protetti, e una copia a puntini è pur sempre una copia, quindi al loro posto ci sono le bandiere dei paesi. Le foto degli aerei sono mostrate così come i loro fotografi le hanno pubblicate, con il loro nome e un link, e mai copiate o ripubblicate altrove. Questo sito non imposta cookie, non usa sistemi di analisi, non carica niente da terze parti; il colore che scegli in fondo alla pagina è conservato solo nel tuo browser.
 
-## Venti lingue
+## Ventuno lingue
 
-Le pagine web di ZenithBoard e questo sito esistono in venti lingue, perché il cielo è lo stesso ovunque e un ricevitore a Giacarta o a Riga è benvenuto quanto uno a Lione. L'inglese e il francese sono scritti dall'autore; le altre lingue sono state tradotte con cura e sono in corso di revisione da parte di madrelingua. Se trovi una frase che suona male nella tua lingua, il repository accoglie volentieri le correzioni: ogni pagina è un semplice file di testo.
+Le pagine web di ZenithBoard e questo sito esistono in ventuno lingue, perché il cielo è lo stesso ovunque e un ricevitore a Giacarta o a Riga è benvenuto quanto uno a Lione. L'inglese e il francese sono scritti dall'autore; le altre lingue sono state tradotte con cura e sono in corso di revisione da parte di madrelingua. Se trovi una frase che suona male nella tua lingua, il repository accoglie volentieri le correzioni: ogni pagina è un semplice file di testo.
 
 ## Dire grazie
 

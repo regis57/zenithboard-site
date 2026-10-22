@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "De wall van stippen of het klapperbord van de luchthaven op een oude tablet, de webconsole, de posts op Bluesky. Gratis, open, één menu om alles te installeren."
 lang: nl
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Installeer het: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ De versterking van de ontvanger kan vanuit het menu of de console worden afgeste
 
 ## De console
 
-Sinds versie 0.39 toont `http://<the Pi>:8080/console` de instellingen in het uiterlijk van de wall: een overzicht van de Pi (uptime, temperatuur, geheugen, elke service), de wall, de ontvanger, Bluesky, de watchdogs, updates. Eén sectie tegelijk, een zijbalk op een computer, tabbladen op een telefoon. Elke wijziging voert dezelfde opdracht uit als het menu zou doen, en laat je zien wat die afdrukte. De console bestaat in twintig talen; deze site gebruikt dezelfde lijst en dezelfde vlaggen.
+Sinds versie 0.39 toont `http://<the Pi>:8080/console` de instellingen in het uiterlijk van de wall: een overzicht van de Pi (uptime, temperatuur, geheugen, elke service), de wall, de ontvanger, Bluesky, de watchdogs, updates. Eén sectie tegelijk, een zijbalk op een computer, tabbladen op een telefoon. Elke wijziging voert dezelfde opdracht uit als het menu zou doen, en laat je zien wat die afdrukte. De console bestaat in eenentwintig talen; deze site gebruikt dezelfde lijst en dezelfde vlaggen.
 
 ![De console: de sectie van de ontvanger, in groen](/img/banner-radar.webp)
 

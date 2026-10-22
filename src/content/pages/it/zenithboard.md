@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Il tabellone a puntini o quello a palette da aeroporto su un vecchio tablet, la console web, i post su Bluesky. Gratuito, aperto, un solo menu per installare tutto."
 lang: it
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Installalo: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Il guadagno del ricevitore si può regolare dal menu o dalla console, un passo a
 
 ## La console
 
-Dalla versione 0.39, `http://<the Pi>:8080/console` mostra le impostazioni con l'aspetto del tabellone: una panoramica del Pi (tempo di attività, temperatura, memoria, ogni servizio), il tabellone, il ricevitore, Bluesky, i watchdog, gli aggiornamenti. Una sezione alla volta, una barra laterale su computer, schede su telefono. Ogni modifica esegue lo stesso comando che eseguirebbe il menu, e ti mostra che cosa ha stampato. La console è in venti lingue; questo sito usa la stessa lista e le stesse bandiere.
+Dalla versione 0.39, `http://<the Pi>:8080/console` mostra le impostazioni con l'aspetto del tabellone: una panoramica del Pi (tempo di attività, temperatura, memoria, ogni servizio), il tabellone, il ricevitore, Bluesky, i watchdog, gli aggiornamenti. Una sezione alla volta, una barra laterale su computer, schede su telefono. Ogni modifica esegue lo stesso comando che eseguirebbe il menu, e ti mostra che cosa ha stampato. La console è in ventuno lingue; questo sito usa la stessa lista e le stesse bandiere.
 
 ![La console: la sezione del ricevitore, in verde](/img/banner-radar.webp)
 

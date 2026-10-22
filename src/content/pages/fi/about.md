@@ -3,7 +3,7 @@ title: "Tietoja & tuki"
 description: "Kuka tekee ZenithBoardin ja tämän sivuston, millä lisensseillä, millä kunnioituksella sinua kohtaan, ja miten kiittää."
 lang: fi
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Rakenna vastaanottimesi"
@@ -26,9 +26,9 @@ ZenithBoardin koodi on lisenssillä **GNU General Public License, versio 3 tai u
 
 Seinätaulu ja julkaisut eivät koskaan paljasta vastaanottimen sijaintia. Lentoyhtiön tai valmistajan logoa ei piirretä, ei pisteinä eikä muutenkaan: ne ovat suojattuja merkkejä, ja pisteistä tehty kopio on silti kopio, joten maiden liput korvaavat ne. Ilma-alusten valokuvat näytetään sellaisina kuin kuvaajat ne julkaisivat, heidän nimensä ja linkin kera, eikä niitä koskaan kopioida tai julkaista muualla. Tämä sivusto ei aseta evästeitä, ei käytä analytiikkaa, ei lataa mitään kolmannelta osapuolelta; sivun alareunassa valitsemasi väri säilytetään vain selaimessasi.
 
-## Kaksikymmentä kieltä
+## Kaksikymmentäyksi kieltä
 
-ZenithBoardin verkkosivut ja tämä sivusto ovat olemassa kahdellakymmenellä kielellä, koska taivas on sama kaikkialla ja vastaanotin Jakartassa tai Riiassa on yhtä tervetullut kuin vastaanotin Lyonissa. Englannin ja ranskan on kirjoittanut tekijä; muut kielet on käännetty huolella, ja äidinkieliset puhujat tarkistavat niitä parhaillaan. Jos löydät lauseen, joka kuulostaa väärältä omalla kielelläsi, tietovarasto ottaa korjauksia mielellään vastaan: jokainen sivu on tavallinen tekstitiedosto.
+ZenithBoardin verkkosivut ja tämä sivusto ovat olemassa kahdellakymmenelläyhdellä kielellä, koska taivas on sama kaikkialla ja vastaanotin Jakartassa tai Riiassa on yhtä tervetullut kuin vastaanotin Lyonissa. Englannin ja ranskan on kirjoittanut tekijä; muut kielet on käännetty huolella, ja äidinkieliset puhujat tarkistavat niitä parhaillaan. Jos löydät lauseen, joka kuulostaa väärältä omalla kielelläsi, tietovarasto ottaa korjauksia mielellään vastaan: jokainen sivu on tavallinen tekstitiedosto.
 
 ## Sano kiitos
 

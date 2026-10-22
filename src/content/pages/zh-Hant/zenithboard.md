@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "舊平板上的點陣牆或機場翻板顯示牌、網頁主控台、Bluesky 上的貼文。免費、開放，一個選單裝好一切。"
 lang: zh-Hant
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "安裝它：github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ ZenithBoard 安裝 **readsb** 作為解碼器，連同它的地圖 **tar1090**�
 
 ## 主控台
 
-從 0.39 版起，`http://<the Pi>:8080/console` 以牆的外觀顯示設定：Pi 的總覽（運行時間、溫度、記憶體、每個服務）、牆、接收器、Bluesky、看門狗、更新。一次一個區段，電腦上是側邊欄，手機上是分頁。每一次變更都執行選單會執行的同一個指令，並顯示它印出的結果。主控台有二十種語言；本網站使用同一份清單和同一組旗幟。
+從 0.39 版起，`http://<the Pi>:8080/console` 以牆的外觀顯示設定：Pi 的總覽（運行時間、溫度、記憶體、每個服務）、牆、接收器、Bluesky、看門狗、更新。一次一個區段，電腦上是側邊欄，手機上是分頁。每一次變更都執行選單會執行的同一個指令，並顯示它印出的結果。主控台有二十一種語言；本網站使用同一份清單和同一組旗幟。
 
 ![主控台：接收器區段，綠色](/img/banner-radar.webp)
 

@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Tablica z kropek albo lotniskowa tablica klapkowa na starym tablecie, konsola WWW, wpisy na Bluesky. Darmowe, otwarte, jedno menu instaluje wszystko."
 lang: pl
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Zainstaluj: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Wzmocnienie odbiornika można regulować z menu lub z konsoli, krok po kroku, ze
 
 ## Konsola
 
-Od wersji 0.39 `http://<the Pi>:8080/console` pokazuje ustawienia w stylu tablicy: przegląd Pi (czas działania, temperatura, pamięć, każda usługa), tablica, odbiornik, Bluesky, watchdogi, aktualizacje. Jedna sekcja naraz, pasek boczny na komputerze, karty na telefonie. Każda zmiana uruchamia to samo polecenie, które uruchomiłoby menu, i pokazuje ci, co wypisało. Konsola jest w dwudziestu językach; ta strona używa tej samej listy i tych samych flag.
+Od wersji 0.39 `http://<the Pi>:8080/console` pokazuje ustawienia w stylu tablicy: przegląd Pi (czas działania, temperatura, pamięć, każda usługa), tablica, odbiornik, Bluesky, watchdogi, aktualizacje. Jedna sekcja naraz, pasek boczny na komputerze, karty na telefonie. Każda zmiana uruchamia to samo polecenie, które uruchomiłoby menu, i pokazuje ci, co wypisało. Konsola jest w dwudziestu jeden językach; ta strona używa tej samej listy i tych samych flag.
 
 ![Konsola: sekcja odbiornika, na zielono](/img/banner-radar.webp)
 

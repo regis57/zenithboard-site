@@ -3,7 +3,7 @@ title: "Tentang & dukungan"
 description: "Siapa yang membuat ZenithBoard dan situs ini, di bawah lisensi apa, dengan penghormatan seperti apa terhadap Anda, dan cara mengucapkan terima kasih."
 lang: id
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Bangun penerima Anda"
@@ -26,9 +26,9 @@ Kode ZenithBoard berada di bawah **GNU General Public License, versi 3 atau yang
 
 Dinding dan unggahan tidak pernah membocorkan posisi penerima. Tidak ada logo maskapai dan tidak ada logo pabrikan yang digambar, dalam titik-titik atau cara lain: itu merek yang dilindungi, dan salinan bertitik tetaplah salinan, jadi bendera negara menggantikannya. Foto pesawat ditampilkan sebagaimana diterbitkan fotografernya, dengan nama mereka dan tautan, dan tidak pernah disalin atau diunggah ke tempat lain. Situs ini tidak memasang cookie, tidak menjalankan analitik, tidak memuat apa pun dari pihak ketiga; warna yang Anda pilih di bagian bawah halaman disimpan di peramban Anda saja.
 
-## Dua puluh bahasa
+## Dua puluh satu bahasa
 
-Halaman web ZenithBoard dan situs ini tersedia dalam dua puluh bahasa, karena langit sama di mana-mana dan penerima di Jakarta atau Riga sama diterimanya dengan yang di Lyon. Bahasa Inggris dan Prancis ditulis oleh penulisnya; bahasa lain diterjemahkan dengan cermat dan sedang ditinjau oleh penutur asli. Jika Anda menemukan kalimat yang terasa janggal dalam bahasa Anda, repositori menerima koreksi dengan senang hati: setiap halaman adalah berkas teks biasa.
+Halaman web ZenithBoard dan situs ini tersedia dalam dua puluh satu bahasa, karena langit sama di mana-mana dan penerima di Jakarta atau Riga sama diterimanya dengan yang di Lyon. Bahasa Inggris dan Prancis ditulis oleh penulisnya; bahasa lain diterjemahkan dengan cermat dan sedang ditinjau oleh penutur asli. Jika Anda menemukan kalimat yang terasa janggal dalam bahasa Anda, repositori menerima koreksi dengan senang hati: setiap halaman adalah berkas teks biasa.
 
 ## Mengucapkan terima kasih
 

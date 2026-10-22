@@ -3,7 +3,7 @@ title: "Meist ja toetamine"
 description: "Kes teeb ZenithBoardi ja seda saiti, milliste litsentside all, millise lugupidamisega sinu vastu ja kuidas öelda aitäh."
 lang: et
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Ehita oma vastuvõtja"
@@ -26,9 +26,9 @@ ZenithBoardi kood on **GNU General Public License, versioon 3 või hilisem** all
 
 Sein ja postitused ei anna kunagi vastuvõtja asukohta välja. Ei joonistata ühtegi lennufirma logo ega tootja logo, täppidest või muul viisil: need on kaitstud kaubamärgid ja täppidest koopia on ikkagi koopia, nii et nende asemel on riikide lipud. Lennukite fotosid näidatakse nii, nagu nende fotograafid need avaldasid, koos nende nime ja lingiga, ja neid ei kopeerita ega postitata kunagi mujale. See sait ei sea küpsiseid, ei kasuta analüütikat, ei laadi midagi kolmandalt osapoolelt; lehe allosas valitud värv hoitakse ainult sinu brauseris.
 
-## Kakskümmend keelt
+## Kakskümmend üks keelt
 
-ZenithBoardi veebilehed ja see sait on olemas kahekümnes keeles, sest taevas on kõikjal sama ja vastuvõtja Jakartas või Riias on sama teretulnud kui Lyonis. Inglise ja prantsuse keele kirjutab autor ise; teised keeled on hoolega tõlgitud ja neid vaatavad üle emakeelsed kõnelejad. Kui leiad lause, mis sinu keeles valesti kõlab, võtab hoidla parandused hea meelega vastu: iga leht on lihtne tekstifail.
+ZenithBoardi veebilehed ja see sait on olemas kahekümne ühes keeles, sest taevas on kõikjal sama ja vastuvõtja Jakartas või Riias on sama teretulnud kui Lyonis. Inglise ja prantsuse keele kirjutab autor ise; teised keeled on hoolega tõlgitud ja neid vaatavad üle emakeelsed kõnelejad. Kui leiad lause, mis sinu keeles valesti kõlab, võtab hoidla parandused hea meelega vastu: iga leht on lihtne tekstifail.
 
 ## Ütle aitäh
 

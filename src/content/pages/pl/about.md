@@ -3,7 +3,7 @@ title: "O projekcie i wsparcie"
 description: "Kto robi ZenithBoard i tę stronę, na jakich licencjach, z jakim szacunkiem dla ciebie i jak podziękować."
 lang: pl
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Zbuduj swój odbiornik"
@@ -26,9 +26,9 @@ Kod ZenithBoard jest na licencji **GNU General Public License, w wersji 3 lub p�
 
 Tablica i wpisy nigdy nie zdradzają pozycji odbiornika. Nie jest rysowane żadne logo linii lotniczej ani producenta, kropkami czy inaczej: to chronione znaki, a kopia z kropek to wciąż kopia, więc zastępują je flagi państw. Zdjęcia samolotów są pokazywane tak, jak opublikowali je ich fotografowie, z nazwiskiem i linkiem, i nigdy nie są kopiowane ani publikowane gdzie indziej. Ta strona nie ustawia żadnego ciasteczka, nie prowadzi analityki, nie ładuje niczego od stron trzecich; kolor, który wybierasz na dole strony, jest przechowywany wyłącznie w twojej przeglądarce.
 
-## Dwadzieścia języków
+## Dwadzieścia jeden języków
 
-Strony WWW ZenithBoard i ta strona istnieją w dwudziestu językach, bo niebo jest wszędzie takie samo, a odbiornik w Dżakarcie czy Rydze jest tak samo mile widziany jak ten w Lyonie. Angielski i francuski pisze autor; pozostałe języki zostały przetłumaczone z dbałością i są sprawdzane przez rodzimych użytkowników. Jeśli znajdziesz zdanie, które brzmi źle w twoim języku, repozytorium chętnie przyjmie poprawki: każda strona to zwykły plik tekstowy.
+Strony WWW ZenithBoard i ta strona istnieją w dwudziestu jeden językach, bo niebo jest wszędzie takie samo, a odbiornik w Dżakarcie czy Rydze jest tak samo mile widziany jak ten w Lyonie. Angielski i francuski pisze autor; pozostałe języki zostały przetłumaczone z dbałością i są sprawdzane przez rodzimych użytkowników. Jeśli znajdziesz zdanie, które brzmi źle w twoim języku, repozytorium chętnie przyjmie poprawki: każda strona to zwykły plik tekstowy.
 
 ## Podziękuj
 

@@ -3,7 +3,7 @@ title: "Over & steun"
 description: "Wie ZenithBoard en deze site maakt, onder welke licenties, met welk respect voor jou, en hoe je bedankt zegt."
 lang: nl
 page: about
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Bouw je ontvanger"
@@ -26,9 +26,9 @@ De code van ZenithBoard valt onder de **GNU General Public License, versie 3 of 
 
 De wall en de posts geven nooit de positie van een ontvanger prijs. Er wordt geen logo van een luchtvaartmaatschappij en geen logo van een fabrikant getekend, in stippen of anderszins: dat zijn beschermde merken, en een kopie in stippen is nog steeds een kopie, dus landsvlaggen nemen hun plaats in. Foto's van vliegtuigen worden getoond zoals hun fotografen ze publiceerden, met hun naam en een link, en worden nooit gekopieerd of elders geplaatst. Deze site plaatst geen cookie, draait geen analytics, laadt niets van een derde partij; de kleur die je onderaan de pagina kiest wordt alleen in je browser bewaard.
 
-## Twintig talen
+## Eenentwintig talen
 
-De webpagina's van ZenithBoard en deze site bestaan in twintig talen, omdat de lucht overal dezelfde is en een ontvanger in Jakarta of Riga even welkom is als een in Lyon. Engels en Frans zijn door de auteur geschreven; de andere talen zijn met zorg vertaald en worden nagekeken door moedertaalsprekers. Als je een zin vindt die in jouw taal verkeerd klinkt, neemt de repository correcties graag aan: elke pagina is een gewoon tekstbestand.
+De webpagina's van ZenithBoard en deze site bestaan in eenentwintig talen, omdat de lucht overal dezelfde is en een ontvanger in Jakarta of Riga even welkom is als een in Lyon. Engels en Frans zijn door de auteur geschreven; de andere talen zijn met zorg vertaald en worden nagekeken door moedertaalsprekers. Als je een zin vindt die in jouw taal verkeerd klinkt, neemt de repository correcties graag aan: elke pagina is een gewoon tekstbestand.
 
 ## Zeg bedankt
 

@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Ukuta wa nukta au ubao wa herufi zinazogeuka wa uwanja wa ndege kwenye kompyuta kibao ya zamani, konsoli ya wavuti, machapisho kwenye Bluesky. Bure, huru, menyu moja kusakinisha yote."
 lang: sw
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Isakinishe: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Ukuzaji wa kipokezi unaweza kurekebishwa kutoka menyu au konsoli, hatua moja kwa
 
 ## Konsoli
 
-Tangu toleo 0.39, `http://<the Pi>:8080/console` inaonyesha mipangilio kwa mwonekano wa ukuta: muhtasari wa Pi (muda wa kuwashwa, joto, kumbukumbu, kila huduma), ukuta, kipokezi, Bluesky, walinzi, masasisho. Sehemu moja kwa wakati, upau wa kando kwenye kompyuta, vichupo kwenye simu. Kila mabadiliko yanaendesha amri ile ile ambayo menyu ingeendesha, na inakuonyesha ilichochapisha. Konsoli iko katika lugha ishirini; tovuti hii inatumia orodha ile ile na bendera zile zile.
+Tangu toleo 0.39, `http://<the Pi>:8080/console` inaonyesha mipangilio kwa mwonekano wa ukuta: muhtasari wa Pi (muda wa kuwashwa, joto, kumbukumbu, kila huduma), ukuta, kipokezi, Bluesky, walinzi, masasisho. Sehemu moja kwa wakati, upau wa kando kwenye kompyuta, vichupo kwenye simu. Kila mabadiliko yanaendesha amri ile ile ambayo menyu ingeendesha, na inakuonyesha ilichochapisha. Konsoli iko katika lugha ishirini na moja; tovuti hii inatumia orodha ile ile na bendera zile zile.
 
 ![Konsoli: sehemu ya kipokezi, kwa kijani](/img/banner-radar.webp)
 

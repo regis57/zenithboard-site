@@ -81,4 +81,4 @@ There is none today. If one is ever needed (it should not be), it lives in the s
 | Date | What | Result |
 |---|---|---|
 | 2026-10-22 | First build, local | 8 English pages; csp-check, placeholders-check, html-validate clean |
-| 2026-10-22 | Go-live | 141 pages (20 languages), Workers Builds with Node 24.22.1, custom domain, workers.dev and previews off, www → apex redirect with path and query kept, Always HTTPS, TLS 1.2 minimum. `connect-src 'none'` confirmed: a same-origin `fetch()` from the page is refused |
+| 2026-10-22 | Go-live | 141 pages (20 languages; 148 and 21 an hour later, Swahili published with ZenithBoard 0.53.1), Workers Builds with Node 24.22.1, custom domain, workers.dev and previews off, www → apex redirect with path and query kept, Always HTTPS, TLS 1.2 minimum. `connect-src 'none'` confirmed: a same-origin `fetch()` from the page is refused |

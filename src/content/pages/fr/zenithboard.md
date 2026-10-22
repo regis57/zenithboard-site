@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Le mur de points ou le tableau à palettes d'aéroport sur une vieille tablette, la console web, les publications sur Bluesky. Libre, ouvert, un menu pour tout installer."
 lang: fr
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Installez-le : github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Le gain du récepteur peut être réglé depuis le menu ou la console, un cran �
 
 ## La console
 
-Depuis la version 0.39, `http://<the Pi>:8080/console` affiche les réglages dans l'apparence du mur : une vue d'ensemble du Pi (temps de fonctionnement, température, mémoire, chaque service), le mur, le récepteur, Bluesky, les chiens de garde, les mises à jour. Une section à la fois, une barre latérale sur un ordinateur, des onglets sur un téléphone. Chaque changement exécute la même commande que le menu, et vous montre ce qu'elle a affiché. La console existe en vingt langues ; ce site utilise la même liste et les mêmes drapeaux.
+Depuis la version 0.39, `http://<the Pi>:8080/console` affiche les réglages dans l'apparence du mur : une vue d'ensemble du Pi (temps de fonctionnement, température, mémoire, chaque service), le mur, le récepteur, Bluesky, les chiens de garde, les mises à jour. Une section à la fois, une barre latérale sur un ordinateur, des onglets sur un téléphone. Chaque changement exécute la même commande que le menu, et vous montre ce qu'elle a affiché. La console existe en vingt et une langues ; ce site utilise la même liste et les mêmes drapeaux.
 
 ![La console : la section du récepteur, en vert](/img/banner-radar.webp)
 

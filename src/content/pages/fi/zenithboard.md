@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Pisteseinä tai lentokentän läppätaulu vanhalla tabletilla, verkkokonsoli, julkaisut Blueskyssä. Ilmainen, avoin, yksi valikko asentaa kaiken."
 lang: fi
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Asenna se: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ Vastaanottimen vahvistusta voi säätää valikosta tai konsolista askel kerrall
 
 ## Konsoli
 
-Versiosta 0.39 lähtien `http://<the Pi>:8080/console` näyttää asetukset seinätaulun ulkoasussa: yleiskatsaus Pistä (käyntiaika, lämpötila, muisti, jokainen palvelu), seinätaulu, vastaanotin, Bluesky, vahtikoirat, päivitykset. Yksi osio kerrallaan, sivupalkki tietokoneella, välilehdet puhelimella. Jokainen muutos ajaa saman komennon kuin valikko ajaisi, ja näyttää sinulle, mitä se tulosti. Konsoli on saatavilla kahdellakymmenellä kielellä; tämä sivusto käyttää samaa luetteloa ja samoja lippuja.
+Versiosta 0.39 lähtien `http://<the Pi>:8080/console` näyttää asetukset seinätaulun ulkoasussa: yleiskatsaus Pistä (käyntiaika, lämpötila, muisti, jokainen palvelu), seinätaulu, vastaanotin, Bluesky, vahtikoirat, päivitykset. Yksi osio kerrallaan, sivupalkki tietokoneella, välilehdet puhelimella. Jokainen muutos ajaa saman komennon kuin valikko ajaisi, ja näyttää sinulle, mitä se tulosti. Konsoli on saatavilla kahdellakymmenelläyhdellä kielellä; tämä sivusto käyttää samaa luetteloa ja samoja lippuja.
 
 ![Konsoli: vastaanotin-osio, vihreänä](/img/banner-radar.webp)
 

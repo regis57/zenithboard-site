@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "O painel de pontos ou o painel de letras giratórias de aeroporto em um tablet velho, o console web, as publicações no Bluesky. Gratuito, aberto, um menu para instalar tudo."
 lang: pt-BR
 page: zenithboard
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Instale: github.com/regis57/ZenithBoard"
@@ -34,7 +34,7 @@ O ganho do receptor pode ser ajustado pelo menu ou pelo console, um passo de cad
 
 ## O console
 
-Desde a versão 0.39, `http://<the Pi>:8080/console` mostra as configurações no visual do painel: uma visão geral do Pi (tempo ligado, temperatura, memória, cada serviço), o painel, o receptor, o Bluesky, os vigias, as atualizações. Uma seção de cada vez, uma barra lateral no computador, abas no celular. Cada alteração roda o mesmo comando que o menu rodaria, e mostra a você o que ele imprimiu. O console está em vinte idiomas; este site usa a mesma lista e as mesmas bandeiras.
+Desde a versão 0.39, `http://<the Pi>:8080/console` mostra as configurações no visual do painel: uma visão geral do Pi (tempo ligado, temperatura, memória, cada serviço), o painel, o receptor, o Bluesky, os vigias, as atualizações. Uma seção de cada vez, uma barra lateral no computador, abas no celular. Cada alteração roda o mesmo comando que o menu rodaria, e mostra a você o que ele imprimiu. O console está em vinte e um idiomas; este site usa a mesma lista e as mesmas bandeiras.
 
 ![O console: a seção do receptor, em verde](/img/banner-radar.webp)
 
