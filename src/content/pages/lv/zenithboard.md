@@ -14,13 +14,15 @@ next:
 
 ZenithBoard pārvērš Raspberry Pi un USB radio zibatmiņu par ADS-B uztvērēju, kas padod datus četriem tīkliem, un rāda lidmašīnas tieši virs tavas mājas uz veca planšetdatora kā izgaismotu punktu matricas zīmi vai lidostas pārkrītošo plākšņu tablo. Tā ir brīvā programmatūra, zem GPL, un tā katru dienu darbojas uz autora paša Pi 3B, ārā, caur Wi-Fi, Mozelē.
 
-![Tablo: ZENITHBOARD izgaismotos punktos, un lidmašīna](/img/banner-dots.webp)
+![Punktu matricas tablo tirkīza krāsā: BAW357, British Airways A320neo, aviokompānijas nosaukums ritinās blakus reģistrācijas karogam, tad nākamā lidmašīna](/img/zb-wall.webp)
 
 ## Tablo
 
 Tablo ir tīmekļa lapa, ko Pi piedāvā tavā mājas tīklā. Atver to uz jebkura planšetdatora vai ekrāna ar pārlūku, pievieno sākuma ekrānam, un tas paliek ieslēgts. Tas pārslēdzas cauri visām lidmašīnām tevis izvēlētajā rādiusā, no 1 līdz 50 km (vai jūdzēm): izsaukuma signāls, lidmašīnas tips, augstums, ātrums, no kurienes lidojums nāk un kurp dodas, attālums un virziens no tevis. Divi izskati: režģis no **128 reiz 80 punktiem**, kā veca stacijas zīme, vai **pārkrītošo plākšņu tablo**, kura burti pārkrīt, kad nāk nākamā lidmašīna. Piecas krāsas: dzintara, zaļa, sarkana, balta, tirkīza; viena vienlaikus, jo jēga ir izgaismota zīme, nevis kartes ekrānuzņēmums.
 
-![Pārkrītošo plākšņu izskats: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Pārkrītošo plākšņu izskats zaļā krāsā: burti pārkrīt no vienas lidmašīnas uz nākamo](/img/zb-flap-roll.webp)
+
+![Tablo dzintara un tirkīza punktu matricā, un zaļās pārkrītošajās plāksnēs](/img/wall-three-colours.webp)
 
 Blakus tekstam — lidmašīnas siluets, zīmēts punktos, divi mazi karogi (kur lidmašīna ir reģistrēta, kur tā ir būvēta) un, ja vēlies, tās foto no Planespotters, ar fotogrāfa vārdu. Ne aviokompānijas logo, ne ražotāja logo: tās ir aizsargātas zīmes, tāpēc to vietā stāv karogi. Maršruti un modeļi nāk no publiskiem uzmeklējumiem; tablo saka to, ko zina, un atstāj rindu tukšu, kad nezina.
 
@@ -36,7 +38,7 @@ Uztvērēja pastiprinājumu var regulēt no izvēlnes vai konsoles, pa vienam so
 
 Kopš versijas 0.39, `http://<the Pi>:8080/console` rāda iestatījumus tablo izskatā: Pi pārskatu (darbības laiks, temperatūra, atmiņa, katrs serviss), tablo, uztvērēju, Bluesky, sargsuņus, atjauninājumus. Viena sadaļa vienlaikus, sānjosla datorā, cilnes telefonā. Katra izmaiņa izpilda to pašu komandu, ko izpildītu izvēlne, un rāda tev, ko tā izdrukāja. Konsole ir divdesmit vienā valodā; šī vietne izmanto to pašu sarakstu un tos pašus karogus.
 
-![Konsole: uztvērēja sadaļa, zaļā krāsā](/img/banner-radar.webp)
+![Airbus Beluga uz pārkrītošo plākšņu tablo](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

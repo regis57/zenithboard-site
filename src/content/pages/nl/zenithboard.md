@@ -14,13 +14,15 @@ next:
 
 ZenithBoard maakt van een Raspberry Pi en een USB-radiostick een ADS-B-ontvanger die de vier netwerken voedt, en toont de vliegtuigen recht boven je huis op een oude tablet, als een oplichtend dot-matrixbord of een klapperbord zoals op een luchthaven. Het is vrije software, onder de GPL, en het draait elke dag op de eigen Pi 3B van de auteur, buiten, op wifi, in de Moezel.
 
-![De wall: ZENITHBOARD in oplichtende stippen, en een vliegtuig](/img/banner-dots.webp)
+![De dot-matrix-wall in turquoise: BAW357, een A320neo van British Airways, de naam van de maatschappij scrollend naast de vlag van de registratie, dan het volgende vliegtuig](/img/zb-wall.webp)
 
 ## De wall
 
 De wall is een webpagina die de Pi op je thuisnetwerk aanbiedt. Open haar op een tablet of scherm met een browser, zet haar op het beginscherm, en ze blijft aan. Ze doorloopt elk vliegtuig binnen de straal die je kiest, van 1 tot 50 km (of mijl): roepnaam, vliegtuigtype, hoogte, snelheid, waar de vlucht vandaan komt en heen gaat, afstand en richting vanaf jou. Twee uiterlijken: een raster van **128 bij 80 stippen**, zoals een oud stationsbord, of een **klapperbord** waarvan de letters omrollen als het volgende vliegtuig komt. Vijf kleuren: amber, groen, rood, wit, turkoois; één tegelijk, want het gaat om een oplichtend bord, niet om een schermafbeelding van een kaart.
 
-![Het klapperbord-uiterlijk: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Het klapperbord-uiterlijk in groen: letters die omklappen van het ene vliegtuig naar het volgende](/img/zb-flap-roll.webp)
+
+![De wall in amber en turquoise dot matrix, en in groen klapperbord](/img/wall-three-colours.webp)
 
 Naast de tekst een silhouet van het vliegtuig getekend in stippen, twee kleine vlaggen (waar het vliegtuig is geregistreerd, waar het is gebouwd), en, als je wilt, zijn foto van Planespotters, met de naam van de fotograaf. Geen logo van een luchtvaartmaatschappij, geen logo van een fabrikant: dat zijn beschermde merken, dus vlaggen nemen hun plaats in. Routes en modellen komen uit openbare opzoekingen; de wall zegt wat ze weet en laat de regel leeg als ze het niet weet.
 
@@ -36,7 +38,7 @@ De versterking van de ontvanger kan vanuit het menu of de console worden afgeste
 
 Sinds versie 0.39 toont `http://<the Pi>:8080/console` de instellingen in het uiterlijk van de wall: een overzicht van de Pi (uptime, temperatuur, geheugen, elke service), de wall, de ontvanger, Bluesky, de watchdogs, updates. Eén sectie tegelijk, een zijbalk op een computer, tabbladen op een telefoon. Elke wijziging voert dezelfde opdracht uit als het menu zou doen, en laat je zien wat die afdrukte. De console bestaat in eenentwintig talen; deze site gebruikt dezelfde lijst en dezelfde vlaggen.
 
-![De console: de sectie van de ontvanger, in groen](/img/banner-radar.webp)
+![Een Airbus Beluga op het klapperbord](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

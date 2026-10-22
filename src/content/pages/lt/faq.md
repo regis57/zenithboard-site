@@ -3,7 +3,7 @@ title: "DUK"
 description: "Nuotolis, kliūtys, Wi-Fi, atmintis, teisėtumas, privatumas: klausimai, kuriuos žmonės užduoda prieš ir po imtuvo gaminimo, atsakyti aiškiai."
 lang: lt
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kas tai daro ir kaip padėkoti"
@@ -37,6 +37,18 @@ Ne. Siuntiklis siunčia kelis kilobaitus per sekundę, mažiau nei radijo srauta
 ## Kas gali matyti mano padėtį?
 
 Tinklams, kuriems siunčiate, jos reikia nuotoliams ir MLAT skaičiuoti, ir jie laiko ją jūsų paskyroje. Jie nededa smeigtuko ant jūsų namo viešame žemėlapyje. ZenithBoard niekada nerodo jūsų padėties nei sienoje, nei įraše: įrašuose nurodomas jūsų miestas, o ne jūsų koordinatės. Jūsų siena ir jūsų pačių žemėlapis atsako tik jūsų namų tinklui, nebent patys juos atvertumėte, o ZenithBoard paaiškina VPN anksčiau nei atvirą prievadą.
+
+## Kas yra MLAT ir kodėl mano imtuvui reikia kitų?
+
+MLAT – tai *multilateracijos* santrumpa. Taip tinklas randa orlaivį, kuris siunčia savo tapatybę, bet **ne** savo padėtį, kaip daro senesni atsakikliai: jie atsako „aš čia“ be to „čia“.
+
+Visa gudrybė – laikas. Radijo bangos sklinda šviesos greičiu, maždaug 300 metrų per kiekvieną mikrosekundę. Kai toks orlaivis siunčia, kiekvienas imtuvas, iki kurio signalas pasiekia, girdi tą pačią žinutę, bet ne tą pačią akimirką: artimiausias ją išgirsta pirmas, tolimesnis – keliais šimtais mikrosekundžių vėliau. Vienas imtuvas iš to nieko nesužino; jis neturi supratimo, kada žinutė paliko orlaivį. Bet sudėkite keturis imtuvus, kiekvieną su labai tiksliu laikrodžiu, ir jų priėmimo laikų skirtumai danguje palieka tik vieną vietą, iš kurios žinutė galėjo ateiti. Ta vieta nubrėžiama, ir orlaivis pasirodo žemėlapyje.
+
+![Keturi imtuvai ant žemės girdi tą pačią žinutę keturiais skirtingais laikais; aplink kiekvieną – apskritimas, kurio dydis yra jo priėmimo laikas; keturi apskritimai kertasi tik viename taške, ten, kur yra orlaivis](/img/mlat.svg)
+
+Paveikslėlyje: keturi imtuvai, keturi priėmimo laikai, keturi apskritimai. Kiekvienas apskritimas reiškia „orlaivis yra taip toli nuo manęs“. Jie susitinka vienoje vietoje, ir tik vienoje. Tai ir yra MLAT, ir todėl tinklai prašo kiekvieno siuntiklio siųsti tikslų kiekvienos žinutės priėmimo laiką, o ne vien žinutę.
+
+Taigi jūsų vienas imtuvas pats MLAT atlikti negali, ir tai yra sąžiningas atsakymas į klausimą „kam dalytis?“: siųsdami duomenis tinklui, savo antena tampate vienu iš keturių, ir orlaiviai, kurie apie savo padėtį nieko nesako, pradeda rodytis – tinklų žemėlapiuose ir, per duomenis, kuriuos jie siunčia atgal, jūsiškiame. Tai paaiškina ir du dalykus, kuriuos daro ZenithBoard: jis laiko veikiantį **vieną** MLAT klientą (skaičiavimai Raspberry Pi yra sunkūs) ir jam reikia tikslios jūsų antenos padėties, nes apskritimas, nubrėžtas iš netinkamos vietos, su kitais susitinka netinkamame taške.
 
 ## Ar siena rodys kiekvieną orlaivį?
 

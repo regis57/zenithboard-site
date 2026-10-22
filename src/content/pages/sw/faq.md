@@ -3,7 +3,7 @@ title: "Maswali ya mara kwa mara"
 description: "Umbali, vizuizi, Wi-Fi, kumbukumbu, uhalali, faragha: maswali ambayo watu wanauliza kabla na baada ya kujenga kipokezi, yakijibiwa wazi."
 lang: sw
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Nani anatengeneza hiki, na jinsi ya kusema asante"
@@ -37,6 +37,18 @@ Hapana. Mlishaji unatuma kilobaiti chache kwa sekunde, chini ya mkondo wa redio.
 ## Nani anaweza kuona nafasi yangu?
 
 Mitandao unayolisha inaihitaji ili kukokotoa umbali na MLAT, na inaihifadhi kwenye akaunti yako. Haiweki pini kwenye nyumba yako kwenye ramani ya umma. ZenithBoard haionyeshi kamwe nafasi yako kwenye ukuta wala kwenye chapisho: machapisho yanataja mji wako, si viwianishi vyako. Ukuta wako na ramani yako mwenyewe vinajibu mtandao wa nyumbani kwako tu, isipokuwa uvifungue mwenyewe, na ZenithBoard inaeleza VPN kabla ya kueleza mlango wazi.
+
+## MLAT ni nini, na kwa nini kipokezi changu kinahitaji vingine?
+
+MLAT ni kifupi cha *multilateration*. Ndiyo njia ambayo mtandao hutumia kupata ndege inayotuma utambulisho wake lakini **si** nafasi yake, jambo ambalo transponda za zamani hufanya: zinajibu "niko hapa" bila hiyo "hapa".
+
+Siri iko kwenye muda. Mawimbi ya redio husafiri kwa kasi ya mwanga, takriban mita 300 kila mikrosekunde. Ndege kama hiyo inapotuma, kila kipokezi kilicho ndani ya umbali husikia ujumbe uleule, lakini si wakati uleule: kilicho karibu zaidi hukisikia kwanza, kilicho mbali zaidi mikrosekunde mia kadhaa baadaye. Kipokezi kimoja peke yake hakijifunzi chochote kutokana na hilo; hakina habari ujumbe uliondoka lini kwenye ndege. Lakini weka pamoja vipokezi vinne, kila kimoja kikiwa na saa sahihi sana, na tofauti kati ya nyakati zao za kupokea zinaacha mahali pamoja tu angani ambapo ujumbe unaweza kuwa umetoka. Mahali hapo panachorwa, na ndege inaonekana kwenye ramani.
+
+![Vipokezi vinne ardhini vinasikia ujumbe uleule kwa nyakati nne tofauti; kuzunguka kila kimoja, duara ambalo ukubwa wake ni wakati wake wa kupokea; maduara manne yanakutana katika nukta moja tu, pale ndege ilipo](/img/mlat.svg)
+
+Kwenye picha: vipokezi vinne, nyakati nne za kupokea, maduara manne. Kila duara linamaanisha "ndege iko umbali huu kutoka kwangu". Yanakutana mahali pamoja, na pamoja tu. Hiyo ndiyo MLAT, na ndiyo sababu mitandao inaomba kila mlishaji atume wakati kamili ambao kila ujumbe ulipokelewa, si ujumbe tu.
+
+Kwa hiyo kipokezi chako kimoja hakiwezi kufanya MLAT peke yake, na hilo ndilo jibu la kweli kwa "kwa nini kushiriki?": kwa kulisha mtandao, antena yako inakuwa mojawapo ya zile nne, na ndege zisizosema chochote kuhusu nafasi zao zinaanza kuonekana, kwenye ramani za mitandao na, kupitia data wanazorudisha, kwenye yako. Pia inaeleza mambo mawili ambayo ZenithBoard hufanya: inaendesha mteja **mmoja** tu wa MLAT (hesabu ni nzito kwa Raspberry Pi), na inahitaji nafasi kamili ya antena yako, kwa sababu duara lililochorwa kutoka mahali pasipo sahihi linakutana na mengine katika nukta isiyo sahihi.
 
 ## Je, ukuta utaonyesha kila ndege?
 

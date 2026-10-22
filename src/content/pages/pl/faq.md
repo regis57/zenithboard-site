@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Zasięg, przeszkody, Wi-Fi, pamięć, legalność, prywatność: pytania, które ludzie zadają przed zbudowaniem odbiornika i po nim, z prostymi odpowiedziami."
 lang: pl
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kto to robi i jak podziękować"
@@ -37,6 +37,18 @@ Nie. Feeder wysyła kilka kilobajtów na sekundę, mniej niż strumień radiowy.
 ## Kto może zobaczyć moją pozycję?
 
 Sieci, które zasilasz, potrzebują jej do obliczania zasięgów i MLAT, i przechowują ją na twoim koncie. Nie stawiają pinezki na twoim domu na publicznej mapie. ZenithBoard nigdy nie pokazuje twojej pozycji na tablicy ani we wpisie: wpisy podają nazwę twojej miejscowości, nie twoje współrzędne. Twoja tablica i twoja własna mapa odpowiadają tylko twojej sieci domowej, chyba że sam je otworzysz, a ZenithBoard objaśnia VPN, zanim objaśni otwarty port.
+
+## Czym jest MLAT i dlaczego mój odbiornik potrzebuje innych?
+
+MLAT to skrót od *multilateracji*. To sposób, w jaki sieć odnajduje samolot, który nadaje swoją tożsamość, ale **nie** swoją pozycję, jak robią to starsze transpondery: odpowiadają „jestem tutaj” bez tego „tutaj”.
+
+Cała sztuczka to czas. Fale radiowe biegną z prędkością światła, około 300 metrów w każdej mikrosekundzie. Kiedy taki samolot nadaje, każdy odbiornik w zasięgu słyszy tę samą wiadomość, ale nie w tej samej chwili: najbliższy słyszy ją pierwszy, dalszy kilkaset mikrosekund później. Pojedynczy odbiornik niczego się z tego nie dowie; nie ma pojęcia, kiedy wiadomość opuściła samolot. Ale zestaw cztery odbiorniki, każdy z bardzo dokładnym zegarem, a różnice między ich czasami odbioru zostawią tylko jedno miejsce na niebie, z którego wiadomość mogła nadejść. To miejsce zostaje naniesione i samolot pojawia się na mapie.
+
+![Cztery odbiorniki na ziemi słyszą tę samą wiadomość w czterech różnych chwilach; wokół każdego okrąg, którego wielkość to jego czas odbioru; cztery okręgi przecinają się tylko w jednym punkcie, tam gdzie jest samolot](/img/mlat.svg)
+
+Na obrazku: cztery odbiorniki, cztery czasy odbioru, cztery okręgi. Każdy okrąg to „samolot jest tak daleko ode mnie”. Spotykają się w jednym miejscu, i tylko w jednym. To właśnie MLAT i dlatego sieci proszą każdy feeder, by wysyłał dokładny czas odbioru każdej wiadomości, a nie tylko samą wiadomość.
+
+Twój pojedynczy odbiornik nie zrobi więc MLAT sam, i to jest uczciwa odpowiedź na „po co się dzielić?”: zasilając sieć, twoja antena staje się jedną z czterech, a samoloty, które nic nie mówią o swojej pozycji, zaczynają się pojawiać, na mapach sieci i, dzięki danym, które te odsyłają, na twojej. Tłumaczy to też dwie rzeczy, które robi ZenithBoard: utrzymuje **jednego** działającego klienta MLAT (obliczenia są ciężkie dla Raspberry Pi) i potrzebuje dokładnej pozycji twojej anteny, bo okrąg narysowany z niewłaściwego miejsca przecina pozostałe w niewłaściwym punkcie.
 
 ## Czy tablica pokaże każdy samolot?
 

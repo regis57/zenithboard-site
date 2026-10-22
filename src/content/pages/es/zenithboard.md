@@ -14,13 +14,15 @@ next:
 
 ZenithBoard convierte una Raspberry Pi y una radio USB en un receptor ADS-B que alimenta las cuatro redes, y muestra los aviones justo encima de tu casa en una tableta vieja, como un letrero luminoso de matriz de puntos o como un panel de letras giratorias de aeropuerto. Es software libre, bajo la GPL, y funciona cada día en la propia Pi 3B del autor, al aire libre, por Wi-Fi, en Mosela.
 
-![El panel: ZENITHBOARD en puntos luminosos, y un avión](/img/banner-dots.webp)
+![El panel de matriz de puntos en turquesa: BAW357, un A320neo de British Airways, el nombre de la aerolínea desplazándose junto a la bandera de la matrícula, y luego el siguiente avión](/img/zb-wall.webp)
 
 ## El panel
 
 El panel es una página web que la Pi sirve en tu red doméstica. Ábrela en cualquier tableta o pantalla con navegador, añádela a la pantalla de inicio y se queda encendida. Va pasando por cada avión dentro del radio que elijas, de 1 a 50 km (o millas): indicativo, tipo de avión, altitud, velocidad, de dónde viene el vuelo y adónde va, distancia y dirección respecto a ti. Dos estilos: una cuadrícula de **128 por 80 puntos**, como un viejo letrero de estación, o un **panel de letras giratorias** cuyas letras ruedan cuando llega el siguiente avión. Cinco colores: ámbar, verde, rojo, blanco, turquesa; uno a la vez, porque la idea es un letrero luminoso, no una captura de pantalla de un mapa.
 
-![El estilo de letras giratorias: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![El estilo de letras giratorias en verde: las letras girando de un avión al siguiente](/img/zb-flap-roll.webp)
+
+![El panel en matriz de puntos ámbar y turquesa, y en letras giratorias verdes](/img/wall-three-colours.webp)
 
 Junto al texto, una silueta del avión dibujada en puntos, dos banderitas (dónde está matriculado el avión, dónde se fabricó) y, si quieres, su foto de Planespotters, con el nombre del fotógrafo. Ni logotipo de aerolínea ni logotipo de fabricante: son marcas protegidas, así que las banderas los sustituyen. Las rutas y los modelos vienen de consultas públicas; el panel dice lo que sabe y deja la fila vacía cuando no lo sabe.
 
@@ -36,7 +38,7 @@ La ganancia del receptor se puede ajustar desde el menú o la consola, un paso c
 
 Desde la versión 0.39, `http://<the Pi>:8080/console` muestra la configuración con el estilo del panel: una visión general de la Pi (tiempo encendida, temperatura, memoria, cada servicio), el panel, el receptor, Bluesky, los vigilantes, las actualizaciones. Una sección a la vez, una barra lateral en un ordenador, pestañas en un teléfono. Cada cambio ejecuta el mismo comando que ejecutaría el menú, y te muestra lo que imprimió. La consola está en veintiún idiomas; este sitio usa la misma lista y las mismas banderas.
 
-![La consola: la sección del receptor, en verde](/img/banner-radar.webp)
+![Un Airbus Beluga en el panel de letras giratorias](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

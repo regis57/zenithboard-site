@@ -14,13 +14,15 @@ next:
 
 ZenithBoard mengubah Raspberry Pi dan stik radio USB menjadi penerima ADS-B yang mengumpankan ke empat jaringan, dan menampilkan pesawat tepat di atas rumah Anda pada tablet lama, sebagai papan dot-matrix bercahaya atau papan split-flap bandara. Ini perangkat lunak bebas, di bawah GPL, dan berjalan setiap hari di Pi 3B milik penulis sendiri, di luar ruangan, lewat Wi-Fi, di Moselle.
 
-![Dinding: ZENITHBOARD dalam titik-titik bercahaya, dan sebuah pesawat](/img/banner-dots.webp)
+![Dinding dot-matrix dalam warna toska: BAW357, sebuah A320neo British Airways, nama maskapainya bergulir di samping bendera registrasi, lalu pesawat berikutnya](/img/zb-wall.webp)
 
 ## Dinding
 
 Dinding adalah halaman web yang disajikan Pi di jaringan rumah Anda. Buka di tablet atau layar apa pun dengan peramban, tambahkan ke layar utama, dan ia tetap menyala. Ia bergantian menampilkan setiap pesawat dalam radius yang Anda pilih, dari 1 sampai 50 km (atau mil): tanda panggil, tipe pesawat, ketinggian, kecepatan, dari mana penerbangan berasal dan ke mana tujuannya, jarak dan arah dari Anda. Dua tampilan: kisi **128 kali 80 titik**, seperti papan stasiun lama, atau **papan split-flap** yang hurufnya berputar saat pesawat berikutnya datang. Lima warna: amber, hijau, merah, putih, pirus; satu per satu, karena intinya adalah papan bercahaya, bukan tangkapan layar peta.
 
-![Tampilan split-flap: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Tampilan split-flap dalam warna hijau: huruf-huruf berputar dari satu pesawat ke pesawat berikutnya](/img/zb-flap-roll.webp)
+
+![Dinding dalam dot matrix amber dan toska, dan dalam split-flap hijau](/img/wall-three-colours.webp)
 
 Di samping teks, siluet pesawat yang digambar dengan titik-titik, dua bendera kecil (tempat pesawat terdaftar, tempat ia dibuat), dan, jika Anda mau, fotonya dari Planespotters, dengan nama fotografernya. Tanpa logo maskapai, tanpa logo pabrikan: itu merek yang dilindungi, jadi bendera menggantikannya. Rute dan model berasal dari pencarian publik; dinding mengatakan apa yang diketahuinya dan membiarkan barisnya kosong jika tidak tahu.
 
@@ -36,7 +38,7 @@ Gain (penguatan) penerima bisa disetel dari menu atau konsol, selangkah demi sel
 
 Sejak versi 0.39, `http://<the Pi>:8080/console` menampilkan pengaturan dalam tampilan dinding: ikhtisar Pi (waktu aktif, suhu, memori, setiap layanan), dinding, penerima, Bluesky, watchdog, pembaruan. Satu bagian pada satu waktu, bilah samping di komputer, tab di ponsel. Setiap perubahan menjalankan perintah yang sama seperti yang dilakukan menu, dan menunjukkan apa yang dicetaknya. Konsol tersedia dalam dua puluh satu bahasa; situs ini memakai daftar yang sama dan bendera yang sama.
 
-![Konsol: bagian penerima, dalam warna hijau](/img/banner-radar.webp)
+![Sebuah Airbus Beluga di papan split-flap](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

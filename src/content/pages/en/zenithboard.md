@@ -14,13 +14,15 @@ next:
 
 ZenithBoard turns a Raspberry Pi and a USB radio stick into an ADS-B receiver that feeds the four networks, and shows the aircraft right above your house on an old tablet, as a lit dot-matrix sign or an airport split-flap board. It is free software, under the GPL, and it runs every day on the author's own Pi 3B, outdoors, on Wi-Fi, in Moselle.
 
-![The wall: ZENITHBOARD in lit dots, and an aircraft](/img/banner-dots.webp)
+![The dot-matrix wall in turquoise: BAW357, a British Airways A320neo, its airline name scrolling beside the registration flag, then the next aircraft](/img/zb-wall.webp)
 
 ## The wall
 
 The wall is a web page the Pi serves on your home network. Open it on any tablet or screen with a browser, add it to the home screen, and it stays on. It cycles through every aircraft inside the radius you choose, from 1 to 50 km (or miles): callsign, aircraft type, altitude, speed, where the flight comes from and goes to, distance and direction from you. Two looks: a grid of **128 by 80 dots**, like an old station sign, or a **split-flap board** whose letters roll over when the next aircraft comes. Five colours: amber, green, red, white, turquoise; one at a time, because the point is a lit sign, not a screenshot of a map.
 
-![The split-flap look: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![The split-flap look in green: letters rolling from one aircraft to the next](/img/zb-flap-roll.webp)
+
+![The wall in amber and turquoise dot matrix, and in green split-flap](/img/wall-three-colours.webp)
 
 Beside the text, a silhouette of the aircraft drawn in dots, two small flags (where the aircraft is registered, where it was built), and, if you want, its photo from Planespotters, with the photographer's name. No airline logo, no manufacturer logo: these are protected marks, so flags stand in for them. Routes and models come from public lookups; the wall says what it knows and leaves the row empty when it does not.
 
@@ -36,7 +38,7 @@ The receiver's gain can be tuned from the menu or the console, one step at a tim
 
 Since version 0.39, `http://<the Pi>:8080/console` shows the settings in the wall's look: an overview of the Pi (uptime, temperature, memory, each service), the wall, the receiver, Bluesky, the watchdogs, updates. One section at a time, a side bar on a computer, tabs on a phone. Each change runs the same command the menu would, and shows you what it printed. The console is in twenty-one languages; this site uses the same list and the same flags.
 
-![The console: the receiver section, in green](/img/banner-radar.webp)
+![An Airbus Beluga on the split-flap board](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

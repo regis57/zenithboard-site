@@ -14,13 +14,15 @@ next:
 
 ZenithBoard muuttaa Raspberry Pin ja USB-radiotikun ADS-B-vastaanottimeksi, joka syöttää neljää verkostoa ja näyttää suoraan talosi yllä lentävät koneet vanhalla tabletilla, valaistuna pistematriisikylttinä tai lentokentän läppätauluna. Se on vapaa ohjelmisto GPL-lisenssillä, ja se pyörii joka päivä tekijän omalla Pi 3B:llä, ulkona, Wi-Fin varassa, Mosellessa.
 
-![Seinätaulu: ZENITHBOARD valaistuina pisteinä, ja lentokone](/img/banner-dots.webp)
+![Pistematriisinen seinätaulu turkoosina: BAW357, British Airwaysin A320neo, lentoyhtiön nimi vierii rekisteritunnuksen lipun vieressä, sitten seuraava kone](/img/zb-wall.webp)
 
 ## Seinätaulu
 
 Seinätaulu on verkkosivu, jonka Pi tarjoaa kotiverkossasi. Avaa se millä tahansa tabletilla tai selaimella varustetulla näytöllä, lisää se aloitusnäytölle, ja se pysyy päällä. Se käy läpi jokaisen ilma-aluksen valitsemasi säteen sisällä, 1–50 km (tai mailia): kutsutunnus, konetyyppi, korkeus, nopeus, mistä lento tulee ja minne se menee, etäisyys ja suunta sinusta. Kaksi ulkoasua: **128 × 80 pisteen** ruudukko, kuin vanha asemakyltti, tai **läppätaulu**, jonka kirjaimet pyörähtävät, kun seuraava kone tulee. Viisi väriä: keltaoranssi, vihreä, punainen, valkoinen, turkoosi; yksi kerrallaan, koska tarkoitus on valokyltti, ei kuvakaappaus kartasta.
 
-![Läppätaulun ulkoasu: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Läppätaulun ulkoasu vihreänä: kirjaimet kääntyvät koneesta seuraavaan](/img/zb-flap-roll.webp)
+
+![Seinätaulu meripihkan- ja turkoosinvärisenä pistematriisina, ja vihreänä läppätauluna](/img/wall-three-colours.webp)
 
 Tekstin vieressä on pisteistä piirretty ilma-aluksen siluetti, kaksi pientä lippua (missä ilma-alus on rekisteröity, missä se on rakennettu) ja halutessasi sen valokuva Planespottersista, kuvaajan nimen kera. Ei lentoyhtiön logoa, ei valmistajan logoa: ne ovat suojattuja merkkejä, joten liput korvaavat ne. Reitit ja mallit tulevat julkisista hauista; seinätaulu kertoo sen, minkä tietää, ja jättää rivin tyhjäksi, kun ei tiedä.
 
@@ -36,7 +38,7 @@ Vastaanottimen vahvistusta voi säätää valikosta tai konsolista askel kerrall
 
 Versiosta 0.39 lähtien `http://<the Pi>:8080/console` näyttää asetukset seinätaulun ulkoasussa: yleiskatsaus Pistä (käyntiaika, lämpötila, muisti, jokainen palvelu), seinätaulu, vastaanotin, Bluesky, vahtikoirat, päivitykset. Yksi osio kerrallaan, sivupalkki tietokoneella, välilehdet puhelimella. Jokainen muutos ajaa saman komennon kuin valikko ajaisi, ja näyttää sinulle, mitä se tulosti. Konsoli on saatavilla kahdellakymmenelläyhdellä kielellä; tämä sivusto käyttää samaa luetteloa ja samoja lippuja.
 
-![Konsoli: vastaanotin-osio, vihreänä](/img/banner-radar.webp)
+![Airbus Beluga läppätaululla](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

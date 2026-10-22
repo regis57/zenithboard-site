@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Reichweite, Hindernisse, WLAN, Speicher, Rechtslage, Privatsphäre: die Fragen, die vor und nach dem Bau eines Empfängers gestellt werden, klar beantwortet."
 lang: de
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Wer das macht, und wie man Danke sagt"
@@ -37,6 +37,18 @@ Nein. Ein Feeder sendet ein paar Kilobyte pro Sekunde, weniger als ein Radiostre
 ## Wer kann meine Position sehen?
 
 Die Netze, die Sie speisen, brauchen sie zur Berechnung von Reichweiten und MLAT und bewahren sie in Ihrem Konto auf. Sie setzen auf der öffentlichen Karte keine Stecknadel auf Ihr Haus. ZenithBoard zeigt Ihre Position nie auf der Wand oder in einem Post: Die Posts nennen Ihren Ort, nicht Ihre Koordinaten. Ihre Wand und Ihre eigene Karte antworten nur Ihrem Heimnetz, es sei denn, Sie öffnen sie selbst, und ZenithBoard erklärt ein VPN, bevor es einen offenen Port erklärt.
+
+## Was ist MLAT, und warum braucht mein Empfänger andere?
+
+MLAT steht für *Multilateration*. So findet ein Netz ein Flugzeug, das zwar seine Identität sendet, aber **nicht** seine Position, wie ältere Transponder es tun: Sie antworten „ich bin hier“, ohne das „hier“.
+
+Der Trick ist die Zeit. Funk breitet sich mit Lichtgeschwindigkeit aus, etwa 300 Meter in jeder Mikrosekunde. Wenn so ein Flugzeug sendet, hört jeder Empfänger in Reichweite dieselbe Nachricht, aber nicht im selben Augenblick: Der nächste hört sie zuerst, ein weiter entfernter ein paar hundert Mikrosekunden später. Ein Empfänger allein lernt daraus nichts; er hat keine Ahnung, wann die Nachricht das Flugzeug verlassen hat. Aber nehmen Sie vier Empfänger zusammen, jeder mit einer sehr genauen Uhr, und die Unterschiede zwischen ihren Ankunftszeiten lassen nur einen einzigen Ort am Himmel übrig, von dem die Nachricht kommen kann. Dieser Ort wird eingezeichnet, und das Flugzeug erscheint auf der Karte.
+
+![Vier Empfänger am Boden hören dieselbe Nachricht zu vier verschiedenen Zeiten; um jeden ein Kreis, dessen Größe seine Ankunftszeit ist; die vier Kreise schneiden sich nur in einem einzigen Punkt, dort, wo das Flugzeug ist](/img/mlat.svg)
+
+Im Bild: vier Empfänger, vier Ankunftszeiten, vier Kreise. Jeder Kreis bedeutet „das Flugzeug ist so weit von mir entfernt“. Sie treffen sich an einem Ort, und nur an einem. Das ist MLAT, und deshalb bitten die Netze jeden Feeder, zu jeder Nachricht die genaue Ankunftszeit mitzuschicken, nicht nur die Nachricht.
+
+Ihr einzelner Empfänger kann MLAT also nicht allein, und das ist die ehrliche Antwort auf „warum teilen?“: Indem Sie ein Netz speisen, wird Ihre Antenne eine der vier, und Flugzeuge, die nichts über ihre Position sagen, tauchen auf, auf den Karten der Netze und, über die Daten, die sie zurückschicken, auf Ihrer. Es erklärt auch zwei Dinge, die ZenithBoard tut: Es lässt nur **einen** MLAT-Client laufen (die Rechnerei ist schwer für einen Raspberry Pi), und es braucht die genaue Position Ihrer Antenne, denn ein Kreis, der vom falschen Ort aus gezeichnet wird, trifft die anderen am falschen Punkt.
 
 ## Zeigt die Wand jedes Flugzeug?
 

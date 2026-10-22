@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Range, obstacles, Wi-Fi, memory, legality, privacy: the questions people ask before and after building a receiver, answered plainly."
 lang: en
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: true
 next:
   label: "Who makes this, and how to say thank you"
@@ -37,6 +37,18 @@ No. A feeder sends a few kilobytes per second, less than a radio stream. Over a 
 ## Who can see my position?
 
 The networks you feed need it to compute ranges and MLAT, and keep it in your account. They do not put a pin on your house on the public map. ZenithBoard never shows your position on the wall nor in a post: the posts name your town, not your coordinates. Your wall and your own map answer your home network only, unless you open them yourself, and ZenithBoard explains a VPN before it explains an open port.
+
+## What is MLAT, and why does my receiver need others?
+
+MLAT is short for *multilateration*. It is how a network finds an aircraft that sends its identity but **not** its position, which older transponders do: they answer "I am here" without the "here".
+
+The trick is time. Radio travels at the speed of light, about 300 metres every microsecond. When such an aircraft transmits, every receiver within reach hears the same message, but not at the same instant: the nearest one hears it first, a farther one a few hundred microseconds later. One receiver alone learns nothing from that; it has no idea when the message left the aircraft. But put four receivers together, each with a very precise clock, and the differences between their arrival times leave only one place in the sky the message can have come from. That place is drawn, and the aircraft appears on the map.
+
+![Four receivers on the ground hear the same message at four different times; around each, a circle whose size is its arrival time; the four circles cross at one point only, where the aircraft is](/img/mlat.svg)
+
+In the picture: four receivers, four arrival times, four circles. Each circle is "the aircraft is this far from me". They meet in one place, and only one. That is MLAT, and it is why the networks ask every feeder to send the exact time each message arrived, not just the message.
+
+So your single receiver cannot do MLAT on its own, and that is the honest answer to "why share?": by feeding a network, your antenna becomes one of the four, and aircraft that say nothing about their position start appearing, on the networks' maps and, through the data they send back, on yours. It also explains two things ZenithBoard does: it keeps **one** MLAT client running (the arithmetic is heavy for a Raspberry Pi), and it needs your antenna's exact position, because a circle drawn from the wrong place meets the others at the wrong point.
 
 ## Will the wall show every aircraft?
 

@@ -12,6 +12,8 @@ release. Dates are the day the change went online.
 - Static site on Cloudflare Workers (assets only, no Worker script), built by Workers Builds from `main`.
 - Strict headers (`default-src 'none'`, HSTS preload, COOP/COEP/CORP, Permissions-Policy), no inline code,
   no third-party request, no cookie, no analytics.
+- Later the same day: MLAT explained in the FAQ with a wordless picture (`tools/make-mlat.mjs`); the real
+  captures of the wall on the ZenithBoard page; the sitemap built from the content; a lighter footer.
 - Fixed before the end of the day, found by CI: the wordmark drawn grey instead of the wall's colour, fine
   print below WCAG AA contrast, Arabic pages scrolling sideways because of the skip link's offset.
 - CI: npm audit, gitleaks, build, astro check, html-validate, csp-check, placeholders-check, i18n-check,

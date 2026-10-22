@@ -14,13 +14,15 @@ next:
 
 ZenithBoard zamienia Raspberry Pi i pendrive radiowy USB w odbiornik ADS-B, który zasila cztery sieci, i pokazuje samoloty dokładnie nad twoim domem na starym tablecie, jako świecący wyświetlacz z matrycy kropek albo lotniskową tablicę klapkową. To wolne oprogramowanie na licencji GPL i działa codziennie na własnym Pi 3B autora, na dworze, przez Wi-Fi, w Mozeli.
 
-![Tablica: ZENITHBOARD ze świecących kropek i samolot](/img/banner-dots.webp)
+![Tablica z matrycy kropek w turkusie: BAW357, A320neo British Airways, nazwa linii przewijająca się obok flagi rejestracji, potem następny samolot](/img/zb-wall.webp)
 
 ## Tablica
 
 Tablica to strona WWW, którą Pi serwuje w twojej sieci domowej. Otwórz ją na dowolnym tablecie lub ekranie z przeglądarką, dodaj do ekranu głównego i zostaje włączona. Przewija po kolei każdy samolot w wybranym przez ciebie promieniu, od 1 do 50 km (lub mil): znak wywoławczy, typ samolotu, wysokość, prędkość, skąd lot leci i dokąd, odległość i kierunek od ciebie. Dwa wyglądy: siatka **128 na 80 kropek**, jak stary dworcowy wyświetlacz, albo **tablica klapkowa**, której litery przeskakują, gdy nadlatuje kolejny samolot. Pięć kolorów: bursztynowy, zielony, czerwony, biały, turkusowy; po jednym naraz, bo chodzi o świecący wyświetlacz, nie o zrzut ekranu z mapy.
 
-![Wygląd klapkowy: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Wygląd klapkowy na zielono: litery przeskakujące z jednego samolotu na następny](/img/zb-flap-roll.webp)
+
+![Tablica w bursztynowej i turkusowej matrycy kropek oraz w zielonych klapkach](/img/wall-three-colours.webp)
 
 Obok tekstu sylwetka samolotu narysowana kropkami, dwie małe flagi (gdzie samolot jest zarejestrowany, gdzie został zbudowany) i, jeśli chcesz, jego zdjęcie z Planespotters, z nazwiskiem fotografa. Żadnego logo linii lotniczej, żadnego logo producenta: to chronione znaki, więc zastępują je flagi. Trasy i modele pochodzą z publicznych wyszukiwań; tablica mówi to, co wie, a wiersz zostawia pusty, gdy nie wie.
 
@@ -36,7 +38,7 @@ Wzmocnienie odbiornika można regulować z menu lub z konsoli, krok po kroku, ze
 
 Od wersji 0.39 `http://<the Pi>:8080/console` pokazuje ustawienia w stylu tablicy: przegląd Pi (czas działania, temperatura, pamięć, każda usługa), tablica, odbiornik, Bluesky, watchdogi, aktualizacje. Jedna sekcja naraz, pasek boczny na komputerze, karty na telefonie. Każda zmiana uruchamia to samo polecenie, które uruchomiłoby menu, i pokazuje ci, co wypisało. Konsola jest w dwudziestu jeden językach; ta strona używa tej samej listy i tych samych flag.
 
-![Konsola: sekcja odbiornika, na zielono](/img/banner-radar.webp)
+![Airbus Beluga na tablicy klapkowej](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

@@ -3,7 +3,7 @@ title: "UKK"
 description: "Kantama, esteet, Wi-Fi, muisti, laillisuus, yksityisyys: kysymykset, joita ihmiset esittävät ennen vastaanottimen rakentamista ja sen jälkeen, suoraan vastattuina."
 lang: fi
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kuka tekee tämän, ja miten kiittää"
@@ -37,6 +37,18 @@ Ei. Syöttöohjelma lähettää muutaman kilotavun sekunnissa, vähemmän kuin r
 ## Kuka näkee sijaintini?
 
 Verkostot, joita syötät, tarvitsevat sitä kantamien ja MLAT:n laskemiseen ja säilyttävät sen tililläsi. Ne eivät laita nuppineulaa talosi kohdalle julkiselle kartalle. ZenithBoard ei koskaan näytä sijaintiasi seinätaululla eikä julkaisussa: julkaisut nimeävät kaupunkisi, eivät koordinaattejasi. Seinätaulusi ja oma karttasi vastaavat vain kotiverkkoosi, ellet itse avaa niitä ulospäin, ja ZenithBoard selittää VPN:n ennen kuin se selittää avoimen portin.
+
+## Mikä on MLAT, ja miksi vastaanottimeni tarvitsee muita?
+
+MLAT on lyhenne sanasta *multilateraatio*. Sillä verkosto löytää ilma-aluksen, joka lähettää tunnuksensa mutta **ei** sijaintiaan, kuten vanhemmat transponderit tekevät: ne vastaavat "olen täällä" ilman sitä "täällä".
+
+Temppu on aika. Radiosignaali kulkee valon nopeudella, noin 300 metriä joka mikrosekunti. Kun tällainen kone lähettää, jokainen kantaman sisällä oleva vastaanotin kuulee saman viestin, mutta ei samalla hetkellä: lähin kuulee sen ensin, kauempana oleva muutamaa sataa mikrosekuntia myöhemmin. Yksi vastaanotin ei opi siitä mitään; sillä ei ole aavistustakaan, milloin viesti lähti koneesta. Mutta pane neljä vastaanotinta yhteen, jokaisella hyvin tarkka kello, niin niiden saapumisaikojen erot jättävät taivaalle vain yhden paikan, josta viesti on voinut tulla. Se paikka piirretään, ja kone ilmestyy kartalle.
+
+![Neljä vastaanotinta maassa kuulee saman viestin neljänä eri hetkenä; jokaisen ympärillä ympyrä, jonka koko on sen saapumisaika; neljä ympyrää leikkaavat vain yhdessä pisteessä, siellä missä kone on](/img/mlat.svg)
+
+Kuvassa: neljä vastaanotinta, neljä saapumisaikaa, neljä ympyrää. Jokainen ympyrä tarkoittaa "kone on näin kaukana minusta". Ne kohtaavat yhdessä paikassa, ja vain yhdessä. Se on MLAT, ja siksi verkostot pyytävät jokaista syöttäjää lähettämään jokaisen viestin tarkan saapumisajan, ei vain viestiä.
+
+Yksittäinen vastaanottimesi ei siis pysty MLAT:iin yksinään, ja se on rehellinen vastaus kysymykseen "miksi jakaa?": kun syötät verkostoa, antennistasi tulee yksi niistä neljästä, ja koneet, jotka eivät kerro sijainnistaan mitään, alkavat ilmestyä verkostojen kartoille ja, niiden takaisin lähettämän datan kautta, omallesi. Se selittää myös kaksi asiaa, jotka ZenithBoard tekee: se pitää käynnissä **yhden** MLAT-asiakasohjelman (laskenta on raskasta Raspberry Pille), ja se tarvitsee antennisi tarkan sijainnin, koska väärästä paikasta piirretty ympyrä kohtaa muut väärässä pisteessä.
 
 ## Näyttääkö seinätaulu jokaisen ilma-aluksen?
 

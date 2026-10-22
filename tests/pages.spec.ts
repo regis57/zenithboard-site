@@ -52,3 +52,20 @@ test("404 page", async ({ page }) => {
   expect(res?.status()).toBe(404);
   await expect(page.locator("main h1")).toHaveText("404");
 });
+
+test("sitemap.xml lists every published page with its alternates", async ({ request }) => {
+  const res = await request.get("/sitemap.xml");
+  expect(res.status()).toBe(200);
+  expect(res.headers()["content-type"]).toContain("xml");
+  const xml = await res.text();
+  const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  expect(locs.length).toBe(PUBLISHED.length * SLUGS.length);
+  for (const l of PUBLISHED) for (const slug of SLUGS) expect(locs).toContain(`https://zenithboard.app${pathFor(l.code, slug)}`);
+  expect((xml.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g) || []).length).toBe(locs.length);
+  expect((xml.match(/hreflang="x-default"/g) || []).length).toBe(locs.length);
+});
+
+test("robots.txt names the sitemap", async ({ request }) => {
+  const txt = await (await request.get("/robots.txt")).text();
+  expect(txt).toContain("Sitemap: https://zenithboard.app/sitemap.xml");
+});

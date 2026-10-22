@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Bereik, obstakels, wifi, geheugen, wettelijkheid, privacy: de vragen die mensen stellen vóór en na het bouwen van een ontvanger, eerlijk beantwoord."
 lang: nl
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Wie maakt dit, en hoe je bedankt zegt"
@@ -37,6 +37,18 @@ Nee. Een feeder stuurt een paar kilobytes per seconde, minder dan een radiostrea
 ## Wie kan mijn positie zien?
 
 De netwerken die je voedt hebben haar nodig om bereik en MLAT te berekenen, en bewaren haar in je account. Ze zetten geen speld op je huis op de openbare kaart. ZenithBoard toont je positie nooit op de wall of in een post: de posts noemen je woonplaats, niet je coördinaten. Je wall en je eigen kaart antwoorden alleen je thuisnetwerk, tenzij je ze zelf openstelt, en ZenithBoard legt een VPN uit voordat het een open poort uitlegt.
+
+## Wat is MLAT, en waarom heeft mijn ontvanger anderen nodig?
+
+MLAT is kort voor *multilateratie*. Het is hoe een netwerk een vliegtuig vindt dat wel zijn identiteit uitzendt maar **niet** zijn positie, wat oudere transponders doen: ze antwoorden "ik ben hier" zonder het "hier".
+
+De truc is tijd. Radio reist met de snelheid van het licht, zo'n 300 meter per microseconde. Wanneer zo'n vliegtuig zendt, hoort elke ontvanger binnen bereik hetzelfde bericht, maar niet op hetzelfde moment: de dichtstbijzijnde hoort het eerst, een verder weg gelegen een paar honderd microseconden later. Eén ontvanger alleen leert daar niets van; hij heeft geen idee wanneer het bericht het vliegtuig verliet. Maar zet vier ontvangers bij elkaar, elk met een heel precieze klok, en de verschillen tussen hun aankomsttijden laten maar één plek in de lucht over waar het bericht vandaan kan komen. Die plek wordt getekend, en het vliegtuig verschijnt op de kaart.
+
+![Vier ontvangers op de grond horen hetzelfde bericht op vier verschillende tijdstippen; rond elk een cirkel waarvan de grootte zijn aankomsttijd is; de vier cirkels kruisen elkaar op één punt alleen, waar het vliegtuig is](/img/mlat.svg)
+
+In de afbeelding: vier ontvangers, vier aankomsttijden, vier cirkels. Elke cirkel is "het vliegtuig is zo ver van mij". Ze komen samen op één plek, en maar één. Dat is MLAT, en daarom vragen de netwerken elke feeder om van elk bericht de exacte aankomsttijd mee te sturen, niet alleen het bericht.
+
+Je ene ontvanger kan dus in zijn eentje geen MLAT doen, en dat is het eerlijke antwoord op "waarom delen?": door een netwerk te voeden wordt je antenne een van de vier, en vliegtuigen die niets over hun positie zeggen beginnen te verschijnen, op de kaarten van de netwerken en, via de data die ze terugsturen, op de jouwe. Het verklaart ook twee dingen die ZenithBoard doet: het houdt **één** MLAT-client draaiend (het rekenwerk is zwaar voor een Raspberry Pi), en het heeft de exacte positie van je antenne nodig, want een cirkel getekend vanaf de verkeerde plek kruist de andere op het verkeerde punt.
 
 ## Toont de wall elk vliegtuig?
 

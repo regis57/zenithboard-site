@@ -14,13 +14,15 @@ next:
 
 ZenithBoard transforme un Raspberry Pi et une clé radio USB en un récepteur ADS-B qui alimente les quatre réseaux, et affiche les avions juste au-dessus de votre maison sur une vieille tablette, comme une enseigne à matrice de points lumineux ou un tableau à palettes d'aéroport. C'est un logiciel libre, sous GPL, et il tourne chaque jour sur le Pi 3B de l'auteur lui-même, dehors, en Wi-Fi, en Moselle.
 
-![Le mur : ZENITHBOARD en points lumineux, et un avion](/img/banner-dots.webp)
+![Le mur en matrice de points turquoise : BAW357, un A320neo de British Airways, le nom de la compagnie défilant à côté du drapeau d'immatriculation, puis l'avion suivant](/img/zb-wall.webp)
 
 ## Le mur
 
 Le mur est une page web que le Pi sert sur votre réseau domestique. Ouvrez-la sur n'importe quelle tablette ou n'importe quel écran avec un navigateur, ajoutez-la à l'écran d'accueil, et elle reste allumée. Elle fait défiler chaque avion dans le rayon que vous choisissez, de 1 à 50 km (ou miles) : indicatif, type d'avion, altitude, vitesse, d'où vient le vol et où il va, distance et direction depuis chez vous. Deux apparences : une grille de **128 points sur 80**, comme un vieux panneau de gare, ou un **tableau à palettes** dont les lettres basculent quand l'avion suivant arrive. Cinq couleurs : ambre, vert, rouge, blanc, turquoise ; une à la fois, parce que l'idée est une enseigne lumineuse, pas une capture d'écran de carte.
 
-![L'apparence à palettes : ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![L'apparence à palettes en vert : les lettres tournent d'un avion au suivant](/img/zb-flap-roll.webp)
+
+![Le mur en matrice de points ambre et turquoise, et en palettes vertes](/img/wall-three-colours.webp)
 
 À côté du texte, une silhouette de l'avion dessinée en points, deux petits drapeaux (où l'avion est immatriculé, où il a été construit), et, si vous le voulez, sa photo venue de Planespotters, avec le nom du photographe. Pas de logo de compagnie, pas de logo de constructeur : ce sont des marques protégées, alors les drapeaux les remplacent. Les routes et les modèles viennent de consultations publiques ; le mur dit ce qu'il sait et laisse la ligne vide quand il ne sait pas.
 
@@ -36,7 +38,7 @@ Le gain du récepteur peut être réglé depuis le menu ou la console, un cran �
 
 Depuis la version 0.39, `http://<the Pi>:8080/console` affiche les réglages dans l'apparence du mur : une vue d'ensemble du Pi (temps de fonctionnement, température, mémoire, chaque service), le mur, le récepteur, Bluesky, les chiens de garde, les mises à jour. Une section à la fois, une barre latérale sur un ordinateur, des onglets sur un téléphone. Chaque changement exécute la même commande que le menu, et vous montre ce qu'elle a affiché. La console existe en vingt et une langues ; ce site utilise la même liste et les mêmes drapeaux.
 
-![La console : la section du récepteur, en vert](/img/banner-radar.webp)
+![Un Airbus Beluga sur le tableau à palettes](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

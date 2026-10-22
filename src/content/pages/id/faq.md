@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Jangkauan, penghalang, Wi-Fi, memori, legalitas, privasi: pertanyaan yang diajukan orang sebelum dan sesudah membangun penerima, dijawab apa adanya."
 lang: id
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Siapa yang membuat ini, dan cara mengucapkan terima kasih"
@@ -37,6 +37,18 @@ Tidak. Pengumpan mengirim beberapa kilobyte per detik, lebih kecil dari siaran r
 ## Siapa yang bisa melihat posisi saya?
 
 Jaringan yang Anda umpankan membutuhkannya untuk menghitung jangkauan dan MLAT, dan menyimpannya di akun Anda. Mereka tidak memasang penanda di rumah Anda di peta publik. ZenithBoard tidak pernah menampilkan posisi Anda di dinding maupun di unggahan: unggahan menyebut kota Anda, bukan koordinat Anda. Dinding Anda dan peta Anda sendiri hanya menjawab jaringan rumah Anda, kecuali Anda sendiri yang membukanya, dan ZenithBoard menjelaskan VPN sebelum menjelaskan port terbuka.
+
+## Apa itu MLAT, dan mengapa penerima saya membutuhkan yang lain?
+
+MLAT adalah singkatan dari *multilaterasi*. Ini cara sebuah jaringan menemukan pesawat yang mengirim identitasnya tetapi **tidak** mengirim posisinya, seperti yang dilakukan transponder lama: mereka menjawab "saya di sini" tanpa "di sini"-nya.
+
+Triknya adalah waktu. Gelombang radio bergerak dengan kecepatan cahaya, sekitar 300 meter setiap mikrodetik. Ketika pesawat semacam itu memancar, setiap penerima dalam jangkauan mendengar pesan yang sama, tetapi tidak pada saat yang sama: yang terdekat mendengarnya lebih dulu, yang lebih jauh beberapa ratus mikrodetik kemudian. Satu penerima sendirian tidak belajar apa-apa dari itu; ia sama sekali tidak tahu kapan pesan meninggalkan pesawat. Tetapi gabungkan empat penerima, masing-masing dengan jam yang sangat presisi, dan selisih waktu kedatangan mereka hanya menyisakan satu tempat di langit asal pesan itu. Tempat itu digambar, dan pesawat muncul di peta.
+
+![Empat penerima di darat mendengar pesan yang sama pada empat waktu berbeda; di sekeliling masing-masing, sebuah lingkaran yang ukurannya adalah waktu kedatangannya; keempat lingkaran berpotongan hanya di satu titik, tempat pesawat berada](/img/mlat.svg)
+
+Dalam gambar: empat penerima, empat waktu kedatangan, empat lingkaran. Setiap lingkaran berarti "pesawat berada sejauh ini dari saya". Mereka bertemu di satu tempat, dan hanya satu. Itulah MLAT, dan itulah mengapa jaringan meminta setiap pengumpan mengirim waktu tepat kedatangan setiap pesan, bukan hanya pesannya.
+
+Jadi penerima tunggal Anda tidak bisa melakukan MLAT sendirian, dan itulah jawaban jujur untuk "mengapa berbagi?": dengan mengumpankan ke sebuah jaringan, antena Anda menjadi salah satu dari empat itu, dan pesawat yang tidak mengatakan apa-apa tentang posisinya mulai muncul, di peta jaringan dan, melalui data yang mereka kirim balik, di peta Anda. Ini juga menjelaskan dua hal yang dilakukan ZenithBoard: ia menjalankan **satu** klien MLAT saja (perhitungannya berat untuk Raspberry Pi), dan ia membutuhkan posisi tepat antena Anda, karena lingkaran yang digambar dari tempat yang salah bertemu lingkaran lain di titik yang salah.
 
 ## Apakah dinding menampilkan setiap pesawat?
 

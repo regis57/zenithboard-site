@@ -14,13 +14,15 @@ next:
 
 ZenithBoard muudab Raspberry Pi ja USB-raadiopulga ADS-B vastuvõtjaks, mis söödab nelja võrgustikku, ja näitab lennukeid otse sinu maja kohal vanal tahvelarvutil, helendava punktmaatrikstablooga või lennujaama klapptablooga. See on vaba tarkvara GPL-i all ja see jookseb iga päev autori enda Pi 3B peal, õues, Wi-Fi kaudu, Moselle'is.
 
-![Sein: ZENITHBOARD helendavates täppides ja üks lennuk](/img/banner-dots.webp)
+![Täppmaatriks-sein türkiisina: BAW357, British Airwaysi A320neo, lennufirma nimi keritakse registreerimistähise lipu kõrval, siis järgmine lennuk](/img/zb-wall.webp)
 
 ## Sein
 
 Sein on veebileht, mida Pi sinu koduvõrgus serveerib. Ava see mis tahes brauseriga tahvelarvutil või ekraanil, lisa avakuvale, ja see jääb sisse. See käib läbi kõik lennukid sinu valitud raadiuses, 1 kuni 50 km (või miili): kutsung, lennukitüüp, kõrgus, kiirus, kust lend tuleb ja kuhu läheb, kaugus ja suund sinust. Kaks välimust: **128 korda 80 täpist** võrgustik, nagu vana jaamatabloo, või **klapptabloo**, mille tähed keerlevad ümber, kui järgmine lennuk tuleb. Viis värvi: merevaigukollane, roheline, punane, valge, türkiis; üks korraga, sest mõte on helendav tabloo, mitte kaardi ekraanipilt.
 
-![Klapptabloo välimus: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Klapptabloo välimus roheliselt: tähed klapivad ühelt lennukilt järgmisele](/img/zb-flap-roll.webp)
+
+![Sein merevaigukollase ja türkiisi täppmaatriksina ning rohelise klapptabloona](/img/wall-three-colours.webp)
 
 Teksti kõrval on täppidest joonistatud lennuki siluett, kaks väikest lippu (kus lennuk on registreeritud, kus see on ehitatud) ja soovi korral selle foto Planespottersist koos fotograafi nimega. Ei lennufirma logo ega tootja logo: need on kaitstud kaubamärgid, nii et nende asemel on lipud. Marsruudid ja mudelid tulevad avalikest päringutest; sein ütleb, mida ta teab, ja jätab rea tühjaks, kui ei tea.
 
@@ -36,7 +38,7 @@ Vastuvõtja võimendust saab häälestada menüüst või konsoolist, samm-sammul
 
 Alates versioonist 0.39 näitab `http://<the Pi>:8080/console` seadeid seina välimuses: ülevaade Pi-st (tööaeg, temperatuur, mälu, iga teenus), sein, vastuvõtja, Bluesky, valvurid, uuendused. Üks jaotis korraga, külgriba arvutis, vahekaardid telefonis. Iga muudatus käivitab sama käsu, mida menüü käivitaks, ja näitab sulle, mida see trükkis. Konsool on kahekümne ühes keeles; see sait kasutab sama nimekirja ja samu lippe.
 
-![Konsool: vastuvõtja jaotis, roheliselt](/img/banner-radar.webp)
+![Airbus Beluga klapptablool](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

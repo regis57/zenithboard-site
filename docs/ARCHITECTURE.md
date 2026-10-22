@@ -37,7 +37,8 @@ only source of truth and GitHub is the only place anyone signs in.
 
 ## Rendering
 
-Astro 7, static output. `src/pages/index.astro` and `src/pages/[slug].astro` build English at the root;
+Astro 7, static output. `src/pages/sitemap.xml.ts` writes the sitemap from the content (real dates, hreflang,
+priorities). `src/pages/index.astro` and `src/pages/[slug].astro` build English at the root;
 `src/pages/[lang]/index.astro` and `src/pages/[lang]/[slug].astro` build the other languages under `/xx/`.
 `src/components/Page.astro` renders one entry: the wordmark and the tiles on the home page, the title, lead, table
 of contents (when a page has three or more sections) and the Markdown, then the one concrete next step and the

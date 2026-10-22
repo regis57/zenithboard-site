@@ -14,13 +14,15 @@ next:
 
 ZenithBoard macht aus einem Raspberry Pi und einem USB-Radiostick einen ADS-B-Empfänger, der die vier Netze speist, und zeigt die Flugzeuge direkt über Ihrem Haus auf einem alten Tablet, als leuchtende Punktmatrix-Anzeige oder als Fallblattanzeige wie am Flughafen. Es ist freie Software unter der GPL und läuft jeden Tag auf dem Pi 3B des Autors, im Freien, über WLAN, im Département Moselle.
 
-![Die Wand: ZENITHBOARD in leuchtenden Punkten, und ein Flugzeug](/img/banner-dots.webp)
+![Die Punktmatrix-Wand in Türkis: BAW357, ein A320neo von British Airways, der Name der Fluggesellschaft läuft neben der Flagge des Kennzeichens durch, dann das nächste Flugzeug](/img/zb-wall.webp)
 
 ## Die Wand
 
 Die Wand ist eine Webseite, die der Pi in Ihrem Heimnetz bereitstellt. Öffnen Sie sie auf irgendeinem Tablet oder Bildschirm mit Browser, legen Sie sie auf den Startbildschirm, und sie bleibt an. Sie läuft durch jedes Flugzeug innerhalb des Radius, den Sie wählen, von 1 bis 50 km (oder Meilen): Rufzeichen, Flugzeugtyp, Höhe, Geschwindigkeit, woher der Flug kommt und wohin er geht, Entfernung und Richtung von Ihnen aus. Zwei Looks: ein Raster aus **128 mal 80 Punkten**, wie eine alte Bahnhofsanzeige, oder eine **Fallblattanzeige**, deren Buchstaben umklappen, wenn das nächste Flugzeug kommt. Fünf Farben: Bernstein, Grün, Rot, Weiß, Türkis; eine auf einmal, denn der Sinn ist eine leuchtende Anzeige, nicht der Screenshot einer Karte.
 
-![Der Fallblatt-Look: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Der Fallblatt-Look in Grün: Buchstaben, die von einem Flugzeug zum nächsten umklappen](/img/zb-flap-roll.webp)
+
+![Die Wand in bernsteinfarbener und türkiser Punktmatrix, und als grünes Fallblatt](/img/wall-three-colours.webp)
 
 Neben dem Text eine Silhouette des Flugzeugs aus Punkten, zwei kleine Flaggen (wo das Flugzeug registriert ist, wo es gebaut wurde) und, wenn Sie möchten, sein Foto von Planespotters, mit dem Namen des Fotografen. Kein Logo einer Fluggesellschaft, kein Logo eines Herstellers: Das sind geschützte Marken, deshalb stehen Flaggen an ihrer Stelle. Routen und Modelle stammen aus öffentlichen Abfragen; die Wand sagt, was sie weiß, und lässt die Zeile leer, wenn sie es nicht weiß.
 
@@ -36,7 +38,7 @@ Die Verstärkung des Empfängers lässt sich über das Menü oder die Konsole ei
 
 Seit Version 0.39 zeigt `http://<the Pi>:8080/console` die Einstellungen im Look der Wand: eine Übersicht des Pi (Laufzeit, Temperatur, Speicher, jeder Dienst), die Wand, der Empfänger, Bluesky, die Watchdogs, Updates. Ein Bereich auf einmal, eine Seitenleiste am Computer, Reiter auf dem Handy. Jede Änderung führt denselben Befehl aus, den auch das Menü ausführen würde, und zeigt Ihnen, was er ausgegeben hat. Die Konsole gibt es in einundzwanzig Sprachen; diese Website nutzt dieselbe Liste und dieselben Flaggen.
 
-![Die Konsole: der Bereich Empfänger, in Grün](/img/banner-radar.webp)
+![Ein Airbus Beluga auf der Fallblatt-Anzeige](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

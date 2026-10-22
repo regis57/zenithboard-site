@@ -3,7 +3,7 @@ title: "KKK"
 description: "Ulatus, takistused, Wi-Fi, mälu, seaduslikkus, privaatsus: küsimused, mida inimesed enne ja pärast vastuvõtja ehitamist küsivad, otse vastatud."
 lang: et
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kes seda teeb ja kuidas öelda aitäh"
@@ -37,6 +37,18 @@ Ei. Söötja saadab mõni kilobait sekundis, vähem kui raadiovoog. Kuu jooksul 
 ## Kes näeb minu asukohta?
 
 Võrgustikud, mida söödad, vajavad seda ulatuste ja MLAT-i arvutamiseks ning hoiavad seda sinu kontol. Nad ei pane avalikul kaardil nõela sinu maja peale. ZenithBoard ei näita sinu asukohta kunagi seinal ega postituses: postitused nimetavad sinu linna, mitte sinu koordinaate. Sinu sein ja sinu enda kaart vastavad ainult sinu koduvõrgule, kui sa neid ise ei ava, ja ZenithBoard selgitab VPN-i enne, kui selgitab avatud porti.
+
+## Mis on MLAT ja miks mu vastuvõtja teisi vajab?
+
+MLAT on lühend sõnast *multilateratsioon*. Nii leiab võrgustik lennuki, mis saadab oma tunnuse, aga **mitte** oma asukohta, nagu vanemad transponderid teevad: nad vastavad „ma olen siin“ ilma selle „siin“-ita.
+
+Nipp peitub ajas. Raadiosignaal liigub valguse kiirusel, umbes 300 meetrit iga mikrosekundiga. Kui selline lennuk saadab, kuuleb iga ulatuses olev vastuvõtja sama sõnumit, aga mitte samal hetkel: lähim kuuleb seda esimesena, kaugem mõnisada mikrosekundit hiljem. Üks vastuvõtja üksi ei saa sellest midagi teada; tal pole aimugi, millal sõnum lennukist lahkus. Aga pane neli vastuvõtjat kokku, igaühel väga täpne kell, ja nende saabumisaegade vahed jätavad taevasse ainult ühe koha, kust sõnum tulla sai. See koht joonistatakse ja lennuk ilmub kaardile.
+
+![Neli vastuvõtjat maa peal kuulevad sama sõnumit neljal eri ajal; igaühe ümber ring, mille suurus on tema saabumisaeg; neli ringi lõikuvad ainult ühes punktis, seal, kus on lennuk](/img/mlat.svg)
+
+Pildil: neli vastuvõtjat, neli saabumisaega, neli ringi. Iga ring tähendab „lennuk on minust nii kaugel“. Nad kohtuvad ühes kohas, ja ainult ühes. See ongi MLAT ja seepärast paluvad võrgustikud igal söötjal saata iga sõnumi täpse saabumisaja, mitte ainult sõnumi.
+
+Nii et sinu üksik vastuvõtja ei saa MLAT-i omaette teha, ja see on aus vastus küsimusele „miks jagada?“: võrgustikku söötes saab sinu antennist üks neljast ja lennukid, mis oma asukohast midagi ei ütle, hakkavad ilmuma, võrgustike kaartidel ja nende tagasi saadetavate andmete kaudu ka sinu omal. See seletab ka kahte asja, mida ZenithBoard teeb: ta hoiab töös **ühte** MLAT-klienti (arvutus on Raspberry Pi jaoks raske) ja ta vajab sinu antenni täpset asukohta, sest valest kohast joonistatud ring kohtub teistega vales punktis.
 
 ## Kas sein näitab iga lennukit?
 

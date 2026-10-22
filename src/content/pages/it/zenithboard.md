@@ -14,13 +14,15 @@ next:
 
 ZenithBoard trasforma un Raspberry Pi e una chiavetta radio USB in un ricevitore ADS-B che alimenta le quattro reti, e mostra gli aerei proprio sopra casa tua su un vecchio tablet, come un'insegna a matrice di punti luminosi o un tabellone a palette da aeroporto. È software libero, sotto GPL, e gira ogni giorno sul Pi 3B dell'autore, all'aperto, in Wi-Fi, in Mosella.
 
-![Il tabellone: ZENITHBOARD in puntini luminosi, e un aereo](/img/banner-dots.webp)
+![Il tabellone a matrice di punti in turchese: BAW357, un A320neo di British Airways, il nome della compagnia che scorre accanto alla bandiera dell'immatricolazione, poi l'aereo successivo](/img/zb-wall.webp)
 
 ## Il tabellone
 
 Il tabellone è una pagina web che il Pi serve sulla tua rete domestica. Aprila su qualsiasi tablet o schermo con un browser, aggiungila alla schermata iniziale, e resta accesa. Scorre tutti gli aerei entro il raggio che scegli, da 1 a 50 km (o miglia): nominativo, tipo di aereo, altitudine, velocità, da dove viene il volo e dove va, distanza e direzione rispetto a te. Due aspetti: una griglia di **128 per 80 punti**, come una vecchia insegna di stazione, o un **tabellone a palette** le cui lettere ruotano quando arriva l'aereo successivo. Cinque colori: ambra, verde, rosso, bianco, turchese; uno alla volta, perché il punto è un'insegna luminosa, non la schermata di una mappa.
 
-![L'aspetto a palette: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![L'aspetto a palette in verde: le lettere che girano da un aereo al successivo](/img/zb-flap-roll.webp)
+
+![Il tabellone a matrice di punti ambra e turchese, e a palette verdi](/img/wall-three-colours.webp)
 
 Accanto al testo, una silhouette dell'aereo disegnata a puntini, due piccole bandiere (dove l'aereo è immatricolato, dove è stato costruito) e, se vuoi, la sua foto da Planespotters, con il nome del fotografo. Nessun logo di compagnia, nessun logo di costruttore: sono marchi protetti, quindi al loro posto ci sono le bandiere. Rotte e modelli vengono da consultazioni pubbliche; il tabellone dice ciò che sa e lascia la riga vuota quando non lo sa.
 
@@ -36,7 +38,7 @@ Il guadagno del ricevitore si può regolare dal menu o dalla console, un passo a
 
 Dalla versione 0.39, `http://<the Pi>:8080/console` mostra le impostazioni con l'aspetto del tabellone: una panoramica del Pi (tempo di attività, temperatura, memoria, ogni servizio), il tabellone, il ricevitore, Bluesky, i watchdog, gli aggiornamenti. Una sezione alla volta, una barra laterale su computer, schede su telefono. Ogni modifica esegue lo stesso comando che eseguirebbe il menu, e ti mostra che cosa ha stampato. La console è in ventuno lingue; questo sito usa la stessa lista e le stesse bandiere.
 
-![La console: la sezione del ricevitore, in verde](/img/banner-radar.webp)
+![Un Airbus Beluga sul tabellone a palette](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

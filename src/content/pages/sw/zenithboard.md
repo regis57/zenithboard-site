@@ -14,13 +14,15 @@ next:
 
 ZenithBoard inageuza Raspberry Pi na kijiti cha redio cha USB kuwa kipokezi cha ADS-B kinacholisha mitandao minne, na inaonyesha ndege zilizo juu kabisa ya nyumba yako kwenye kompyuta kibao ya zamani, kama bango la nukta zinazong'aa au ubao wa herufi zinazogeuka wa uwanja wa ndege. Ni programu huru, chini ya GPL, na inaendeshwa kila siku kwenye Pi 3B ya mwandishi mwenyewe, nje, kwa Wi-Fi, huko Moselle.
 
-![Ukuta: ZENITHBOARD kwa nukta zinazong'aa, na ndege](/img/banner-dots.webp)
+![Ukuta wa nukta kwa rangi ya samawati-kijani: BAW357, A320neo ya British Airways, jina la shirika la ndege likisogea kando ya bendera ya usajili, kisha ndege inayofuata](/img/zb-wall.webp)
 
 ## Ukuta
 
 Ukuta ni ukurasa wa wavuti ambao Pi inatoa kwenye mtandao wa nyumbani kwako. Ufungue kwenye kompyuta kibao au skrini yoyote yenye kivinjari, uongeze kwenye skrini ya mwanzo, na unabaki umewashwa. Unazunguka kupitia kila ndege iliyo ndani ya kipenyo unachochagua, kutoka km 1 hadi 50 (au maili): jina la mwito, aina ya ndege, mwinuko, kasi, safari inatoka wapi na inaenda wapi, umbali na mwelekeo kutoka kwako. Mionekano miwili: gridi ya **nukta 128 kwa 80**, kama bango la zamani la kituo, au **ubao wa herufi zinazogeuka** ambao herufi zake zinabiringika ndege inayofuata inapokuja. Rangi tano: kahawia-manjano, kijani, nyekundu, nyeupe, samawati-kijani; moja kwa wakati, kwa sababu lengo ni bango linalong'aa, si picha ya skrini ya ramani.
 
-![Mwonekano wa herufi zinazogeuka: ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+![Mwonekano wa herufi zinazogeuka kwa kijani: herufi zikigeuka kutoka ndege moja hadi inayofuata](/img/zb-flap-roll.webp)
+
+![Ukuta kwa nukta za rangi ya kaharabu na samawati-kijani, na kwa herufi zinazogeuka za kijani](/img/wall-three-colours.webp)
 
 Kando ya maandishi, umbo la ndege lililochorwa kwa nukta, bendera mbili ndogo (ndege imesajiliwa wapi, ilitengenezwa wapi), na, ukitaka, picha yake kutoka Planespotters, pamoja na jina la mpiga picha. Hakuna nembo ya shirika la ndege, hakuna nembo ya mtengenezaji: hizi ni alama zinazolindwa, kwa hiyo bendera zinasimama badala yake. Njia na miundo vinatoka kwenye utafutaji wa umma; ukuta unasema kile unachojua na unaacha safu tupu usipojua.
 
@@ -36,7 +38,7 @@ Ukuzaji wa kipokezi unaweza kurekebishwa kutoka menyu au konsoli, hatua moja kwa
 
 Tangu toleo 0.39, `http://<the Pi>:8080/console` inaonyesha mipangilio kwa mwonekano wa ukuta: muhtasari wa Pi (muda wa kuwashwa, joto, kumbukumbu, kila huduma), ukuta, kipokezi, Bluesky, walinzi, masasisho. Sehemu moja kwa wakati, upau wa kando kwenye kompyuta, vichupo kwenye simu. Kila mabadiliko yanaendesha amri ile ile ambayo menyu ingeendesha, na inakuonyesha ilichochapisha. Konsoli iko katika lugha ishirini na moja; tovuti hii inatumia orodha ile ile na bendera zile zile.
 
-![Konsoli: sehemu ya kipokezi, kwa kijani](/img/banner-radar.webp)
+![Airbus Beluga kwenye ubao wa herufi zinazogeuka](/img/wall-beluga-flap.webp)
 
 ## Bluesky
 

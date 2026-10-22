@@ -31,7 +31,7 @@ const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
     {PUBLISHED.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(pathFor(l.code, slug), SITE).href} />)}
     <link rel="alternate" hreflang="x-default" href={new URL(pathFor(DEFAULT_LOCALE, slug), SITE).href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#030303" />
     <meta property="og:type" content="website" />
@@ -81,20 +81,22 @@ const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
     </main>
     <footer>
       <div class="foot">
-        <div class="beer">
-          <div class="what">
-            <b>{t.beer_title}</b>
-            <span>{t.beer_text}</span>
+        <div class="foot-row">
+          <div class="colour">
+            <div class="what">
+              <b>{t.colour}</b>
+              <span>{t.colour_hint}</span>
+            </div>
+            <div class="swatches" role="group" aria-label={t.colour}>
+              {THEMES.map((th) => <button type="button" class="swatch" data-theme={th} aria-pressed="false" aria-label={t.themes[th]} title={t.themes[th]}></button>)}
+            </div>
           </div>
-          <a class="btn" href="https://buymeacoffee.com/regis57" rel="noopener noreferrer">{t.beer_button}</a>
-        </div>
-        <div class="colour">
-          <div class="what">
-            <b>{t.colour}</b>
-            <span>{t.colour_hint}</span>
-          </div>
-          <div class="swatches" role="group" aria-label={t.colour}>
-            {THEMES.map((th) => <button type="button" class="swatch" data-theme={th} aria-pressed="false" aria-label={t.themes[th]} title={t.themes[th]}></button>)}
+          <div class="beer">
+            <div class="what">
+              <b>{t.beer_title}</b>
+              <span>{t.beer_text}</span>
+            </div>
+            <a class="btn" href="https://buymeacoffee.com/regis57" rel="noopener noreferrer">{t.beer_button}</a>
           </div>
         </div>
         <p class="fine">

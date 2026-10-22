@@ -3,7 +3,7 @@ title: "Preguntas frecuentes"
 description: "Alcance, obstáculos, Wi-Fi, memoria, legalidad, privacidad: las preguntas que la gente hace antes y después de construir un receptor, respondidas con claridad."
 lang: es
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Quién hace esto, y cómo dar las gracias"
@@ -37,6 +37,18 @@ No. Un alimentador envía unos pocos kilobytes por segundo, menos que una radio 
 ## ¿Quién puede ver mi posición?
 
 Las redes que alimentas la necesitan para calcular alcances y el MLAT, y la guardan en tu cuenta. No ponen una chincheta sobre tu casa en el mapa público. ZenithBoard nunca muestra tu posición en el panel ni en una publicación: las publicaciones nombran tu localidad, no tus coordenadas. Tu panel y tu propio mapa responden solo a tu red doméstica, a menos que los abras tú mismo, y ZenithBoard explica una VPN (red privada virtual) antes de explicar un puerto abierto.
+
+## ¿Qué es el MLAT, y por qué mi receptor necesita a otros?
+
+MLAT es la abreviatura de *multilateración*. Es la forma en que una red localiza un avión que envía su identidad pero **no** su posición, que es lo que hacen los transpondedores más antiguos: responden «estoy aquí» sin el «aquí».
+
+El truco está en el tiempo. La radio viaja a la velocidad de la luz, unos 300 metros cada microsegundo. Cuando uno de esos aviones transmite, todos los receptores al alcance oyen el mismo mensaje, pero no en el mismo instante: el más cercano lo oye primero, uno más lejano unos cientos de microsegundos después. Un receptor solo no saca nada de eso; no tiene ni idea de cuándo salió el mensaje del avión. Pero junta cuatro receptores, cada uno con un reloj muy preciso, y las diferencias entre sus tiempos de llegada dejan un único lugar en el cielo del que puede haber salido el mensaje. Ese lugar se dibuja, y el avión aparece en el mapa.
+
+![Cuatro receptores en tierra oyen el mismo mensaje en cuatro instantes distintos; alrededor de cada uno, un círculo cuyo tamaño es su tiempo de llegada; los cuatro círculos se cruzan en un solo punto, donde está el avión](/img/mlat.svg)
+
+En la imagen: cuatro receptores, cuatro tiempos de llegada, cuatro círculos. Cada círculo es «el avión está a esta distancia de mí». Se encuentran en un lugar, y solo en uno. Eso es el MLAT, y por eso las redes piden a cada alimentador que envíe la hora exacta de llegada de cada mensaje, no solo el mensaje.
+
+Así que tu receptor, por sí solo, no puede hacer MLAT, y esa es la respuesta honesta a «¿por qué compartir?»: al alimentar una red, tu antena se convierte en una de las cuatro, y los aviones que no dicen nada de su posición empiezan a aparecer, en los mapas de las redes y, a través de los datos que estas devuelven, en el tuyo. También explica dos cosas que hace ZenithBoard: mantiene en marcha **un solo** cliente MLAT (los cálculos son pesados para una Raspberry Pi), y necesita la posición exacta de tu antena, porque un círculo dibujado desde el lugar equivocado se cruza con los demás en el punto equivocado.
 
 ## ¿Mostrará el panel todos los aviones?
 

@@ -3,7 +3,7 @@ title: "BUJ"
 description: "Tālums, šķēršļi, Wi-Fi, atmiņa, likumība, privātums: jautājumi, ko cilvēki uzdod pirms un pēc uztvērēja būvēšanas, atbildēti vienkārši."
 lang: lv
 page: faq
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kas to veido, un kā pateikt paldies"
@@ -37,6 +37,18 @@ Nē. Padevējs sūta dažus kilobaitus sekundē, mazāk nekā radio straume. Mē
 ## Kas var redzēt manu pozīciju?
 
 Tīkliem, kuriem padod datus, tā vajadzīga, lai aprēķinātu tālumus un MLAT, un tie glabā to tavā kontā. Tie neliek kniepadatu uz tavas mājas publiskajā kartē. ZenithBoard nekad nerāda tavu pozīciju ne uz tablo, ne ierakstā: ieraksti nosauc tavu pilsētu, nevis tavas koordinātas. Tavs tablo un tava paša karte atbild tikai tavam mājas tīklam, ja vien tu pats tās neatver uz āru, un ZenithBoard izskaidro VPN, pirms tas izskaidro atvērtu portu.
+
+## Kas ir MLAT, un kāpēc manam uztvērējam vajag citus?
+
+MLAT ir saīsinājums no *multilaterācija*. Tā tīkls atrod lidmašīnu, kas raida savu identitāti, bet **ne** savu pozīciju, kā to dara vecāki transponderi: tie atbild „es esmu šeit“ bez tā „šeit“.
+
+Viltība ir laikā. Radiosignāls ceļo ar gaismas ātrumu, aptuveni 300 metrus katrā mikrosekundē. Kad šāda lidmašīna raida, katrs uztvērējs sasniedzamībā dzird to pašu ziņu, bet ne tajā pašā mirklī: tuvākais to dzird pirmais, tālāks – dažus simtus mikrosekunžu vēlāk. Viens uztvērējs pats par sevi no tā neuzzina neko; tam nav ne jausmas, kad ziņa pameta lidmašīnu. Bet saliec kopā četrus uztvērējus, katru ar ļoti precīzu pulksteni, un starpības starp to saņemšanas laikiem atstāj debesīs tikai vienu vietu, no kuras ziņa varēja nākt. Šo vietu uzzīmē, un lidmašīna parādās kartē.
+
+![Četri uztvērēji uz zemes dzird to pašu ziņu četros dažādos laikos; ap katru aplis, kura lielums ir tā saņemšanas laiks; četri apļi krustojas tikai vienā punktā, tur, kur ir lidmašīna](/img/mlat.svg)
+
+Attēlā: četri uztvērēji, četri saņemšanas laiki, četri apļi. Katrs aplis nozīmē „lidmašīna ir tik tālu no manis“. Tie satiekas vienā vietā, un tikai vienā. Tas ir MLAT, un tāpēc tīkli lūdz katru padevēju sūtīt precīzu laiku, kad katra ziņa saņemta, ne tikai pašu ziņu.
+
+Tātad tavs viens uztvērējs pats MLAT veikt nevar, un tā ir godīga atbilde uz „kāpēc dalīties?“: padodot datus tīklam, tava antena kļūst par vienu no četriem, un lidmašīnas, kas par savu pozīciju neko nesaka, sāk parādīties – tīklu kartēs un, caur datiem, ko tie sūta atpakaļ, arī tavējā. Tas izskaidro arī divas lietas, ko dara ZenithBoard: tas uztur darbībā **vienu** MLAT klientu (aritmētika Raspberry Pi ir smaga), un tam vajadzīga tavas antenas precīza pozīcija, jo aplis, kas zīmēts no nepareizas vietas, satiekas ar pārējiem nepareizā punktā.
 
 ## Vai tablo rādīs katru lidmašīnu?
 
