@@ -7,7 +7,7 @@
 //     so a quick fix to the English goes online now and the other languages catch up in one later commit;
 //   - a page with reviewed: false is listed too, as information, so the owner knows what a native speaker has not read.
 // In GitHub Actions the warnings become annotations (::warning). Exit code: 1 only for errors.
-import { readdirSync, readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { LANGS, SLUGS, DEFAULT_LOCALE } from "../src/i18n/langs.js";
 

@@ -20,7 +20,7 @@ for (let r = step; r <= 4 * step; r += step) {
   g += `<circle cx="${plane.x}" cy="${plane.y}" r="${r}" fill="none" stroke="currentColor" stroke-opacity="${(0.5 - r / (10 * step)).toFixed(2)}" stroke-width="2" stroke-dasharray="4 6"/>`;
 }
 // each receiver: the rings it can account for, up to the exact distance to the aircraft (its arrival time)
-rx.forEach((p, i) => {
+rx.forEach((p) => {
   const d = dist(p, plane);
   // the ring that reaches the aircraft: the measured arrival time
   g += `<circle cx="${p.x}" cy="${p.y}" r="${d.toFixed(1)}" fill="none" stroke="currentColor" stroke-opacity=".75" stroke-width="2.5"/>`;
