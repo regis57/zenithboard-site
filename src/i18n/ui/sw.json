@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Anga juu yako, likifumbuliwa na wewe, likishirikiwa na dunia.",
+  "skip": "Ruka hadi maudhui",
+  "nav": {
+    "home": "Mwanzo",
+    "adsb": "ADS-B ni nini",
+    "build": "Jenga kipokezi",
+    "join": "Jiunge na jumuiya",
+    "zenithboard": "ZenithBoard",
+    "faq": "Maswali",
+    "about": "Kuhusu & msaada"
+  },
+  "tiles": {
+    "adsb": "Kila ndege ya abiria inatangaza iko wapi. Hiki ndicho inachosema, na kwa nini mtu yeyote anaweza kusikiliza.",
+    "build": "Raspberry Pi, kijiti cha redio cha USB na antena ndogo: takriban saa moja, na anga ni lako.",
+    "join": "Shiriki kile kipokezi chako kinachosikia na ADSB Exchange, FlightAware, Flightradar24 na Plane Finder.",
+    "zenithboard": "Ukuta wa nukta au ubao wa herufi zinazogeuka, konsoli, machapisho kwenye Bluesky. Amri moja inaisakinisha.",
+    "faq": "Umbali, vizuizi, Wi-Fi, kumbukumbu ya GB 1: maswali ambayo watu wanauliza, yenye majibu ya kweli.",
+    "about": "Nani anatengeneza hiki, leseni, na jinsi ya kusema asante."
+  },
+  "language": "Lugha",
+  "choose_language": "Chagua lugha",
+  "colour": "Rangi",
+  "colour_hint": "Rangi ya ukuta, inahifadhiwa kwenye kivinjari hiki tu. Hakuna kuki.",
+  "themes": {
+    "amber": "Kahawia-manjano",
+    "green": "Kijani",
+    "red": "Nyekundu",
+    "white": "Nyeupe",
+    "turquoise": "Samawati-kijani"
+  },
+  "next_step": "Hatua inayofuata",
+  "updated": "Imesasishwa",
+  "beer_title": "Ninunulie bia",
+  "beer_text": "ZenithBoard ni bure na msimbo wake ni wa umma. Bia inasema asante; haifungui chochote na inasaidia kulipia umeme.",
+  "beer_button": "Ninunulie bia",
+  "footer_text": "Maandishi chini ya CC BY-SA 4.0, msimbo chini ya GPL-3.0-or-later. Hakuna kuki, hakuna kifuatiliaji, hakuna ombi kwa mhusika wa tatu.",
+  "footer_source": "Chanzo cha tovuti hii",
+  "footer_project": "ZenithBoard kwenye GitHub",
+  "contents": "Kwenye ukurasa huu"
+}

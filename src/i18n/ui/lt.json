@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Dangus virš jūsų, iššifruotas jūsų pačių, pasidalytas su pasauliu.",
+  "skip": "Pereiti prie turinio",
+  "nav": {
+    "home": "Pradžia",
+    "adsb": "Kas yra ADS-B",
+    "build": "Pasigaminkite imtuvą",
+    "join": "Prisijunkite",
+    "zenithboard": "ZenithBoard",
+    "faq": "DUK",
+    "about": "Apie ir parama"
+  },
+  "tiles": {
+    "adsb": "Kiekvienas lėktuvas transliuoja, kur jis yra. Štai ką jis sako ir kodėl kiekvienas gali klausytis.",
+    "build": "Raspberry Pi, USB radijo raktas ir maža antena: maždaug valanda, ir dangus jūsų.",
+    "join": "Dalykitės tuo, ką girdi jūsų imtuvas, su ADSB Exchange, FlightAware, Flightradar24 ir Plane Finder.",
+    "zenithboard": "Taškų siena arba perverčiamų plokštelių lenta, konsolė, įrašai Bluesky. Viena komanda viską įdiegia.",
+    "faq": "Nuotolis, kliūtys, Wi-Fi, 1 GB atminties: klausimai, kuriuos žmonės užduoda, su sąžiningais atsakymais.",
+    "about": "Kas tai daro, licencijos ir kaip padėkoti."
+  },
+  "language": "Kalba",
+  "choose_language": "Pasirinkite kalbą",
+  "colour": "Spalva",
+  "colour_hint": "Sienos spalva, saugoma tik šioje naršyklėje. Jokių slapukų.",
+  "themes": {
+    "amber": "Gintarinė",
+    "green": "Žalia",
+    "red": "Raudona",
+    "white": "Balta",
+    "turquoise": "Turkio"
+  },
+  "next_step": "Kitas žingsnis",
+  "updated": "Atnaujinta",
+  "beer_title": "Nupirkite man alaus",
+  "beer_text": "ZenithBoard yra nemokamas, o jo kodas viešas. Alus pasako ačiū; jis nieko neatrakina ir padeda sumokėti už elektrą.",
+  "beer_button": "Nupirkite man alaus",
+  "footer_text": "Tekstas pagal CC BY-SA 4.0, kodas pagal GPL-3.0-or-later. Jokių slapukų, jokių sekiklių, jokių užklausų trečiosioms šalims.",
+  "footer_source": "Šios svetainės šaltinis",
+  "footer_project": "ZenithBoard GitHub",
+  "contents": "Šiame puslapyje"
+}

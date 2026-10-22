@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "你头顶的天空，由你自己解码，与全世界分享。",
+  "skip": "跳到正文",
+  "nav": {
+    "home": "首页",
+    "adsb": "什么是 ADS-B",
+    "build": "搭建接收器",
+    "join": "加入社区",
+    "zenithboard": "ZenithBoard",
+    "faq": "常见问题",
+    "about": "关于与支持"
+  },
+  "tiles": {
+    "adsb": "每架客机都在广播自己的位置。这是它说的内容，以及为什么任何人都能收听。",
+    "build": "一块 Raspberry Pi、一个 USB 无线电接收棒和一根小天线：大约一小时，天空就是你的了。",
+    "join": "把你的接收器听到的数据分享给 ADSB Exchange、FlightAware、Flightradar24 和 Plane Finder。",
+    "zenithboard": "点阵墙或翻页牌、控制台、Bluesky 上的帖子。一条命令装好一切。",
+    "faq": "接收距离、遮挡、Wi-Fi、1 GB 内存：人们常问的问题，坦诚作答。",
+    "about": "谁在做这个，许可证，以及如何说声谢谢。"
+  },
+  "language": "语言",
+  "choose_language": "选择语言",
+  "colour": "颜色",
+  "colour_hint": "墙的颜色，只保存在此浏览器中。没有 cookie。",
+  "themes": {
+    "amber": "琥珀",
+    "green": "绿",
+    "red": "红",
+    "white": "白",
+    "turquoise": "青绿"
+  },
+  "next_step": "下一步",
+  "updated": "更新于",
+  "beer_title": "请我喝杯啤酒",
+  "beer_text": "ZenithBoard 是免费的，代码是公开的。一杯啤酒就是一声谢谢；它不解锁任何东西，只是帮忙付电费。",
+  "beer_button": "请我喝杯啤酒",
+  "footer_text": "文字采用 CC BY-SA 4.0，代码采用 GPL-3.0-or-later。没有 cookie，没有追踪器，没有第三方请求。",
+  "footer_source": "本站源代码",
+  "footer_project": "GitHub 上的 ZenithBoard",
+  "contents": "本页内容"
+}

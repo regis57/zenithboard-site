@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Taivas ylläsi, sinun purkamanasi, maailman kanssa jaettuna.",
+  "skip": "Siirry sisältöön",
+  "nav": {
+    "home": "Etusivu",
+    "adsb": "Mikä on ADS-B",
+    "build": "Rakenna vastaanotin",
+    "join": "Liity yhteisöön",
+    "zenithboard": "ZenithBoard",
+    "faq": "UKK",
+    "about": "Tietoja & tuki"
+  },
+  "tiles": {
+    "adsb": "Jokainen matkustajakone lähettää tiedon sijainnistaan. Tässä kerrotaan, mitä se sanoo ja miksi kuka tahansa voi kuunnella.",
+    "build": "Raspberry Pi, USB-radiotikku ja pieni antenni: noin tunti, ja taivas on sinun.",
+    "join": "Jaa se, mitä vastaanottimesi kuulee, ADSB Exchangen, FlightAwaren, Flightradar24:n ja Plane Finderin kanssa.",
+    "zenithboard": "Pisteseinä tai läppätaulu, konsoli, julkaisut Blueskyssä. Yksi komento asentaa sen.",
+    "faq": "Kantama, esteet, Wi-Fi, 1 Gt muistia: kysymykset, joita ihmiset esittävät, rehellisine vastauksineen.",
+    "about": "Kuka tekee tämän, lisenssit ja miten kiittää."
+  },
+  "language": "Kieli",
+  "choose_language": "Valitse kieli",
+  "colour": "Väri",
+  "colour_hint": "Seinätaulun väri, säilytetään vain tässä selaimessa. Ei evästettä.",
+  "themes": {
+    "amber": "Keltaoranssi",
+    "green": "Vihreä",
+    "red": "Punainen",
+    "white": "Valkoinen",
+    "turquoise": "Turkoosi"
+  },
+  "next_step": "Seuraava askel",
+  "updated": "Päivitetty",
+  "beer_title": "Tarjoa minulle olut",
+  "beer_text": "ZenithBoard on ilmainen ja sen koodi on julkinen. Olut sanoo kiitos; se ei avaa mitään ja auttaa maksamaan sähköt.",
+  "beer_button": "Tarjoa minulle olut",
+  "footer_text": "Teksti lisenssillä CC BY-SA 4.0, koodi lisenssillä GPL-3.0-or-later. Ei evästeitä, ei seurantaa, ei kolmannen osapuolen pyyntöjä.",
+  "footer_source": "Tämän sivuston lähdekoodi",
+  "footer_project": "ZenithBoard GitHubissa",
+  "contents": "Tällä sivulla"
+}

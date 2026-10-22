@@ -1,0 +1,35 @@
+{
+  "name": "zenithboard-site",
+  "version": "1.0.0",
+  "description": "zenithboard.app: ADS-B explained, a receiver you can build, the community you can join, and ZenithBoard. Static site in 20 languages.",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "lint:html": "html-validate \"dist/**/*.html\"",
+    "csp:check": "node tools/csp-check.mjs dist",
+    "i18n:check": "node tools/i18n-check.mjs",
+    "placeholders:check": "node tools/placeholders-check.mjs dist",
+    "logos": "node tools/make-logos.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run build && npm run check && npm run lint:html && npm run csp:check && npm run placeholders:check && npm run i18n:check && npm run test:e2e"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "html-validate": "11.17.0",
+    "typescript": "6.0.3"
+  }
+}

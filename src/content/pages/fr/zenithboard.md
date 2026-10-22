@@ -1,0 +1,51 @@
+---
+title: "ZenithBoard"
+description: "Le mur de points ou le tableau à palettes d'aéroport sur une vieille tablette, la console web, les publications sur Bluesky. Libre, ouvert, un menu pour tout installer."
+lang: fr
+page: zenithboard
+updated: 2026-10-22
+reviewed: false
+next:
+  label: "Installez-le : github.com/regis57/ZenithBoard"
+  href: https://github.com/regis57/ZenithBoard
+---
+
+## En une phrase
+
+ZenithBoard transforme un Raspberry Pi et une clé radio USB en un récepteur ADS-B qui alimente les quatre réseaux, et affiche les avions juste au-dessus de votre maison sur une vieille tablette, comme une enseigne à matrice de points lumineux ou un tableau à palettes d'aéroport. C'est un logiciel libre, sous GPL, et il tourne chaque jour sur le Pi 3B de l'auteur lui-même, dehors, en Wi-Fi, en Moselle.
+
+![Le mur : ZENITHBOARD en points lumineux, et un avion](/img/banner-dots.webp)
+
+## Le mur
+
+Le mur est une page web que le Pi sert sur votre réseau domestique. Ouvrez-la sur n'importe quelle tablette ou n'importe quel écran avec un navigateur, ajoutez-la à l'écran d'accueil, et elle reste allumée. Elle fait défiler chaque avion dans le rayon que vous choisissez, de 1 à 50 km (ou miles) : indicatif, type d'avion, altitude, vitesse, d'où vient le vol et où il va, distance et direction depuis chez vous. Deux apparences : une grille de **128 points sur 80**, comme un vieux panneau de gare, ou un **tableau à palettes** dont les lettres basculent quand l'avion suivant arrive. Cinq couleurs : ambre, vert, rouge, blanc, turquoise ; une à la fois, parce que l'idée est une enseigne lumineuse, pas une capture d'écran de carte.
+
+![L'apparence à palettes : ZENITHBOARD, OVERHEAD NOW](/img/banner-flap.webp)
+
+À côté du texte, une silhouette de l'avion dessinée en points, deux petits drapeaux (où l'avion est immatriculé, où il a été construit), et, si vous le voulez, sa photo venue de Planespotters, avec le nom du photographe. Pas de logo de compagnie, pas de logo de constructeur : ce sont des marques protégées, alors les drapeaux les remplacent. Les routes et les modèles viennent de consultations publiques ; le mur dit ce qu'il sait et laisse la ligne vide quand il ne sait pas.
+
+Vous pouvez essayer le mur sans aucun matériel : le dépôt fournit une démo avec des compagnies inventées et un exemple de tout, de l'A380 à l'hélicoptère, qui tourne sur n'importe quel ordinateur avec Python.
+
+## Le récepteur, et les quatre réseaux
+
+ZenithBoard installe **readsb** comme décodeur, avec sa carte **tar1090**, et les programmes d'envoi que vous cochez : ADS-B Exchange toujours, FlightAware, Flightradar24 et Plane Finder si vous les voulez. Il garde exactement un client MLAT en marche et les compte dans `zenithboard status`. Tout est désactivé par défaut et réversible : chaque *on* a un *off* qui remet les choses en place, une sauvegarde est faite avant toute action destructrice, et le menu a toujours une porte de sortie.
+
+Le gain du récepteur peut être réglé depuis le menu ou la console, un cran à la fois, avec les statistiques pour voir si cela a aidé. Des statistiques facultatives conservent un mois de messages par heure, de portée et d'avions par jour ; **graphs1090** en dessine des années.
+
+## La console
+
+Depuis la version 0.39, `http://<the Pi>:8080/console` affiche les réglages dans l'apparence du mur : une vue d'ensemble du Pi (temps de fonctionnement, température, mémoire, chaque service), le mur, le récepteur, Bluesky, les chiens de garde, les mises à jour. Une section à la fois, une barre latérale sur un ordinateur, des onglets sur un téléphone. Chaque changement exécute la même commande que le menu, et vous montre ce qu'elle a affiché. La console existe en vingt langues ; ce site utilise la même liste et les mêmes drapeaux.
+
+![La console : la section du récepteur, en vert](/img/banner-radar.webp)
+
+## Bluesky
+
+Facultatif, désactivé par défaut. Une fois activé, le Pi publie sur Bluesky les avions qui méritent une publication : un ravitailleur militaire, un Beluga, un type qu'il n'a pas vu depuis un mois, le plus lointain du mois. Chaque publication est une image du mur à côté d'une carte de la trajectoire de l'avion, toutes deux dessinées par le Pi lui-même, avec un court texte : le vol, le type, la route, l'altitude, et le nom de votre ville, jamais votre position. Votre mot de passe d'application Bluesky reste sur le Pi, dans un fichier que seul le service peut lire ; il n'apparaît jamais dans un journal ni sur le mur.
+
+## Conçu pour ne pas mal tourner
+
+ZenithBoard tourne en root, écoute sur votre réseau et installe les logiciels d'autres personnes, alors il est conçu pour limiter ce qui peut mal tourner. Le mur ne répond qu'à votre réseau domestique et renvoie un 403 à tous les autres, port redirigé ou non ; pour le voir de l'extérieur, le menu explique un VPN plutôt qu'un port ouvert. Chaque service tourne dans un bac à sable systemd avec seulement ce dont sa tâche a besoin. Les signatures des paquets ne sont jamais désactivées. Les correctifs de sécurité de Debian peuvent s'installer d'eux-mêmes chaque jour. Deux chiens de garde redémarrent ce qui se fige, et une commande *health* vous dit en un écran si tout va bien.
+
+## Ce qu'il lui faut
+
+Un Raspberry Pi 3B ou plus récent avec 1 Go de mémoire, mesuré : sur le Pi 3B de l'auteur, avec ADS-B Exchange et son MLAT, FlightAware, Flightradar24, le mur, les statistiques et les publications Bluesky, 656 Mo de mémoire étaient encore libres. Un Pi Zero 2 W fait tourner le récepteur et le mur, sans les programmes d'envoi supplémentaires. Raspberry Pi OS Lite, 64 bits. Une heure la première fois ; ensuite, `sudo zenithboard update` quand une nouvelle version sort.

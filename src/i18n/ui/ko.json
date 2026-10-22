@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "머리 위의 하늘을, 내 손으로 해독해, 세상과 나눕니다.",
+  "skip": "본문으로 건너뛰기",
+  "nav": {
+    "home": "홈",
+    "adsb": "ADS-B란",
+    "build": "수신기 만들기",
+    "join": "커뮤니티 합류",
+    "zenithboard": "ZenithBoard",
+    "faq": "FAQ",
+    "about": "소개 및 후원"
+  },
+  "tiles": {
+    "adsb": "모든 여객기는 자기 위치를 방송해요. 무엇을 말하는지, 왜 누구나 들을 수 있는지.",
+    "build": "Raspberry Pi, USB 라디오 스틱, 작은 안테나. 약 한 시간이면 하늘이 여러분 것이 돼요.",
+    "join": "수신기가 들은 것을 ADSB Exchange, FlightAware, Flightradar24, Plane Finder와 나누세요.",
+    "zenithboard": "점 월 또는 플랩식 안내판, 콘솔, Bluesky 게시물. 명령어 하나로 설치돼요.",
+    "faq": "거리, 장애물, Wi-Fi, 메모리 1 GB. 사람들이 묻는 질문에 솔직한 답을.",
+    "about": "누가 만드는지, 라이선스, 그리고 고마움을 전하는 법."
+  },
+  "language": "언어",
+  "choose_language": "언어 선택",
+  "colour": "색상",
+  "colour_hint": "월의 색상이에요. 이 브라우저에만 저장돼요. 쿠키 없음.",
+  "themes": {
+    "amber": "호박색",
+    "green": "녹색",
+    "red": "빨강",
+    "white": "흰색",
+    "turquoise": "청록색"
+  },
+  "next_step": "다음 단계",
+  "updated": "업데이트",
+  "beer_title": "맥주 한 잔 사 주기",
+  "beer_text": "ZenithBoard는 무료이고 코드는 공개되어 있어요. 맥주 한 잔이 고마움을 전해요. 아무것도 잠금 해제하지 않고, 전기 요금에 보탬이 돼요.",
+  "beer_button": "맥주 한 잔 사 주기",
+  "footer_text": "글은 CC BY-SA 4.0, 코드는 GPL-3.0-or-later. 쿠키 없음, 추적기 없음, 제3자 요청 없음.",
+  "footer_source": "이 사이트의 소스",
+  "footer_project": "GitHub의 ZenithBoard",
+  "contents": "이 페이지에서"
+}

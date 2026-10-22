@@ -1,0 +1,14 @@
+---
+// SPDX-License-Identifier: GPL-3.0-or-later
+// The pages of every other published language: /fr/adsb/, /de/build/, ...
+import { getCollection } from "astro:content";
+import Page from "../../components/Page.astro";
+import { DEFAULT_LOCALE, LOCALES } from "../../i18n/langs.js";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages", (e) => e.data.lang !== DEFAULT_LOCALE && e.data.page !== "home" && !e.data.draft && LOCALES.includes(e.data.lang));
+  return pages.map((entry) => ({ params: { lang: entry.data.lang, slug: entry.data.page }, props: { entry } }));
+}
+const { entry } = Astro.props;
+---
+<Page entry={entry} />

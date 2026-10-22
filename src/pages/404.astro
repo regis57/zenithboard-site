@@ -1,0 +1,13 @@
+---
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Not found: served by Cloudflare for any unknown path (wrangler.jsonc: not_found_handling "404-page").
+import Base from "../layouts/Base.astro";
+import { PUBLISHED, pathFor } from "../i18n/langs.js";
+---
+<Base lang="en" slug="home" title="Not found" description="This page does not exist.">
+  <article class="card">
+    <h1 class="title">404</h1>
+    <p class="lead">This page does not exist. The site is available in these languages:</p>
+    <div class="prose"><ul>{PUBLISHED.map((l) => <li><a href={pathFor(l.code, "home")} hreflang={l.code} lang={l.code}>{l.name}</a></li>)}</ul></div>
+  </article>
+</Base>

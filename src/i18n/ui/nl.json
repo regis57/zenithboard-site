@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "De lucht boven je, door jou ontcijferd, met de wereld gedeeld.",
+  "skip": "Naar de inhoud",
+  "nav": {
+    "home": "Home",
+    "adsb": "Wat is ADS-B",
+    "build": "Bouw een ontvanger",
+    "join": "Doe mee",
+    "zenithboard": "ZenithBoard",
+    "faq": "FAQ",
+    "about": "Over & steun"
+  },
+  "tiles": {
+    "adsb": "Elk verkeersvliegtuig zendt uit waar het is. Dit is wat het zegt, en waarom iedereen kan luisteren.",
+    "build": "Een Raspberry Pi, een USB-radiostick en een kleine antenne: ongeveer een uur, en de lucht is van jou.",
+    "join": "Deel wat je ontvanger hoort met ADSB Exchange, FlightAware, Flightradar24 en Plane Finder.",
+    "zenithboard": "De wall van stippen of het klapperbord, de console, de posts op Bluesky. Eén opdracht installeert alles.",
+    "faq": "Bereik, obstakels, wifi, 1 GB geheugen: de vragen die mensen stellen, met eerlijke antwoorden.",
+    "about": "Wie dit maakt, de licenties, en hoe je bedankt zegt."
+  },
+  "language": "Taal",
+  "choose_language": "Kies een taal",
+  "colour": "Kleur",
+  "colour_hint": "De kleur van de wall, alleen in deze browser bewaard. Geen cookie.",
+  "themes": {
+    "amber": "Amber",
+    "green": "Groen",
+    "red": "Rood",
+    "white": "Wit",
+    "turquoise": "Turkoois"
+  },
+  "next_step": "Volgende stap",
+  "updated": "Bijgewerkt",
+  "beer_title": "Trakteer me op een biertje",
+  "beer_text": "ZenithBoard is gratis en de code is openbaar. Een biertje zegt bedankt; het ontgrendelt niets en helpt de stroom te betalen.",
+  "beer_button": "Trakteer me op een biertje",
+  "footer_text": "Tekst onder CC BY-SA 4.0, code onder GPL-3.0-or-later. Geen cookie, geen tracker, geen verzoek aan derden.",
+  "footer_source": "Broncode van deze site",
+  "footer_project": "ZenithBoard op GitHub",
+  "contents": "Op deze pagina"
+}

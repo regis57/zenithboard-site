@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Le ciel au-dessus de chez vous, décodé par vous, partagé avec le monde.",
+  "skip": "Aller au contenu",
+  "nav": {
+    "home": "Accueil",
+    "adsb": "Qu'est-ce que l'ADS-B",
+    "build": "Construire un récepteur",
+    "join": "Rejoindre la communauté",
+    "zenithboard": "ZenithBoard",
+    "faq": "FAQ",
+    "about": "À propos & soutien"
+  },
+  "tiles": {
+    "adsb": "Chaque avion de ligne diffuse où il se trouve. Voici ce qu'il dit, et pourquoi n'importe qui peut l'écouter.",
+    "build": "Un Raspberry Pi, une clé radio USB et une petite antenne : environ une heure, et le ciel est à vous.",
+    "join": "Partagez ce que votre récepteur entend avec ADSB Exchange, FlightAware, Flightradar24 et Plane Finder.",
+    "zenithboard": "Le mur de points ou le tableau à palettes, la console, les publications sur Bluesky. Une commande installe tout.",
+    "faq": "Portée, obstacles, Wi-Fi, 1 Go de mémoire : les questions que l'on se pose, avec des réponses franches.",
+    "about": "Qui fait cela, les licences, et comment dire merci."
+  },
+  "language": "Langue",
+  "choose_language": "Choisir une langue",
+  "colour": "Couleur",
+  "colour_hint": "La couleur du mur, conservée dans ce navigateur seulement. Pas de cookie.",
+  "themes": {
+    "amber": "Ambre",
+    "green": "Vert",
+    "red": "Rouge",
+    "white": "Blanc",
+    "turquoise": "Turquoise"
+  },
+  "next_step": "Étape suivante",
+  "updated": "Mis à jour",
+  "beer_title": "Offrez-moi une bière",
+  "beer_text": "ZenithBoard est gratuit et son code est public. Une bière dit merci ; elle ne débloque rien et aide à payer l'électricité.",
+  "beer_button": "Offrez-moi une bière",
+  "footer_text": "Texte sous CC BY-SA 4.0, code sous GPL-3.0-or-later. Pas de cookie, pas de traceur, aucune requête vers un tiers.",
+  "footer_source": "Source de ce site",
+  "footer_project": "ZenithBoard sur GitHub",
+  "contents": "Sur cette page"
+}

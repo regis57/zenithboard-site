@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "あなたの頭上の空を、あなた自身が解読し、世界と共有する。",
+  "skip": "本文へ移動",
+  "nav": {
+    "home": "ホーム",
+    "adsb": "ADS-Bとは",
+    "build": "受信機を作る",
+    "join": "コミュニティに加わる",
+    "zenithboard": "ZenithBoard",
+    "faq": "よくある質問",
+    "about": "このサイトについて・支援"
+  },
+  "tiles": {
+    "adsb": "すべての旅客機が自分の位置を放送しています。その中身と、誰でも聞ける理由。",
+    "build": "Raspberry Pi、USB無線スティック、小さなアンテナ。およそ1時間で、空はあなたのものに。",
+    "join": "受信機が聞いたものを、ADSB Exchange、FlightAware、Flightradar24、Plane Finderと共有しましょう。",
+    "zenithboard": "ドットのウォールや反転フラップ式案内板、コンソール、Blueskyへの投稿。コマンド1つでインストール。",
+    "faq": "受信範囲、障害物、Wi-Fi、メモリ1 GB。よく寄せられる質問に、正直に答えます。",
+    "about": "誰が作っているのか、ライセンス、そしてお礼の伝え方。"
+  },
+  "language": "言語",
+  "choose_language": "言語を選ぶ",
+  "colour": "色",
+  "colour_hint": "ウォールの色。このブラウザにのみ保存されます。Cookieは使いません。",
+  "themes": {
+    "amber": "アンバー",
+    "green": "グリーン",
+    "red": "レッド",
+    "white": "ホワイト",
+    "turquoise": "ターコイズ"
+  },
+  "next_step": "次のステップ",
+  "updated": "更新日",
+  "beer_title": "ビールをおごる",
+  "beer_text": "ZenithBoardは無料で、コードは公開されています。ビール1杯がお礼になります。何も解除されませんが、電気代の足しになります。",
+  "beer_button": "ビールをおごる",
+  "footer_text": "文章はCC BY-SA 4.0、コードはGPL-3.0-or-laterの下にあります。Cookieなし、トラッカーなし、第三者への通信なし。",
+  "footer_source": "このサイトのソース",
+  "footer_project": "GitHubのZenithBoard",
+  "contents": "このページの内容"
+}

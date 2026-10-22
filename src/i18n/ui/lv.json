@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Debesis virs tevis, atkodētas tevis paša, dalītas ar visu pasauli.",
+  "skip": "Pāriet uz saturu",
+  "nav": {
+    "home": "Sākums",
+    "adsb": "Kas ir ADS-B",
+    "build": "Uzbūvē uztvērēju",
+    "join": "Pievienojies kopienai",
+    "zenithboard": "ZenithBoard",
+    "faq": "BUJ",
+    "about": "Par projektu un atbalsts"
+  },
+  "tiles": {
+    "adsb": "Katra lidmašīna raida, kur tā atrodas. Lūk, ko tā saka, un kāpēc ikviens var klausīties.",
+    "build": "Raspberry Pi, USB radio zibatmiņa un maza antena: apmēram stunda, un debesis ir tavas.",
+    "join": "Dalies ar to, ko dzird tavs uztvērējs, ar ADSB Exchange, FlightAware, Flightradar24 un Plane Finder.",
+    "zenithboard": "Punktu tablo vai pārkrītošo plākšņu tablo, konsole, ieraksti Bluesky. Viena komanda to uzinstalē.",
+    "faq": "Tālums, šķēršļi, Wi-Fi, 1 GB atmiņas: jautājumi, ko cilvēki uzdod, ar godīgām atbildēm.",
+    "about": "Kas to veido, licences, un kā pateikt paldies."
+  },
+  "language": "Valoda",
+  "choose_language": "Izvēlies valodu",
+  "colour": "Krāsa",
+  "colour_hint": "Tablo krāsa, glabāta tikai šajā pārlūkā. Bez sīkdatnēm.",
+  "themes": {
+    "amber": "Dzintara",
+    "green": "Zaļa",
+    "red": "Sarkana",
+    "white": "Balta",
+    "turquoise": "Tirkīza"
+  },
+  "next_step": "Nākamais solis",
+  "updated": "Atjaunināts",
+  "beer_title": "Nopērc man alu",
+  "beer_text": "ZenithBoard ir bezmaksas, un tā kods ir publisks. Alus saka paldies; tas neko neatslēdz un palīdz apmaksāt elektrību.",
+  "beer_button": "Nopērc man alu",
+  "footer_text": "Teksts zem CC BY-SA 4.0, kods zem GPL-3.0-or-later. Bez sīkdatnēm, bez izsekotājiem, bez trešo pušu pieprasījumiem.",
+  "footer_source": "Šīs vietnes avots",
+  "footer_project": "ZenithBoard GitHub",
+  "contents": "Šajā lapā"
+}

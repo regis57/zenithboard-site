@@ -1,0 +1,9 @@
+---
+// SPDX-License-Identifier: GPL-3.0-or-later
+// English, the default language, at the root.
+import { getEntry } from "astro:content";
+import Page from "../components/Page.astro";
+const entry = await getEntry("pages", "en/home");
+if (!entry) throw new Error("src/content/pages/en/home.md is missing");
+---
+<Page entry={entry} />

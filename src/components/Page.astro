@@ -1,0 +1,56 @@
+---
+// SPDX-License-Identifier: GPL-3.0-or-later
+// One page of the site, from its Markdown entry. The home page gets the wordmark and the tiles; every page
+// ends with its one concrete next step.
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { NAV, pathFor } from "../i18n/langs.js";
+import { ui } from "../i18n/ui";
+import wordmark from "../assets/wordmark.svg?raw";
+
+interface Props { entry: CollectionEntry<"pages"> }
+const { entry } = Astro.props;
+const { lang, page: slug, title, description, updated, next } = entry.data;
+const t = ui(lang);
+const { Content, headings } = await render(entry);
+const h2 = headings.filter((h) => h.depth === 2);
+const nextHref = next.href.startsWith("http") || next.href.startsWith("/") ? next.href : pathFor(lang, next.href);
+const when = updated.toISOString().slice(0, 10);
+---
+<Base lang={lang} slug={slug} title={title} description={description}>
+  {slug === "home" && (
+    <section class="hero">
+      <Fragment set:html={wordmark.replace('class="d-on"', 'class="d-on wordmark-on"').replace("<svg ", '<svg class="wordmark" ')} />
+      <h1 class="sr">{title}</h1>
+      <p class="lead">{description}</p>
+      <div class="tiles">
+        {NAV.map((s) => (
+          <a class="tile" href={pathFor(lang, s)}>
+            <span class="k">{t.nav[s as keyof typeof t.nav]}</span>
+            <span class="d">{t.tiles[s as keyof typeof t.tiles]}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+  <article class="card">
+    {slug !== "home" && (
+      <header>
+        <h1 class="title">{title}</h1>
+        <p class="lead">{description}</p>
+        {h2.length >= 3 && (
+          <nav aria-label={t.contents}>
+            <ul class="toc">{h2.map((h) => <li><a class="chip" href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
+          </nav>
+        )}
+      </header>
+    )}
+    <div class="prose"><Content /></div>
+  </article>
+  <section class="card next">
+    <span class="k">{t.next_step}</span>
+    <a class="primary" href={nextHref} rel={nextHref.startsWith("http") ? "noopener noreferrer" : undefined}>{next.label}</a>
+    <span class="when"><time datetime={when}>{t.updated} {when}</time></span>
+  </section>
+</Base>

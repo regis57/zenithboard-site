@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "El cielo sobre ti, descifrado por ti, compartido con el mundo.",
+  "skip": "Ir al contenido",
+  "nav": {
+    "home": "Inicio",
+    "adsb": "Qué es el ADS-B",
+    "build": "Construir un receptor",
+    "join": "Unirse a la comunidad",
+    "zenithboard": "ZenithBoard",
+    "faq": "Preguntas frecuentes",
+    "about": "Acerca de y apoyo"
+  },
+  "tiles": {
+    "adsb": "Cada avión de línea transmite dónde está. Esto es lo que dice, y por qué cualquiera puede escucharlo.",
+    "build": "Una Raspberry Pi, una radio USB y una antena pequeña: alrededor de una hora, y el cielo es tuyo.",
+    "join": "Comparte lo que oye tu receptor con ADSB Exchange, FlightAware, Flightradar24 y Plane Finder.",
+    "zenithboard": "El panel de puntos o el panel de letras giratorias, la consola, las publicaciones en Bluesky. Un comando lo instala.",
+    "faq": "Alcance, obstáculos, Wi-Fi, 1 GB de memoria: las preguntas que hace la gente, con respuestas sinceras.",
+    "about": "Quién hace esto, las licencias y cómo dar las gracias."
+  },
+  "language": "Idioma",
+  "choose_language": "Elige un idioma",
+  "colour": "Color",
+  "colour_hint": "El color del panel, guardado solo en este navegador. Sin cookies.",
+  "themes": {
+    "amber": "Ámbar",
+    "green": "Verde",
+    "red": "Rojo",
+    "white": "Blanco",
+    "turquoise": "Turquesa"
+  },
+  "next_step": "Siguiente paso",
+  "updated": "Actualizado",
+  "beer_title": "Invítame a una cerveza",
+  "beer_text": "ZenithBoard es gratuito y su código es público. Una cerveza es una forma de dar las gracias; no desbloquea nada y ayuda a pagar la electricidad.",
+  "beer_button": "Invítame a una cerveza",
+  "footer_text": "Texto bajo CC BY-SA 4.0, código bajo GPL-3.0-or-later. Sin cookies, sin rastreadores, sin peticiones a terceros.",
+  "footer_source": "Código fuente de este sitio",
+  "footer_project": "ZenithBoard en GitHub",
+  "contents": "En esta página"
+}

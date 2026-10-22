@@ -1,0 +1,14 @@
+The text and the pictures of zenithboard.app (src/content/, public/img/, docs/images/) are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).
+
+You are free to share and adapt them for any purpose, even commercially, as long as you give appropriate
+credit ("ZenithBoard, zenithboard.app, by Régis Hennequin"), indicate if changes were made, and distribute
+your contributions under the same licence.
+
+Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+Exceptions, under their own terms:
+- public/img/flags/*.png come from country-flag-icons (MIT), via ZenithBoard; africa.svg and arabic.svg are
+  ZenithBoard's own (GPL-3.0-or-later).
+- The code of this site (everything else) is under GPL-3.0-or-later: see LICENSE.

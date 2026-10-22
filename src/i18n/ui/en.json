@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "The sky above you, decoded by you, shared with the world.",
+  "skip": "Skip to content",
+  "nav": {
+    "home": "Home",
+    "adsb": "What is ADS-B",
+    "build": "Build a receiver",
+    "join": "Join the community",
+    "zenithboard": "ZenithBoard",
+    "faq": "FAQ",
+    "about": "About & support"
+  },
+  "tiles": {
+    "adsb": "Every airliner broadcasts where it is. Here is what it says, and why anyone can listen.",
+    "build": "A Raspberry Pi, a USB radio stick and a small antenna: about an hour, and the sky is yours.",
+    "join": "Share what your receiver hears with ADSB Exchange, FlightAware, Flightradar24 and Plane Finder.",
+    "zenithboard": "The wall of dots or the split-flap board, the console, the posts on Bluesky. One command installs it.",
+    "faq": "Range, obstacles, Wi-Fi, 1 GB of memory: the questions people ask, with honest answers.",
+    "about": "Who makes this, the licences, and how to say thank you."
+  },
+  "language": "Language",
+  "choose_language": "Choose a language",
+  "colour": "Colour",
+  "colour_hint": "The wall's colour, kept in this browser only. No cookie.",
+  "themes": {
+    "amber": "Amber",
+    "green": "Green",
+    "red": "Red",
+    "white": "White",
+    "turquoise": "Turquoise"
+  },
+  "next_step": "Next step",
+  "updated": "Updated",
+  "beer_title": "Buy me a beer",
+  "beer_text": "ZenithBoard is free and its code is public. A beer says thank you; it unlocks nothing and helps pay for the electricity.",
+  "beer_button": "Buy me a beer",
+  "footer_text": "Text under CC BY-SA 4.0, code under GPL-3.0-or-later. No cookie, no tracker, no third-party request.",
+  "footer_source": "Source of this site",
+  "footer_project": "ZenithBoard on GitHub",
+  "contents": "On this page"
+}

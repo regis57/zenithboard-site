@@ -1,0 +1,108 @@
+---
+// SPDX-License-Identifier: GPL-3.0-or-later
+// The one layout: the bar (logo, language), the navigation, the page, the foot (colour, beer, licences).
+// No inline script or style anywhere: public/_headers forbids them.
+import "../styles/site.css";
+import { LANGS, PUBLISHED, NAV, SITE, DEFAULT_LOCALE, lang as langOf, pathFor, flagSrc } from "../i18n/langs.js";
+import { ui } from "../i18n/ui";
+import logo from "../assets/logo-zb.svg?raw";
+
+interface Props {
+  lang: string;
+  slug: string;
+  title: string;
+  description: string;
+}
+const { lang, slug, title, description } = Astro.props;
+const L = langOf(lang);
+const t = ui(lang);
+const here = pathFor(lang, slug);
+const canonical = new URL(here, SITE).href;
+const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
+---
+<!doctype html>
+<html lang={lang} dir={L.dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{slug === "home" ? title : `${title} · ZenithBoard`}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {PUBLISHED.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(pathFor(l.code, slug), SITE).href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(pathFor(DEFAULT_LOCALE, slug), SITE).href} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#030303" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ZenithBoard" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL("/img/og.png", SITE).href} />
+    <meta property="og:locale" content={lang.replace("-", "_")} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- is:inline here means "emit this tag as written": the script stays an external file, nothing is inlined. -->
+    <script is:inline src="/js/theme.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#content">{t.skip}</a>
+    <header class="bar">
+      <a class="brand" href={pathFor(lang, "home")} aria-label={t.site_name}>
+        <Fragment set:html={logo} />
+        <span>{t.site_name}</span>
+      </a>
+      <div class="bar-tools">
+        <details class="lang">
+          <summary aria-label={t.choose_language} title={t.language}>
+            <span class="flag">{L.flags.map((f) => <img src={flagSrc(f)} alt="" width="24" height="16" />)}</span>
+            <span class="lang-name">{L.name}</span>
+          </summary>
+          <ul class="lang-menu" aria-label={t.choose_language}>
+            {PUBLISHED.map((l) => (
+              <li>
+                <a href={pathFor(l.code, slug)} hreflang={l.code} lang={l.code} class={l.code === lang ? "on" : undefined} aria-current={l.code === lang ? "true" : undefined}>
+                  <span class="flag">{l.flags.map((f) => <img src={flagSrc(f)} alt="" width="24" height="16" />)}</span>
+                  {l.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      </div>
+    </header>
+    <nav class="nav" aria-label={t.nav.home}>
+      {NAV.map((s) => (
+        <a href={pathFor(lang, s)} class={s === slug ? "on" : undefined} aria-current={s === slug ? "page" : undefined}>{t.nav[s as keyof typeof t.nav]}</a>
+      ))}
+    </nav>
+    <main id="content" tabindex="-1">
+      <slot />
+    </main>
+    <footer>
+      <div class="foot">
+        <div class="beer">
+          <div class="what">
+            <b>{t.beer_title}</b>
+            <span>{t.beer_text}</span>
+          </div>
+          <a class="btn" href="https://buymeacoffee.com/regis57" rel="noopener noreferrer">{t.beer_button}</a>
+        </div>
+        <div class="colour">
+          <div class="what">
+            <b>{t.colour}</b>
+            <span>{t.colour_hint}</span>
+          </div>
+          <div class="swatches" role="group" aria-label={t.colour}>
+            {THEMES.map((th) => <button type="button" class="swatch" data-theme={th} aria-pressed="false" aria-label={t.themes[th]} title={t.themes[th]}></button>)}
+          </div>
+        </div>
+        <p class="fine">
+          <span>{t.footer_text}</span>
+          <a href="https://github.com/regis57/zenithboard-site" rel="noopener noreferrer">{t.footer_source}</a>
+          <a href="https://github.com/regis57/ZenithBoard" rel="noopener noreferrer">{t.footer_project}</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

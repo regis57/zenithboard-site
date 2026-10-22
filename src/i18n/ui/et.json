@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Taevas sinu kohal, sinu enda dekodeeritud, kogu maailmaga jagatud.",
+  "skip": "Hüppa sisu juurde",
+  "nav": {
+    "home": "Avaleht",
+    "adsb": "Mis on ADS-B",
+    "build": "Ehita vastuvõtja",
+    "join": "Liitu kogukonnaga",
+    "zenithboard": "ZenithBoard",
+    "faq": "KKK",
+    "about": "Meist ja toetamine"
+  },
+  "tiles": {
+    "adsb": "Iga reisilennuk saadab välja, kus ta on. Siin on, mida ta ütleb ja miks igaüks saab kuulata.",
+    "build": "Raspberry Pi, USB-raadiopulk ja väike antenn: umbes tund aega, ja taevas on sinu.",
+    "join": "Jaga seda, mida sinu vastuvõtja kuuleb, ADSB Exchange'i, FlightAware'i, Flightradar24 ja Plane Finderiga.",
+    "zenithboard": "Täppidest sein või klapptabloo, konsool, postitused Bluesky's. Üks käsk paigaldab selle.",
+    "faq": "Ulatus, takistused, Wi-Fi, 1 GB mälu: küsimused, mida inimesed küsivad, ausate vastustega.",
+    "about": "Kes seda teeb, litsentsid ja kuidas öelda aitäh."
+  },
+  "language": "Keel",
+  "choose_language": "Vali keel",
+  "colour": "Värv",
+  "colour_hint": "Seina värv, hoitakse ainult selles brauseris. Küpsiseid ei ole.",
+  "themes": {
+    "amber": "Merevaigukollane",
+    "green": "Roheline",
+    "red": "Punane",
+    "white": "Valge",
+    "turquoise": "Türkiis"
+  },
+  "next_step": "Järgmine samm",
+  "updated": "Uuendatud",
+  "beer_title": "Osta mulle õlu",
+  "beer_text": "ZenithBoard on tasuta ja selle kood on avalik. Üks õlu ütleb aitäh; see ei ava midagi ja aitab maksta elektri eest.",
+  "beer_button": "Osta mulle õlu",
+  "footer_text": "Tekst CC BY-SA 4.0 all, kood GPL-3.0-or-later all. Ei küpsiseid, ei jälgijaid, ei kolmandate osapoolte päringuid.",
+  "footer_source": "Selle saidi lähtekood",
+  "footer_project": "ZenithBoard GitHubis",
+  "contents": "Sellel lehel"
+}

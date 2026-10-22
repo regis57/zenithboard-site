@@ -1,0 +1,42 @@
+{
+  "site_name": "ZenithBoard",
+  "tagline": "Langit di atas Anda, Anda sendiri yang menguraikannya, dibagikan kepada dunia.",
+  "skip": "Lewati ke konten",
+  "nav": {
+    "home": "Beranda",
+    "adsb": "Apa itu ADS-B",
+    "build": "Bangun penerima",
+    "join": "Gabung komunitas",
+    "zenithboard": "ZenithBoard",
+    "faq": "FAQ",
+    "about": "Tentang & dukungan"
+  },
+  "tiles": {
+    "adsb": "Setiap pesawat penumpang memancarkan posisinya. Inilah yang dikatakannya, dan mengapa siapa pun bisa mendengarkan.",
+    "build": "Raspberry Pi, stik radio USB dan antena kecil: sekitar satu jam, dan langit menjadi milik Anda.",
+    "join": "Bagikan apa yang didengar penerima Anda ke ADSB Exchange, FlightAware, Flightradar24 dan Plane Finder.",
+    "zenithboard": "Dinding titik-titik atau papan split-flap, konsol, unggahan di Bluesky. Satu perintah memasang semuanya.",
+    "faq": "Jangkauan, penghalang, Wi-Fi, memori 1 GB: pertanyaan yang diajukan orang, dengan jawaban jujur.",
+    "about": "Siapa yang membuat ini, lisensinya, dan cara mengucapkan terima kasih."
+  },
+  "language": "Bahasa",
+  "choose_language": "Pilih bahasa",
+  "colour": "Warna",
+  "colour_hint": "Warna dinding, disimpan di peramban ini saja. Tanpa cookie.",
+  "themes": {
+    "amber": "Amber",
+    "green": "Hijau",
+    "red": "Merah",
+    "white": "Putih",
+    "turquoise": "Pirus"
+  },
+  "next_step": "Langkah berikutnya",
+  "updated": "Diperbarui",
+  "beer_title": "Traktir saya bir",
+  "beer_text": "ZenithBoard gratis dan kodenya terbuka. Segelas bir adalah ucapan terima kasih; ia tidak membuka apa pun dan membantu membayar listrik.",
+  "beer_button": "Traktir saya bir",
+  "footer_text": "Teks di bawah CC BY-SA 4.0, kode di bawah GPL-3.0-or-later. Tanpa cookie, tanpa pelacak, tanpa permintaan ke pihak ketiga.",
+  "footer_source": "Sumber situs ini",
+  "footer_project": "ZenithBoard di GitHub",
+  "contents": "Di halaman ini"
+}
