@@ -31,9 +31,9 @@ Then https://securityheaders.com/?q=zenithboard.app and https://developer.mozill
 
 | Date | Where | Result |
 |---|---|---|
-| (to fill at go-live) | securityheaders.com | |
-| (to fill at go-live) | Mozilla Observatory | |
-| (to fill at go-live) | hstspreload.org | |
+| 2026-10-22 | securityheaders.com | **A+**; every header of `public/_headers` seen on the live response |
+| 2026-10-22 | Mozilla HTTP Observatory | **A+**, 160/100, 12 tests of 12 |
+| 2026-10-22 | HSTS preload | Already preloaded: `.app` is a preloaded top-level domain, every `.app` name is HTTPS-only in browsers. No submission needed |
 
 ## Cloudflare settings that matter (and must stay)
 
@@ -81,3 +81,4 @@ There is none today. If one is ever needed (it should not be), it lives in the s
 | Date | What | Result |
 |---|---|---|
 | 2026-10-22 | First build, local | 8 English pages; csp-check, placeholders-check, html-validate clean |
+| 2026-10-22 | Go-live | 141 pages (20 languages), Workers Builds with Node 24.22.1, custom domain, workers.dev and previews off, www → apex redirect with path and query kept, Always HTTPS, TLS 1.2 minimum. `connect-src 'none'` confirmed: a same-origin `fetch()` from the page is refused |
