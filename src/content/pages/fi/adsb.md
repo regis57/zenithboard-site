@@ -3,7 +3,7 @@ title: "Mikä on ADS-B"
 description: "Signaali, jonka jokainen matkustajakone lähettää: mitä se sisältää, miksi kuka tahansa voi vastaanottaa sen ja mitä se ei kerro."
 lang: fi
 page: adsb
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Rakenna vastaanottimesi"
@@ -12,6 +12,10 @@ next:
 
 ## Kone, joka kertoo missä se on
 
+![Satelliitti kertoo ilma-alukselle, missä se on; ilma-alus lähettää sijaintinsa joka suuntaan renkaina, jotka voi kuulla jokainen maassa oleva talo ja toinen ilma-alus](/img/fig-adsb-broadcast.svg)
+
+![Yksi viesti sisältää neljä asiaa: kuka ilma-alus on, missä se on, kuinka korkealla ja kuinka nopeasti; ja se lähetetään uudelleen joka sekunti](/img/fig-adsb-message.svg)
+
 ADS-B tulee sanoista *Automatic Dependent Surveillance – Broadcast* (automaattinen riippuvainen valvonta – yleislähetys). Otetaan sanat yksi kerrallaan. *Automatic*, automaattinen: ilma-alus lähettää sen itsestään, kukaan ei pyydä. *Dependent*, riippuvainen: sijainti tulee ilma-aluksen omasta satelliittinavigoinnista, ei maassa olevasta tutkasta. *Surveillance*, valvonta: näin lennonjohto seuraa ilma-aluksia. *Broadcast*, yleislähetys: se lähetetään kaikille, ei yhdelle kuuntelijalle.
 
 Noin kerran sekunnissa ilma-alus lähettää lyhyen viestin taajuudella **1090 MHz**. Viesti sisältää sen tunnisteen (kyseiselle rungolle annetun 24-bittisen osoitteen ja yleensä lennon kutsutunnuksen), sen sijainnin (leveys- ja pituusasteen), korkeuden, nopeuden ja suunnan. Muut, silloin tällöin lähetettävät viestit lisäävät ilma-aluksen luokan, pystynopeuden ja muutaman lipun.
@@ -19,6 +23,8 @@ Noin kerran sekunnissa ilma-alus lähettää lyhyen viestin taajuudella **1090 M
 Vuodesta 2020 lähtien useimpien valvotussa ilmatilassa Euroopassa ja Yhdysvalloissa lentävien ilma-alusten on lähetettävä ADS-B:tä. Matkustajakoneet lähettävät, liikesuihkukoneet lähettävät, monet kevyet lentokoneet lähettävät. Jotkin sotilas- ja valtionilma-alukset eivät lähetä, tai lähettävät ilman sijaintiaan.
 
 ## Miksi voit kuunnella
+
+![Antennista pieneen radiotikkuun, Raspberry Pihin ja näyttöön, joka näyttää ilma-alukset](/img/fig-adsb-chain.svg)
 
 Viestejä ei ole salattu eikä allekirjoitettu. Se on tarkoituksellista: koko idea on, että jokainen ilma-alus ja jokainen maa-asema ympärillä voi kuulla jokaisen muun ilma-aluksen. Muoto on julkinen, ilmailun käyttämien standardien määrittelemä, ja taajuus on sama kaikkialla maailmassa.
 
@@ -32,6 +38,8 @@ Yhdysvalloissa käytetään myös toista taajuutta, **978 MHz**, nimeltään UAT
 
 ## Kuinka kauas kuulet
 
+![Signaali kulkee suoraa linjaa, kun maa kaartuu pois: näköyhteyden yläpuolella oleva ilma-alus kuuluu, horisontin takana oleva jää piiloon, ja korkeammalta antennilta näkee kauemmas](/img/fig-adsb-range.svg)
+
 Signaali kulkee suoraa linjaa, kuten valo. Matkalentokorkeudessa oleva ilma-alus näkyy hyvin kaukaa, kunhan mikään ei ole sen ja antennisi välissä. Mäkeen päin olevasta ikkunasta saatat kuulla muutaman kymmenen kilometrin päähän; katolta, jolta on esteetön horisontti, 250 km ja enemmän on tavallista, ja reunalla olevat koneet ovat niitä, jotka lentävät 11 000 metrissä. Lähelläsi matalalla lentävät koneet jäävät jokaisen rakennuksen ja puun taakse. Kantama riippuu antennista ja sen näkymästä, ei tietokoneesta.
 
 ## Mitä ADS-B ei kerro
@@ -39,5 +47,7 @@ Signaali kulkee suoraa linjaa, kuten valo. Matkalentokorkeudessa oleva ilma-alus
 Viesti kertoo, missä ilma-alus on, ei minne se on menossa. Lähtöpaikka, määränpää, lentoyhtiön nimi ja ilma-aluksen valokuva tulevat muualta: julkisista rekistereistä ja tietokannoista, joista seurantaverkostot ja ZenithBoard hakevat tiedot ilma-aluksen osoitteen perusteella. ADS-B ei myöskään kerro mitään siitä, kuka on kyydissä, eikä mitään sinusta: vastaanottaminen on passiivista, vastaanottimesi ei lähetä mitään.
 
 ## MLAT: niiden kuuleminen, jotka eivät kerro
+
+![Neljä vastaanotinta maassa kuulee saman viestin neljänä eri hetkenä; jokaisen ympärillä ympyrä, jonka koko on sen saapumisaika; neljä ympyrää leikkaavat vain yhdessä pisteessä, siellä missä kone on](/img/mlat.svg)
 
 Jotkin ilma-alukset lähettävät tunnisteensa mutta eivät sijaintiaan (vanhemmat transponderit tekevät näin). Jos neljä tai useampi vastaanotin kuulee saman viestin, saapumisaikojen pienet erot antavat sijainnin, samaan tapaan kuin salama paikannetaan sen jyrinästä. Tätä kutsutaan nimellä **MLAT**, *multilateration* (multilateraatio). Yksittäinen vastaanottimesi ei pysty siihen yksin; syöttämällä verkostoa siitä tulee yksi noista neljästä. Tämä on yksi todellisista syistä jakaa.

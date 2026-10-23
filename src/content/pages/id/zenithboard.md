@@ -14,15 +14,19 @@ next:
 
 ZenithBoard mengubah Raspberry Pi dan stik radio USB menjadi penerima ADS-B yang mengumpankan ke empat jaringan, dan menampilkan pesawat tepat di atas rumah Anda pada tablet lama, sebagai papan dot-matrix bercahaya atau papan split-flap bandara. Ini perangkat lunak bebas, di bawah GPL, dan berjalan setiap hari di Pi 3B milik penulis sendiri, di luar ruangan, lewat Wi-Fi, di Moselle.
 
-![Dinding dot-matrix dalam warna toska: BAW357, sebuah A320neo British Airways, nama maskapainya bergulir di samping bendera registrasi, lalu pesawat berikutnya](/img/zb-wall.webp)
+![Dinding dot-matrix berwarna amber: Airbus A320 Tunisair dengan dua benderanya, pesawat digambar dengan titik-titik di samping teks, lalu penerbangan berikutnya](/img/zb-wall.webp)
 
 ## Dinding
 
 Dinding adalah halaman web yang disajikan Pi di jaringan rumah Anda. Buka di tablet atau layar apa pun dengan peramban, tambahkan ke layar utama, dan ia tetap menyala. Ia bergantian menampilkan setiap pesawat dalam radius yang Anda pilih, dari 1 sampai 50 km (atau mil): tanda panggil, tipe pesawat, ketinggian, kecepatan, dari mana penerbangan berasal dan ke mana tujuannya, jarak dan arah dari Anda. Dua tampilan: kisi **128 kali 80 titik**, seperti papan stasiun lama, atau **papan split-flap** yang hurufnya berputar saat pesawat berikutnya datang. Lima warna: amber, hijau, merah, putih, pirus; satu per satu, karena intinya adalah papan bercahaya, bukan tangkapan layar peta.
 
-![Tampilan split-flap dalam warna hijau: huruf-huruf berputar dari satu pesawat ke pesawat berikutnya](/img/zb-flap-roll.webp)
+![Papan split-flap berwarna merah: huruf-hurufnya berputar dari satu penerbangan ke penerbangan berikutnya](/img/zb-flap-roll.webp)
 
-![Dinding dalam dot matrix amber dan toska, dan dalam split-flap hijau](/img/wall-three-colours.webp)
+![Dinding dalam enam tampilan: dot-matrix berwarna amber, pirus, dan putih di atas; split-flap berwarna amber, hijau, dan pirus di bawah](/img/wall-colours.webp)
+
+Roda gigi kecil di sudut dinding membuka pengaturannya: satuan, radius, detik per pesawat, warna, gaya, dan bendera. Pengaturan itu disimpan hanya di tablet tersebut, sehingga setiap layar bisa punya tampilannya sendiri, dan `zenithboard config` menetapkan nilai bawaan untuk semuanya.
+
+![Panel pengaturan milik dinding di atas papan split-flap: satuan, radius, detik per pesawat, warna, gaya, dan bendera](/img/wall-settings.webp)
 
 Di samping teks, siluet pesawat yang digambar dengan titik-titik, dua bendera kecil (tempat pesawat terdaftar, tempat ia dibuat), dan, jika Anda mau, fotonya dari Planespotters, dengan nama fotografernya. Tanpa logo maskapai, tanpa logo pabrikan: itu merek yang dilindungi, jadi bendera menggantikannya. Rute dan model berasal dari pencarian publik; dinding mengatakan apa yang diketahuinya dan membiarkan barisnya kosong jika tidak tahu.
 

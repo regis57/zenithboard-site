@@ -3,7 +3,7 @@ title: "Zbuduj odbiornik"
 description: "Raspberry Pi, pendrive radiowy USB, antena: lista części z cenami, gdzie umieścić antenę i oprogramowanie jednym poleceniem."
 lang: pl
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Potem dołącz do społeczności"
@@ -16,11 +16,11 @@ Pięć rzeczy, a trzy z nich być może już masz.
 
 | Część | Na co zwrócić uwagę | Około |
 |---|---|---|
-| Raspberry Pi | Idealny jest **3B, 3B+ lub 4**: 1 GB pamięci wystarcza na odbiornik, feedery i tablicę, co zmierzono na Pi 3B autora. **Zero 2 W** (512 MB, cena katalogowa 15 US$) uciągnie odbiornik i tablicę, bez dodatkowych feederów. | 15–60 € |
-| Pendrive radiowy USB | Odbiornik **RTL-SDR**. Modele RTL-SDR Blog to punkt odniesienia, około 35–40 US$. Pendrive zrobiony pod ADS-B, z wbudowanym filtrem 1090 MHz (na przykład Pro Stick od FlightAware), słyszy dalej w mieście. | 30–45 € |
-| Antena | Mała antena dostrojona do **1090 MHz**. Ta sprzedawana z niektórymi pendrive'ami działa w oknie; dedykowana antena ADS-B, długa na pół metra, słyszy dużo dalej na dachu lub balkonie. | 10–40 € |
-| Karta micro-SD | 16 GB lub więcej, znanej marki. | 8–12 € |
-| Zasilacz | Oficjalny do twojego Pi. Ładowarka do telefonu często nie wystarcza i Pi da ci o tym znać ikoną błyskawicy. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Idealny jest **3B, 3B+ lub 4**: 1 GB pamięci wystarcza na odbiornik, feedery i tablicę, co zmierzono na Pi 3B autora. **Zero 2 W** (512 MB, cena katalogowa 15 US$) uciągnie odbiornik i tablicę, bez dodatkowych feederów. | 15–60 € |
+| ![](/img/part-stick.svg) Pendrive radiowy USB | Odbiornik **RTL-SDR**. Modele RTL-SDR Blog to punkt odniesienia, około 35–40 US$. Pendrive zrobiony pod ADS-B, z wbudowanym filtrem 1090 MHz (na przykład Pro Stick od FlightAware), słyszy dalej w mieście. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Mała antena dostrojona do **1090 MHz**. Ta sprzedawana z niektórymi pendrive'ami działa w oknie; dedykowana antena ADS-B, długa na pół metra, słyszy dużo dalej na dachu lub balkonie. | 10–40 € |
+| ![](/img/part-sdcard.svg) Karta micro-SD | 16 GB lub więcej, znanej marki. | 8–12 € |
+| ![](/img/part-psu.svg) Zasilacz | Oficjalny do twojego Pi. Ładowarka do telefonu często nie wystarcza i Pi da ci o tym znać ikoną błyskawicy. | 8–12 € |
 
 Razem: **około 60 do 120 €**, jednorazowo. Ceny się zmieniają; to rzędy wielkości widziane na stronach producentów w październiku 2026. Antenę kup na końcu: zacznij od tej, która jest w zestawie z pendrive'em, zobacz, co słyszysz, a potem zdecyduj.
 

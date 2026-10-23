@@ -3,7 +3,7 @@ title: "Ehita vastuvõtja"
 description: "Raspberry Pi, USB-raadiopulk, antenn: osade nimekiri koos hindadega, kuhu antenn panna, ja tarkvara ühe käsuga."
 lang: et
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Seejärel liitu kogukonnaga"
@@ -16,11 +16,11 @@ Viis asja, ja kolm neist võivad sul juba olemas olla.
 
 | Osa | Mida otsida | Umbes |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ või 4** on ideaalne: 1 GB mälust piisab vastuvõtja, söötjate ja seina jaoks, mõõdetud autori Pi 3B peal. **Zero 2 W** (512 MB, hinnakirjas 15 US$) jooksutab vastuvõtjat ja seina, ilma lisasöötjateta. | 15–60 € |
-| USB-raadiopulk | **RTL-SDR** dongel. RTL-SDR Blogi mudelid on etalon, umbes 35–40 US$. ADS-B jaoks tehtud pulk, sisseehitatud 1090 MHz filtriga (näiteks FlightAware'i Pro Stick), kuuleb linnas kaugemale. | 30–45 € |
-| Antenn | Väike antenn, häälestatud sagedusele **1090 MHz**. Mõne pulgaga kaasas müüdav töötab akna peal; spetsiaalne ADS-B antenn, pool meetrit pikk, kuuleb katusel või rõdul palju kaugemale. | 10–40 € |
-| Micro-SD kaart | 16 GB või rohkem, tuntud tootjalt. | 8–12 € |
-| Toiteplokk | Sinu Pi ametlik toiteplokk. Telefonilaadijast sageli ei piisa ja Pi annab sellest teada välguikooniga. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ või 4** on ideaalne: 1 GB mälust piisab vastuvõtja, söötjate ja seina jaoks, mõõdetud autori Pi 3B peal. **Zero 2 W** (512 MB, hinnakirjas 15 US$) jooksutab vastuvõtjat ja seina, ilma lisasöötjateta. | 15–60 € |
+| ![](/img/part-stick.svg) USB-raadiopulk | **RTL-SDR** dongel. RTL-SDR Blogi mudelid on etalon, umbes 35–40 US$. ADS-B jaoks tehtud pulk, sisseehitatud 1090 MHz filtriga (näiteks FlightAware'i Pro Stick), kuuleb linnas kaugemale. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenn | Väike antenn, häälestatud sagedusele **1090 MHz**. Mõne pulgaga kaasas müüdav töötab akna peal; spetsiaalne ADS-B antenn, pool meetrit pikk, kuuleb katusel või rõdul palju kaugemale. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD kaart | 16 GB või rohkem, tuntud tootjalt. | 8–12 € |
+| ![](/img/part-psu.svg) Toiteplokk | Sinu Pi ametlik toiteplokk. Telefonilaadijast sageli ei piisa ja Pi annab sellest teada välguikooniga. | 8–12 € |
 
 Kokku: **umbes 60 kuni 120 €**, ühekordselt. Hinnad muutuvad; need on suurusjärgud, mida tootjate saitidel 2026. aasta oktoobris nähti. Osta antenn viimasena: alusta sellega, mis pulgaga kaasas on, vaata, mida kuuled, ja siis otsusta.
 

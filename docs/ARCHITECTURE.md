@@ -49,7 +49,9 @@ The look is `src/styles/site.css`, derived from ZenithBoard's `flightinfo/static
 (`--on`, `--on-hot`, `--on-dim`, `--bg`, `--panel`, `--line`, `--ink`, `--muted`, `--mono`, `--sans`), the flap
 buttons, cards, chips, tiles. The five colours are the exact values of the wall's `style.css`; `data-theme` on
 `<html>` switches them, `public/js/theme.js` remembers the choice in `localStorage`. The logos are drawn in dots
-from ZenithBoard's 5×7 glyphs by `tools/make-logos.mjs`. The flags are the PNGs ZenithBoard carries
+from ZenithBoard's 5×7 glyphs by `tools/make-logos.mjs`. The wordless pictures (MLAT, the four ADS-B figures, the five
+parts icons) are drawn the same way by `tools/make-mlat.mjs` and `tools/make-figures.mjs` from the sprites of
+`tools/dots.mjs`: no text inside, so only their alt text is translated. The flags are the PNGs ZenithBoard carries
 (country-flag-icons, MIT) plus its two pictures for Swahili and Arabic.
 
 ## What the Content-Security-Policy imposes on the build

@@ -3,7 +3,7 @@ title: "Bangun penerima"
 description: "Raspberry Pi, stik radio USB, antena: daftar komponen dengan harga, tempat memasang antena, dan perangkat lunaknya dalam satu perintah."
 lang: id
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Lalu bergabung dengan komunitas"
@@ -16,11 +16,11 @@ Lima benda, dan mungkin tiga di antaranya sudah Anda miliki.
 
 | Komponen | Yang perlu diperhatikan | Sekitar |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ atau 4** ideal: memori 1 GB cukup untuk penerima, pengumpan dan dinding, diukur pada Pi 3B milik penulis. **Zero 2 W** (512 MB, dijual seharga 15 US$) menjalankan penerima dan dinding, tanpa pengumpan tambahan. | 15–60 € |
-| Stik radio USB | Dongle **RTL-SDR**. Model dari RTL-SDR Blog adalah acuannya, sekitar 35–40 US$. Stik yang dibuat khusus untuk ADS-B, dengan filter 1090 MHz bawaan (Pro Stick dari FlightAware, misalnya), mendengar lebih jauh di kota. | 30–45 € |
-| Antena | Antena kecil yang disetel ke **1090 MHz**. Yang dijual bersama beberapa stik bisa dipakai di jendela; antena khusus ADS-B, sepanjang setengah meter, mendengar jauh lebih jauh di atap atau balkon. | 10–40 € |
-| Kartu micro-SD | 16 GB atau lebih, dari merek yang dikenal. | 8–12 € |
-| Catu daya | Yang resmi untuk Pi Anda. Pengisi daya ponsel sering kali tidak cukup dan Pi akan memberitahukannya dengan ikon petir. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ atau 4** ideal: memori 1 GB cukup untuk penerima, pengumpan dan dinding, diukur pada Pi 3B milik penulis. **Zero 2 W** (512 MB, dijual seharga 15 US$) menjalankan penerima dan dinding, tanpa pengumpan tambahan. | 15–60 € |
+| ![](/img/part-stick.svg) Stik radio USB | Dongle **RTL-SDR**. Model dari RTL-SDR Blog adalah acuannya, sekitar 35–40 US$. Stik yang dibuat khusus untuk ADS-B, dengan filter 1090 MHz bawaan (Pro Stick dari FlightAware, misalnya), mendengar lebih jauh di kota. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Antena kecil yang disetel ke **1090 MHz**. Yang dijual bersama beberapa stik bisa dipakai di jendela; antena khusus ADS-B, sepanjang setengah meter, mendengar jauh lebih jauh di atap atau balkon. | 10–40 € |
+| ![](/img/part-sdcard.svg) Kartu micro-SD | 16 GB atau lebih, dari merek yang dikenal. | 8–12 € |
+| ![](/img/part-psu.svg) Catu daya | Yang resmi untuk Pi Anda. Pengisi daya ponsel sering kali tidak cukup dan Pi akan memberitahukannya dengan ikon petir. | 8–12 € |
 
 Total: **sekitar 60 sampai 120 €**, sekali saja. Harga berubah-ubah; ini adalah kisaran yang terlihat di situs para pembuatnya pada Oktober 2026. Beli antena paling akhir: mulailah dengan apa pun yang disertakan bersama stik, lihat apa yang Anda dengar, lalu putuskan.
 

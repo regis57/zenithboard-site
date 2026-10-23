@@ -14,15 +14,19 @@ next:
 
 ZenithBoard maakt van een Raspberry Pi en een USB-radiostick een ADS-B-ontvanger die de vier netwerken voedt, en toont de vliegtuigen recht boven je huis op een oude tablet, als een oplichtend dot-matrixbord of een klapperbord zoals op een luchthaven. Het is vrije software, onder de GPL, en het draait elke dag op de eigen Pi 3B van de auteur, buiten, op wifi, in de Moezel.
 
-![De dot-matrix-wall in turquoise: BAW357, een A320neo van British Airways, de naam van de maatschappij scrollend naast de vlag van de registratie, dan het volgende vliegtuig](/img/zb-wall.webp)
+![De dot-matrixwall in amber: een Tunisair Airbus A320 met zijn twee vlaggen, het vliegtuig getekend in stippen naast de tekst, dan de volgende vlucht](/img/zb-wall.webp)
 
 ## De wall
 
 De wall is een webpagina die de Pi op je thuisnetwerk aanbiedt. Open haar op een tablet of scherm met een browser, zet haar op het beginscherm, en ze blijft aan. Ze doorloopt elk vliegtuig binnen de straal die je kiest, van 1 tot 50 km (of mijl): roepnaam, vliegtuigtype, hoogte, snelheid, waar de vlucht vandaan komt en heen gaat, afstand en richting vanaf jou. Twee uiterlijken: een raster van **128 bij 80 stippen**, zoals een oud stationsbord, of een **klapperbord** waarvan de letters omrollen als het volgende vliegtuig komt. Vijf kleuren: amber, groen, rood, wit, turkoois; één tegelijk, want het gaat om een oplichtend bord, niet om een schermafbeelding van een kaart.
 
-![Het klapperbord-uiterlijk in groen: letters die omklappen van het ene vliegtuig naar het volgende](/img/zb-flap-roll.webp)
+![Het klapperbord in rood: de letters rollen om van de ene vlucht naar de volgende](/img/zb-flap-roll.webp)
 
-![De wall in amber en turquoise dot matrix, en in groen klapperbord](/img/wall-three-colours.webp)
+![De wall in zes uiterlijken: dot-matrix in amber, turkoois en wit bovenaan; klapperbord in amber, groen en turkoois onderaan](/img/wall-colours.webp)
+
+Een klein tandwiel in de hoek van de wall opent de instellingen: eenheden, straal, seconden per vliegtuig, kleur, uiterlijk en vlaggen. Ze worden alleen op die tablet bewaard, dus elk scherm kan zijn eigen uiterlijk hebben, en `zenithboard config` stelt de standaardwaarden voor alle schermen in.
+
+![Het eigen instellingenpaneel van de wall over een klapperbord: eenheden, straal, seconden per vliegtuig, kleur, uiterlijk en vlaggen](/img/wall-settings.webp)
 
 Naast de tekst een silhouet van het vliegtuig getekend in stippen, twee kleine vlaggen (waar het vliegtuig is geregistreerd, waar het is gebouwd), en, als je wilt, zijn foto van Planespotters, met de naam van de fotograaf. Geen logo van een luchtvaartmaatschappij, geen logo van een fabrikant: dat zijn beschermde merken, dus vlaggen nemen hun plaats in. Routes en modellen komen uit openbare opzoekingen; de wall zegt wat ze weet en laat de regel leeg als ze het niet weet.
 

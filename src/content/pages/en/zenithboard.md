@@ -14,15 +14,19 @@ next:
 
 ZenithBoard turns a Raspberry Pi and a USB radio stick into an ADS-B receiver that feeds the four networks, and shows the aircraft right above your house on an old tablet, as a lit dot-matrix sign or an airport split-flap board. It is free software, under the GPL, and it runs every day on the author's own Pi 3B, outdoors, on Wi-Fi, in Moselle.
 
-![The dot-matrix wall in turquoise: BAW357, a British Airways A320neo, its airline name scrolling beside the registration flag, then the next aircraft](/img/zb-wall.webp)
+![The dot-matrix wall in amber: a Tunisair Airbus A320 with its two flags, the aircraft drawn in dots beside the text, then the next flight](/img/zb-wall.webp)
 
 ## The wall
 
 The wall is a web page the Pi serves on your home network. Open it on any tablet or screen with a browser, add it to the home screen, and it stays on. It cycles through every aircraft inside the radius you choose, from 1 to 50 km (or miles): callsign, aircraft type, altitude, speed, where the flight comes from and goes to, distance and direction from you. Two looks: a grid of **128 by 80 dots**, like an old station sign, or a **split-flap board** whose letters roll over when the next aircraft comes. Five colours: amber, green, red, white, turquoise; one at a time, because the point is a lit sign, not a screenshot of a map.
 
-![The split-flap look in green: letters rolling from one aircraft to the next](/img/zb-flap-roll.webp)
+![The split-flap board in red: the letters roll over from one flight to the next](/img/zb-flap-roll.webp)
 
-![The wall in amber and turquoise dot matrix, and in green split-flap](/img/wall-three-colours.webp)
+![The wall in six looks: dot matrix in amber, turquoise and white above; split-flap in amber, green and turquoise below](/img/wall-colours.webp)
+
+A small gear in the corner of the wall opens its settings: units, radius, seconds per aircraft, colour, style and flags. They are kept on that tablet alone, so each screen can have its own look, and `zenithboard config` sets the defaults for all of them.
+
+![The wall's own settings panel over a split-flap board: units, radius, seconds per aircraft, colour, style and flags](/img/wall-settings.webp)
 
 Beside the text, a silhouette of the aircraft drawn in dots, two small flags (where the aircraft is registered, where it was built), and, if you want, its photo from Planespotters, with the photographer's name. No airline logo, no manufacturer logo: these are protected marks, so flags stand in for them. Routes and models come from public lookups; the wall says what it knows and leaves the row empty when it does not.
 

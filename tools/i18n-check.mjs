@@ -34,6 +34,13 @@ function keys(obj, prefix = "") {
 function warn(msg) { console.log(ci ? `::warning::${msg}` : `warning: ${msg}`); }
 function error(msg) { errors++; console.log(ci ? `::error::${msg}` : `error: ${msg}`); }
 
+// A body line long enough to be a sentence (or an image with its alt text) that is word for word the English
+// one has not been translated: an ERROR, like a missing page. Code blocks are skipped (commands stay as they are).
+function sentences(body) {
+  let fence = false;
+  return body.split(/\r?\n/).filter((l) => { if (l.startsWith("```")) { fence = !fence; return false; } return !fence && l.trim().length >= 40 && !/^#+ \[[^\]]+\]\(https?:[^)]*\)$/.test(l); }); // a heading that is only a network name and its link stays as it is
+}
+
 const enUI = JSON.parse(readFileSync(join(UI, `${DEFAULT_LOCALE}.json`), "utf8"));
 const enKeys = keys(enUI);
 const en = Object.fromEntries(SLUGS.map((s) => [s, frontMatter(join(CONTENT, DEFAULT_LOCALE, `${s}.md`))]));
@@ -55,6 +62,8 @@ for (const l of LANGS) {
     if (fm.page !== s) error(`${file}: page is "${fm.page}", expected "${s}"`);
     if (!fm.body) error(`${file}: empty body`);
     if (l.code !== DEFAULT_LOCALE) {
+      const same = new Set(sentences(en[s].body));
+      for (const line of sentences(fm.body)) if (same.has(line)) error(`${file}: a line is still the English one: ${line.slice(0, 80)}…`);
       if (fm.updated && en[s].updated && fm.updated < en[s].updated)
         { stale++; warn(`${file} is older (${fm.updated}) than the English (${en[s].updated}): translate the change`); }
       if (fm.reviewed !== "true") unreviewed.push(file);

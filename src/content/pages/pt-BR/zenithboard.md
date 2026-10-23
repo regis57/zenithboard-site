@@ -14,15 +14,19 @@ next:
 
 O ZenithBoard transforma um Raspberry Pi e um pendrive de rádio USB em um receptor ADS-B que alimenta as quatro redes, e mostra as aeronaves bem em cima da sua casa em um tablet velho, como um letreiro de matriz de pontos aceso ou um painel de letras giratórias de aeroporto. É software livre, sob a GPL, e roda todos os dias no próprio Pi 3B do autor, ao ar livre, por Wi-Fi, na Moselle.
 
-![O painel de matriz de pontos em turquesa: BAW357, um A320neo da British Airways, o nome da companhia rolando ao lado da bandeira da matrícula, depois a próxima aeronave](/img/zb-wall.webp)
+![O painel de matriz de pontos em âmbar: um Tunisair Airbus A320 com as suas duas bandeiras, a aeronave desenhada em pontos ao lado do texto, depois o próximo voo](/img/zb-wall.webp)
 
 ## O painel
 
 O painel é uma página web que o Pi serve na sua rede doméstica. Abra-a em qualquer tablet ou tela com navegador, adicione à tela inicial, e ela fica ligada. Ela passa por todas as aeronaves dentro do raio que você escolher, de 1 a 50 km (ou milhas): indicativo, tipo de aeronave, altitude, velocidade, de onde o voo vem e para onde vai, distância e direção em relação a você. Dois visuais: uma grade de **128 por 80 pontos**, como um letreiro antigo de estação, ou um **painel de letras giratórias** cujas letras viram quando chega a próxima aeronave. Cinco cores: âmbar, verde, vermelho, branco, turquesa; uma de cada vez, porque a ideia é um letreiro aceso, não uma captura de tela de um mapa.
 
-![O visual de letras giratórias em verde: as letras girando de uma aeronave para a próxima](/img/zb-flap-roll.webp)
+![O painel de letras giratórias em vermelho: as letras viram de um voo para o próximo](/img/zb-flap-roll.webp)
 
-![O painel em matriz de pontos âmbar e turquesa, e em letras giratórias verdes](/img/wall-three-colours.webp)
+![O painel em seis visuais: matriz de pontos em âmbar, turquesa e branco em cima; letras giratórias em âmbar, verde e turquesa embaixo](/img/wall-colours.webp)
+
+Uma pequena engrenagem no canto do painel abre as configurações dele: unidades, raio, segundos por aeronave, cor, visual e bandeiras. Elas ficam guardadas só naquele tablet, então cada tela pode ter o seu próprio visual, e o `zenithboard config` define os padrões para todas.
+
+![As configurações do próprio painel sobre um painel de letras giratórias: unidades, raio, segundos por aeronave, cor, visual e bandeiras](/img/wall-settings.webp)
 
 Ao lado do texto, uma silhueta da aeronave desenhada em pontos, duas bandeirinhas (onde a aeronave está registrada, onde foi construída) e, se você quiser, a foto dela do Planespotters, com o nome do fotógrafo. Nenhum logotipo de companhia aérea, nenhum logotipo de fabricante: são marcas protegidas, então as bandeiras ficam no lugar deles. As rotas e os modelos vêm de consultas públicas; o painel diz o que sabe e deixa a linha vazia quando não sabe.
 

@@ -3,7 +3,7 @@ title: "Construire un récepteur"
 description: "Un Raspberry Pi, une clé radio USB, une antenne : la liste des pièces avec les prix, où placer l'antenne, et le logiciel en une commande."
 lang: fr
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Puis rejoignez la communauté"
@@ -16,11 +16,11 @@ Cinq choses, et vous en possédez peut-être déjà trois.
 
 | Pièce | Ce qu'il faut chercher | Environ |
 |---|---|---|
-| Raspberry Pi | Un **3B, 3B+ ou 4** est idéal : 1 Go de mémoire suffit pour le récepteur, les programmes d'envoi et le mur, mesuré sur le Pi 3B de l'auteur. Un **Zero 2 W** (512 Mo, affiché à 15 US$) fait tourner le récepteur et le mur, sans les programmes d'envoi supplémentaires. | 15–60 € |
-| Clé radio USB | Une clé **RTL-SDR**. Les modèles RTL-SDR Blog sont la référence, autour de 35–40 US$. Une clé conçue pour l'ADS-B, avec un filtre 1090 MHz intégré (le Pro Stick de FlightAware, par exemple), entend plus loin en ville. | 30–45 € |
-| Antenne | Une petite antenne accordée sur **1090 MHz**. Celle vendue avec certaines clés fonctionne à une fenêtre ; une antenne dédiée à l'ADS-B, longue d'un demi-mètre, entend beaucoup plus loin sur un toit ou un balcon. | 10–40 € |
-| Carte micro-SD | 16 Go ou plus, d'une marque connue. | 8–12 € |
-| Alimentation | L'officielle pour votre Pi. Un chargeur de téléphone ne suffit souvent pas, et le Pi vous le dira avec une icône d'éclair. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Un **3B, 3B+ ou 4** est idéal : 1 Go de mémoire suffit pour le récepteur, les programmes d'envoi et le mur, mesuré sur le Pi 3B de l'auteur. Un **Zero 2 W** (512 Mo, affiché à 15 US$) fait tourner le récepteur et le mur, sans les programmes d'envoi supplémentaires. | 15–60 € |
+| ![](/img/part-stick.svg) Clé radio USB | Une clé **RTL-SDR**. Les modèles RTL-SDR Blog sont la référence, autour de 35–40 US$. Une clé conçue pour l'ADS-B, avec un filtre 1090 MHz intégré (le Pro Stick de FlightAware, par exemple), entend plus loin en ville. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenne | Une petite antenne accordée sur **1090 MHz**. Celle vendue avec certaines clés fonctionne à une fenêtre ; une antenne dédiée à l'ADS-B, longue d'un demi-mètre, entend beaucoup plus loin sur un toit ou un balcon. | 10–40 € |
+| ![](/img/part-sdcard.svg) Carte micro-SD | 16 Go ou plus, d'une marque connue. | 8–12 € |
+| ![](/img/part-psu.svg) Alimentation | L'officielle pour votre Pi. Un chargeur de téléphone ne suffit souvent pas, et le Pi vous le dira avec une icône d'éclair. | 8–12 € |
 
 Total : **environ 60 à 120 €**, une fois pour toutes. Les prix bougent ; ce sont les ordres de grandeur vus sur les sites des fabricants en octobre 2026. Achetez l'antenne en dernier : commencez avec celle qui vient avec la clé, voyez ce que vous entendez, puis décidez.
 

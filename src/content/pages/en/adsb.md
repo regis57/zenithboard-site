@@ -3,7 +3,7 @@ title: "What is ADS-B"
 description: "The signal every airliner broadcasts, what it contains, why anyone can receive it, and what it does not tell you."
 lang: en
 page: adsb
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: true
 next:
   label: "Build your receiver"
@@ -12,6 +12,10 @@ next:
 
 ## A plane that says where it is
 
+![A satellite tells the aircraft where it is; the aircraft sends its position out in all directions, in rings that every house on the ground, and another aircraft, can pick up](/img/fig-adsb-broadcast.svg)
+
+![One message holds four things: who the aircraft is, where it is, how high and how fast; and it is sent again every second](/img/fig-adsb-message.svg)
+
 ADS-B stands for *Automatic Dependent Surveillance – Broadcast*. Take the words one at a time. *Automatic*: the aircraft sends it on its own, nobody asks. *Dependent*: the position comes from the aircraft's own satellite navigation, not from a radar on the ground. *Surveillance*: it is how air traffic control follows the aircraft. *Broadcast*: it is sent to everyone, not to one listener.
 
 Roughly once a second, the aircraft transmits a short message on **1090 MHz**. The message carries its identity (a 24-bit address given to that airframe, and usually the flight's callsign), its position (latitude and longitude), its altitude, its speed and its heading. Other messages, sent now and then, add the aircraft's category, its vertical rate and a few flags.
@@ -19,6 +23,8 @@ Roughly once a second, the aircraft transmits a short message on **1090 MHz**. T
 Since 2020, most aircraft flying in controlled airspace in Europe and in the United States are required to broadcast ADS-B. Airliners do, business jets do, many light aircraft do. Some military and state aircraft do not, or do so without their position.
 
 ## Why you can listen
+
+![From the antenna to a small radio stick, to a Raspberry Pi, to a screen that shows the aircraft](/img/fig-adsb-chain.svg)
 
 The messages are not encrypted and not signed. That is by design: the whole point is that every aircraft and every ground station around can hear every other aircraft. The format is public, defined by the standards aviation runs on, and the frequency is the same everywhere in the world.
 
@@ -32,6 +38,8 @@ The United States also use a second frequency, **978 MHz**, called UAT (*Univers
 
 ## How far you hear
 
+![The signal travels in a straight line while the earth curves away: an aircraft above the line of sight is heard, one beyond the horizon is hidden, and a higher antenna sees further](/img/fig-adsb-range.svg)
+
 The signal travels in a straight line, like light. An aircraft at cruising altitude is visible from very far away, as long as nothing stands between it and your antenna. From a window facing a hill you may hear a few dozen kilometres; from a roof with a clear horizon, 250 km and more is common, and the aircraft at the edge are the ones at 11,000 metres. Low aircraft near you are hidden by every building and tree. Range is about the antenna and its view, not about the computer.
 
 ## What ADS-B does not tell you
@@ -39,5 +47,7 @@ The signal travels in a straight line, like light. An aircraft at cruising altit
 The message says where the aircraft is, not where it is going. The origin, the destination, the airline's name and the aircraft's photo come from elsewhere: from public registers and from databases that the tracking networks and ZenithBoard look up by the aircraft's address. ADS-B also says nothing about who is on board, and nothing about you: receiving is passive, your receiver transmits nothing.
 
 ## MLAT: hearing the ones who do not say
+
+![Four receivers on the ground hear the same message at four different times; around each, a circle whose size is its arrival time; the four circles cross at one point only, where the aircraft is](/img/mlat.svg)
 
 Some aircraft send their identity but not their position (older transponders do this). If four or more receivers hear the same message, the tiny differences in arrival time give the position, the way lightning is located from its thunder. This is called **MLAT**, *multilateration*. Your single receiver cannot do it alone; by feeding a network, it becomes one of the four. This is one of the real reasons to share.

@@ -20,7 +20,8 @@ on purpose: the only key to the site is this GitHub account.
 |---|---|
 | A page, in one language | `src/content/pages/<lang>/<page>.md` (pages: `home`, `adsb`, `build`, `join`, `zenithboard`, `faq`, `about`) |
 | The navigation, footer and picker labels | `src/i18n/ui/<lang>.json` |
-| A picture | `public/img/`, then `![alt text](/img/name.webp)` in the page |
+| A picture | `public/img/`, then `![alt text](/img/name.webp)` in the page. The alt text is translated in every language (i18n-check fails on an English one) |
+| A wordless figure | add it to `tools/make-figures.mjs` (dot sprites in `tools/dots.mjs`), run `npm run logos`; name it `fig-…` and it floats in the right-hand column on a wide screen |
 | The languages, their names and flags | `src/i18n/langs.js` |
 | The look (colours, fonts, layout) | `src/styles/site.css` (derived from ZenithBoard's `console.css`) |
 | The security headers | `public/_headers` |

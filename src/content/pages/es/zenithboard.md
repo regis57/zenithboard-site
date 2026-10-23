@@ -14,15 +14,19 @@ next:
 
 ZenithBoard convierte una Raspberry Pi y una radio USB en un receptor ADS-B que alimenta las cuatro redes, y muestra los aviones justo encima de tu casa en una tableta vieja, como un letrero luminoso de matriz de puntos o como un panel de letras giratorias de aeropuerto. Es software libre, bajo la GPL, y funciona cada día en la propia Pi 3B del autor, al aire libre, por Wi-Fi, en Mosela.
 
-![El panel de matriz de puntos en turquesa: BAW357, un A320neo de British Airways, el nombre de la aerolínea desplazándose junto a la bandera de la matrícula, y luego el siguiente avión](/img/zb-wall.webp)
+![El panel de matriz de puntos en ámbar: un Tunisair Airbus A320 con sus dos banderas, el avión dibujado con puntos junto al texto, y después el siguiente vuelo](/img/zb-wall.webp)
 
 ## El panel
 
 El panel es una página web que la Pi sirve en tu red doméstica. Ábrela en cualquier tableta o pantalla con navegador, añádela a la pantalla de inicio y se queda encendida. Va pasando por cada avión dentro del radio que elijas, de 1 a 50 km (o millas): indicativo, tipo de avión, altitud, velocidad, de dónde viene el vuelo y adónde va, distancia y dirección respecto a ti. Dos estilos: una cuadrícula de **128 por 80 puntos**, como un viejo letrero de estación, o un **panel de letras giratorias** cuyas letras ruedan cuando llega el siguiente avión. Cinco colores: ámbar, verde, rojo, blanco, turquesa; uno a la vez, porque la idea es un letrero luminoso, no una captura de pantalla de un mapa.
 
-![El estilo de letras giratorias en verde: las letras girando de un avión al siguiente](/img/zb-flap-roll.webp)
+![El panel de letras giratorias en rojo: las letras ruedan de un vuelo al siguiente](/img/zb-flap-roll.webp)
 
-![El panel en matriz de puntos ámbar y turquesa, y en letras giratorias verdes](/img/wall-three-colours.webp)
+![El panel en seis estilos: matriz de puntos en ámbar, turquesa y blanco arriba; letras giratorias en ámbar, verde y turquesa abajo](/img/wall-colours.webp)
+
+Un pequeño engranaje en la esquina del panel abre sus ajustes: unidades, radio, segundos por avión, color, estilo y banderas. Se guardan solo en esa tableta, así que cada pantalla puede tener su propio aspecto, y `zenithboard config` fija los valores por defecto para todas.
+
+![Los ajustes propios del panel sobre un panel de letras giratorias: unidades, radio, segundos por avión, color, estilo y banderas](/img/wall-settings.webp)
 
 Junto al texto, una silueta del avión dibujada en puntos, dos banderitas (dónde está matriculado el avión, dónde se fabricó) y, si quieres, su foto de Planespotters, con el nombre del fotógrafo. Ni logotipo de aerolínea ni logotipo de fabricante: son marcas protegidas, así que las banderas los sustituyen. Las rutas y los modelos vienen de consultas públicas; el panel dice lo que sabe y deja la fila vacía cuando no lo sabe.
 

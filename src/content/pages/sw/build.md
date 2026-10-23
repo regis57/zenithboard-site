@@ -3,7 +3,7 @@ title: "Jenga kipokezi"
 description: "Raspberry Pi, kijiti cha redio cha USB, antena: orodha ya vifaa na bei, mahali pa kuweka antena, na programu kwa amri moja."
 lang: sw
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Kisha jiunge na jumuiya"
@@ -16,11 +16,11 @@ Vitu vitano, na huenda tayari unavyo vitatu kati yake.
 
 | Kifaa | Cha kutafuta | Takriban |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ au 4** ni bora kabisa: kumbukumbu ya GB 1 inatosha kwa kipokezi, walishaji na ukuta, imepimwa kwenye Pi 3B ya mwandishi. **Zero 2 W** (MB 512, bei ya orodha US$ 15) inaendesha kipokezi na ukuta, bila walishaji wa ziada. | € 15–60 |
-| Kijiti cha redio cha USB | Dongo la **RTL-SDR**. Miundo ya RTL-SDR Blog ndiyo ya rejea, karibu US$ 35–40. Kijiti kilichotengenezwa kwa ADS-B, chenye kichujio cha 1090 MHz kilichojengwa ndani (Pro Stick ya FlightAware, kwa mfano), kinasikia mbali zaidi mjini. | € 30–45 |
-| Antena | Antena ndogo iliyowekwa kwenye **1090 MHz**. Ile inayouzwa pamoja na baadhi ya vijiti inafanya kazi dirishani; antena maalum ya ADS-B, yenye urefu wa nusu mita, inasikia mbali zaidi juu ya paa au roshani. | € 10–40 |
-| Kadi ya Micro-SD | GB 16 au zaidi, ya chapa inayojulikana. | € 8–12 |
-| Chaja ya umeme | Ile rasmi ya Pi yako. Chaja ya simu mara nyingi haitoshi na Pi itakuambia hivyo kwa ikoni ya radi. | € 8–12 |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ au 4** ni bora kabisa: kumbukumbu ya GB 1 inatosha kwa kipokezi, walishaji na ukuta, imepimwa kwenye Pi 3B ya mwandishi. **Zero 2 W** (MB 512, bei ya orodha US$ 15) inaendesha kipokezi na ukuta, bila walishaji wa ziada. | € 15–60 |
+| ![](/img/part-stick.svg) Kijiti cha redio cha USB | Dongo la **RTL-SDR**. Miundo ya RTL-SDR Blog ndiyo ya rejea, karibu US$ 35–40. Kijiti kilichotengenezwa kwa ADS-B, chenye kichujio cha 1090 MHz kilichojengwa ndani (Pro Stick ya FlightAware, kwa mfano), kinasikia mbali zaidi mjini. | € 30–45 |
+| ![](/img/part-antenna.svg) Antena | Antena ndogo iliyowekwa kwenye **1090 MHz**. Ile inayouzwa pamoja na baadhi ya vijiti inafanya kazi dirishani; antena maalum ya ADS-B, yenye urefu wa nusu mita, inasikia mbali zaidi juu ya paa au roshani. | € 10–40 |
+| ![](/img/part-sdcard.svg) Kadi ya Micro-SD | GB 16 au zaidi, ya chapa inayojulikana. | € 8–12 |
+| ![](/img/part-psu.svg) Chaja ya umeme | Ile rasmi ya Pi yako. Chaja ya simu mara nyingi haitoshi na Pi itakuambia hivyo kwa ikoni ya radi. | € 8–12 |
 
 Jumla: **takriban € 60 hadi 120**, mara moja tu. Bei zinabadilika; hizi ni makadirio yaliyoonekana kwenye tovuti za watengenezaji mnamo Oktoba 2026. Nunua antena mwishoni: anza na chochote kinachokuja na kijiti, ona unachosikia, kisha amua.
 

@@ -3,7 +3,7 @@ title: "Pasigaminkite imtuvą"
 description: "Raspberry Pi, USB radijo raktas, antena: dalių sąrašas su kainomis, kur dėti anteną ir programinė įranga viena komanda."
 lang: lt
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Tada prisijunkite prie bendruomenės"
@@ -16,11 +16,11 @@ Penki dalykai, ir tris iš jų galbūt jau turite.
 
 | Dalis | Į ką atkreipti dėmesį | Apie |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ arba 4** yra idealus: 1 GB atminties pakanka imtuvui, siuntikliams ir sienai, išmatuota autoriaus Pi 3B. **Zero 2 W** (512 MB, kaina 15 US$) veikia su imtuvu ir siena, be papildomų siuntiklių. | 15–60 € |
-| USB radijo raktas | **RTL-SDR** raktas. RTL-SDR Blog modeliai yra atskaitos taškas, apie 35–40 US$. Raktas, pagamintas ADS-B, su įmontuotu 1090 MHz filtru (pavyzdžiui, FlightAware Pro Stick), mieste girdi toliau. | 30–45 € |
-| Antena | Maža antena, suderinta **1090 MHz** dažniui. Ta, kuri parduodama su kai kuriais raktais, veikia prie lango; speciali ADS-B antena, pusės metro ilgio, ant stogo ar balkono girdi daug toliau. | 10–40 € |
-| Micro-SD kortelė | 16 GB ar daugiau, žinomo gamintojo. | 8–12 € |
-| Maitinimo šaltinis | Oficialus, skirtas jūsų Pi. Telefono įkroviklio dažnai nepakanka, ir Pi jums tai parodys žaibo piktograma. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ arba 4** yra idealus: 1 GB atminties pakanka imtuvui, siuntikliams ir sienai, išmatuota autoriaus Pi 3B. **Zero 2 W** (512 MB, kaina 15 US$) veikia su imtuvu ir siena, be papildomų siuntiklių. | 15–60 € |
+| ![](/img/part-stick.svg) USB radijo raktas | **RTL-SDR** raktas. RTL-SDR Blog modeliai yra atskaitos taškas, apie 35–40 US$. Raktas, pagamintas ADS-B, su įmontuotu 1090 MHz filtru (pavyzdžiui, FlightAware Pro Stick), mieste girdi toliau. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Maža antena, suderinta **1090 MHz** dažniui. Ta, kuri parduodama su kai kuriais raktais, veikia prie lango; speciali ADS-B antena, pusės metro ilgio, ant stogo ar balkono girdi daug toliau. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD kortelė | 16 GB ar daugiau, žinomo gamintojo. | 8–12 € |
+| ![](/img/part-psu.svg) Maitinimo šaltinis | Oficialus, skirtas jūsų Pi. Telefono įkroviklio dažnai nepakanka, ir Pi jums tai parodys žaibo piktograma. | 8–12 € |
 
 Iš viso: **maždaug nuo 60 iki 120 €**, vieną kartą. Kainos keičiasi; tai dydžių eilės, matytos gamintojų svetainėse 2026 m. spalį. Anteną pirkite paskutinę: pradėkite nuo to, kas pridedama prie rakto, pažiūrėkite, ką girdite, tada spręskite.
 

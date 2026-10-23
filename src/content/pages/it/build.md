@@ -3,7 +3,7 @@ title: "Costruisci un ricevitore"
 description: "Un Raspberry Pi, una chiavetta radio USB, un'antenna: la lista dei componenti con i prezzi, dove mettere l'antenna, e il software in un comando."
 lang: it
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Poi unisciti alla comunità"
@@ -16,11 +16,11 @@ Cinque cose, e forse tre le possiedi già.
 
 | Componente | Che cosa cercare | Circa |
 |---|---|---|
-| Raspberry Pi | Un **3B, 3B+ o 4** è l'ideale: 1 GB di memoria basta per il ricevitore, i feeder e il tabellone, misurato sul Pi 3B dell'autore. Uno **Zero 2 W** (512 MB, in listino a 15 US$) fa girare il ricevitore e il tabellone, senza i feeder aggiuntivi. | 15–60 € |
-| Chiavetta radio USB | Una chiavetta **RTL-SDR**. I modelli RTL-SDR Blog sono il riferimento, intorno a 35–40 US$. Una chiavetta pensata per l'ADS-B, con un filtro a 1090 MHz integrato (il Pro Stick di FlightAware, per esempio), sente più lontano in città. | 30–45 € |
-| Antenna | Una piccola antenna accordata su **1090 MHz**. Quella venduta con alcune chiavette funziona a una finestra; un'antenna dedicata all'ADS-B, lunga mezzo metro, sente molto più lontano su un tetto o un balcone. | 10–40 € |
-| Scheda micro-SD | 16 GB o più, di una marca conosciuta. | 8–12 € |
-| Alimentatore | Quello ufficiale per il tuo Pi. Un caricatore da telefono spesso non basta e il Pi te lo farà sapere con un'icona a forma di fulmine. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Un **3B, 3B+ o 4** è l'ideale: 1 GB di memoria basta per il ricevitore, i feeder e il tabellone, misurato sul Pi 3B dell'autore. Uno **Zero 2 W** (512 MB, in listino a 15 US$) fa girare il ricevitore e il tabellone, senza i feeder aggiuntivi. | 15–60 € |
+| ![](/img/part-stick.svg) Chiavetta radio USB | Una chiavetta **RTL-SDR**. I modelli RTL-SDR Blog sono il riferimento, intorno a 35–40 US$. Una chiavetta pensata per l'ADS-B, con un filtro a 1090 MHz integrato (il Pro Stick di FlightAware, per esempio), sente più lontano in città. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenna | Una piccola antenna accordata su **1090 MHz**. Quella venduta con alcune chiavette funziona a una finestra; un'antenna dedicata all'ADS-B, lunga mezzo metro, sente molto più lontano su un tetto o un balcone. | 10–40 € |
+| ![](/img/part-sdcard.svg) Scheda micro-SD | 16 GB o più, di una marca conosciuta. | 8–12 € |
+| ![](/img/part-psu.svg) Alimentatore | Quello ufficiale per il tuo Pi. Un caricatore da telefono spesso non basta e il Pi te lo farà sapere con un'icona a forma di fulmine. | 8–12 € |
 
 Totale: **circa da 60 a 120 €**, una volta sola. I prezzi cambiano; questi sono gli ordini di grandezza visti sui siti dei produttori a ottobre 2026. Compra l'antenna per ultima: comincia con quella che arriva con la chiavetta, guarda che cosa senti, poi decidi.
 

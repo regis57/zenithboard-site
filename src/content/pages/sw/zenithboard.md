@@ -14,15 +14,19 @@ next:
 
 ZenithBoard inageuza Raspberry Pi na kijiti cha redio cha USB kuwa kipokezi cha ADS-B kinacholisha mitandao minne, na inaonyesha ndege zilizo juu kabisa ya nyumba yako kwenye kompyuta kibao ya zamani, kama bango la nukta zinazong'aa au ubao wa herufi zinazogeuka wa uwanja wa ndege. Ni programu huru, chini ya GPL, na inaendeshwa kila siku kwenye Pi 3B ya mwandishi mwenyewe, nje, kwa Wi-Fi, huko Moselle.
 
-![Ukuta wa nukta kwa rangi ya samawati-kijani: BAW357, A320neo ya British Airways, jina la shirika la ndege likisogea kando ya bendera ya usajili, kisha ndege inayofuata](/img/zb-wall.webp)
+![Ukuta wa nukta wa rangi ya kaharabu: Tunisair Airbus A320 yenye bendera zake mbili, ndege ikichorwa kwa nukta kando ya maandishi, kisha safari inayofuata](/img/zb-wall.webp)
 
 ## Ukuta
 
 Ukuta ni ukurasa wa wavuti ambao Pi inatoa kwenye mtandao wa nyumbani kwako. Ufungue kwenye kompyuta kibao au skrini yoyote yenye kivinjari, uongeze kwenye skrini ya mwanzo, na unabaki umewashwa. Unazunguka kupitia kila ndege iliyo ndani ya kipenyo unachochagua, kutoka km 1 hadi 50 (au maili): jina la mwito, aina ya ndege, mwinuko, kasi, safari inatoka wapi na inaenda wapi, umbali na mwelekeo kutoka kwako. Mionekano miwili: gridi ya **nukta 128 kwa 80**, kama bango la zamani la kituo, au **ubao wa herufi zinazogeuka** ambao herufi zake zinabiringika ndege inayofuata inapokuja. Rangi tano: kahawia-manjano, kijani, nyekundu, nyeupe, samawati-kijani; moja kwa wakati, kwa sababu lengo ni bango linalong'aa, si picha ya skrini ya ramani.
 
-![Mwonekano wa herufi zinazogeuka kwa kijani: herufi zikigeuka kutoka ndege moja hadi inayofuata](/img/zb-flap-roll.webp)
+![Ubao wa herufi zinazogeuka wa rangi nyekundu: herufi zinabiringika kutoka safari moja hadi inayofuata](/img/zb-flap-roll.webp)
 
-![Ukuta kwa nukta za rangi ya kaharabu na samawati-kijani, na kwa herufi zinazogeuka za kijani](/img/wall-three-colours.webp)
+![Ukuta katika mionekano sita: nukta za kaharabu, samawati-kijani na nyeupe juu; ubao wa herufi zinazogeuka wa kaharabu, kijani na samawati-kijani chini](/img/wall-colours.webp)
+
+Gia ndogo kwenye kona ya ukuta hufungua mipangilio yake: vipimo, kipenyo, sekunde kwa kila ndege, rangi, mtindo na bendera. Huhifadhiwa kwenye kompyuta kibao hiyo pekee, kwa hiyo kila skrini inaweza kuwa na mwonekano wake, na `zenithboard config` huweka chaguo-msingi kwa zote.
+
+![Paneli ya mipangilio ya ukuta yenyewe juu ya ubao wa herufi zinazogeuka: vipimo, kipenyo, sekunde kwa kila ndege, rangi, mtindo na bendera](/img/wall-settings.webp)
 
 Kando ya maandishi, umbo la ndege lililochorwa kwa nukta, bendera mbili ndogo (ndege imesajiliwa wapi, ilitengenezwa wapi), na, ukitaka, picha yake kutoka Planespotters, pamoja na jina la mpiga picha. Hakuna nembo ya shirika la ndege, hakuna nembo ya mtengenezaji: hizi ni alama zinazolindwa, kwa hiyo bendera zinasimama badala yake. Njia na miundo vinatoka kwenye utafutaji wa umma; ukuta unasema kile unachojua na unaacha safu tupu usipojua.
 

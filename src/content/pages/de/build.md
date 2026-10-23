@@ -3,7 +3,7 @@ title: "Einen Empfänger bauen"
 description: "Ein Raspberry Pi, ein USB-Radiostick, eine Antenne: die Teileliste mit Preisen, wo die Antenne hingehört, und die Software in einem Befehl."
 lang: de
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Dann der Community beitreten"
@@ -16,11 +16,11 @@ Fünf Dinge, und drei davon besitzen Sie vielleicht schon.
 
 | Teil | Worauf Sie achten sollten | Etwa |
 |---|---|---|
-| Raspberry Pi | Ein **3B, 3B+ oder 4** ist ideal: 1 GB Speicher reicht für den Empfänger, die Feeder und die Wand, gemessen auf dem Pi 3B des Autors. Ein **Zero 2 W** (512 MB, gelistet für 15 US$) betreibt den Empfänger und die Wand, ohne die zusätzlichen Feeder. | 15–60 € |
-| USB-Radiostick | Ein **RTL-SDR**-Dongle. Die Modelle von RTL-SDR Blog sind die Referenz, etwa 35–40 US$. Ein Stick, der für ADS-B gebaut ist, mit eingebautem 1090-MHz-Filter (zum Beispiel der Pro Stick von FlightAware), hört in der Stadt weiter. | 30–45 € |
-| Antenne | Eine kleine Antenne, abgestimmt auf **1090 MHz**. Die, die manchen Sticks beiliegt, funktioniert am Fenster; eine eigene ADS-B-Antenne, einen halben Meter lang, hört auf einem Dach oder Balkon viel weiter. | 10–40 € |
-| Micro-SD-Karte | 16 GB oder mehr, von einer bekannten Marke. | 8–12 € |
-| Netzteil | Das offizielle für Ihren Pi. Ein Handy-Ladegerät reicht oft nicht, und der Pi sagt Ihnen das mit einem Blitzsymbol. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Ein **3B, 3B+ oder 4** ist ideal: 1 GB Speicher reicht für den Empfänger, die Feeder und die Wand, gemessen auf dem Pi 3B des Autors. Ein **Zero 2 W** (512 MB, gelistet für 15 US$) betreibt den Empfänger und die Wand, ohne die zusätzlichen Feeder. | 15–60 € |
+| ![](/img/part-stick.svg) USB-Radiostick | Ein **RTL-SDR**-Dongle. Die Modelle von RTL-SDR Blog sind die Referenz, etwa 35–40 US$. Ein Stick, der für ADS-B gebaut ist, mit eingebautem 1090-MHz-Filter (zum Beispiel der Pro Stick von FlightAware), hört in der Stadt weiter. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenne | Eine kleine Antenne, abgestimmt auf **1090 MHz**. Die, die manchen Sticks beiliegt, funktioniert am Fenster; eine eigene ADS-B-Antenne, einen halben Meter lang, hört auf einem Dach oder Balkon viel weiter. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD-Karte | 16 GB oder mehr, von einer bekannten Marke. | 8–12 € |
+| ![](/img/part-psu.svg) Netzteil | Das offizielle für Ihren Pi. Ein Handy-Ladegerät reicht oft nicht, und der Pi sagt Ihnen das mit einem Blitzsymbol. | 8–12 € |
 
 Gesamt: **etwa 60 bis 120 €**, einmalig. Preise ändern sich; das sind die Größenordnungen, die im Oktober 2026 auf den Seiten der Hersteller zu sehen waren. Kaufen Sie die Antenne zuletzt: Fangen Sie mit dem an, was beim Stick dabei ist, schauen Sie, was Sie hören, und entscheiden Sie dann.
 

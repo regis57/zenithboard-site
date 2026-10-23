@@ -3,7 +3,7 @@ title: "Monte um receptor"
 description: "Um Raspberry Pi, um pendrive de rádio USB, uma antena: a lista de peças com preços, onde colocar a antena, e o software em um comando."
 lang: pt-BR
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Depois, junte-se à comunidade"
@@ -16,11 +16,11 @@ Cinco coisas, e talvez você já tenha três delas.
 
 | Peça | O que procurar | Cerca de |
 |---|---|---|
-| Raspberry Pi | Um **3B, 3B+ ou 4** é o ideal: 1 GB de memória basta para o receptor, os alimentadores e o painel, medido no Pi 3B do autor. Um **Zero 2 W** (512 MB, anunciado a 15 US$) roda o receptor e o painel, sem os alimentadores extras. | 15–60 € |
-| Pendrive de rádio USB | Um dongle **RTL-SDR**. Os modelos da RTL-SDR Blog são a referência, em torno de 35–40 US$. Um pendrive feito para ADS-B, com um filtro de 1090 MHz embutido (o Pro Stick da FlightAware, por exemplo), ouve mais longe na cidade. | 30–45 € |
-| Antena | Uma antena pequena sintonizada em **1090 MHz**. A que vem com alguns pendrives funciona na janela; uma antena dedicada a ADS-B, de meio metro, ouve muito mais longe em um telhado ou em uma varanda. | 10–40 € |
-| Cartão micro-SD | 16 GB ou mais, de uma marca conhecida. | 8–12 € |
-| Fonte de alimentação | A oficial para o seu Pi. Um carregador de celular muitas vezes não basta, e o Pi avisa com um ícone de raio. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Um **3B, 3B+ ou 4** é o ideal: 1 GB de memória basta para o receptor, os alimentadores e o painel, medido no Pi 3B do autor. Um **Zero 2 W** (512 MB, anunciado a 15 US$) roda o receptor e o painel, sem os alimentadores extras. | 15–60 € |
+| ![](/img/part-stick.svg) Pendrive de rádio USB | Um dongle **RTL-SDR**. Os modelos da RTL-SDR Blog são a referência, em torno de 35–40 US$. Um pendrive feito para ADS-B, com um filtro de 1090 MHz embutido (o Pro Stick da FlightAware, por exemplo), ouve mais longe na cidade. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Uma antena pequena sintonizada em **1090 MHz**. A que vem com alguns pendrives funciona na janela; uma antena dedicada a ADS-B, de meio metro, ouve muito mais longe em um telhado ou em uma varanda. | 10–40 € |
+| ![](/img/part-sdcard.svg) Cartão micro-SD | 16 GB ou mais, de uma marca conhecida. | 8–12 € |
+| ![](/img/part-psu.svg) Fonte de alimentação | A oficial para o seu Pi. Um carregador de celular muitas vezes não basta, e o Pi avisa com um ícone de raio. | 8–12 € |
 
 Total: **cerca de 60 a 120 €**, uma única vez. Os preços mudam; estas são as ordens de grandeza vistas nos sites dos fabricantes em outubro de 2026. Compre a antena por último: comece com o que vier com o pendrive, veja o que você ouve, depois decida.
 

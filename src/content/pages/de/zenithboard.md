@@ -14,15 +14,19 @@ next:
 
 ZenithBoard macht aus einem Raspberry Pi und einem USB-Radiostick einen ADS-B-Empfänger, der die vier Netze speist, und zeigt die Flugzeuge direkt über Ihrem Haus auf einem alten Tablet, als leuchtende Punktmatrix-Anzeige oder als Fallblattanzeige wie am Flughafen. Es ist freie Software unter der GPL und läuft jeden Tag auf dem Pi 3B des Autors, im Freien, über WLAN, im Département Moselle.
 
-![Die Punktmatrix-Wand in Türkis: BAW357, ein A320neo von British Airways, der Name der Fluggesellschaft läuft neben der Flagge des Kennzeichens durch, dann das nächste Flugzeug](/img/zb-wall.webp)
+![Die Wand als Punktmatrix in Bernstein: eine Tunisair Airbus A320 mit ihren zwei Flaggen, das Flugzeug in Punkten neben dem Text gezeichnet, dann der nächste Flug](/img/zb-wall.webp)
 
 ## Die Wand
 
 Die Wand ist eine Webseite, die der Pi in Ihrem Heimnetz bereitstellt. Öffnen Sie sie auf irgendeinem Tablet oder Bildschirm mit Browser, legen Sie sie auf den Startbildschirm, und sie bleibt an. Sie läuft durch jedes Flugzeug innerhalb des Radius, den Sie wählen, von 1 bis 50 km (oder Meilen): Rufzeichen, Flugzeugtyp, Höhe, Geschwindigkeit, woher der Flug kommt und wohin er geht, Entfernung und Richtung von Ihnen aus. Zwei Looks: ein Raster aus **128 mal 80 Punkten**, wie eine alte Bahnhofsanzeige, oder eine **Fallblattanzeige**, deren Buchstaben umklappen, wenn das nächste Flugzeug kommt. Fünf Farben: Bernstein, Grün, Rot, Weiß, Türkis; eine auf einmal, denn der Sinn ist eine leuchtende Anzeige, nicht der Screenshot einer Karte.
 
-![Der Fallblatt-Look in Grün: Buchstaben, die von einem Flugzeug zum nächsten umklappen](/img/zb-flap-roll.webp)
+![Die Fallblattanzeige in Rot: Die Buchstaben klappen von einem Flug zum nächsten um](/img/zb-flap-roll.webp)
 
-![Die Wand in bernsteinfarbener und türkiser Punktmatrix, und als grünes Fallblatt](/img/wall-three-colours.webp)
+![Die Wand in sechs Looks: oben Punktmatrix in Bernstein, Türkis und Weiß; unten Fallblattanzeige in Bernstein, Grün und Türkis](/img/wall-colours.webp)
+
+Ein kleines Zahnrad in der Ecke der Wand öffnet ihre Einstellungen: Einheiten, Radius, Sekunden pro Flugzeug, Farbe, Look und Flaggen. Sie werden nur auf diesem Tablet gespeichert, sodass jeder Bildschirm sein eigenes Aussehen haben kann, und `zenithboard config` legt die Standardwerte für alle fest.
+
+![Das eigene Einstellungsfeld der Wand über einer Fallblattanzeige: Einheiten, Radius, Sekunden pro Flugzeug, Farbe, Look und Flaggen](/img/wall-settings.webp)
 
 Neben dem Text eine Silhouette des Flugzeugs aus Punkten, zwei kleine Flaggen (wo das Flugzeug registriert ist, wo es gebaut wurde) und, wenn Sie möchten, sein Foto von Planespotters, mit dem Namen des Fotografen. Kein Logo einer Fluggesellschaft, kein Logo eines Herstellers: Das sind geschützte Marken, deshalb stehen Flaggen an ihrer Stelle. Routen und Modelle stammen aus öffentlichen Abfragen; die Wand sagt, was sie weiß, und lässt die Zeile leer, wenn sie es nicht weiß.
 

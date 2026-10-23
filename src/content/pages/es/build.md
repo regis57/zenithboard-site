@@ -3,7 +3,7 @@ title: "Construye un receptor"
 description: "Una Raspberry Pi, una radio USB, una antena: la lista de piezas con precios, dónde poner la antena y el software en un solo comando."
 lang: es
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Después, únete a la comunidad"
@@ -16,11 +16,11 @@ Cinco cosas, y puede que ya tengas tres de ellas.
 
 | Pieza | Qué buscar | Aprox. |
 |---|---|---|
-| Raspberry Pi | Una **3B, 3B+ o 4** es ideal: 1 GB de memoria basta para el receptor, los alimentadores y el panel, medido en la Pi 3B del autor. Una **Zero 2 W** (512 MB, a 15 US$ de catálogo) hace funcionar el receptor y el panel, sin los alimentadores adicionales. | 15–60 € |
-| Radio USB | Un dispositivo **RTL-SDR**. Los modelos de RTL-SDR Blog son la referencia, alrededor de 35–40 US$. Un dispositivo hecho para ADS-B, con un filtro de 1090 MHz incorporado (el Pro Stick de FlightAware, por ejemplo), oye más lejos en una ciudad. | 30–45 € |
-| Antena | Una antena pequeña sintonizada en **1090 MHz**. La que viene con algunos dispositivos funciona en una ventana; una antena dedicada al ADS-B, de medio metro de largo, oye mucho más lejos en un tejado o un balcón. | 10–40 € |
-| Tarjeta micro-SD | 16 GB o más, de una marca conocida. | 8–12 € |
-| Fuente de alimentación | La oficial para tu Pi. Un cargador de teléfono a menudo no basta, y la Pi te lo dirá con un icono de rayo. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Una **3B, 3B+ o 4** es ideal: 1 GB de memoria basta para el receptor, los alimentadores y el panel, medido en la Pi 3B del autor. Una **Zero 2 W** (512 MB, a 15 US$ de catálogo) hace funcionar el receptor y el panel, sin los alimentadores adicionales. | 15–60 € |
+| ![](/img/part-stick.svg) Radio USB | Un dispositivo **RTL-SDR**. Los modelos de RTL-SDR Blog son la referencia, alrededor de 35–40 US$. Un dispositivo hecho para ADS-B, con un filtro de 1090 MHz incorporado (el Pro Stick de FlightAware, por ejemplo), oye más lejos en una ciudad. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Una antena pequeña sintonizada en **1090 MHz**. La que viene con algunos dispositivos funciona en una ventana; una antena dedicada al ADS-B, de medio metro de largo, oye mucho más lejos en un tejado o un balcón. | 10–40 € |
+| ![](/img/part-sdcard.svg) Tarjeta micro-SD | 16 GB o más, de una marca conocida. | 8–12 € |
+| ![](/img/part-psu.svg) Fuente de alimentación | La oficial para tu Pi. Un cargador de teléfono a menudo no basta, y la Pi te lo dirá con un icono de rayo. | 8–12 € |
 
 Total: **entre 60 y 120 €**, una sola vez. Los precios cambian; estos son los órdenes de magnitud vistos en los sitios de los fabricantes en octubre de 2026. Compra la antena al final: empieza con la que venga con el dispositivo, mira lo que oyes y luego decide.
 

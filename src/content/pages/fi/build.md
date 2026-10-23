@@ -3,7 +3,7 @@ title: "Rakenna vastaanotin"
 description: "Raspberry Pi, USB-radiotikku, antenni: osaluettelo hintoineen, minne antenni kannattaa sijoittaa ja ohjelmisto yhdellä komennolla."
 lang: fi
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Liity sitten yhteisöön"
@@ -16,11 +16,11 @@ Viisi asiaa, joista kolme sinulla saattaa jo olla.
 
 | Osa | Mitä etsiä | Noin |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ tai 4** on ihanteellinen: 1 Gt muistia riittää vastaanottimelle, syöttöohjelmille ja seinätaululle; tämä on mitattu tekijän Pi 3B:llä. **Zero 2 W** (512 Mt, listahinta 15 US$) pyörittää vastaanottimen ja seinätaulun, ilman lisäsyöttöohjelmia. | 15–60 € |
-| USB-radiotikku | **RTL-SDR**-tikku. RTL-SDR Blogin mallit ovat vertailukohta, noin 35–40 US$. ADS-B:tä varten tehty tikku, jossa on sisäänrakennettu 1090 MHz:n suodatin (esimerkiksi FlightAwaren Pro Stick), kuulee kaupungissa kauemmas. | 30–45 € |
-| Antenni | Pieni antenni, joka on viritetty taajuudelle **1090 MHz**. Joidenkin tikkujen mukana myytävä toimii ikkunalla; erillinen ADS-B-antenni, puoli metriä pitkä, kuulee paljon kauemmas katolla tai parvekkeella. | 10–40 € |
-| Micro-SD-kortti | 16 Gt tai enemmän, tunnetulta valmistajalta. | 8–12 € |
-| Virtalähde | Pisi virallinen virtalähde. Puhelimen laturi ei usein riitä, ja Pi kertoo sen sinulle salamakuvakkeella. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ tai 4** on ihanteellinen: 1 Gt muistia riittää vastaanottimelle, syöttöohjelmille ja seinätaululle; tämä on mitattu tekijän Pi 3B:llä. **Zero 2 W** (512 Mt, listahinta 15 US$) pyörittää vastaanottimen ja seinätaulun, ilman lisäsyöttöohjelmia. | 15–60 € |
+| ![](/img/part-stick.svg) USB-radiotikku | **RTL-SDR**-tikku. RTL-SDR Blogin mallit ovat vertailukohta, noin 35–40 US$. ADS-B:tä varten tehty tikku, jossa on sisäänrakennettu 1090 MHz:n suodatin (esimerkiksi FlightAwaren Pro Stick), kuulee kaupungissa kauemmas. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenni | Pieni antenni, joka on viritetty taajuudelle **1090 MHz**. Joidenkin tikkujen mukana myytävä toimii ikkunalla; erillinen ADS-B-antenni, puoli metriä pitkä, kuulee paljon kauemmas katolla tai parvekkeella. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD-kortti | 16 Gt tai enemmän, tunnetulta valmistajalta. | 8–12 € |
+| ![](/img/part-psu.svg) Virtalähde | Pisi virallinen virtalähde. Puhelimen laturi ei usein riitä, ja Pi kertoo sen sinulle salamakuvakkeella. | 8–12 € |
 
 Yhteensä: **noin 60–120 €**, kertaluonteisesti. Hinnat vaihtelevat; nämä ovat valmistajien sivuilla lokakuussa 2026 nähtyjä suuruusluokkia. Osta antenni viimeisenä: aloita sillä, mikä tulee tikun mukana, katso mitä kuulet, ja päätä sitten.
 

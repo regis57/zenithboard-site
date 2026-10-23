@@ -4,8 +4,9 @@
 // the only place consistent with all four arrival times is where the aircraft is. Drawn in the wall's amber on
 // black, lit dots for the receivers, currentColor so the page's colour applies. Run `npm run logos`.
 import { writeFileSync } from "node:fs";
+import * as D from "./dots.mjs";
 
-const W = 720, H = 420;
+const W = 720, H = 430;
 const plane = { x: 400, y: 120 };
 // four receivers, the little houses on the ground
 const rx = [ { x: 110, y: 350 }, { x: 290, y: 350 }, { x: 500, y: 350 }, { x: 640, y: 350 } ];
@@ -27,7 +28,8 @@ rx.forEach((p) => {
   // the receiver: a small house of dots, and a tick mark with its own number of ticks
   g += house(p.x, p.y);
   const us = Math.round(d / step * 100); // a made-up arrival time, in microseconds after the first
-  g += `<text x="${p.x}" y="${p.y + 44}" fill="currentColor" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" text-anchor="middle" opacity=".85">+${us} µs</text>`;
+  // big and bold, with a black edge so no ring crosses the figures (the first version, at 15 px, was unreadable once the page scaled it down)
+  g += `<text x="${p.x}" y="${p.y + 46}" fill="currentColor" stroke="#030303" stroke-width="6" paint-order="stroke" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="25" font-weight="700" text-anchor="middle">+${us} µs</text>`;
 });
 // the aircraft, in dots, at the one point the four rings share
 g += aircraft(plane.x, plane.y);
@@ -43,10 +45,7 @@ function house(x, y) {
   return `<circle cx="${x}" cy="${y}" r="30" fill="#030303"/>` + dots(pts, 2.6);
 }
 function aircraft(x, y) {
-  const rows = ["....#....", "....#....", "...###...", "..#####..", ".#######.", "#..###..#", "....#....", "...###...", "..#...#.."];
-  const pts = [];
-  rows.forEach((row, j) => [...row].forEach((c, i) => { if (c === "#") pts.push([x - 24 + i * 6, y - 24 + j * 6]); }));
-  return `<circle cx="${x}" cy="${y}" r="34" fill="#030303" stroke="currentColor" stroke-opacity=".6" stroke-width="1.5"/>` + dots(pts, 2.8);
+  return `<circle cx="${x}" cy="${y}" r="40" fill="#030303" stroke="currentColor" stroke-opacity=".6" stroke-width="1.5"/>` + D.drawAt(D.PLANE, x, y, 4.6, 2);
 }
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t">

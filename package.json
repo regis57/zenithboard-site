@@ -17,7 +17,7 @@
     "csp:check": "node tools/csp-check.mjs dist",
     "i18n:check": "node tools/i18n-check.mjs",
     "placeholders:check": "node tools/placeholders-check.mjs dist",
-    "logos": "node tools/make-logos.mjs && node tools/make-mlat.mjs",
+    "logos": "node tools/make-logos.mjs && node tools/make-mlat.mjs && node tools/make-figures.mjs",
     "test:e2e": "playwright test",
     "test": "npm run build && npm run check && npm run lint:html && npm run csp:check && npm run placeholders:check && npm run i18n:check && npm run test:e2e"
   },

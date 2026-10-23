@@ -14,15 +14,19 @@ next:
 
 ZenithBoard pārvērš Raspberry Pi un USB radio zibatmiņu par ADS-B uztvērēju, kas padod datus četriem tīkliem, un rāda lidmašīnas tieši virs tavas mājas uz veca planšetdatora kā izgaismotu punktu matricas zīmi vai lidostas pārkrītošo plākšņu tablo. Tā ir brīvā programmatūra, zem GPL, un tā katru dienu darbojas uz autora paša Pi 3B, ārā, caur Wi-Fi, Mozelē.
 
-![Punktu matricas tablo tirkīza krāsā: BAW357, British Airways A320neo, aviokompānijas nosaukums ritinās blakus reģistrācijas karogam, tad nākamā lidmašīna](/img/zb-wall.webp)
+![Punktu matricas tablo dzintara krāsā: Tunisair Airbus A320 ar diviem karogiem, lidmašīna, zīmēta punktos blakus tekstam, pēc tam nākamais lidojums](/img/zb-wall.webp)
 
 ## Tablo
 
 Tablo ir tīmekļa lapa, ko Pi piedāvā tavā mājas tīklā. Atver to uz jebkura planšetdatora vai ekrāna ar pārlūku, pievieno sākuma ekrānam, un tas paliek ieslēgts. Tas pārslēdzas cauri visām lidmašīnām tevis izvēlētajā rādiusā, no 1 līdz 50 km (vai jūdzēm): izsaukuma signāls, lidmašīnas tips, augstums, ātrums, no kurienes lidojums nāk un kurp dodas, attālums un virziens no tevis. Divi izskati: režģis no **128 reiz 80 punktiem**, kā veca stacijas zīme, vai **pārkrītošo plākšņu tablo**, kura burti pārkrīt, kad nāk nākamā lidmašīna. Piecas krāsas: dzintara, zaļa, sarkana, balta, tirkīza; viena vienlaikus, jo jēga ir izgaismota zīme, nevis kartes ekrānuzņēmums.
 
-![Pārkrītošo plākšņu izskats zaļā krāsā: burti pārkrīt no vienas lidmašīnas uz nākamo](/img/zb-flap-roll.webp)
+![Pārkrītošo plākšņu tablo sarkanā krāsā: burti pārkrīt no viena lidojuma uz nākamo](/img/zb-flap-roll.webp)
 
-![Tablo dzintara un tirkīza punktu matricā, un zaļās pārkrītošajās plāksnēs](/img/wall-three-colours.webp)
+![Tablo sešos izskatos: punktu matrica dzintara, tirkīza un baltā krāsā augšā; pārkrītošās plāksnes dzintara, zaļā un tirkīza krāsā apakšā](/img/wall-colours.webp)
+
+Neliels zobrats tablo stūrī atver tā iestatījumus: vienības, rādiusu, sekundes uz lidmašīnu, krāsu, izskatu un karogus. Tie tiek glabāti tikai uz šī planšetdatora, tāpēc katram ekrānam var būt savs izskats, un `zenithboard config` nosaka noklusējuma vērtības visiem tiem.
+
+![Paša tablo iestatījumu panelis virs pārkrītošo plākšņu tablo: vienības, rādiuss, sekundes uz lidmašīnu, krāsa, izskats un karogi](/img/wall-settings.webp)
 
 Blakus tekstam — lidmašīnas siluets, zīmēts punktos, divi mazi karogi (kur lidmašīna ir reģistrēta, kur tā ir būvēta) un, ja vēlies, tās foto no Planespotters, ar fotogrāfa vārdu. Ne aviokompānijas logo, ne ražotāja logo: tās ir aizsargātas zīmes, tāpēc to vietā stāv karogi. Maršruti un modeļi nāk no publiskiem uzmeklējumiem; tablo saka to, ko zina, un atstāj rindu tukšu, kad nezina.
 

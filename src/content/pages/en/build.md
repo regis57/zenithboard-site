@@ -3,7 +3,7 @@ title: "Build a receiver"
 description: "A Raspberry Pi, a USB radio stick, an antenna: the parts list with prices, where to put the antenna, and the software in one command."
 lang: en
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: true
 next:
   label: "Then join the community"
@@ -16,11 +16,11 @@ Five things, and you may already own three of them.
 
 | Part | What to look for | About |
 |---|---|---|
-| Raspberry Pi | A **3B, 3B+ or 4** is ideal: 1 GB of memory is enough for the receiver, the feeders and the wall, measured on the author's Pi 3B. A **Zero 2 W** (512 MB, listed at 15 US$) runs the receiver and the wall, without the extra feeders. | 15–60 € |
-| USB radio stick | An **RTL-SDR** dongle. The RTL-SDR Blog models are the reference, around 35–40 US$. A stick made for ADS-B, with a 1090 MHz filter built in (FlightAware's Pro Stick, for example), hears further in a city. | 30–45 € |
-| Antenna | A small antenna tuned to **1090 MHz**. The one sold with some sticks works at a window; a dedicated ADS-B antenna, half a metre long, hears much further on a roof or a balcony. | 10–40 € |
-| Micro-SD card | 16 GB or more, from a known brand. | 8–12 € |
-| Power supply | The official one for your Pi. A phone charger often is not enough and the Pi will tell you so with a lightning icon. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | A **3B, 3B+ or 4** is ideal: 1 GB of memory is enough for the receiver, the feeders and the wall, measured on the author's Pi 3B. A **Zero 2 W** (512 MB, listed at 15 US$) runs the receiver and the wall, without the extra feeders. | 15–60 € |
+| ![](/img/part-stick.svg) USB radio stick | An **RTL-SDR** dongle. The RTL-SDR Blog models are the reference, around 35–40 US$. A stick made for ADS-B, with a 1090 MHz filter built in (FlightAware's Pro Stick, for example), hears further in a city. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenna | A small antenna tuned to **1090 MHz**. The one sold with some sticks works at a window; a dedicated ADS-B antenna, half a metre long, hears much further on a roof or a balcony. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD card | 16 GB or more, from a known brand. | 8–12 € |
+| ![](/img/part-psu.svg) Power supply | The official one for your Pi. A phone charger often is not enough and the Pi will tell you so with a lightning icon. | 8–12 € |
 
 Total: **about 60 to 120 €**, once. Prices move; these are the orders of magnitude seen on the makers' sites in October 2026. Buy the antenna last: start with whatever comes with the stick, see what you hear, then decide.
 

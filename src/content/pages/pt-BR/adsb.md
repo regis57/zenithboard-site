@@ -3,7 +3,7 @@ title: "O que é ADS-B"
 description: "O sinal que todo avião de linha transmite, o que ele contém, por que qualquer pessoa pode recebê-lo, e o que ele não diz a você."
 lang: pt-BR
 page: adsb
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Monte o seu receptor"
@@ -12,6 +12,10 @@ next:
 
 ## Um avião que diz onde está
 
+![Um satélite diz à aeronave onde ela está; a aeronave envia a sua posição em todas as direções, em anéis que cada casa no solo, e outra aeronave, pode captar](/img/fig-adsb-broadcast.svg)
+
+![Uma mensagem carrega quatro coisas: quem é a aeronave, onde ela está, a que altura e a que velocidade; e ela é enviada de novo a cada segundo](/img/fig-adsb-message.svg)
+
 ADS-B significa *Automatic Dependent Surveillance – Broadcast* (vigilância dependente automática por difusão). Pegue as palavras uma de cada vez. *Automatic* (automática): a aeronave envia por conta própria, ninguém pede. *Dependent* (dependente): a posição vem da própria navegação por satélite da aeronave, não de um radar no solo. *Surveillance* (vigilância): é assim que o controle de tráfego aéreo acompanha a aeronave. *Broadcast* (difusão): é enviado para todos, não para um único ouvinte.
 
 Mais ou menos uma vez por segundo, a aeronave transmite uma mensagem curta em **1090 MHz**. A mensagem carrega a identidade dela (um endereço de 24 bits atribuído àquela célula, e em geral o indicativo do voo), a posição (latitude e longitude), a altitude, a velocidade e o rumo. Outras mensagens, enviadas de vez em quando, acrescentam a categoria da aeronave, a razão de subida ou descida e alguns indicadores.
@@ -19,6 +23,8 @@ Mais ou menos uma vez por segundo, a aeronave transmite uma mensagem curta em **
 Desde 2020, a maioria das aeronaves que voam em espaço aéreo controlado na Europa e nos Estados Unidos é obrigada a transmitir ADS-B. Os aviões de linha transmitem, os jatos executivos transmitem, muitas aeronaves leves transmitem. Algumas aeronaves militares e de Estado não transmitem, ou transmitem sem a posição.
 
 ## Por que você pode ouvir
+
+![Da antena a um pequeno pendrive de rádio, a um Raspberry Pi, a uma tela que mostra as aeronaves](/img/fig-adsb-chain.svg)
 
 As mensagens não são criptografadas nem assinadas. Isso é de propósito: a ideia toda é que cada aeronave e cada estação de solo ao redor possa ouvir todas as outras aeronaves. O formato é público, definido pelas normas que regem a aviação, e a frequência é a mesma no mundo inteiro.
 
@@ -32,6 +38,8 @@ Os Estados Unidos usam também uma segunda frequência, **978 MHz**, chamada UAT
 
 ## Até onde você ouve
 
+![O sinal viaja em linha reta enquanto a Terra se curva para longe: uma aeronave acima da linha de visada é ouvida, uma além do horizonte fica escondida, e uma antena mais alta enxerga mais longe](/img/fig-adsb-range.svg)
+
 O sinal viaja em linha reta, como a luz. Uma aeronave em altitude de cruzeiro é visível de muito longe, desde que nada fique entre ela e a sua antena. De uma janela virada para um morro você pode ouvir algumas dezenas de quilômetros; de um telhado com o horizonte livre, 250 km ou mais é comum, e as aeronaves na borda são as que estão a 11.000 metros. As aeronaves baixas perto de você ficam escondidas por cada prédio e cada árvore. O alcance depende da antena e da vista dela, não do computador.
 
 ## O que o ADS-B não diz a você
@@ -39,5 +47,7 @@ O sinal viaja em linha reta, como a luz. Uma aeronave em altitude de cruzeiro é
 A mensagem diz onde a aeronave está, não para onde ela vai. A origem, o destino, o nome da companhia aérea e a foto da aeronave vêm de outro lugar: de registros públicos e de bancos de dados que as redes de rastreamento e o ZenithBoard consultam pelo endereço da aeronave. O ADS-B também não diz nada sobre quem está a bordo, e nada sobre você: receber é passivo, o seu receptor não transmite nada.
 
 ## MLAT: ouvindo as que não dizem
+
+![Quatro receptores no chão ouvem a mesma mensagem em quatro instantes diferentes; ao redor de cada um, um círculo cujo tamanho é o seu tempo de chegada; os quatro círculos se cruzam em um único ponto, onde está a aeronave](/img/mlat.svg)
 
 Algumas aeronaves enviam a identidade mas não a posição (os transponders mais antigos fazem isso). Se quatro ou mais receptores ouvem a mesma mensagem, as pequenas diferenças no tempo de chegada dão a posição, do mesmo jeito que se localiza um raio pelo trovão. Isso se chama **MLAT**, *multilateration* (multilateração). O seu receptor sozinho não consegue fazer isso; ao alimentar uma rede, ele se torna um dos quatro. Essa é uma das razões reais para compartilhar.

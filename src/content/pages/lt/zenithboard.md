@@ -14,15 +14,19 @@ next:
 
 ZenithBoard paverčia Raspberry Pi ir USB radijo raktą ADS-B imtuvu, kuris siunčia duomenis keturiems tinklams ir rodo orlaivius tiesiai virš jūsų namų senoje planšetėje, kaip švytinčią taškinės matricos iškabą arba oro uosto perverčiamų plokštelių lentą. Tai laisva programinė įranga pagal GPL, ir ji kasdien veikia autoriaus paties Pi 3B, lauke, per Wi-Fi, Mozelyje.
 
-![Taškinės matricos siena turkio spalva: BAW357, British Airways A320neo, oro linijų pavadinimas slenka šalia registracijos vėliavos, tada kitas orlaivis](/img/zb-wall.webp)
+![Taškinės matricos siena gintaro spalva: Tunisair Airbus A320 su dviem vėliavomis, taškais nupieštas orlaivis šalia teksto, o paskui kitas skrydis](/img/zb-wall.webp)
 
 ## Siena
 
 Siena – tai tinklalapis, kurį Pi teikia jūsų namų tinkle. Atverkite jį bet kurioje planšetėje ar ekrane su naršykle, pridėkite į pradžios ekraną, ir jis lieka įjungtas. Jis pereina per kiekvieną orlaivį jūsų pasirinktame spindulyje, nuo 1 iki 50 km (arba mylių): šaukinys, orlaivio tipas, aukštis, greitis, iš kur ir kur skrenda skrydis, atstumas ir kryptis nuo jūsų. Dvi išvaizdos: **128 × 80 taškų** tinklelis, kaip sena stoties iškaba, arba **perverčiamų plokštelių lenta**, kurios raidės persiverčia, kai atskrenda kitas orlaivis. Penkios spalvos: gintarinė, žalia, raudona, balta, turkio; po vieną, nes esmė – švytinti iškaba, o ne žemėlapio ekrano kopija.
 
-![Perverčiamų plokštelių išvaizda žalia spalva: raidės verčiasi nuo vieno orlaivio prie kito](/img/zb-flap-roll.webp)
+![Perverčiamų plokštelių lenta raudona spalva: raidės persiverčia iš vieno skrydžio į kitą](/img/zb-flap-roll.webp)
 
-![Siena gintaro ir turkio spalvų taškine matrica ir žaliomis perverčiamomis plokštelėmis](/img/wall-three-colours.webp)
+![Siena šešiomis išvaizdomis: taškinė matrica gintaro, turkio ir balta viršuje; perverčiamų plokštelių lenta gintaro, žalia ir turkio apačioje](/img/wall-colours.webp)
+
+Mažas krumpliaratis sienos kampe atveria jos nustatymus: vienetus, spindulį, sekundes vienam orlaiviui, spalvą, išvaizdą ir vėliavas. Jie saugomi tik toje planšetėje, todėl kiekvienas ekranas gali turėti savo išvaizdą, o `zenithboard config` nustato numatytąsias visų jų reikšmes.
+
+![Paties sienos nustatymų skydelis virš perverčiamų plokštelių lentos: vienetai, spindulys, sekundės vienam orlaiviui, spalva, išvaizda ir vėliavos](/img/wall-settings.webp)
 
 Šalia teksto – taškais nupieštas orlaivio siluetas, dvi mažos vėliavos (kur orlaivis registruotas, kur pagamintas) ir, jei norite, jo nuotrauka iš Planespotters, su fotografo vardu. Jokio oro linijų logotipo, jokio gamintojo logotipo: tai saugomi ženklai, todėl vietoj jų – vėliavos. Maršrutai ir modeliai gaunami iš viešų užklausų; siena sako tai, ką žino, ir palieka eilutę tuščią, kai nežino.
 

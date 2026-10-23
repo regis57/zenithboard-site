@@ -3,7 +3,7 @@ title: "Bouw een ontvanger"
 description: "Een Raspberry Pi, een USB-radiostick, een antenne: de onderdelenlijst met prijzen, waar je de antenne zet, en de software in één opdracht."
 lang: nl
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Sluit je daarna aan bij de community"
@@ -16,11 +16,11 @@ Vijf dingen, en drie ervan heb je misschien al.
 
 | Onderdeel | Waar je op let | Ongeveer |
 |---|---|---|
-| Raspberry Pi | Een **3B, 3B+ of 4** is ideaal: 1 GB geheugen is genoeg voor de ontvanger, de feeders en de wall, gemeten op de Pi 3B van de auteur. Een **Zero 2 W** (512 MB, adviesprijs 15 US$) draait de ontvanger en de wall, zonder de extra feeders. | 15–60 € |
-| USB-radiostick | Een **RTL-SDR**-dongle. De modellen van RTL-SDR Blog zijn de referentie, rond de 35–40 US$. Een stick die voor ADS-B is gemaakt, met een ingebouwd 1090 MHz-filter (de Pro Stick van FlightAware, bijvoorbeeld), hoort verder in een stad. | 30–45 € |
-| Antenne | Een kleine antenne afgestemd op **1090 MHz**. De antenne die bij sommige sticks zit werkt aan een raam; een speciale ADS-B-antenne, een halve meter lang, hoort veel verder op een dak of een balkon. | 10–40 € |
-| Micro-SD-kaart | 16 GB of meer, van een bekend merk. | 8–12 € |
-| Voeding | De officiële voeding voor je Pi. Een telefoonlader is vaak niet genoeg en de Pi laat je dat weten met een bliksempictogram. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | Een **3B, 3B+ of 4** is ideaal: 1 GB geheugen is genoeg voor de ontvanger, de feeders en de wall, gemeten op de Pi 3B van de auteur. Een **Zero 2 W** (512 MB, adviesprijs 15 US$) draait de ontvanger en de wall, zonder de extra feeders. | 15–60 € |
+| ![](/img/part-stick.svg) USB-radiostick | Een **RTL-SDR**-dongle. De modellen van RTL-SDR Blog zijn de referentie, rond de 35–40 US$. Een stick die voor ADS-B is gemaakt, met een ingebouwd 1090 MHz-filter (de Pro Stick van FlightAware, bijvoorbeeld), hoort verder in een stad. | 30–45 € |
+| ![](/img/part-antenna.svg) Antenne | Een kleine antenne afgestemd op **1090 MHz**. De antenne die bij sommige sticks zit werkt aan een raam; een speciale ADS-B-antenne, een halve meter lang, hoort veel verder op een dak of een balkon. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD-kaart | 16 GB of meer, van een bekend merk. | 8–12 € |
+| ![](/img/part-psu.svg) Voeding | De officiële voeding voor je Pi. Een telefoonlader is vaak niet genoeg en de Pi laat je dat weten met een bliksempictogram. | 8–12 € |
 
 Totaal: **ongeveer 60 tot 120 €**, eenmalig. Prijzen schommelen; dit zijn de ordes van grootte die in oktober 2026 op de sites van de fabrikanten te zien waren. Koop de antenne als laatste: begin met wat er bij de stick zit, kijk wat je hoort, en beslis dan.
 

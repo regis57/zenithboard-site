@@ -3,7 +3,7 @@ title: "Uzbūvē uztvērēju"
 description: "Raspberry Pi, USB radio zibatmiņa, antena: detaļu saraksts ar cenām, kur likt antenu, un programmatūra ar vienu komandu."
 lang: lv
 page: build
-updated: 2026-10-22
+updated: 2026-10-23
 reviewed: false
 next:
   label: "Pēc tam pievienojies kopienai"
@@ -16,11 +16,11 @@ Piecas lietas, un trīs no tām tev, iespējams, jau ir.
 
 | Detaļa | Kam pievērst uzmanību | Apmēram |
 |---|---|---|
-| Raspberry Pi | **3B, 3B+ vai 4** ir ideāls: 1 GB atmiņas pietiek uztvērējam, padevējiem un tablo, izmērīts uz autora Pi 3B. **Zero 2 W** (512 MB, cenrādī 15 US$) darbina uztvērēju un tablo, bez papildu padevējiem. | 15–60 € |
-| USB radio zibatmiņa | **RTL-SDR** zibatmiņa. RTL-SDR Blog modeļi ir atskaites punkts, apmēram 35–40 US$. Zibatmiņa, kas radīta ADS-B, ar iebūvētu 1090 MHz filtru (piemēram, FlightAware Pro Stick), pilsētā dzird tālāk. | 30–45 € |
-| Antena | Maza antena, noskaņota uz **1090 MHz**. Tā, ko pārdod kopā ar dažām zibatmiņām, strādā pie loga; speciāla ADS-B antena, pusmetru gara, dzird daudz tālāk uz jumta vai balkona. | 10–40 € |
-| Micro-SD karte | 16 GB vai vairāk, no pazīstama zīmola. | 8–12 € |
-| Barošanas bloks | Oficiālais tavam Pi. Telefona lādētājs bieži nav pietiekams, un Pi tev to pateiks ar zibens ikonu. | 8–12 € |
+| ![](/img/part-pi.svg) Raspberry Pi | **3B, 3B+ vai 4** ir ideāls: 1 GB atmiņas pietiek uztvērējam, padevējiem un tablo, izmērīts uz autora Pi 3B. **Zero 2 W** (512 MB, cenrādī 15 US$) darbina uztvērēju un tablo, bez papildu padevējiem. | 15–60 € |
+| ![](/img/part-stick.svg) USB radio zibatmiņa | **RTL-SDR** zibatmiņa. RTL-SDR Blog modeļi ir atskaites punkts, apmēram 35–40 US$. Zibatmiņa, kas radīta ADS-B, ar iebūvētu 1090 MHz filtru (piemēram, FlightAware Pro Stick), pilsētā dzird tālāk. | 30–45 € |
+| ![](/img/part-antenna.svg) Antena | Maza antena, noskaņota uz **1090 MHz**. Tā, ko pārdod kopā ar dažām zibatmiņām, strādā pie loga; speciāla ADS-B antena, pusmetru gara, dzird daudz tālāk uz jumta vai balkona. | 10–40 € |
+| ![](/img/part-sdcard.svg) Micro-SD karte | 16 GB vai vairāk, no pazīstama zīmola. | 8–12 € |
+| ![](/img/part-psu.svg) Barošanas bloks | Oficiālais tavam Pi. Telefona lādētājs bieži nav pietiekams, un Pi tev to pateiks ar zibens ikonu. | 8–12 € |
 
 Kopā: **apmēram 60 līdz 120 €**, vienreiz. Cenas mainās; šīs ir aptuvenās summas, kas redzētas ražotāju vietnēs 2026. gada oktobrī. Antenu pērc pēdējo: sāc ar to, kas nāk komplektā ar zibatmiņu, paskaties, ko dzirdi, un tad izlem.
 

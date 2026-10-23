@@ -14,15 +14,19 @@ next:
 
 ZenithBoard muudab Raspberry Pi ja USB-raadiopulga ADS-B vastuvõtjaks, mis söödab nelja võrgustikku, ja näitab lennukeid otse sinu maja kohal vanal tahvelarvutil, helendava punktmaatrikstablooga või lennujaama klapptablooga. See on vaba tarkvara GPL-i all ja see jookseb iga päev autori enda Pi 3B peal, õues, Wi-Fi kaudu, Moselle'is.
 
-![Täppmaatriks-sein türkiisina: BAW357, British Airwaysi A320neo, lennufirma nimi keritakse registreerimistähise lipu kõrval, siis järgmine lennuk](/img/zb-wall.webp)
+![Punktmaatrikstabloona sein merevaigukollasena: Tunisair Airbus A320 oma kahe lipuga, lennuk täppidega joonistatud teksti kõrvale, seejärel järgmine lend](/img/zb-wall.webp)
 
 ## Sein
 
 Sein on veebileht, mida Pi sinu koduvõrgus serveerib. Ava see mis tahes brauseriga tahvelarvutil või ekraanil, lisa avakuvale, ja see jääb sisse. See käib läbi kõik lennukid sinu valitud raadiuses, 1 kuni 50 km (või miili): kutsung, lennukitüüp, kõrgus, kiirus, kust lend tuleb ja kuhu läheb, kaugus ja suund sinust. Kaks välimust: **128 korda 80 täpist** võrgustik, nagu vana jaamatabloo, või **klapptabloo**, mille tähed keerlevad ümber, kui järgmine lennuk tuleb. Viis värvi: merevaigukollane, roheline, punane, valge, türkiis; üks korraga, sest mõte on helendav tabloo, mitte kaardi ekraanipilt.
 
-![Klapptabloo välimus roheliselt: tähed klapivad ühelt lennukilt järgmisele](/img/zb-flap-roll.webp)
+![Klapptabloo punasena: tähed keerlevad ühelt lennult järgmisele](/img/zb-flap-roll.webp)
 
-![Sein merevaigukollase ja türkiisi täppmaatriksina ning rohelise klapptabloona](/img/wall-three-colours.webp)
+![Sein kuues välimuses: ülal punktmaatriks merevaigukollasena, türkiisina ja valgena; all klapptabloo merevaigukollasena, rohelisena ja türkiisina](/img/wall-colours.webp)
+
+Väike hammasratas seina nurgas avab selle seaded: ühikud, raadius, sekundid lennuki kohta, värv, välimus ja lipud. Need jäävad ainult sellesse tahvelarvutisse, nii et igal ekraanil võib olla oma välimus, ja `zenithboard config` määrab vaikeväärtused neile kõigile.
+
+![Seina enda seadete paneel klapptabloo kohal: ühikud, raadius, sekundid lennuki kohta, värv, välimus ja lipud](/img/wall-settings.webp)
 
 Teksti kõrval on täppidest joonistatud lennuki siluett, kaks väikest lippu (kus lennuk on registreeritud, kus see on ehitatud) ja soovi korral selle foto Planespottersist koos fotograafi nimega. Ei lennufirma logo ega tootja logo: need on kaitstud kaubamärgid, nii et nende asemel on lipud. Marsruudid ja mudelid tulevad avalikest päringutest; sein ütleb, mida ta teab, ja jätab rea tühjaks, kui ei tea.
 

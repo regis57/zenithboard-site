@@ -113,6 +113,16 @@ h1.title { font-size: 20px; }
 .prose th { font: 600 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); border-top: 0; }
 .prose td:last-child { font-family: var(--mono); font-size: 13px; }
 .prose img { max-width: 100%; height: auto; border: 1px solid var(--line2); border-radius: 6px; display: block; background: #000; }
+/* The wordless pictures (23 October 2026): on a wide screen they sit in the empty right-hand column beside
+   their section, on a phone they are an ordinary block. The part icons in the Build table are small and inline. */
+.prose img[src*="/img/part-"] { display: inline-block; width: 56px; height: 56px; vertical-align: middle; margin-inline-end: 12px; border-radius: 8px; }
+@media (min-width: 1000px) {
+  .prose { max-width: none; }
+  .prose > :where(p, ul, ol, h2, h3, blockquote, table, hr) { max-width: 72ch; }
+  .prose > p:has(> img[src*="/img/fig-"]) { float: right; clear: right; width: 340px; max-width: 340px; margin: 4px 0 14px 28px; }
+  [dir="rtl"] .prose > p:has(> img[src*="/img/fig-"]) { float: left; clear: left; margin: 4px 28px 14px 0; }
+  .prose h2 { clear: both; }
+}
 .prose strong { color: #fff; }
 .prose kbd { font: 12px var(--mono); border: 1px solid var(--line2); border-radius: 4px; padding: 1px 5px; color: var(--ink); background: #000; }
 
