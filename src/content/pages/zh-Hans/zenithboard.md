@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **1.0 候选版本。** 自 2026 年 10 月 25 日起，0.99 版已冻结：一个月内只合入修复，作者的 Pi 保持不动地运行。如果没有遗留问题，1.0 最早将于 2026 年 11 月 25 日发布。现在试用就是帮忙：欢迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上反馈。
+
 ## 一句话概括
 
 ZenithBoard 把一块 Raspberry Pi 和一个 USB 无线电接收棒变成一台向四个网络馈送数据的 ADS-B 接收器，并把正飞过你家上空的飞机显示在一块旧平板上，样子像一块发光的点阵标牌或机场翻页牌。它是 GPL 许可下的自由软件，每天都在作者自己的 Pi 3B 上运行：放在室外，用 Wi-Fi，在摩泽尔。

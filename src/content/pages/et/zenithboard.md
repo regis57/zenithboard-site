@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Väljalaskekandidaat versioonile 1.0.** Alates 25. oktoobrist 2026 on versioon 0.99 külmutatud: kuu aja jooksul lisatakse ainult parandusi, samal ajal kui autori Pi töötab puutumata. Kui midagi lahtiseks ei jää, tuleb 1.0 kõige varem 25. novembril 2026. Proovimine praegu aitab: tagasiside [GitHubis](https://github.com/regis57/ZenithBoard/issues) on teretulnud.
+
 ## Ühe lausega
 
 ZenithBoard muudab Raspberry Pi ja USB-raadiopulga ADS-B vastuvõtjaks, mis söödab nelja võrgustikku, ja näitab lennukeid otse sinu maja kohal vanal tahvelarvutil, helendava punktmaatrikstablooga või lennujaama klapptablooga. See on vaba tarkvara GPL-i all ja see jookseb iga päev autori enda Pi 3B peal, õues, Wi-Fi kaudu, Moselle'is.

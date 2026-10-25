@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Julkaisuehdokas versiolle 1.0.** Versio 0.99 on jäädytetty 25. lokakuuta 2026 alkaen: kuukauden ajan siihen tulee vain korjauksia, kun tekijän Pi pyörii koskemattomana. Jos mitään ei jää auki, 1.0 julkaistaan aikaisintaan 25. marraskuuta 2026. Kokeileminen nyt auttaa: palaute [GitHubissa](https://github.com/regis57/ZenithBoard/issues) on tervetullut.
+
 ## Yhdellä lauseella
 
 ZenithBoard muuttaa Raspberry Pin ja USB-radiotikun ADS-B-vastaanottimeksi, joka syöttää neljää verkostoa ja näyttää suoraan talosi yllä lentävät koneet vanhalla tabletilla, valaistuna pistematriisikylttinä tai lentokentän läppätauluna. Se on vapaa ohjelmisto GPL-lisenssillä, ja se pyörii joka päivä tekijän omalla Pi 3B:llä, ulkona, Wi-Fin varassa, Mosellessa.

@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **1.0 versijos kandidatė.** Nuo 2026 m. spalio 25 d. 0.99 versija užšaldyta: mėnesį į ją patenka tik pataisymai, o autoriaus Pi veikia jo neliečiant. Jei niekas neliks atvira, 1.0 pasirodys ne anksčiau kaip 2026 m. lapkričio 25 d. Išbandyti ją dabar padeda: pranešimas [GitHub](https://github.com/regis57/ZenithBoard/issues) laukiamas.
+
 ## Vienu sakiniu
 
 ZenithBoard paverčia Raspberry Pi ir USB radijo raktą ADS-B imtuvu, kuris siunčia duomenis keturiems tinklams ir rodo orlaivius tiesiai virš jūsų namų senoje planšetėje, kaip švytinčią taškinės matricos iškabą arba oro uosto perverčiamų plokštelių lentą. Tai laisva programinė įranga pagal GPL, ir ji kasdien veikia autoriaus paties Pi 3B, lauke, per Wi-Fi, Mozelyje.

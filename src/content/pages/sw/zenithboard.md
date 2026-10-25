@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Toleo tarajiwa la 1.0.** Tangu tarehe 25 Oktoba 2026, toleo la 0.99 limegandishwa: kwa mwezi mmoja ni marekebisho pekee yanayoingia, huku Pi ya mwandishi ikiendelea bila kuguswa. Ikiwa hakuna kinachobaki wazi, 1.0 itafuata tarehe 25 Novemba 2026 mapema kabisa. Kulijaribu sasa kunasaidia: ripoti kwenye [GitHub](https://github.com/regis57/ZenithBoard/issues) inakaribishwa.
+
 ## Kwa sentensi moja
 
 ZenithBoard inageuza Raspberry Pi na kijiti cha redio cha USB kuwa kipokezi cha ADS-B kinacholisha mitandao minne, na inaonyesha ndege zilizo juu kabisa ya nyumba yako kwenye kompyuta kibao ya zamani, kama bango la nukta zinazong'aa au ubao wa herufi zinazogeuka wa uwanja wa ndege. Ni programu huru, chini ya GPL, na inaendeshwa kila siku kwenye Pi 3B ya mwandishi mwenyewe, nje, kwa Wi-Fi, huko Moselle.
