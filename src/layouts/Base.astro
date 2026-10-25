@@ -21,7 +21,7 @@ const canonical = new URL(here, SITE).href;
 const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
 ---
 <!doctype html>
-<html lang={lang} dir={L.dir}>
+<html lang={lang} dir={L.dir} data-copy-label={t.copy} data-copied-label={t.copied}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -106,5 +106,6 @@ const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
         </p>
       </div>
     </footer>
+    <script is:inline defer src="/js/copy-code.js"></script>
   </body>
 </html>

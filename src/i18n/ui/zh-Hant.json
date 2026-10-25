@@ -38,5 +38,7 @@
   "footer_text": "文字採用 CC BY-SA 4.0，程式碼採用 GPL-3.0-or-later。沒有 cookie、沒有追蹤器、沒有第三方請求。",
   "footer_source": "本網站的原始碼",
   "footer_project": "GitHub 上的 ZenithBoard",
-  "contents": "本頁內容"
+  "contents": "本頁內容",
+  "copy": "複製",
+  "copied": "已複製"
 }

@@ -38,5 +38,7 @@
   "footer_text": "Texte sous CC BY-SA 4.0, code sous GPL-3.0-or-later. Pas de cookie, pas de traceur, aucune requête vers un tiers.",
   "footer_source": "Source de ce site",
   "footer_project": "ZenithBoard sur GitHub",
-  "contents": "Sur cette page"
+  "contents": "Sur cette page",
+  "copy": "Copier",
+  "copied": "Copié"
 }

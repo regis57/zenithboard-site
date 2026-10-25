@@ -38,5 +38,7 @@
   "footer_text": "Tekst CC BY-SA 4.0 all, kood GPL-3.0-or-later all. Ei küpsiseid, ei jälgijaid, ei kolmandate osapoolte päringuid.",
   "footer_source": "Selle saidi lähtekood",
   "footer_project": "ZenithBoard GitHubis",
-  "contents": "Sellel lehel"
+  "contents": "Sellel lehel",
+  "copy": "Kopeeri",
+  "copied": "Kopeeritud"
 }
