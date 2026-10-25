@@ -3,6 +3,15 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-25 — Hindi, the site's twenty-second language
+
+- **Hindi (हिन्दी)**, with India's flag, placed after Swahili as in ZenithBoard 0.55.0's console: the seven pages and
+  the interface, `reviewed: false` until a native speaker has read them. The console's own Hindi words are reused
+  for the same things (वॉल, रिसीवर, कंसोल, the five colours).
+- *About* and *ZenithBoard* said twenty-one languages: twenty-two now, in every language, with the *About* heading.
+- `CLAUDE.md`: the owner's standing rules for a session, among them that every change goes into every language and
+  that the site follows ZenithBoard's languages. The README says how a language is added.
+
 ## 2026-10-25 — A copy button on every code block
 
 - Each code block (the commands on "Build a receiver" and wherever else one appears) has a copy button at its top

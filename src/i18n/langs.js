@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-// The site's languages: the same twenty as ZenithBoard's web pages (its flightinfo/static/i18n.js), in the same
+// The site's languages: the same twenty-two as ZenithBoard's web pages (its flightinfo/static/i18n.js), in the same
 // order, with the same flags. English is the default and lives at the root; every other language under /xx/.
-// Swahili is offered since ZenithBoard 0.53.1 (the owner, 22 October 2026); `draft: true` on a language holds it back.
+// Swahili is offered since ZenithBoard 0.53.1 (the owner, 22 October 2026), Hindi since 0.55.0 (25 October 2026);
+// `draft: true` on a language holds it back.
 // Plain JavaScript on purpose: astro.config.mjs and the tools/ scripts import it as well as the pages.
 
 export const SITE = "https://zenithboard.app";
@@ -24,6 +25,7 @@ export const LANGS = [
   { code: "lt", name: "Lietuvių", flags: ["LT"], dir: "ltr" },
   { code: "id", name: "Bahasa Indonesia", flags: ["ID"], dir: "ltr" },
   { code: "sw", name: "Kiswahili", flags: ["@africa"], dir: "ltr" },
+  { code: "hi", name: "हिन्दी", flags: ["IN"], dir: "ltr" },
   { code: "ru", name: "Русский", flags: ["RU"], dir: "ltr" },
   { code: "uk", name: "Українська", flags: ["UA"], dir: "ltr" },
   { code: "ar", name: "العربية", flags: ["@arabic"], dir: "rtl" },

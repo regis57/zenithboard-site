@@ -32,7 +32,8 @@ only source of truth and GitHub is the only place anyone signs in.
   `draft`, `next`. A malformed file fails the build; the old site stays online.
 - The interface strings (navigation, footer, pickers) in `src/i18n/ui/<lang>.json`; English is the reference.
 - The languages, their names, flags and direction in `src/i18n/langs.js`, in ZenithBoard's order. A language
-  with `draft: true` is translated but not built (Swahili was, until ZenithBoard 0.53.1 offered it).
+  with `draft: true` is translated but not built (Swahili was, until ZenithBoard 0.53.1 offered it). Hindi joined
+  with ZenithBoard 0.55.0, placed after Swahili as in the console.
 - `tools/i18n-check.mjs` enforces completeness (error) and reports staleness and unreviewed pages (warning).
 
 ## Rendering

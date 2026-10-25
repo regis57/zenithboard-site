@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Punktu tablo vai lidostas pārkrītošo plākšņu tablo uz veca planšetdatora, tīmekļa konsole, ieraksti Bluesky. Bezmaksas, atvērts, viena izvēlne visam."
 lang: lv
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Uzinstalē to: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ Uztvērēja pastiprinājumu var regulēt no izvēlnes vai konsoles, pa vienam so
 
 ## Konsole
 
-Kopš versijas 0.39, `http://<the Pi>:8080/console` rāda iestatījumus tablo izskatā: Pi pārskatu (darbības laiks, temperatūra, atmiņa, katrs serviss), tablo, uztvērēju, Bluesky, sargsuņus, atjauninājumus. Viena sadaļa vienlaikus, sānjosla datorā, cilnes telefonā. Katra izmaiņa izpilda to pašu komandu, ko izpildītu izvēlne, un rāda tev, ko tā izdrukāja. Konsole ir divdesmit vienā valodā; šī vietne izmanto to pašu sarakstu un tos pašus karogus.
+Kopš versijas 0.39, `http://<the Pi>:8080/console` rāda iestatījumus tablo izskatā: Pi pārskatu (darbības laiks, temperatūra, atmiņa, katrs serviss), tablo, uztvērēju, Bluesky, sargsuņus, atjauninājumus. Viena sadaļa vienlaikus, sānjosla datorā, cilnes telefonā. Katra izmaiņa izpilda to pašu komandu, ko izpildītu izvēlne, un rāda tev, ko tā izdrukāja. Konsole ir divdesmit divās valodās; šī vietne izmanto to pašu sarakstu un tos pašus karogus.
 
 ![Airbus Beluga uz pārkrītošo plākšņu tablo](/img/wall-beluga-flap.webp)
 

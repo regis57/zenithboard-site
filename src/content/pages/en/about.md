@@ -3,7 +3,7 @@ title: "About & support"
 description: "Who makes ZenithBoard and this site, under which licences, with what respect for you, and how to say thank you."
 lang: en
 page: about
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: true
 next:
   label: "Build your receiver"
@@ -26,9 +26,9 @@ ZenithBoard's code is under the **GNU General Public License, version 3 or later
 
 The wall and the posts never give a receiver's position away. No airline logo and no manufacturer logo is drawn, in dots or otherwise: these are protected marks, and a dotted copy is still a copy, so country flags stand in for them. Photos of aircraft are shown as their photographers published them, with their name and a link, and never copied or posted elsewhere. This site sets no cookie, runs no analytics, loads nothing from a third party; the colour you choose at the bottom of the page is kept in your browser alone.
 
-## Twenty-one languages
+## Twenty-two languages
 
-ZenithBoard's web pages and this site exist in twenty-one languages, because the sky is the same everywhere and a receiver in Jakarta or Riga is as welcome as one in Lyon. English and French are written by the author; the other languages were translated with care and are being reviewed by native speakers. If you find a sentence that reads wrong in your language, the repository takes corrections gladly: every page is a plain text file.
+ZenithBoard's web pages and this site exist in twenty-two languages, because the sky is the same everywhere and a receiver in Jakarta or Riga is as welcome as one in Lyon. English and French are written by the author; the other languages were translated with care and are being reviewed by native speakers. If you find a sentence that reads wrong in your language, the repository takes corrections gladly: every page is a plain text file.
 
 ## Say thank you
 

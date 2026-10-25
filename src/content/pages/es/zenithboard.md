@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "El panel de puntos o el panel de letras giratorias de aeropuerto en una tableta vieja, la consola web, las publicaciones en Bluesky. Libre, abierto, un menú lo instala todo."
 lang: es
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Instálalo: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ La ganancia del receptor se puede ajustar desde el menú o la consola, un paso c
 
 ## La consola
 
-Desde la versión 0.39, `http://<the Pi>:8080/console` muestra la configuración con el estilo del panel: una visión general de la Pi (tiempo encendida, temperatura, memoria, cada servicio), el panel, el receptor, Bluesky, los vigilantes, las actualizaciones. Una sección a la vez, una barra lateral en un ordenador, pestañas en un teléfono. Cada cambio ejecuta el mismo comando que ejecutaría el menú, y te muestra lo que imprimió. La consola está en veintiún idiomas; este sitio usa la misma lista y las mismas banderas.
+Desde la versión 0.39, `http://<the Pi>:8080/console` muestra la configuración con el estilo del panel: una visión general de la Pi (tiempo encendida, temperatura, memoria, cada servicio), el panel, el receptor, Bluesky, los vigilantes, las actualizaciones. Una sección a la vez, una barra lateral en un ordenador, pestañas en un teléfono. Cada cambio ejecuta el mismo comando que ejecutaría el menú, y te muestra lo que imprimió. La consola está en veintidós idiomas; este sitio usa la misma lista y las mismas banderas.
 
 ![Un Airbus Beluga en el panel de letras giratorias](/img/wall-beluga-flap.webp)
 

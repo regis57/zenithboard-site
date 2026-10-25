@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Die Wand aus Punkten oder die Fallblattanzeige vom Flughafen auf einem alten Tablet, die Web-Konsole, die Posts auf Bluesky. Kostenlos, offen, ein Menü für alles."
 lang: de
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Installieren: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ Die Verstärkung des Empfängers lässt sich über das Menü oder die Konsole ei
 
 ## Die Konsole
 
-Seit Version 0.39 zeigt `http://<the Pi>:8080/console` die Einstellungen im Look der Wand: eine Übersicht des Pi (Laufzeit, Temperatur, Speicher, jeder Dienst), die Wand, der Empfänger, Bluesky, die Watchdogs, Updates. Ein Bereich auf einmal, eine Seitenleiste am Computer, Reiter auf dem Handy. Jede Änderung führt denselben Befehl aus, den auch das Menü ausführen würde, und zeigt Ihnen, was er ausgegeben hat. Die Konsole gibt es in einundzwanzig Sprachen; diese Website nutzt dieselbe Liste und dieselben Flaggen.
+Seit Version 0.39 zeigt `http://<the Pi>:8080/console` die Einstellungen im Look der Wand: eine Übersicht des Pi (Laufzeit, Temperatur, Speicher, jeder Dienst), die Wand, der Empfänger, Bluesky, die Watchdogs, Updates. Ein Bereich auf einmal, eine Seitenleiste am Computer, Reiter auf dem Handy. Jede Änderung führt denselben Befehl aus, den auch das Menü ausführen würde, und zeigt Ihnen, was er ausgegeben hat. Die Konsole gibt es in zweiundzwanzig Sprachen; diese Website nutzt dieselbe Liste und dieselben Flaggen.
 
 ![Ein Airbus Beluga auf der Fallblatt-Anzeige](/img/wall-beluga-flap.webp)
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // The wordless pictures of the ADS-B and Build pages, drawn like the MLAT one (make-mlat.mjs): amber dots on
-// black, no text, so none of the twenty-one languages has anything to translate but the alt text. Run `npm run logos`.
+// black, no text, so none of the languages has anything to translate but the alt text. Run `npm run logos`.
 import { writeFileSync } from "node:fs";
 import * as D from "./dots.mjs";
 
