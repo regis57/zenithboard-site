@@ -38,5 +38,7 @@
   "footer_text": "Текст под CC BY-SA 4.0, код под GPL-3.0-or-later. Без cookie, без трекеров, без запросов к третьим сторонам.",
   "footer_source": "Исходный код сайта",
   "footer_project": "ZenithBoard на GitHub",
-  "contents": "На этой странице"
+  "contents": "На этой странице",
+  "copy": "Копировать",
+  "copied": "Скопировано"
 }

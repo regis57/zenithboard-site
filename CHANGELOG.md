@@ -3,6 +3,17 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-25 — A copy button on every code block
+
+- Each code block (the commands on "Build a receiver" and wherever else one appears) has a copy button at its top
+  right, as on GitHub: one click puts the commands on the clipboard and the icon becomes a tick for two seconds.
+  Plain script from the site itself (`public/js/copy-code.js`), no inline code, no third party, so the
+  Content-Security-Policy is unchanged. The colour follows the chosen theme.
+- Two new interface strings, "Copy" and "Copied", translated into all 21 languages in the same commit
+  (`copy`, `copied` in `src/i18n/ui/*.json`, carried to the script by `data-copy-label` and `data-copied-label` on `<html>`).
+- New test `tests/copy.spec.ts`: in every language, on a computer and a phone, the button is on each block, labelled
+  in the page's language, and really puts the block's text on the clipboard.
+
 ## 2026-10-23 — Pictures without words, the wall from the owner's own recording
 
 - The MLAT picture: the arrival times are now 25 px bold with a black edge (they were 15 px and unreadable once

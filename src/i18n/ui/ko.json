@@ -38,5 +38,7 @@
   "footer_text": "글은 CC BY-SA 4.0, 코드는 GPL-3.0-or-later. 쿠키 없음, 추적기 없음, 제3자 요청 없음.",
   "footer_source": "이 사이트의 소스",
   "footer_project": "GitHub의 ZenithBoard",
-  "contents": "이 페이지에서"
+  "contents": "이 페이지에서",
+  "copy": "복사",
+  "copied": "복사됨"
 }

@@ -38,5 +38,7 @@
   "footer_text": "Teksts zem CC BY-SA 4.0, kods zem GPL-3.0-or-later. Bez sīkdatnēm, bez izsekotājiem, bez trešo pušu pieprasījumiem.",
   "footer_source": "Šīs vietnes avots",
   "footer_project": "ZenithBoard GitHub",
-  "contents": "Šajā lapā"
+  "contents": "Šajā lapā",
+  "copy": "Kopēt",
+  "copied": "Nokopēts"
 }

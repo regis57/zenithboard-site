@@ -38,5 +38,7 @@
   "footer_text": "Teksti lisenssillä CC BY-SA 4.0, koodi lisenssillä GPL-3.0-or-later. Ei evästeitä, ei seurantaa, ei kolmannen osapuolen pyyntöjä.",
   "footer_source": "Tämän sivuston lähdekoodi",
   "footer_project": "ZenithBoard GitHubissa",
-  "contents": "Tällä sivulla"
+  "contents": "Tällä sivulla",
+  "copy": "Kopioi",
+  "copied": "Kopioitu"
 }

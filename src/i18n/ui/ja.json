@@ -38,5 +38,7 @@
   "footer_text": "文章はCC BY-SA 4.0、コードはGPL-3.0-or-laterの下にあります。Cookieなし、トラッカーなし、第三者への通信なし。",
   "footer_source": "このサイトのソース",
   "footer_project": "GitHubのZenithBoard",
-  "contents": "このページの内容"
+  "contents": "このページの内容",
+  "copy": "コピー",
+  "copied": "コピーしました"
 }
