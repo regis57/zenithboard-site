@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Täppidest sein või lennujaama klapptabloo vanal tahvelarvutil, veebikonsool, postitused Bluesky's. Tasuta, avatud, üks menüü paigaldab kõik."
 lang: et
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Paigalda see: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ Vastuvõtja võimendust saab häälestada menüüst või konsoolist, samm-sammul
 
 ## Konsool
 
-Alates versioonist 0.39 näitab `http://<the Pi>:8080/console` seadeid seina välimuses: ülevaade Pi-st (tööaeg, temperatuur, mälu, iga teenus), sein, vastuvõtja, Bluesky, valvurid, uuendused. Üks jaotis korraga, külgriba arvutis, vahekaardid telefonis. Iga muudatus käivitab sama käsu, mida menüü käivitaks, ja näitab sulle, mida see trükkis. Konsool on kahekümne ühes keeles; see sait kasutab sama nimekirja ja samu lippe.
+Alates versioonist 0.39 näitab `http://<the Pi>:8080/console` seadeid seina välimuses: ülevaade Pi-st (tööaeg, temperatuur, mälu, iga teenus), sein, vastuvõtja, Bluesky, valvurid, uuendused. Üks jaotis korraga, külgriba arvutis, vahekaardid telefonis. Iga muudatus käivitab sama käsu, mida menüü käivitaks, ja näitab sulle, mida see trükkis. Konsool on kahekümne kahes keeles; see sait kasutab sama nimekirja ja samu lippe.
 
 ![Airbus Beluga klapptablool](/img/wall-beluga-flap.webp)
 

@@ -3,7 +3,7 @@ title: "À propos & soutien"
 description: "Qui fait ZenithBoard et ce site, sous quelles licences, avec quel respect pour vous, et comment dire merci."
 lang: fr
 page: about
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Construisez votre récepteur"
@@ -26,9 +26,9 @@ Le code de ZenithBoard est sous **GNU General Public License, version 3 ou ulté
 
 Le mur et les publications ne révèlent jamais la position d'un récepteur. Aucun logo de compagnie ni de constructeur n'est dessiné, en points ou autrement : ce sont des marques protégées, et une copie en points reste une copie, alors les drapeaux des pays les remplacent. Les photos d'avions sont affichées telles que leurs photographes les ont publiées, avec leur nom et un lien, et jamais copiées ni publiées ailleurs. Ce site ne pose aucun cookie, n'a aucune mesure d'audience, ne charge rien d'un tiers ; la couleur que vous choisissez en bas de la page est conservée dans votre navigateur seulement.
 
-## Vingt et une langues
+## Vingt-deux langues
 
-Les pages web de ZenithBoard et ce site existent en vingt et une langues, parce que le ciel est le même partout et qu'un récepteur à Jakarta ou à Riga est aussi bienvenu qu'un récepteur à Lyon. L'anglais et le français sont écrits par l'auteur ; les autres langues ont été traduites avec soin et sont en cours de relecture par des locuteurs natifs. Si vous trouvez une phrase qui sonne faux dans votre langue, le dépôt accueille volontiers les corrections : chaque page est un simple fichier texte.
+Les pages web de ZenithBoard et ce site existent en vingt-deux langues, parce que le ciel est le même partout et qu'un récepteur à Jakarta ou à Riga est aussi bienvenu qu'un récepteur à Lyon. L'anglais et le français sont écrits par l'auteur ; les autres langues ont été traduites avec soin et sont en cours de relecture par des locuteurs natifs. Si vous trouvez une phrase qui sonne faux dans votre langue, le dépôt accueille volontiers les corrections : chaque page est un simple fichier texte.
 
 ## Dire merci
 

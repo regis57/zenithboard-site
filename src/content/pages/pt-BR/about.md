@@ -3,7 +3,7 @@ title: "Sobre & apoio"
 description: "Quem faz o ZenithBoard e este site, sob quais licenças, com que respeito por você, e como dizer obrigado."
 lang: pt-BR
 page: about
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Monte o seu receptor"
@@ -26,9 +26,9 @@ O código do ZenithBoard está sob a **GNU General Public License, versão 3 ou 
 
 O painel e as publicações nunca revelam a posição de um receptor. Nenhum logotipo de companhia aérea nem de fabricante é desenhado, em pontos ou de outro jeito: são marcas protegidas, e uma cópia em pontos ainda é uma cópia, então as bandeiras dos países ficam no lugar deles. As fotos de aeronaves são mostradas como os seus fotógrafos as publicaram, com o nome deles e um link, e nunca copiadas ou publicadas em outro lugar. Este site não grava nenhum cookie, não roda nenhuma ferramenta de análise, não carrega nada de terceiros; a cor que você escolhe no fim da página fica guardada só no seu navegador.
 
-## Vinte e um idiomas
+## Vinte e dois idiomas
 
-As páginas web do ZenithBoard e este site existem em vinte e um idiomas, porque o céu é o mesmo em todo lugar e um receptor em Jacarta ou em Riga é tão bem-vindo quanto um em Lyon. O inglês e o francês são escritos pelo autor; os outros idiomas foram traduzidos com cuidado e estão sendo revisados por falantes nativos. Se você encontrar uma frase que soa errada no seu idioma, o repositório aceita correções de bom grado: cada página é um simples arquivo de texto.
+As páginas web do ZenithBoard e este site existem em vinte e dois idiomas, porque o céu é o mesmo em todo lugar e um receptor em Jacarta ou em Riga é tão bem-vindo quanto um em Lyon. O inglês e o francês são escritos pelo autor; os outros idiomas foram traduzidos com cuidado e estão sendo revisados por falantes nativos. Se você encontrar uma frase que soa errada no seu idioma, o repositório aceita correções de bom grado: cada página é um simples arquivo de texto.
 
 ## Diga obrigado
 

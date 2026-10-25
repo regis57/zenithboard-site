@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "The wall of dots or the airport split-flap board on an old tablet, the web console, the posts on Bluesky. Free, open, one menu to install it all."
 lang: en
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: true
 next:
   label: "Install it: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ The receiver's gain can be tuned from the menu or the console, one step at a tim
 
 ## The console
 
-Since version 0.39, `http://<the Pi>:8080/console` shows the settings in the wall's look: an overview of the Pi (uptime, temperature, memory, each service), the wall, the receiver, Bluesky, the watchdogs, updates. One section at a time, a side bar on a computer, tabs on a phone. Each change runs the same command the menu would, and shows you what it printed. The console is in twenty-one languages; this site uses the same list and the same flags.
+Since version 0.39, `http://<the Pi>:8080/console` shows the settings in the wall's look: an overview of the Pi (uptime, temperature, memory, each service), the wall, the receiver, Bluesky, the watchdogs, updates. One section at a time, a side bar on a computer, tabs on a phone. Each change runs the same command the menu would, and shows you what it printed. The console is in twenty-two languages; this site uses the same list and the same flags.
 
 ![An Airbus Beluga on the split-flap board](/img/wall-beluga-flap.webp)
 

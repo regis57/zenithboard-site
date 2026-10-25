@@ -5,7 +5,7 @@
 [![Text: CC BY-SA 4.0](https://img.shields.io/badge/text-CC_BY--SA_4.0-blue.svg)](LICENSE-CONTENT)
 
 The site of [ZenithBoard](https://github.com/regis57/ZenithBoard): what ADS-B is, how to build a receiver with a
-Raspberry Pi, how to join the networks that share the sky, and what ZenithBoard does. Twenty-one languages, one static
+Raspberry Pi, how to join the networks that share the sky, and what ZenithBoard does. Twenty-two languages, one static
 site, nothing running on a server, no cookie, no tracker, no third-party request.
 
 **The sky above you, decoded by you, shared with the world.**
@@ -54,7 +54,7 @@ next:                             # the one concrete next step at the end of the
 A malformed front matter fails the build and the old site stays online, so a typo there cannot take the site
 down; Cloudflare emails the failure.
 
-### The twenty-one languages
+### The twenty-two languages
 
 The owner's rule: no untranslated string. English (`en`, at the root) is the reference; every other language has
 the same seven pages and the same interface keys. `npm run i18n:check` tells you where things stand:
@@ -67,6 +67,12 @@ the same seven pages and the same interface keys. `npm run i18n:check` tells you
 
 A language with `draft: true` in `src/i18n/langs.js` is translated but not published: not built, not in the
 picker, not in the sitemap. Swahili was held that way until ZenithBoard 0.53.1 offered it (22 October 2026).
+
+**The site follows ZenithBoard's languages.** When ZenithBoard's web pages gain a language (Hindi in 0.55.0,
+25 October 2026), the site gains it in the same order with the same flag: an entry in `src/i18n/langs.js`, the
+flag PNG from ZenithBoard's `flightinfo/data/flags/`, `src/i18n/ui/<lang>.json`, the seven pages under
+`src/content/pages/<lang>/`, and the count of languages in *About* and *ZenithBoard* updated in every language.
+After that the language is maintained like the others: `i18n:check` fails on anything missing.
 
 ### Undo
 

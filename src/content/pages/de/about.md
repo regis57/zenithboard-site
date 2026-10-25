@@ -3,7 +3,7 @@ title: "Über uns & Unterstützung"
 description: "Wer ZenithBoard und diese Website macht, unter welchen Lizenzen, mit welchem Respekt vor Ihnen, und wie man Danke sagt."
 lang: de
 page: about
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Bauen Sie Ihren Empfänger"
@@ -26,9 +26,9 @@ Der Code von ZenithBoard steht unter der **GNU General Public License, Version 3
 
 Die Wand und die Posts geben die Position eines Empfängers nie preis. Kein Logo einer Fluggesellschaft und kein Logo eines Herstellers wird gezeichnet, in Punkten oder anderswie: Das sind geschützte Marken, und eine gepunktete Kopie ist immer noch eine Kopie, deshalb stehen Länderflaggen an ihrer Stelle. Fotos von Flugzeugen werden so gezeigt, wie ihre Fotografen sie veröffentlicht haben, mit ihrem Namen und einem Link, und nie kopiert oder anderswo gepostet. Diese Website setzt kein Cookie, betreibt keine Analyse, lädt nichts von einem Drittanbieter; die Farbe, die Sie unten auf der Seite wählen, wird allein in Ihrem Browser gespeichert.
 
-## Einundzwanzig Sprachen
+## Zweiundzwanzig Sprachen
 
-Die Webseiten von ZenithBoard und diese Website gibt es in einundzwanzig Sprachen, weil der Himmel überall derselbe ist und ein Empfänger in Jakarta oder Riga genauso willkommen ist wie einer in Lyon. Englisch und Französisch schreibt der Autor selbst; die anderen Sprachen wurden sorgfältig übersetzt und werden von Muttersprachlern geprüft. Wenn Sie einen Satz finden, der sich in Ihrer Sprache falsch liest, nimmt das Repository Korrekturen gern an: Jede Seite ist eine einfache Textdatei.
+Die Webseiten von ZenithBoard und diese Website gibt es in zweiundzwanzig Sprachen, weil der Himmel überall derselbe ist und ein Empfänger in Jakarta oder Riga genauso willkommen ist wie einer in Lyon. Englisch und Französisch schreibt der Autor selbst; die anderen Sprachen wurden sorgfältig übersetzt und werden von Muttersprachlern geprüft. Wenn Sie einen Satz finden, der sich in Ihrer Sprache falsch liest, nimmt das Repository Korrekturen gern an: Jede Seite ist eine einfache Textdatei.
 
 ## Danke sagen
 

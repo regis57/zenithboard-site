@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Dinding titik-titik atau papan split-flap bandara di tablet lama, konsol web, unggahan di Bluesky. Gratis, terbuka, satu menu untuk memasang semuanya."
 lang: id
 page: zenithboard
-updated: 2026-10-23
+updated: 2026-10-25
 reviewed: false
 next:
   label: "Pasang: github.com/regis57/ZenithBoard"
@@ -40,7 +40,7 @@ Gain (penguatan) penerima bisa disetel dari menu atau konsol, selangkah demi sel
 
 ## Konsol
 
-Sejak versi 0.39, `http://<the Pi>:8080/console` menampilkan pengaturan dalam tampilan dinding: ikhtisar Pi (waktu aktif, suhu, memori, setiap layanan), dinding, penerima, Bluesky, watchdog, pembaruan. Satu bagian pada satu waktu, bilah samping di komputer, tab di ponsel. Setiap perubahan menjalankan perintah yang sama seperti yang dilakukan menu, dan menunjukkan apa yang dicetaknya. Konsol tersedia dalam dua puluh satu bahasa; situs ini memakai daftar yang sama dan bendera yang sama.
+Sejak versi 0.39, `http://<the Pi>:8080/console` menampilkan pengaturan dalam tampilan dinding: ikhtisar Pi (waktu aktif, suhu, memori, setiap layanan), dinding, penerima, Bluesky, watchdog, pembaruan. Satu bagian pada satu waktu, bilah samping di komputer, tab di ponsel. Setiap perubahan menjalankan perintah yang sama seperti yang dilakukan menu, dan menunjukkan apa yang dicetaknya. Konsol tersedia dalam dua puluh dua bahasa; situs ini memakai daftar yang sama dan bendera yang sama.
 
 ![Sebuah Airbus Beluga di papan split-flap](/img/wall-beluga-flap.webp)
 
