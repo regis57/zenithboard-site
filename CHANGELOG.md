@@ -3,6 +3,13 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-25 — ZenithBoard is a release candidate for 1.0
+
+- A short notice at the top of the *ZenithBoard* page, in all twenty-two languages: since 25 October 2026 version
+  0.99 is frozen, fixes only for a month while the author's Pi runs untouched, and 1.0 follows on 25 November 2026
+  at the earliest if nothing is left open; a report on GitHub is welcome. A quoted block, the site's own callout
+  style, no new code. Previewed in headless Chromium (French, Arabic right to left, English on a phone).
+
 ## 2026-10-25 — Hindi, the site's twenty-second language
 
 - **Hindi (हिन्दी)**, with India's flag, placed after Swahili as in ZenithBoard 0.55.0's console: the seven pages and

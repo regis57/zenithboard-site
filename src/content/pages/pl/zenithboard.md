@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Wersja kandydująca do 1.0.** Od 25 października 2026 r. wersja 0.99 jest zamrożona: przez miesiąc trafiają do niej tylko poprawki, a Pi autora działa bez ingerencji. Jeśli nic nie zostanie otwarte, 1.0 pojawi się najwcześniej 25 listopada 2026 r. Wypróbowanie jej teraz pomaga: zgłoszenie na [GitHubie](https://github.com/regis57/ZenithBoard/issues) jest mile widziane.
+
 ## W jednym zdaniu
 
 ZenithBoard zamienia Raspberry Pi i pendrive radiowy USB w odbiornik ADS-B, który zasila cztery sieci, i pokazuje samoloty dokładnie nad twoim domem na starym tablecie, jako świecący wyświetlacz z matrycy kropek albo lotniskową tablicę klapkową. To wolne oprogramowanie na licencji GPL i działa codziennie na własnym Pi 3B autora, na dworze, przez Wi-Fi, w Mozeli.

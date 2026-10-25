@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Kandidat rilis untuk 1.0.** Sejak 25 Oktober 2026, versi 0.99 dibekukan: selama sebulan hanya perbaikan yang masuk, sementara Pi milik penulis berjalan tanpa disentuh. Jika tidak ada yang tersisa terbuka, 1.0 menyusul paling cepat pada 25 November 2026. Mencobanya sekarang membantu: laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
+
 ## Dalam satu kalimat
 
 ZenithBoard mengubah Raspberry Pi dan stik radio USB menjadi penerima ADS-B yang mengumpankan ke empat jaringan, dan menampilkan pesawat tepat di atas rumah Anda pada tablet lama, sebagai papan dot-matrix bercahaya atau papan split-flap bandara. Ini perangkat lunak bebas, di bawah GPL, dan berjalan setiap hari di Pi 3B milik penulis sendiri, di luar ruangan, lewat Wi-Fi, di Moselle.

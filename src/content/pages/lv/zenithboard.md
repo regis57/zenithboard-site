@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Laidiena kandidāts versijai 1.0.** Kopš 2026. gada 25. oktobra versija 0.99 ir iesaldēta: mēnesi tajā nonāk tikai labojumi, kamēr autora Pi darbojas neaizskarts. Ja nekas nepaliek atvērts, 1.0 iznāks ne agrāk kā 2026. gada 25. novembrī. Izmēģināt to tagad palīdz: ziņojums [GitHub](https://github.com/regis57/ZenithBoard/issues) ir gaidīts.
+
 ## Vienā teikumā
 
 ZenithBoard pārvērš Raspberry Pi un USB radio zibatmiņu par ADS-B uztvērēju, kas padod datus četriem tīkliem, un rāda lidmašīnas tieši virs tavas mājas uz veca planšetdatora kā izgaismotu punktu matricas zīmi vai lidostas pārkrītošo plākšņu tablo. Tā ir brīvā programmatūra, zem GPL, un tā katru dienu darbojas uz autora paša Pi 3B, ārā, caur Wi-Fi, Mozelē.

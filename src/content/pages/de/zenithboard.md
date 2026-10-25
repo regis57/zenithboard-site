@@ -10,6 +10,8 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
+> **Release Candidate für 1.0.** Seit dem 25. Oktober 2026 ist Version 0.99 eingefroren: Einen Monat lang kommen nur Fehlerbehebungen hinein, während der Pi des Autors unangetastet läuft. Bleibt nichts offen, folgt 1.0 frühestens am 25. November 2026. Jetzt ausprobieren hilft: Eine Rückmeldung auf [GitHub](https://github.com/regis57/ZenithBoard/issues) ist willkommen.
+
 ## In einem Satz
 
 ZenithBoard macht aus einem Raspberry Pi und einem USB-Radiostick einen ADS-B-Empfänger, der die vier Netze speist, und zeigt die Flugzeuge direkt über Ihrem Haus auf einem alten Tablet, als leuchtende Punktmatrix-Anzeige oder als Fallblattanzeige wie am Flughafen. Es ist freie Software unter der GPL und läuft jeden Tag auf dem Pi 3B des Autors, im Freien, über WLAN, im Département Moselle.
