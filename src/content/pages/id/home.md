@@ -3,7 +3,7 @@ title: "ZenithBoard — langit di atas Anda, secara langsung"
 description: "Langit di atas Anda, Anda sendiri yang menguraikannya, dibagikan kepada dunia."
 lang: id
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Mulai dari sini: apa itu ADS-B"
@@ -22,7 +22,7 @@ Situs ini menjelaskan tiga hal, secara berurutan: apa sinyal itu, cara membangun
 
 **Yang dibutuhkan** sekitar satu jam untuk pertama kali, sebuah Raspberry Pi, stopkontak dan Wi-Fi rumah Anda. Anda tidak perlu tahu cara memprogram. Anda akan mengetik beberapa perintah, yang sudah disediakan untuk Anda.
 
-**Yang didapat** adalah pesawat di sekitar Anda, di layar Anda sendiri, tanpa perantara. Jika Anda membagikan data Anda, jaringan pelacakan memberi imbalan: FlightAware membuka akun Enterprise gratis, Flightradar24 paket Contributor gratis, Plane Finder akses premium gratis ke situs dan aplikasinya, dan ADS-B Exchange menampilkan umpan Anda di situsnya. Dan jika Anda mengaktifkan fitur berbagi ZenithBoard, pesawat yang melintasi langit Anda diunggah ke Bluesky, sebagai gambar dari dinding Anda.
+**Yang didapat** adalah pesawat di sekitar Anda, di layar Anda sendiri, tanpa perantara. Jika Anda membagikan data Anda, jaringan pelacakan memberi imbalan: FlightAware membuka akun Enterprise gratis, Flightradar24 paket Contributor gratis, Plane Finder akses premium gratis ke situs dan aplikasinya, AirNav Radar akun Business, dan ADS-B Exchange menampilkan umpan Anda di situsnya. Dan jika Anda mengaktifkan fitur berbagi ZenithBoard, pesawat yang melintasi langit Anda diunggah ke Bluesky, sebagai gambar dari dinding Anda.
 
 ## Batasannya, dikatakan apa adanya
 

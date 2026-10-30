@@ -3,7 +3,7 @@ title: "ZenithBoard — taevas sinu kohal, otseülekandes"
 description: "Taevas sinu kohal, sinu enda dekodeeritud, kogu maailmaga jagatud."
 lang: et
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Alusta siit: mis on ADS-B"
@@ -22,7 +22,7 @@ See sait selgitab kolme asja, järjekorras: mis see signaal on, kuidas ehitada s
 
 **See nõuab** esimesel korral umbes tunni aega, Raspberry Pi, seinakontakti ja sinu kodust Wi-Fi-t. Sa ei pea oskama programmeerida. Sa sisestad mõned käsud, mis sulle ette antakse.
 
-**See annab** sulle lennukid sinu ümber, sinu enda ekraanil, ilma et keegi vahele jääks. Kui jagad oma andmeid, annavad jälgimisvõrgustikud midagi vastu: FlightAware avab tasuta Enterprise konto, Flightradar24 tasuta Contributor paketi, Plane Finder tasuta premium-kasutuse oma saidil ja rakendustes ning ADS-B Exchange näitab sinu voogu oma saidil. Ja kui lülitad ZenithBoardi jagamise sisse, postitatakse sinu taevast läbivad lennukid Bluesky'sse, pildina sinu seinast.
+**See annab** sulle lennukid sinu ümber, sinu enda ekraanil, ilma et keegi vahele jääks. Kui jagad oma andmeid, annavad jälgimisvõrgustikud midagi vastu: FlightAware avab tasuta Enterprise konto, Flightradar24 tasuta Contributor paketi, Plane Finder tasuta premium-kasutuse oma saidil ja rakendustes, AirNav Radar Business konto ning ADS-B Exchange näitab sinu voogu oma saidil. Ja kui lülitad ZenithBoardi jagamise sisse, postitatakse sinu taevast läbivad lennukid Bluesky'sse, pildina sinu seinast.
 
 ## Piirangud, otse välja öelduna
 

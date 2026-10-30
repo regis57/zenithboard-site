@@ -14,7 +14,7 @@ next:
 
 ## Dalam satu kalimat
 
-ZenithBoard mengubah Raspberry Pi dan stik radio USB menjadi penerima ADS-B yang mengumpankan ke empat jaringan, dan menampilkan pesawat tepat di atas rumah Anda pada tablet lama, sebagai papan dot-matrix bercahaya atau papan split-flap bandara. Ini perangkat lunak bebas, di bawah GPL, dan berjalan setiap hari di Pi 3B milik penulis sendiri, di luar ruangan, lewat Wi-Fi, di Moselle.
+ZenithBoard mengubah Raspberry Pi dan stik radio USB menjadi penerima ADS-B yang mengumpankan ke lima jaringan, dan menampilkan pesawat tepat di atas rumah Anda pada tablet lama, sebagai papan dot-matrix bercahaya atau papan split-flap bandara. Ini perangkat lunak bebas, di bawah GPL, dan berjalan setiap hari di Pi 3B milik penulis sendiri, di luar ruangan, lewat Wi-Fi, di Moselle.
 
 ![Dinding dot-matrix berwarna amber: Airbus A320 Tunisair dengan dua benderanya, pesawat digambar dengan titik-titik di samping teks, lalu penerbangan berikutnya](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Di samping teks, siluet pesawat yang digambar dengan titik-titik, dua bendera ke
 
 Anda bisa mencoba dinding tanpa perangkat keras sama sekali: repositorinya menyertakan demo dengan maskapai rekaan dan contoh dari segalanya, dari A380 sampai helikopter, yang berjalan di komputer mana pun dengan Python.
 
-## Penerima, dan empat jaringan
+## Penerima, dan lima jaringan
 
-ZenithBoard memasang **readsb** sebagai pengurai, dengan petanya **tar1090**, dan pengumpan yang Anda centang: ADS-B Exchange selalu, FlightAware, Flightradar24 dan Plane Finder jika Anda mau. Ia menjaga tepat satu klien MLAT yang berjalan dan menghitungnya di `zenithboard status`. Semuanya nonaktif secara bawaan dan bisa dibatalkan: setiap *aktif* punya *nonaktif* yang mengembalikan keadaan, cadangan dibuat sebelum apa pun yang merusak, dan menu selalu punya jalan keluar.
+ZenithBoard memasang **readsb** sebagai pengurai, dengan petanya **tar1090**, dan pengumpan yang Anda centang: ADS-B Exchange selalu, FlightAware, Flightradar24, Plane Finder dan AirNav Radar jika Anda mau. Ia menjaga tepat satu klien MLAT yang berjalan dan menghitungnya di `zenithboard status`. Semuanya nonaktif secara bawaan dan bisa dibatalkan: setiap *aktif* punya *nonaktif* yang mengembalikan keadaan, cadangan dibuat sebelum apa pun yang merusak, dan menu selalu punya jalan keluar.
 
 Gain (penguatan) penerima bisa disetel dari menu atau konsol, selangkah demi selangkah, dengan statistik untuk melihat apakah itu membantu. Statistik opsional menyimpan sebulan pesan per jam, jangkauan dan pesawat per hari; **graphs1090** menggambarkannya selama bertahun-tahun.
 

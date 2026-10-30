@@ -3,7 +3,7 @@ title: "ZenithBoard — debesis virs tevis, tiešraidē"
 description: "Debesis virs tevis, atkodētas tevis paša, dalītas ar visu pasauli."
 lang: lv
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Sāc šeit: kas ir ADS-B"
@@ -22,7 +22,7 @@ Katra lidmašīna virs tavas mājas runā. Apmēram reizi sekundē tā raida, ka
 
 **Tas prasa** apmēram stundu pirmajā reizē, Raspberry Pi, sienas kontaktligzdu un tavu mājas Wi-Fi. Tev nav jāprot programmēt. Tu ierakstīsi dažas komandas, kuras tev iedos.
 
-**Tas dod** lidmašīnas tev apkārt, uz tava paša ekrāna, bez neviena starpnieka. Ja dalies ar saviem datiem, izsekošanas tīkli dod kaut ko pretī: FlightAware atver bezmaksas Enterprise kontu, Flightradar24 — bezmaksas Contributor plānu, Plane Finder — bezmaksas premium piekļuvi savai vietnei un lietotnēm, un ADS-B Exchange rāda tavu plūsmu savā vietnē. Un ja ieslēdz ZenithBoard dalīšanos, lidmašīnas, kas šķērso tavas debesis, tiek publicētas Bluesky kā tava tablo attēls.
+**Tas dod** lidmašīnas tev apkārt, uz tava paša ekrāna, bez neviena starpnieka. Ja dalies ar saviem datiem, izsekošanas tīkli dod kaut ko pretī: FlightAware atver bezmaksas Enterprise kontu, Flightradar24 — bezmaksas Contributor plānu, Plane Finder — bezmaksas premium piekļuvi savai vietnei un lietotnēm, AirNav Radar — Business kontu, un ADS-B Exchange rāda tavu plūsmu savā vietnē. Un ja ieslēdz ZenithBoard dalīšanos, lidmašīnas, kas šķērso tavas debesis, tiek publicētas Bluesky kā tava tablo attēls.
 
 ## Ierobežojumi, pateikti vienkārši
 

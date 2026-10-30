@@ -14,7 +14,7 @@ next:
 
 ## 一句話說完
 
-ZenithBoard 把一台 Raspberry Pi 和一支 USB 無線電接收棒變成一台餵送四個網路的 ADS-B 接收器，並在一台舊平板上，以發光的點陣看板或機場翻板顯示牌的樣子，顯示正飛過你家上空的飛機。它是 GPL 授權的自由軟體，每天都在作者自己的 Pi 3B 上運行，放在戶外、用 Wi-Fi、在摩澤爾（Moselle）。
+ZenithBoard 把一台 Raspberry Pi 和一支 USB 無線電接收棒變成一台餵送五個網路的 ADS-B 接收器，並在一台舊平板上，以發光的點陣看板或機場翻板顯示牌的樣子，顯示正飛過你家上空的飛機。它是 GPL 授權的自由軟體，每天都在作者自己的 Pi 3B 上運行，放在戶外、用 Wi-Fi、在摩澤爾（Moselle）。
 
 ![琥珀色的點陣牆：一架 Tunisair Airbus A320 和它的兩面小旗子，文字旁邊用點陣畫出的飛機，接著是下一個航班](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ ZenithBoard 把一台 Raspberry Pi 和一支 USB 無線電接收棒變成一台�
 
 你可以在完全沒有硬體的情況下試試這面牆：程式庫附有一個示範，用虛構的航空公司，並包含從 A380 到直升機的各種範例，可以在任何裝有 Python 的電腦上執行。
 
-## 接收器，以及四個網路
+## 接收器，以及五個網路
 
-ZenithBoard 安裝 **readsb** 作為解碼器，連同它的地圖 **tar1090**，以及你勾選的餵送程式：ADS-B Exchange 永遠安裝，FlightAware、Flightradar24 和 Plane Finder 則視你需要。它只讓恰好一個 MLAT 用戶端運行，並在 `zenithboard status` 中計算數量。一切預設關閉且可逆：每一個*開*都有一個能回復原狀的*關*，任何破壞性操作前都會先備份，選單永遠有退路。
+ZenithBoard 安裝 **readsb** 作為解碼器，連同它的地圖 **tar1090**，以及你勾選的餵送程式：ADS-B Exchange 永遠安裝，FlightAware、Flightradar24、Plane Finder 和 AirNav Radar 則視你需要。它只讓恰好一個 MLAT 用戶端運行，並在 `zenithboard status` 中計算數量。一切預設關閉且可逆：每一個*開*都有一個能回復原狀的*關*，任何破壞性操作前都會先備份，選單永遠有退路。
 
 接收器的增益可以從選單或主控台一次調一格，並有統計資料讓你看出是否有幫助。選用的統計功能會保留一個月的每小時訊息數、每日距離和飛機數；**graphs1090** 能把多年的資料畫成圖表。
 

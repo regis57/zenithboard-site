@@ -14,7 +14,7 @@ next:
 
 ## Kwa sentensi moja
 
-ZenithBoard inageuza Raspberry Pi na kijiti cha redio cha USB kuwa kipokezi cha ADS-B kinacholisha mitandao minne, na inaonyesha ndege zilizo juu kabisa ya nyumba yako kwenye kompyuta kibao ya zamani, kama bango la nukta zinazong'aa au ubao wa herufi zinazogeuka wa uwanja wa ndege. Ni programu huru, chini ya GPL, na inaendeshwa kila siku kwenye Pi 3B ya mwandishi mwenyewe, nje, kwa Wi-Fi, huko Moselle.
+ZenithBoard inageuza Raspberry Pi na kijiti cha redio cha USB kuwa kipokezi cha ADS-B kinacholisha mitandao mitano, na inaonyesha ndege zilizo juu kabisa ya nyumba yako kwenye kompyuta kibao ya zamani, kama bango la nukta zinazong'aa au ubao wa herufi zinazogeuka wa uwanja wa ndege. Ni programu huru, chini ya GPL, na inaendeshwa kila siku kwenye Pi 3B ya mwandishi mwenyewe, nje, kwa Wi-Fi, huko Moselle.
 
 ![Ukuta wa nukta wa rangi ya kaharabu: Tunisair Airbus A320 yenye bendera zake mbili, ndege ikichorwa kwa nukta kando ya maandishi, kisha safari inayofuata](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Kando ya maandishi, umbo la ndege lililochorwa kwa nukta, bendera mbili ndogo (n
 
 Unaweza kujaribu ukuta bila vifaa vyovyote: hazina inakuja na onyesho lenye mashirika ya ndege ya kubuni na mfano wa kila kitu, kuanzia A380 hadi helikopta, linaloendeshwa kwenye kompyuta yoyote yenye Python.
 
-## Kipokezi, na mitandao minne
+## Kipokezi, na mitandao mitano
 
-ZenithBoard inasakinisha **readsb** kama kifumbuzi, pamoja na ramani yake **tar1090**, na walishaji unaowaweka tiki: ADS-B Exchange daima, FlightAware, Flightradar24 na Plane Finder ukiwataka. Inaweka mteja mmoja tu wa MLAT ukiendelea na inawahesabu katika `zenithboard status`. Kila kitu kimezimwa kwa chaguo-msingi na kinaweza kurudishwa: kila *kuwasha* kuna *kuzima* kunakorudisha mambo, nakala rudufu inatengenezwa kabla ya chochote cha kuharibu, na menyu daima ina njia ya kutoka.
+ZenithBoard inasakinisha **readsb** kama kifumbuzi, pamoja na ramani yake **tar1090**, na walishaji unaowaweka tiki: ADS-B Exchange daima, FlightAware, Flightradar24, Plane Finder na AirNav Radar ukiwataka. Inaweka mteja mmoja tu wa MLAT ukiendelea na inawahesabu katika `zenithboard status`. Kila kitu kimezimwa kwa chaguo-msingi na kinaweza kurudishwa: kila *kuwasha* kuna *kuzima* kunakorudisha mambo, nakala rudufu inatengenezwa kabla ya chochote cha kuharibu, na menyu daima ina njia ya kutoka.
 
 Ukuzaji wa kipokezi unaweza kurekebishwa kutoka menyu au konsoli, hatua moja kwa wakati, pamoja na takwimu za kuona kama ilisaidia. Takwimu za hiari zinahifadhi mwezi mmoja wa jumbe kwa saa, umbali na ndege kwa siku; **graphs1090** inachora miaka yake.
 

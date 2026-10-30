@@ -14,7 +14,7 @@ next:
 
 ## In één zin
 
-ZenithBoard maakt van een Raspberry Pi en een USB-radiostick een ADS-B-ontvanger die de vier netwerken voedt, en toont de vliegtuigen recht boven je huis op een oude tablet, als een oplichtend dot-matrixbord of een klapperbord zoals op een luchthaven. Het is vrije software, onder de GPL, en het draait elke dag op de eigen Pi 3B van de auteur, buiten, op wifi, in de Moezel.
+ZenithBoard maakt van een Raspberry Pi en een USB-radiostick een ADS-B-ontvanger die de vijf netwerken voedt, en toont de vliegtuigen recht boven je huis op een oude tablet, als een oplichtend dot-matrixbord of een klapperbord zoals op een luchthaven. Het is vrije software, onder de GPL, en het draait elke dag op de eigen Pi 3B van de auteur, buiten, op wifi, in de Moezel.
 
 ![De dot-matrixwall in amber: een Tunisair Airbus A320 met zijn twee vlaggen, het vliegtuig getekend in stippen naast de tekst, dan de volgende vlucht](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Naast de tekst een silhouet van het vliegtuig getekend in stippen, twee kleine v
 
 Je kunt de wall helemaal zonder hardware uitproberen: de repository bevat een demo met verzonnen luchtvaartmaatschappijen en een voorbeeld van alles, van een A380 tot een helikopter, die op elke computer met Python draait.
 
-## De ontvanger, en de vier netwerken
+## De ontvanger, en de vijf netwerken
 
-ZenithBoard installeert **readsb** als decoder, met zijn kaart **tar1090**, en de feeders die je aanvinkt: ADS-B Exchange altijd, FlightAware, Flightradar24 en Plane Finder als je ze wilt. Het houdt precies één MLAT-client draaiend en telt ze in `zenithboard status`. Alles staat standaard uit en is omkeerbaar: elke *aan* heeft een *uit* die alles terugzet, er wordt een back-up gemaakt vóór iets destructiefs, en het menu heeft altijd een uitweg.
+ZenithBoard installeert **readsb** als decoder, met zijn kaart **tar1090**, en de feeders die je aanvinkt: ADS-B Exchange altijd, FlightAware, Flightradar24, Plane Finder en AirNav Radar als je ze wilt. Het houdt precies één MLAT-client draaiend en telt ze in `zenithboard status`. Alles staat standaard uit en is omkeerbaar: elke *aan* heeft een *uit* die alles terugzet, er wordt een back-up gemaakt vóór iets destructiefs, en het menu heeft altijd een uitweg.
 
 De versterking van de ontvanger kan vanuit het menu of de console worden afgesteld, stap voor stap, met de statistieken om te zien of het hielp. Optionele statistieken bewaren een maand aan berichten per uur, bereik en vliegtuigen per dag; **graphs1090** tekent er jaren van.
 

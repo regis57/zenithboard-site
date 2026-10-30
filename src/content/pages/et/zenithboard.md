@@ -14,7 +14,7 @@ next:
 
 ## Ühe lausega
 
-ZenithBoard muudab Raspberry Pi ja USB-raadiopulga ADS-B vastuvõtjaks, mis söödab nelja võrgustikku, ja näitab lennukeid otse sinu maja kohal vanal tahvelarvutil, helendava punktmaatrikstablooga või lennujaama klapptablooga. See on vaba tarkvara GPL-i all ja see jookseb iga päev autori enda Pi 3B peal, õues, Wi-Fi kaudu, Moselle'is.
+ZenithBoard muudab Raspberry Pi ja USB-raadiopulga ADS-B vastuvõtjaks, mis söödab viit võrgustikku, ja näitab lennukeid otse sinu maja kohal vanal tahvelarvutil, helendava punktmaatrikstablooga või lennujaama klapptablooga. See on vaba tarkvara GPL-i all ja see jookseb iga päev autori enda Pi 3B peal, õues, Wi-Fi kaudu, Moselle'is.
 
 ![Punktmaatrikstabloona sein merevaigukollasena: Tunisair Airbus A320 oma kahe lipuga, lennuk täppidega joonistatud teksti kõrvale, seejärel järgmine lend](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Teksti kõrval on täppidest joonistatud lennuki siluett, kaks väikest lippu (k
 
 Sa võid seina proovida ilma igasuguse riistvarata: hoidlaga on kaasas demo väljamõeldud lennufirmadega ja näidisega kõigest, A380-st kuni helikopterini, mis jookseb igal Pythoniga arvutil.
 
-## Vastuvõtja ja neli võrgustikku
+## Vastuvõtja ja viis võrgustikku
 
-ZenithBoard paigaldab dekoodriks **readsb** koos selle kaardiga **tar1090** ja söötjad, mille sa linnukesega märgid: ADS-B Exchange alati, FlightAware, Flightradar24 ja Plane Finder, kui sa neid soovid. See hoiab töös täpselt ühte MLAT-klienti ja loeb need kokku käsus `zenithboard status`. Kõik on vaikimisi välja lülitatud ja tagasipööratav: igal *sees* on oma *väljas*, mis paneb asjad tagasi, enne iga hävitavat toimingut tehakse varukoopia ja menüüst on alati väljapääs.
+ZenithBoard paigaldab dekoodriks **readsb** koos selle kaardiga **tar1090** ja söötjad, mille sa linnukesega märgid: ADS-B Exchange alati, FlightAware, Flightradar24, Plane Finder ja AirNav Radar, kui sa neid soovid. See hoiab töös täpselt ühte MLAT-klienti ja loeb need kokku käsus `zenithboard status`. Kõik on vaikimisi välja lülitatud ja tagasipööratav: igal *sees* on oma *väljas*, mis paneb asjad tagasi, enne iga hävitavat toimingut tehakse varukoopia ja menüüst on alati väljapääs.
 
 Vastuvõtja võimendust saab häälestada menüüst või konsoolist, samm-sammult, koos statistikaga, et näha, kas sellest oli abi. Valikuline statistika hoiab kuu aega sõnumeid tunni kohta, ulatust ja lennukeid päeva kohta; **graphs1090** joonistab neist aastaid.
 

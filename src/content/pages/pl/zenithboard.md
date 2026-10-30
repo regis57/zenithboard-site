@@ -14,7 +14,7 @@ next:
 
 ## W jednym zdaniu
 
-ZenithBoard zamienia Raspberry Pi i pendrive radiowy USB w odbiornik ADS-B, który zasila cztery sieci, i pokazuje samoloty dokładnie nad twoim domem na starym tablecie, jako świecący wyświetlacz z matrycy kropek albo lotniskową tablicę klapkową. To wolne oprogramowanie na licencji GPL i działa codziennie na własnym Pi 3B autora, na dworze, przez Wi-Fi, w Mozeli.
+ZenithBoard zamienia Raspberry Pi i pendrive radiowy USB w odbiornik ADS-B, który zasila pięć sieci, i pokazuje samoloty dokładnie nad twoim domem na starym tablecie, jako świecący wyświetlacz z matrycy kropek albo lotniskową tablicę klapkową. To wolne oprogramowanie na licencji GPL i działa codziennie na własnym Pi 3B autora, na dworze, przez Wi-Fi, w Mozeli.
 
 ![Tablica z matrycy kropek w kolorze bursztynowym: Tunisair Airbus A320 z dwiema flagami, samolot narysowany kropkami obok tekstu, a potem następny lot](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Obok tekstu sylwetka samolotu narysowana kropkami, dwie małe flagi (gdzie samol
 
 Tablicę możesz wypróbować zupełnie bez sprzętu: repozytorium zawiera demo z wymyślonymi liniami lotniczymi i przykładem wszystkiego, od A380 po helikopter, które działa na każdym komputerze z Pythonem.
 
-## Odbiornik i cztery sieci
+## Odbiornik i pięć sieci
 
-ZenithBoard instaluje **readsb** jako dekoder, z jego mapą **tar1090**, oraz feedery, które zaznaczysz: ADS-B Exchange zawsze, FlightAware, Flightradar24 i Plane Finder, jeśli chcesz. Utrzymuje dokładnie jednego działającego klienta MLAT i liczy je w `zenithboard status`. Wszystko jest domyślnie wyłączone i odwracalne: każde *włącz* ma swoje *wyłącz*, które przywraca poprzedni stan, przed każdą destrukcyjną operacją robiona jest kopia zapasowa, a menu zawsze ma wyjście.
+ZenithBoard instaluje **readsb** jako dekoder, z jego mapą **tar1090**, oraz feedery, które zaznaczysz: ADS-B Exchange zawsze, FlightAware, Flightradar24, Plane Finder i AirNav Radar, jeśli chcesz. Utrzymuje dokładnie jednego działającego klienta MLAT i liczy je w `zenithboard status`. Wszystko jest domyślnie wyłączone i odwracalne: każde *włącz* ma swoje *wyłącz*, które przywraca poprzedni stan, przed każdą destrukcyjną operacją robiona jest kopia zapasowa, a menu zawsze ma wyjście.
 
 Wzmocnienie odbiornika można regulować z menu lub z konsoli, krok po kroku, ze statystykami, które pokazują, czy to pomogło. Opcjonalne statystyki przechowują miesiąc komunikatów na godzinę, zasięgu i samolotów na dzień; **graphs1090** rysuje je na przestrzeni lat.
 

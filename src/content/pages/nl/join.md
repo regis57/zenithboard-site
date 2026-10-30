@@ -1,9 +1,9 @@
 ---
 title: "Sluit je aan bij de community"
-description: "Vier netwerken nemen wat je ontvanger hoort, en geven iets terug. Wat je geeft, wat je krijgt, en wat thuis blijft."
+description: "Vijf netwerken nemen wat je ontvanger hoort, en geven iets terug. Wat je geeft, wat je krijgt, en wat thuis blijft."
 lang: nl
 page: join
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Ontdek ZenithBoard"
@@ -16,7 +16,7 @@ Je ontvanger hoort een paar honderd kilometer om je heen. Een netwerk van ontvan
 
 Delen kost je niets: een paar kilobytes per seconde op je internetlijn, en op de Pi niets noemenswaardigs. In ruil daarvoor stellen de netwerken hun betaalde functies voor je open, en wordt je ene antenne onderdeel van MLAT, dat de vliegtuigen vindt die niet zeggen waar ze zijn.
 
-## De vier netwerken
+## De vijf netwerken
 
 Elk netwerk wil hetzelfde, de stroom gedecodeerde berichten uit readsb, en elk heeft zijn eigen kleine programma om die te versturen. ZenithBoard installeert de netwerken die je aanvinkt; je kunt ze ook zelf installeren vanaf de pagina van elk netwerk.
 
@@ -36,6 +36,10 @@ De feeder heet **fr24feed**. In ruil daarvoor wordt het gratis account dat aan j
 
 De feeder is de **Plane Finder ADS-B Client**. In ruil daarvoor regelt Plane Finder gratis premiumgebruik van zijn website en apps voor wie deelt.
 
+### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
+
+De feeder heet **rbfeeder** (AirNav Radar heette vroeger RadarBox). In ruil daarvoor geeft AirNav Radar wie deelt een **Business**-account. De Pi maakt zelf zijn deelsleutel aan; om het station aan je account te koppelen, log je in op hun site, open je de pagina om een station te claimen en plak je die sleutel.
+
 ## Wat je geeft
 
 De berichten zelf: het adres van het vliegtuig, de roepnaam, de positie, de hoogte, de snelheid, zoals ze in het openbaar zijn uitgezonden. Het tijdstip waarop elk bericht aankwam, wat MLAT nodig heeft. De positie van je ontvanger, zodat het netwerk weet waarvandaan de gegevens zijn gehoord. Niets van je thuisnetwerk, geen camera, geen microfoon; de feederprogramma's zijn klein, open of gedocumenteerd, en ZenithBoard laat je zien wat elk ervan doet.
@@ -44,10 +48,10 @@ De berichten zelf: het adres van het vliegtuig, de roepnaam, de positie, de hoog
 
 Je exacte positie wordt door de netwerken gebruikt om bereik en MLAT te berekenen; ze wordt niet als een speld op je huis op hun openbare kaarten getoond, en ZenithBoard toont haar nooit op de wall of in een post. De wall op je tablet en je tar1090-kaart staan alleen op je thuisnetwerk, tenzij je ze zelf openstelt. Alles wat je deelt, kun je stoppen met delen: een feeder uitzetten in het menu zet alles terug zoals het was.
 
-## Eén MLAT-client, niet vier
+## Eén MLAT-client, niet vijf
 
-Elk netwerk kan zijn eigen MLAT-client op je Pi draaien. Vier tegelijk is te veel voor een Raspberry Pi: de processor besteedt zijn tijd aan rekenwerk en de wall hapert. ZenithBoard houdt één MLAT-client draaiend, die van ADS-B Exchange, en zet MLAT in de andere uit; `zenithboard status` telt de draaiende clients zodat je kunt controleren dat er precies één is. Als je de feeders met de hand installeert, doe dan hetzelfde.
+Elk netwerk kan zijn eigen MLAT-client op je Pi draaien. Vijf tegelijk is te veel voor een Raspberry Pi: de processor besteedt zijn tijd aan rekenwerk en de wall hapert. ZenithBoard houdt één MLAT-client draaiend, die van ADS-B Exchange, en zet MLAT in de andere uit; `zenithboard status` telt de draaiende clients zodat je kunt controleren dat er precies één is. Als je de feeders met de hand installeert, doe dan hetzelfde.
 
 ## Aan de slag
 
-In ZenithBoard toont menu **1 ADS-B** de vier netwerken met elk een vinkje; ADS-B Exchange staat altijd aan. Voor FlightAware, Flightradar24 en Plane Finder maak je een gratis account aan op hun site; het installatieprogramma toont de link of de sleutel om te plakken, één keer. Voor ADS-B Exchange vraagt hun script een stationsnaam en je positie, en toont het de link om je feed te bekijken. Tien minuten later staat je ontvanger op hun kaarten, en laten de statistiekpagina's zien hoe ver je hoort.
+In ZenithBoard toont menu **1 ADS-B** de vijf netwerken met elk een vinkje; ADS-B Exchange staat altijd aan. Voor FlightAware, Flightradar24, Plane Finder en AirNav Radar maak je een gratis account aan op hun site; het installatieprogramma toont de link of de sleutel om te plakken, één keer. Voor ADS-B Exchange vraagt hun script een stationsnaam en je positie, en toont het de link om je feed te bekijken. Tien minuten later staat je ontvanger op hun kaarten, en laten de statistiekpagina's zien hoe ver je hoort.
