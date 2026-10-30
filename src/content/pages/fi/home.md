@@ -3,7 +3,7 @@ title: "ZenithBoard — taivas ylläsi, suorana"
 description: "Taivas ylläsi, sinun purkamanasi, maailman kanssa jaettuna."
 lang: fi
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Aloita tästä: mikä on ADS-B"
@@ -22,7 +22,7 @@ Tämä sivusto selittää kolme asiaa, järjestyksessä: mikä tuo signaali on, 
 
 **Se vaatii** noin tunnin ensimmäisellä kerralla, Raspberry Pin, pistorasian ja kotisi Wi-Fin. Sinun ei tarvitse osata ohjelmoida. Kirjoitat muutaman komennon, jotka annetaan sinulle valmiina.
 
-**Se antaa** ympärilläsi lentävät koneet omalle näytöllesi, ilman ketään välissä. Jos jaat tietosi, seurantaverkostot antavat jotain takaisin: FlightAware avaa ilmaisen Enterprise-tilin, Flightradar24 ilmaisen Contributor-tason, Plane Finder ilmaisen premium-käytön sivustoonsa ja sovelluksiinsa, ja ADS-B Exchange näyttää syötteesi sivustollaan. Ja jos kytket ZenithBoardin jakamisen päälle, taivaasi ylittävät koneet julkaistaan Blueskyhin kuvana seinätaulustasi.
+**Se antaa** ympärilläsi lentävät koneet omalle näytöllesi, ilman ketään välissä. Jos jaat tietosi, seurantaverkostot antavat jotain takaisin: FlightAware avaa ilmaisen Enterprise-tilin, Flightradar24 ilmaisen Contributor-tason, Plane Finder ilmaisen premium-käytön sivustoonsa ja sovelluksiinsa, AirNav Radar Business-tilin, ja ADS-B Exchange näyttää syötteesi sivustollaan. Ja jos kytket ZenithBoardin jakamisen päälle, taivaasi ylittävät koneet julkaistaan Blueskyhin kuvana seinätaulustasi.
 
 ## Rajat, suoraan sanottuna
 

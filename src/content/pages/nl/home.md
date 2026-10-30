@@ -3,7 +3,7 @@ title: "ZenithBoard — de lucht boven je, live"
 description: "De lucht boven je, door jou ontcijferd, met de wereld gedeeld."
 lang: nl
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Begin hier: wat is ADS-B"
@@ -22,7 +22,7 @@ Deze site legt drie dingen uit, in deze volgorde: wat dat signaal is, hoe je er 
 
 **Het vraagt** ongeveer een uur de eerste keer, een Raspberry Pi, een stopcontact en je thuis-wifi. Je hoeft niet te kunnen programmeren. Je typt een paar opdrachten, die je krijgt aangereikt.
 
-**Het geeft** de vliegtuigen om je heen, op je eigen scherm, zonder iemand ertussen. Als je je gegevens deelt, geven de volgnetwerken iets terug: FlightAware opent een gratis Enterprise-account, Flightradar24 een gratis Contributor-abonnement, Plane Finder gratis premiumgebruik van zijn site en apps, en ADS-B Exchange toont je feed op zijn site. En als je het delen van ZenithBoard aanzet, worden de vliegtuigen die jouw lucht doorkruisen op Bluesky geplaatst, als een foto van je wall.
+**Het geeft** de vliegtuigen om je heen, op je eigen scherm, zonder iemand ertussen. Als je je gegevens deelt, geven de volgnetwerken iets terug: FlightAware opent een gratis Enterprise-account, Flightradar24 een gratis Contributor-abonnement, Plane Finder gratis premiumgebruik van zijn site en apps, AirNav Radar een Business-account, en ADS-B Exchange toont je feed op zijn site. En als je het delen van ZenithBoard aanzet, worden de vliegtuigen die jouw lucht doorkruisen op Bluesky geplaatst, als een foto van je wall.
 
 ## De grenzen, eerlijk gezegd
 

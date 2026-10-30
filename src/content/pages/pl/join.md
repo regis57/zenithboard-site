@@ -1,9 +1,9 @@
 ---
 title: "Dołącz do społeczności"
-description: "Cztery sieci przyjmą to, co słyszy twój odbiornik, i dadzą coś w zamian. Co dajesz, co dostajesz i co zostaje w domu."
+description: "Pięć sieci przyjmie to, co słyszy twój odbiornik, i da coś w zamian. Co dajesz, co dostajesz i co zostaje w domu."
 lang: pl
 page: join
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Poznaj ZenithBoard"
@@ -16,7 +16,7 @@ Twój odbiornik słyszy kilkaset kilometrów wokół ciebie. Sieć odbiorników 
 
 Dzielenie się nic cię nie kosztuje: kilka kilobajtów na sekundę na twoim łączu internetowym i nic wartego wzmianki na Pi. W zamian sieci otwierają przed tobą swoje płatne funkcje, a twoja pojedyncza antena staje się częścią MLAT, który znajduje samoloty niemówiące, gdzie są.
 
-## Cztery sieci
+## Pięć sieci
 
 Każda chce tego samego, strumienia zdekodowanych komunikatów z readsb, i każda ma własny mały program do ich wysyłania. ZenithBoard instaluje te, które zaznaczysz; możesz je też zainstalować samodzielnie ze strony każdej sieci.
 
@@ -36,6 +36,10 @@ Feeder nazywa się **fr24feed**. W zamian darmowe konto powiązane z twoim odbio
 
 Feeder to **Plane Finder ADS-B Client**. W zamian Plane Finder zapewnia darmowy dostęp premium do swojej strony i aplikacji tym, którzy się dzielą.
 
+### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
+
+Feeder nazywa się **rbfeeder** (AirNav Radar nazywał się wcześniej RadarBox). W zamian AirNav Radar daje tym, którzy się dzielą, konto **Business**. Pi samo tworzy swój klucz udostępniania; żeby powiązać stację ze swoim kontem, logujesz się na ich stronie, otwierasz stronę przypisywania stacji i wklejasz ten klucz.
+
 ## Co dajesz
 
 Same komunikaty: adres samolotu, znak wywoławczy, pozycję, wysokość, prędkość, tak jak zostały nadane jawnie. Czas dotarcia każdego z nich, czyli to, czego potrzebuje MLAT. Pozycję twojego odbiornika, żeby sieć wiedziała, skąd dane zostały usłyszane. Nic z twojej sieci domowej, żadnej kamery, żadnego mikrofonu; programy feederów są małe, otwarte lub udokumentowane, a ZenithBoard pokazuje ci, co każdy z nich robi.
@@ -44,10 +48,10 @@ Same komunikaty: adres samolotu, znak wywoławczy, pozycję, wysokość, prędko
 
 Twoja dokładna pozycja służy sieciom do obliczania zasięgów i MLAT; nie jest pokazywana na ich publicznych mapach jako pinezka na twoim domu, a ZenithBoard nigdy nie pokazuje jej na tablicy ani we wpisie. Tablica na twoim tablecie i twoja mapa tar1090 są tylko w twojej sieci domowej, chyba że sam je otworzysz. Wszystko, czym się dzielisz, możesz przestać udostępniać: wyłączenie feedera w menu przywraca wszystko do poprzedniego stanu.
 
-## Jeden klient MLAT, nie cztery
+## Jeden klient MLAT, nie pięć
 
-Każda sieć może uruchomić na twoim Pi własnego klienta MLAT. Cztery naraz to za dużo dla Raspberry Pi: procesor spędza czas na arytmetyce, a tablica się zacina. ZenithBoard utrzymuje jednego klienta MLAT, tego od ADS-B Exchange, i wyłącza MLAT w pozostałych; `zenithboard status` liczy działające, żebyś mógł sprawdzić, że jest dokładnie jeden. Jeśli instalujesz feedery ręcznie, zrób to samo.
+Każda sieć może uruchomić na twoim Pi własnego klienta MLAT. Pięć naraz to za dużo dla Raspberry Pi: procesor spędza czas na arytmetyce, a tablica się zacina. ZenithBoard utrzymuje jednego klienta MLAT, tego od ADS-B Exchange, i wyłącza MLAT w pozostałych; `zenithboard status` liczy działające, żebyś mógł sprawdzić, że jest dokładnie jeden. Jeśli instalujesz feedery ręcznie, zrób to samo.
 
 ## Pierwsze kroki
 
-W ZenithBoard menu **1 ADS-B** wymienia cztery sieci, każdą z polem do zaznaczenia; ADS-B Exchange jest zawsze włączona. Dla FlightAware, Flightradar24 i Plane Finder zakładasz darmowe konto na ich stronie; instalator wypisuje link lub klucz do wklejenia, raz. Dla ADS-B Exchange ich skrypt pyta o nazwę stacji i twoją pozycję, i wypisuje link, pod którym zobaczysz swój strumień. Dziesięć minut później twój odbiornik jest na ich mapach, a strony statystyk pokazują, jak daleko słyszysz.
+W ZenithBoard menu **1 ADS-B** wymienia pięć sieci, każdą z polem do zaznaczenia; ADS-B Exchange jest zawsze włączona. Dla FlightAware, Flightradar24, Plane Finder i AirNav Radar zakładasz darmowe konto na ich stronie; instalator wypisuje link lub klucz do wklejenia, raz. Dla ADS-B Exchange ich skrypt pyta o nazwę stacji i twoją pozycję, i wypisuje link, pod którym zobaczysz swój strumień. Dziesięć minut później twój odbiornik jest na ich mapach, a strony statystyk pokazują, jak daleko słyszysz.

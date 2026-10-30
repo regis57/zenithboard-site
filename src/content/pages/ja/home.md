@@ -3,7 +3,7 @@ title: "ZenithBoard — あなたの頭上の空を、リアルタイムで"
 description: "あなたの頭上の空を、あなた自身が解読し、世界と共有する。"
 lang: ja
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "まずはここから：ADS-Bとは何か"
@@ -22,7 +22,7 @@ next:
 
 **必要なものは**、初回でおよそ1時間、Raspberry Pi、コンセント、そして自宅のWi-Fiです。プログラミングの知識は要りません。いくつかのコマンドを入力しますが、それは用意されています。
 
-**得られるものは**、あなたの周りの航空機を、あなた自身の画面に、誰も介さずに表示することです。データを共有すれば、追跡ネットワークはお返しをくれます。FlightAwareは無料のEnterpriseアカウントを開き、Flightradar24は無料のContributorプランを、Plane Finderは自社サイトとアプリの無料プレミアム利用を提供し、ADS-B Exchangeはあなたのフィードをサイトに表示します。さらにZenithBoardの共有機能をオンにすると、あなたの空を横切る航空機が、あなたの「ウォール」の画像としてBlueskyに投稿されます。
+**得られるものは**、あなたの周りの航空機を、あなた自身の画面に、誰も介さずに表示することです。データを共有すれば、追跡ネットワークはお返しをくれます。FlightAwareは無料のEnterpriseアカウントを開き、Flightradar24は無料のContributorプランを、Plane Finderは自社サイトとアプリの無料プレミアム利用を、AirNav RadarはBusinessアカウントを提供し、ADS-B Exchangeはあなたのフィードをサイトに表示します。さらにZenithBoardの共有機能をオンにすると、あなたの空を横切る航空機が、あなたの「ウォール」の画像としてBlueskyに投稿されます。
 
 ## 限界について、率直に
 

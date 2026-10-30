@@ -14,7 +14,7 @@ next:
 
 ## In una frase
 
-ZenithBoard trasforma un Raspberry Pi e una chiavetta radio USB in un ricevitore ADS-B che alimenta le quattro reti, e mostra gli aerei proprio sopra casa tua su un vecchio tablet, come un'insegna a matrice di punti luminosi o un tabellone a palette da aeroporto. È software libero, sotto GPL, e gira ogni giorno sul Pi 3B dell'autore, all'aperto, in Wi-Fi, in Mosella.
+ZenithBoard trasforma un Raspberry Pi e una chiavetta radio USB in un ricevitore ADS-B che alimenta le cinque reti, e mostra gli aerei proprio sopra casa tua su un vecchio tablet, come un'insegna a matrice di punti luminosi o un tabellone a palette da aeroporto. È software libero, sotto GPL, e gira ogni giorno sul Pi 3B dell'autore, all'aperto, in Wi-Fi, in Mosella.
 
 ![Il tabellone a matrice di punti in ambra: un Airbus A320 Tunisair con le sue due bandiere, l'aereo disegnato a puntini accanto al testo, poi il volo successivo](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Accanto al testo, una silhouette dell'aereo disegnata a puntini, due piccole ban
 
 Puoi provare il tabellone senza alcun hardware: il repository include una demo con compagnie inventate e un esempio di tutto, da un A380 a un elicottero, che gira su qualsiasi computer con Python.
 
-## Il ricevitore, e le quattro reti
+## Il ricevitore, e le cinque reti
 
-ZenithBoard installa **readsb** come decodificatore, con la sua mappa **tar1090**, e i feeder che spunti: ADS-B Exchange sempre, FlightAware, Flightradar24 e Plane Finder se li vuoi. Tiene in esecuzione esattamente un client MLAT e li conta in `zenithboard status`. Tutto è spento per impostazione predefinita e reversibile: ogni *on* ha un *off* che rimette le cose a posto, viene fatto un backup prima di qualsiasi operazione distruttiva, e il menu ha sempre una via d'uscita.
+ZenithBoard installa **readsb** come decodificatore, con la sua mappa **tar1090**, e i feeder che spunti: ADS-B Exchange sempre, FlightAware, Flightradar24, Plane Finder e AirNav Radar se li vuoi. Tiene in esecuzione esattamente un client MLAT e li conta in `zenithboard status`. Tutto è spento per impostazione predefinita e reversibile: ogni *on* ha un *off* che rimette le cose a posto, viene fatto un backup prima di qualsiasi operazione distruttiva, e il menu ha sempre una via d'uscita.
 
 Il guadagno del ricevitore si può regolare dal menu o dalla console, un passo alla volta, con le statistiche per vedere se è servito. Statistiche facoltative conservano un mese di messaggi per ora, portata e aerei per giorno; **graphs1090** ne disegna anni interi.
 

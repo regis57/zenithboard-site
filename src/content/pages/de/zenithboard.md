@@ -14,7 +14,7 @@ next:
 
 ## In einem Satz
 
-ZenithBoard macht aus einem Raspberry Pi und einem USB-Radiostick einen ADS-B-Empfänger, der die vier Netze speist, und zeigt die Flugzeuge direkt über Ihrem Haus auf einem alten Tablet, als leuchtende Punktmatrix-Anzeige oder als Fallblattanzeige wie am Flughafen. Es ist freie Software unter der GPL und läuft jeden Tag auf dem Pi 3B des Autors, im Freien, über WLAN, im Département Moselle.
+ZenithBoard macht aus einem Raspberry Pi und einem USB-Radiostick einen ADS-B-Empfänger, der die fünf Netze speist, und zeigt die Flugzeuge direkt über Ihrem Haus auf einem alten Tablet, als leuchtende Punktmatrix-Anzeige oder als Fallblattanzeige wie am Flughafen. Es ist freie Software unter der GPL und läuft jeden Tag auf dem Pi 3B des Autors, im Freien, über WLAN, im Département Moselle.
 
 ![Die Wand als Punktmatrix in Bernstein: eine Tunisair Airbus A320 mit ihren zwei Flaggen, das Flugzeug in Punkten neben dem Text gezeichnet, dann der nächste Flug](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Neben dem Text eine Silhouette des Flugzeugs aus Punkten, zwei kleine Flaggen (w
 
 Sie können die Wand ganz ohne Hardware ausprobieren: Das Repository enthält eine Demo mit erfundenen Fluggesellschaften und einem Beispiel für alles, vom A380 bis zum Hubschrauber, die auf jedem Computer mit Python läuft.
 
-## Der Empfänger und die vier Netze
+## Der Empfänger und die fünf Netze
 
-ZenithBoard installiert **readsb** als Decoder, mit seiner Karte **tar1090**, und die Feeder, die Sie ankreuzen: ADS-B Exchange immer, FlightAware, Flightradar24 und Plane Finder, wenn Sie sie wollen. Es hält genau einen MLAT-Client am Laufen und zählt sie in `zenithboard status`. Alles ist standardmäßig aus und umkehrbar: Jedes *an* hat ein *aus*, das den vorherigen Zustand wiederherstellt, vor allem Zerstörerischen wird eine Sicherung angelegt, und das Menü hat immer einen Ausweg.
+ZenithBoard installiert **readsb** als Decoder, mit seiner Karte **tar1090**, und die Feeder, die Sie ankreuzen: ADS-B Exchange immer, FlightAware, Flightradar24, Plane Finder und AirNav Radar, wenn Sie sie wollen. Es hält genau einen MLAT-Client am Laufen und zählt sie in `zenithboard status`. Alles ist standardmäßig aus und umkehrbar: Jedes *an* hat ein *aus*, das den vorherigen Zustand wiederherstellt, vor allem Zerstörerischen wird eine Sicherung angelegt, und das Menü hat immer einen Ausweg.
 
 Die Verstärkung des Empfängers lässt sich über das Menü oder die Konsole einstellen, Schritt für Schritt, mit den Statistiken, um zu sehen, ob es geholfen hat. Optionale Statistiken halten einen Monat lang Nachrichten pro Stunde, Reichweite und Flugzeuge pro Tag fest; **graphs1090** zeichnet Jahre davon.
 

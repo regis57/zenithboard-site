@@ -14,7 +14,7 @@ next:
 
 ## Vienu sakiniu
 
-ZenithBoard paverčia Raspberry Pi ir USB radijo raktą ADS-B imtuvu, kuris siunčia duomenis keturiems tinklams ir rodo orlaivius tiesiai virš jūsų namų senoje planšetėje, kaip švytinčią taškinės matricos iškabą arba oro uosto perverčiamų plokštelių lentą. Tai laisva programinė įranga pagal GPL, ir ji kasdien veikia autoriaus paties Pi 3B, lauke, per Wi-Fi, Mozelyje.
+ZenithBoard paverčia Raspberry Pi ir USB radijo raktą ADS-B imtuvu, kuris siunčia duomenis penkiems tinklams ir rodo orlaivius tiesiai virš jūsų namų senoje planšetėje, kaip švytinčią taškinės matricos iškabą arba oro uosto perverčiamų plokštelių lentą. Tai laisva programinė įranga pagal GPL, ir ji kasdien veikia autoriaus paties Pi 3B, lauke, per Wi-Fi, Mozelyje.
 
 ![Taškinės matricos siena gintaro spalva: Tunisair Airbus A320 su dviem vėliavomis, taškais nupieštas orlaivis šalia teksto, o paskui kitas skrydis](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Mažas krumpliaratis sienos kampe atveria jos nustatymus: vienetus, spindulį, s
 
 Sieną galite išbandyti visai be įrangos: saugykloje yra demonstracinė versija su išgalvotomis oro linijomis ir visko pavyzdžiu, nuo A380 iki sraigtasparnio, kuri veikia bet kuriame kompiuteryje su Python.
 
-## Imtuvas ir keturi tinklai
+## Imtuvas ir penki tinklai
 
-ZenithBoard įdiegia **readsb** kaip dekoderį su jo žemėlapiu **tar1090** ir jūsų pažymėtus siuntiklius: ADS-B Exchange visada, FlightAware, Flightradar24 ir Plane Finder, jei jų norite. Jis palaiko veikiantį lygiai vieną MLAT klientą ir suskaičiuoja juos `zenithboard status`. Viskas pagal numatytuosius nustatymus išjungta ir grąžinama: kiekvienas *įjungta* turi *išjungta*, kuris viską grąžina atgal, prieš bet kokį griaunantį veiksmą daroma atsarginė kopija, o meniu visada turi išėjimą.
+ZenithBoard įdiegia **readsb** kaip dekoderį su jo žemėlapiu **tar1090** ir jūsų pažymėtus siuntiklius: ADS-B Exchange visada, FlightAware, Flightradar24, Plane Finder ir AirNav Radar, jei jų norite. Jis palaiko veikiantį lygiai vieną MLAT klientą ir suskaičiuoja juos `zenithboard status`. Viskas pagal numatytuosius nustatymus išjungta ir grąžinama: kiekvienas *įjungta* turi *išjungta*, kuris viską grąžina atgal, prieš bet kokį griaunantį veiksmą daroma atsarginė kopija, o meniu visada turi išėjimą.
 
 Imtuvo stiprinimą galima derinti iš meniu arba konsolės, po vieną žingsnį, su statistika, kad matytumėte, ar tai padėjo. Neprivaloma statistika saugo mėnesį pranešimų per valandą, nuotolio ir orlaivių per dieną; **graphs1090** braižo jų metus.
 

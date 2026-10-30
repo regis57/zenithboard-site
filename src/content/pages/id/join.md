@@ -1,9 +1,9 @@
 ---
 title: "Bergabung dengan komunitas"
-description: "Empat jaringan akan menerima apa yang didengar penerima Anda, dan memberi imbalan. Apa yang Anda berikan, apa yang Anda dapat, dan apa yang tetap di rumah."
+description: "Lima jaringan akan menerima apa yang didengar penerima Anda, dan memberi imbalan. Apa yang Anda berikan, apa yang Anda dapat, dan apa yang tetap di rumah."
 lang: id
 page: join
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Kenali ZenithBoard"
@@ -16,7 +16,7 @@ Penerima Anda mendengar beberapa ratus kilometer di sekitar Anda. Jaringan pener
 
 Berbagi tidak membebani Anda apa pun: beberapa kilobyte per detik di jalur internet Anda, dan tidak ada yang berarti di Pi. Sebagai imbalannya, jaringan membuka fitur berbayar mereka untuk Anda, dan antena tunggal Anda menjadi bagian dari MLAT, yang menemukan pesawat yang tidak memberi tahu di mana dirinya.
 
-## Empat jaringan
+## Lima jaringan
 
 Masing-masing menginginkan hal yang sama, aliran pesan terurai dari readsb, dan masing-masing punya program kecil sendiri untuk mengirimkannya. ZenithBoard memasang yang Anda centang; Anda juga bisa memasangnya sendiri dari halaman masing-masing jaringan.
 
@@ -36,6 +36,10 @@ Pengumpannya bernama **fr24feed**. Sebagai imbalan, akun gratis yang terhubung k
 
 Pengumpannya adalah **Plane Finder ADS-B Client**. Sebagai imbalan, Plane Finder menyediakan akses premium gratis ke situs web dan aplikasinya bagi mereka yang berbagi.
 
+### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
+
+Pengumpannya bernama **rbfeeder** (AirNav Radar dulunya bernama RadarBox). Sebagai imbalan, AirNav Radar memberi akun **Business** kepada mereka yang berbagi. Pi membuat kunci berbaginya sendiri; untuk menautkan stasiun ke akun Anda, Anda masuk di situs mereka, membuka halaman klaim, lalu menempelkan kunci itu.
+
 ## Apa yang Anda berikan
 
 Pesan-pesannya sendiri: alamat pesawat, tanda panggil, posisi, ketinggian, kecepatan, sebagaimana dipancarkan secara terbuka. Waktu tiba setiap pesan, yang dibutuhkan MLAT. Posisi penerima Anda, agar jaringan tahu dari mana data itu didengar. Tidak ada apa pun dari jaringan rumah Anda, tanpa kamera, tanpa mikrofon; program pengumpan berukuran kecil, terbuka atau terdokumentasi, dan ZenithBoard menunjukkan kepada Anda apa yang dilakukan masing-masing.
@@ -44,10 +48,10 @@ Pesan-pesannya sendiri: alamat pesawat, tanda panggil, posisi, ketinggian, kecep
 
 Posisi persis Anda dipakai jaringan untuk menghitung jangkauan dan MLAT; ia tidak ditampilkan di peta publik mereka sebagai penanda di rumah Anda, dan ZenithBoard tidak pernah menampilkannya di dinding atau di unggahan. Dinding di tablet Anda dan peta tar1090 Anda hanya ada di jaringan rumah Anda, kecuali Anda sendiri yang membukanya. Semua yang Anda bagikan bisa Anda hentikan: mematikan pengumpan di menu mengembalikan semuanya seperti semula.
 
-## Satu klien MLAT, bukan empat
+## Satu klien MLAT, bukan lima
 
-Setiap jaringan bisa menjalankan klien MLAT-nya sendiri di Pi Anda. Empat sekaligus terlalu berat untuk Raspberry Pi: prosesor menghabiskan waktunya untuk perhitungan dan dinding tersendat. ZenithBoard menjaga satu klien MLAT yang berjalan, milik ADS-B Exchange, dan mematikan MLAT di yang lain; `zenithboard status` menghitung yang sedang berjalan sehingga Anda bisa memeriksa bahwa hanya ada tepat satu. Jika Anda memasang pengumpan secara manual, lakukan hal yang sama.
+Setiap jaringan bisa menjalankan klien MLAT-nya sendiri di Pi Anda. Lima sekaligus terlalu berat untuk Raspberry Pi: prosesor menghabiskan waktunya untuk perhitungan dan dinding tersendat. ZenithBoard menjaga satu klien MLAT yang berjalan, milik ADS-B Exchange, dan mematikan MLAT di yang lain; `zenithboard status` menghitung yang sedang berjalan sehingga Anda bisa memeriksa bahwa hanya ada tepat satu. Jika Anda memasang pengumpan secara manual, lakukan hal yang sama.
 
 ## Memulai
 
-Di ZenithBoard, menu **1 ADS-B** mencantumkan empat jaringan dengan satu centang masing-masing; ADS-B Exchange selalu aktif. Untuk FlightAware, Flightradar24 dan Plane Finder Anda membuat akun gratis di situs mereka; pemasang mencetak tautan atau kunci yang harus ditempel, sekali saja. Untuk ADS-B Exchange, skrip mereka menanyakan nama stasiun dan posisi Anda, lalu mencetak tautan untuk melihat umpan Anda. Sepuluh menit kemudian penerima Anda sudah ada di peta mereka, dan halaman statistik menunjukkan seberapa jauh Anda mendengar.
+Di ZenithBoard, menu **1 ADS-B** mencantumkan lima jaringan dengan satu centang masing-masing; ADS-B Exchange selalu aktif. Untuk FlightAware, Flightradar24, Plane Finder dan AirNav Radar Anda membuat akun gratis di situs mereka; pemasang mencetak tautan atau kunci yang harus ditempel, sekali saja. Untuk ADS-B Exchange, skrip mereka menanyakan nama stasiun dan posisi Anda, lalu mencetak tautan untuk melihat umpan Anda. Sepuluh menit kemudian penerima Anda sudah ada di peta mereka, dan halaman statistik menunjukkan seberapa jauh Anda mendengar.

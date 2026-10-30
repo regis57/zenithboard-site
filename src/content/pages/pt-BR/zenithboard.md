@@ -14,7 +14,7 @@ next:
 
 ## Em uma frase
 
-O ZenithBoard transforma um Raspberry Pi e um pendrive de rádio USB em um receptor ADS-B que alimenta as quatro redes, e mostra as aeronaves bem em cima da sua casa em um tablet velho, como um letreiro de matriz de pontos aceso ou um painel de letras giratórias de aeroporto. É software livre, sob a GPL, e roda todos os dias no próprio Pi 3B do autor, ao ar livre, por Wi-Fi, na Moselle.
+O ZenithBoard transforma um Raspberry Pi e um pendrive de rádio USB em um receptor ADS-B que alimenta as cinco redes, e mostra as aeronaves bem em cima da sua casa em um tablet velho, como um letreiro de matriz de pontos aceso ou um painel de letras giratórias de aeroporto. É software livre, sob a GPL, e roda todos os dias no próprio Pi 3B do autor, ao ar livre, por Wi-Fi, na Moselle.
 
 ![O painel de matriz de pontos em âmbar: um Tunisair Airbus A320 com as suas duas bandeiras, a aeronave desenhada em pontos ao lado do texto, depois o próximo voo](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Ao lado do texto, uma silhueta da aeronave desenhada em pontos, duas bandeirinha
 
 Você pode experimentar o painel sem nenhum hardware: o repositório traz uma demonstração com companhias aéreas inventadas e um exemplo de tudo, de um A380 a um helicóptero, que roda em qualquer computador com Python.
 
-## O receptor, e as quatro redes
+## O receptor, e as cinco redes
 
-O ZenithBoard instala o **readsb** como decodificador, com o seu mapa **tar1090**, e os alimentadores que você marcar: ADS-B Exchange sempre, FlightAware, Flightradar24 e Plane Finder se você quiser. Ele mantém exatamente um cliente MLAT rodando e os conta em `zenithboard status`. Tudo vem desligado por padrão e é reversível: cada *ligar* tem um *desligar* que deixa as coisas como eram, um backup é feito antes de qualquer ação destrutiva, e o menu sempre tem uma saída.
+O ZenithBoard instala o **readsb** como decodificador, com o seu mapa **tar1090**, e os alimentadores que você marcar: ADS-B Exchange sempre, FlightAware, Flightradar24, Plane Finder e AirNav Radar se você quiser. Ele mantém exatamente um cliente MLAT rodando e os conta em `zenithboard status`. Tudo vem desligado por padrão e é reversível: cada *ligar* tem um *desligar* que deixa as coisas como eram, um backup é feito antes de qualquer ação destrutiva, e o menu sempre tem uma saída.
 
 O ganho do receptor pode ser ajustado pelo menu ou pelo console, um passo de cada vez, com as estatísticas para ver se ajudou. Estatísticas opcionais guardam um mês de mensagens por hora, alcance e aeronaves por dia; o **graphs1090** desenha anos delas.
 

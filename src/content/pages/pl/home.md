@@ -3,7 +3,7 @@ title: "ZenithBoard — niebo nad tobą, na żywo"
 description: "Niebo nad tobą, dekodowane przez ciebie, dzielone ze światem."
 lang: pl
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Zacznij tutaj: czym jest ADS-B"
@@ -22,7 +22,7 @@ Ta strona wyjaśnia trzy rzeczy, po kolei: czym jest ten sygnał, jak zbudować 
 
 **Wymaga** około godziny za pierwszym razem, Raspberry Pi, gniazdka w ścianie i domowego Wi-Fi. Nie musisz umieć programować. Wpiszesz kilka poleceń, które dostaniesz gotowe.
 
-**Daje** samoloty wokół ciebie, na twoim własnym ekranie, bez nikogo pośrodku. Jeśli dzielisz się danymi, sieci śledzenia dają coś w zamian: FlightAware otwiera darmowe konto Enterprise, Flightradar24 darmowy plan Contributor, Plane Finder darmowy dostęp premium do swojej strony i aplikacji, a ADS-B Exchange pokazuje twój strumień na swojej stronie. A jeśli włączysz udostępnianie w ZenithBoard, samoloty przecinające twoje niebo trafiają na Bluesky, jako zdjęcie twojej tablicy.
+**Daje** samoloty wokół ciebie, na twoim własnym ekranie, bez nikogo pośrodku. Jeśli dzielisz się danymi, sieci śledzenia dają coś w zamian: FlightAware otwiera darmowe konto Enterprise, Flightradar24 darmowy plan Contributor, Plane Finder darmowy dostęp premium do swojej strony i aplikacji, AirNav Radar konto Business, a ADS-B Exchange pokazuje twój strumień na swojej stronie. A jeśli włączysz udostępnianie w ZenithBoard, samoloty przecinające twoje niebo trafiają na Bluesky, jako zdjęcie twojej tablicy.
 
 ## Ograniczenia, powiedziane wprost
 

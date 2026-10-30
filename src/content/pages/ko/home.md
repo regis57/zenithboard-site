@@ -3,7 +3,7 @@ title: "ZenithBoard — 머리 위의 하늘을, 실시간으로"
 description: "머리 위의 하늘을, 내 손으로 해독해, 세상과 나눕니다."
 lang: ko
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "여기서 시작: ADS-B란 무엇인가"
@@ -22,7 +22,7 @@ next:
 
 **필요한 것은** 처음에 약 한 시간, Raspberry Pi 한 대, 벽 콘센트, 그리고 집의 Wi-Fi입니다. 프로그래밍을 할 줄 몰라도 괜찮아요. 명령어 몇 줄을 입력하게 되는데, 전부 알려 드립니다.
 
-**주는 것은** 여러분 주위의 항공기를, 여러분 자신의 화면에, 중간에 아무도 끼지 않고 보여 주는 것이에요. 데이터를 공유하면 추적 네트워크가 답례를 합니다. FlightAware는 무료 Enterprise 계정을 열어 주고, Flightradar24는 무료 Contributor 플랜을, Plane Finder는 사이트와 앱의 프리미엄 기능을 무료로, ADS-B Exchange는 여러분의 피드를 자기 사이트에 보여 줍니다. 그리고 ZenithBoard의 공유 기능을 켜면, 여러분의 하늘을 가로지르는 항공기가 여러분 월(wall)의 사진으로 Bluesky에 올라가요.
+**주는 것은** 여러분 주위의 항공기를, 여러분 자신의 화면에, 중간에 아무도 끼지 않고 보여 주는 것이에요. 데이터를 공유하면 추적 네트워크가 답례를 합니다. FlightAware는 무료 Enterprise 계정을 열어 주고, Flightradar24는 무료 Contributor 플랜을, Plane Finder는 사이트와 앱의 프리미엄 기능을 무료로, AirNav Radar는 Business 계정을, ADS-B Exchange는 여러분의 피드를 자기 사이트에 보여 줍니다. 그리고 ZenithBoard의 공유 기능을 켜면, 여러분의 하늘을 가로지르는 항공기가 여러분 월(wall)의 사진으로 Bluesky에 올라가요.
 
 ## 한계는, 솔직하게
 

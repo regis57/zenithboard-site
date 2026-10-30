@@ -3,7 +3,7 @@ title: "ZenithBoard — anga juu yako, moja kwa moja"
 description: "Anga juu yako, likifumbuliwa na wewe, likishirikiwa na dunia."
 lang: sw
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Anza hapa: ADS-B ni nini"
@@ -22,7 +22,7 @@ Tovuti hii inaeleza mambo matatu, kwa mpangilio: ishara hiyo ni nini, jinsi ya k
 
 **Inahitaji** takriban saa moja mara ya kwanza, Raspberry Pi, soketi ya ukutani na Wi-Fi ya nyumbani kwako. Huhitaji kujua kuprogramu. Utaandika amri chache, ambazo unapewa.
 
-**Inatoa** ndege zilizo karibu nawe, kwenye skrini yako mwenyewe, bila mtu yeyote katikati. Ukishiriki data yako, mitandao ya kufuatilia inarudisha kitu: FlightAware inafungua akaunti ya bure ya Enterprise, Flightradar24 mpango wa bure wa Contributor, Plane Finder matumizi ya bure ya hadhi ya juu ya tovuti na programu zake, na ADS-B Exchange inaonyesha mlisho wako kwenye tovuti yake. Na ukiwasha ushiriki wa ZenithBoard, ndege zinazovuka anga yako zinachapishwa kwenye Bluesky, kama picha ya ukuta wako.
+**Inatoa** ndege zilizo karibu nawe, kwenye skrini yako mwenyewe, bila mtu yeyote katikati. Ukishiriki data yako, mitandao ya kufuatilia inarudisha kitu: FlightAware inafungua akaunti ya bure ya Enterprise, Flightradar24 mpango wa bure wa Contributor, Plane Finder matumizi ya bure ya hadhi ya juu ya tovuti na programu zake, AirNav Radar akaunti ya Business, na ADS-B Exchange inaonyesha mlisho wako kwenye tovuti yake. Na ukiwasha ushiriki wa ZenithBoard, ndege zinazovuka anga yako zinachapishwa kwenye Bluesky, kama picha ya ukuta wako.
 
 ## Mipaka, ikisemwa wazi
 

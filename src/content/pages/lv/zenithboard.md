@@ -14,7 +14,7 @@ next:
 
 ## Vienā teikumā
 
-ZenithBoard pārvērš Raspberry Pi un USB radio zibatmiņu par ADS-B uztvērēju, kas padod datus četriem tīkliem, un rāda lidmašīnas tieši virs tavas mājas uz veca planšetdatora kā izgaismotu punktu matricas zīmi vai lidostas pārkrītošo plākšņu tablo. Tā ir brīvā programmatūra, zem GPL, un tā katru dienu darbojas uz autora paša Pi 3B, ārā, caur Wi-Fi, Mozelē.
+ZenithBoard pārvērš Raspberry Pi un USB radio zibatmiņu par ADS-B uztvērēju, kas padod datus pieciem tīkliem, un rāda lidmašīnas tieši virs tavas mājas uz veca planšetdatora kā izgaismotu punktu matricas zīmi vai lidostas pārkrītošo plākšņu tablo. Tā ir brīvā programmatūra, zem GPL, un tā katru dienu darbojas uz autora paša Pi 3B, ārā, caur Wi-Fi, Mozelē.
 
 ![Punktu matricas tablo dzintara krāsā: Tunisair Airbus A320 ar diviem karogiem, lidmašīna, zīmēta punktos blakus tekstam, pēc tam nākamais lidojums](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Blakus tekstam — lidmašīnas siluets, zīmēts punktos, divi mazi karogi (kur
 
 Tablo vari izmēģināt bez jebkādas aparatūras: repozitorijā ir demo ar izdomātām aviokompānijām un paraugu visam, no A380 līdz helikopteram, kas darbojas uz jebkura datora ar Python.
 
-## Uztvērējs un četri tīkli
+## Uztvērējs un pieci tīkli
 
-ZenithBoard uzinstalē **readsb** kā atkodētāju, ar tā karti **tar1090**, un padevējus, kurus atzīmē: ADS-B Exchange vienmēr, FlightAware, Flightradar24 un Plane Finder, ja tos vēlies. Tas uztur darbībā tieši vienu MLAT klientu un saskaita tos ar `zenithboard status`. Viss pēc noklusējuma ir izslēgts un atgriezenisks: katram *ieslēgt* ir *izslēgt*, kas atgriež visu, kā bija, pirms jebkā destruktīva tiek izveidota rezerves kopija, un izvēlnē vienmēr ir izeja.
+ZenithBoard uzinstalē **readsb** kā atkodētāju, ar tā karti **tar1090**, un padevējus, kurus atzīmē: ADS-B Exchange vienmēr, FlightAware, Flightradar24, Plane Finder un AirNav Radar, ja tos vēlies. Tas uztur darbībā tieši vienu MLAT klientu un saskaita tos ar `zenithboard status`. Viss pēc noklusējuma ir izslēgts un atgriezenisks: katram *ieslēgt* ir *izslēgt*, kas atgriež visu, kā bija, pirms jebkā destruktīva tiek izveidota rezerves kopija, un izvēlnē vienmēr ir izeja.
 
 Uztvērēja pastiprinājumu var regulēt no izvēlnes vai konsoles, pa vienam solim, ar statistiku, lai redzētu, vai tas palīdzēja. Pēc izvēles statistika glabā mēnesi ziņojumu stundā, tāluma un lidmašīnu dienā; **graphs1090** zīmē no tās gadus.
 

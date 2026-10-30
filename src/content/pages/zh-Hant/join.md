@@ -1,9 +1,9 @@
 ---
 title: "加入社群"
-description: "四個網路會接收你的接收器聽到的內容，並給你回饋。你付出什麼、得到什麼、以及什麼留在家裡。"
+description: "五個網路會接收你的接收器聽到的內容，並給你回饋。你付出什麼、得到什麼、以及什麼留在家裡。"
 lang: zh-Hant
 page: join
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "認識 ZenithBoard"
@@ -16,7 +16,7 @@ next:
 
 分享不花你任何成本：你的網路線上每秒幾 KB，Pi 上的負擔也不值一提。作為回報，各網路會向你開放它們的付費功能，而你那一支天線也成為 MLAT 的一部分，用來找出那些不報位置的飛機。
 
-## 四個網路
+## 五個網路
 
 每一個網路要的都是同一樣東西：readsb 解碼出來的訊息串流，而每一個都有自己的小程式來傳送它。ZenithBoard 會安裝你勾選的那些；你也可以從各網路的頁面自己安裝。
 
@@ -36,6 +36,10 @@ next:
 
 餵送程式是 **Plane Finder ADS-B Client**。作為回報，Plane Finder 讓分享者免費使用其網站和 App 的進階功能。
 
+### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
+
+餵送程式叫做 **rbfeeder**（AirNav Radar 以前叫做 RadarBox）。作為回報，AirNav Radar 給分享者一個 **Business** 帳號。Pi 會自己產生分享金鑰；要把站點連結到你的帳號，你得登入它們的網站，打開認領頁面，貼上那把金鑰。
+
 ## 你付出什麼
 
 訊息本身：飛機的位址、呼號、位置、高度、速度，一如它們公開廣播出來的那樣。每一則訊息到達的時間，這是 MLAT 需要的。你的接收器的位置，讓網路知道資料是從哪裡聽到的。沒有任何來自你家網路的東西，沒有攝影機，沒有麥克風；餵送程式都很小，開源或有文件說明，ZenithBoard 會讓你看到每一個程式在做什麼。
@@ -44,10 +48,10 @@ next:
 
 你的確切位置會被各網路用來計算距離和 MLAT；它不會以一根釘在你家上的圖釘出現在它們的公開地圖上，ZenithBoard 也絕不會在牆上或貼文裡顯示它。你平板上的牆和你的 tar1090 地圖只在你家的網路上，除非你自己把它們開放出去。你分享的一切都可以停止分享：在選單裡關掉一個餵送程式，一切就回復原狀。
 
-## 一個 MLAT 用戶端，而不是四個
+## 一個 MLAT 用戶端，而不是五個
 
-每個網路都可以在你的 Pi 上執行自己的 MLAT 用戶端。四個同時跑對 Raspberry Pi 來說太多了：處理器把時間都花在運算上，牆就會卡頓。ZenithBoard 只讓一個 MLAT 用戶端運行，也就是 ADS-B Exchange 的那個，並關閉其他網路的 MLAT；`zenithboard status` 會計算正在運行的數量，讓你確認恰好只有一個。如果你是手動安裝餵送程式，也請這麼做。
+每個網路都可以在你的 Pi 上執行自己的 MLAT 用戶端。五個同時跑對 Raspberry Pi 來說太多了：處理器把時間都花在運算上，牆就會卡頓。ZenithBoard 只讓一個 MLAT 用戶端運行，也就是 ADS-B Exchange 的那個，並關閉其他網路的 MLAT；`zenithboard status` 會計算正在運行的數量，讓你確認恰好只有一個。如果你是手動安裝餵送程式，也請這麼做。
 
 ## 開始動手
 
-在 ZenithBoard 裡，選單 **1 ADS-B** 列出四個網路，每個各有一個勾選框；ADS-B Exchange 永遠是開啟的。FlightAware、Flightradar24 和 Plane Finder 需要你到它們的網站建立免費帳號；安裝程式會印出要貼上的連結或金鑰，只印一次。ADS-B Exchange 的腳本則會問你一個站名和你的位置，然後印出查看你資料流的連結。十分鐘後，你的接收器就出現在它們的地圖上，統計頁面會顯示你聽得多遠。
+在 ZenithBoard 裡，選單 **1 ADS-B** 列出五個網路，每個各有一個勾選框；ADS-B Exchange 永遠是開啟的。FlightAware、Flightradar24、Plane Finder 和 AirNav Radar 需要你到它們的網站建立免費帳號；安裝程式會印出要貼上的連結或金鑰，只印一次。ADS-B Exchange 的腳本則會問你一個站名和你的位置，然後印出查看你資料流的連結。十分鐘後，你的接收器就出現在它們的地圖上，統計頁面會顯示你聽得多遠。

@@ -3,7 +3,7 @@ title: "ZenithBoard — dangus virš jūsų, gyvai"
 description: "Dangus virš jūsų, iššifruotas jūsų pačių, pasidalytas su pasauliu."
 lang: lt
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Pradėkite čia: kas yra ADS-B"
@@ -22,7 +22,7 @@ Kiekvienas lėktuvas virš jūsų namų kalba. Maždaug kartą per sekundę jis 
 
 **Reikia** maždaug valandos pirmą kartą, Raspberry Pi, elektros lizdo ir jūsų namų Wi-Fi. Nereikia mokėti programuoti. Įvesite kelias komandas, kurios jums pateikiamos.
 
-**Duoda** orlaivius aplink jus, jūsų pačių ekrane, be jokių tarpininkų. Jei dalijatės savo duomenimis, sekimo tinklai atsilygina: FlightAware atveria nemokamą Enterprise paskyrą, Flightradar24 – nemokamą Contributor planą, Plane Finder – nemokamą aukščiausio lygio naudojimąsi savo svetaine ir programėlėmis, o ADS-B Exchange rodo jūsų srautą savo svetainėje. O jei įjungsite ZenithBoard dalijimąsi, jūsų dangų kertantys orlaiviai bus skelbiami Bluesky, kaip jūsų sienos nuotrauka.
+**Duoda** orlaivius aplink jus, jūsų pačių ekrane, be jokių tarpininkų. Jei dalijatės savo duomenimis, sekimo tinklai atsilygina: FlightAware atveria nemokamą Enterprise paskyrą, Flightradar24 – nemokamą Contributor planą, Plane Finder – nemokamą aukščiausio lygio naudojimąsi savo svetaine ir programėlėmis, AirNav Radar – Business paskyrą, o ADS-B Exchange rodo jūsų srautą savo svetainėje. O jei įjungsite ZenithBoard dalijimąsi, jūsų dangų kertantys orlaiviai bus skelbiami Bluesky, kaip jūsų sienos nuotrauka.
 
 ## Ribos, pasakytos aiškiai
 

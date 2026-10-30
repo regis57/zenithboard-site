@@ -1,9 +1,9 @@
 ---
 title: "Join the community"
-description: "Four networks will take what your receiver hears, and give something back. What you give, what you get, and what stays at home."
+description: "Five networks will take what your receiver hears, and give something back. What you give, what you get, and what stays at home."
 lang: en
 page: join
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: true
 next:
   label: "Discover ZenithBoard"
@@ -16,7 +16,7 @@ Your receiver hears a few hundred kilometres around you. A network of receivers 
 
 Sharing costs you nothing: a few kilobytes per second on your internet line, and nothing on the Pi worth mentioning. In return the networks open their paid features to you, and your single antenna becomes part of MLAT, which finds the aircraft that do not say where they are.
 
-## The four networks
+## The five networks
 
 Each one wants the same thing, the stream of decoded messages from readsb, and each has its own small program to send it. ZenithBoard installs the ones you tick; you can also install them yourself from each network's page.
 
@@ -36,6 +36,10 @@ The feeder is called **fr24feed**. In return, the free account linked to your re
 
 The feeder is the **Plane Finder ADS-B Client**. In return, Plane Finder arranges free premium use of its website and apps for those who share.
 
+### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
+
+The feeder is called **rbfeeder** (AirNav Radar used to be RadarBox). In return, AirNav Radar gives those who share a **Business** account. The Pi makes its own sharing key; to link the station to your account, you sign in on their site, open the claim page and paste that key.
+
 ## What you give
 
 The messages themselves: the aircraft's address, callsign, position, altitude, speed, as they were broadcast in the open. The time each one arrived, which is what MLAT needs. Your receiver's position, so the network knows where the data was heard from. Nothing from your home network, no camera, no microphone; the feeder programs are small, open or documented, and ZenithBoard shows you what each one is doing.
@@ -44,10 +48,10 @@ The messages themselves: the aircraft's address, callsign, position, altitude, s
 
 Your exact position is used by the networks to compute ranges and MLAT; it is not shown on their public maps as a pin on your house, and ZenithBoard never shows it on the wall or in a post. Your tablet's wall and your tar1090 map are on your home network only, unless you open them yourself. Everything you share, you can stop sharing: turning a feeder off in the menu puts things back as they were.
 
-## One MLAT client, not four
+## One MLAT client, not five
 
-Each network can run its own MLAT client on your Pi. Four at once is too much for a Raspberry Pi: the processor spends its time on arithmetic and the wall stutters. ZenithBoard keeps one MLAT client running, ADS-B Exchange's, and switches MLAT off in the others; `zenithboard status` counts the running ones so you can check there is exactly one. If you install the feeders by hand, do the same.
+Each network can run its own MLAT client on your Pi. Five at once is too much for a Raspberry Pi: the processor spends its time on arithmetic and the wall stutters. ZenithBoard keeps one MLAT client running, ADS-B Exchange's, and switches MLAT off in the others; `zenithboard status` counts the running ones so you can check there is exactly one. If you install the feeders by hand, do the same.
 
 ## Getting started
 
-In ZenithBoard, menu **1 ADS-B** lists the four networks with a tick each; ADS-B Exchange is always on. For FlightAware, Flightradar24 and Plane Finder you create a free account on their site; the installer prints the link or the key to paste, once. For ADS-B Exchange their script asks a station name and your position, and prints the link to see your feed. Ten minutes later your receiver is on their maps, and the statistics pages show how far you hear.
+In ZenithBoard, menu **1 ADS-B** lists the five networks with a tick each; ADS-B Exchange is always on. For FlightAware, Flightradar24, Plane Finder and AirNav Radar you create a free account on their site; the installer prints the link or the key to paste, once. For ADS-B Exchange their script asks a station name and your position, and prints the link to see your feed. Ten minutes later your receiver is on their maps, and the statistics pages show how far you hear.

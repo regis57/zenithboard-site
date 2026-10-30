@@ -14,7 +14,7 @@ next:
 
 ## Yhdellä lauseella
 
-ZenithBoard muuttaa Raspberry Pin ja USB-radiotikun ADS-B-vastaanottimeksi, joka syöttää neljää verkostoa ja näyttää suoraan talosi yllä lentävät koneet vanhalla tabletilla, valaistuna pistematriisikylttinä tai lentokentän läppätauluna. Se on vapaa ohjelmisto GPL-lisenssillä, ja se pyörii joka päivä tekijän omalla Pi 3B:llä, ulkona, Wi-Fin varassa, Mosellessa.
+ZenithBoard muuttaa Raspberry Pin ja USB-radiotikun ADS-B-vastaanottimeksi, joka syöttää viittä verkostoa ja näyttää suoraan talosi yllä lentävät koneet vanhalla tabletilla, valaistuna pistematriisikylttinä tai lentokentän läppätauluna. Se on vapaa ohjelmisto GPL-lisenssillä, ja se pyörii joka päivä tekijän omalla Pi 3B:llä, ulkona, Wi-Fin varassa, Mosellessa.
 
 ![Pistematriisiseinätaulu keltaoranssina: Tunisair Airbus A320 kahdella lipullaan, ilma-alus piirrettynä pisteillä tekstin viereen, sitten seuraava lento](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Tekstin vieressä on pisteistä piirretty ilma-aluksen siluetti, kaksi pientä l
 
 Voit kokeilla seinätaulua ilman mitään laitteistoa: tietovarasto sisältää demon keksityillä lentoyhtiöillä ja esimerkin kaikesta, A380:stä helikopteriin, ja se pyörii millä tahansa tietokoneella, jossa on Python.
 
-## Vastaanotin ja neljä verkostoa
+## Vastaanotin ja viisi verkostoa
 
-ZenithBoard asentaa purkuohjelmaksi **readsb**:n, sen kartan **tar1090**:n ja rastittamasi syöttöohjelmat: ADS-B Exchangen aina, FlightAwaren, Flightradar24:n ja Plane Finderin, jos haluat ne. Se pitää käynnissä täsmälleen yhden MLAT-asiakasohjelman ja laskee ne komennolla `zenithboard status`. Kaikki on oletuksena pois päältä ja peruttavissa: jokaisella *päällä*-valinnalla on *pois*-valinta, joka palauttaa asiat ennalleen, ennen mitään tuhoavaa tehdään varmuuskopio, ja valikosta pääsee aina ulos.
+ZenithBoard asentaa purkuohjelmaksi **readsb**:n, sen kartan **tar1090**:n ja rastittamasi syöttöohjelmat: ADS-B Exchangen aina, FlightAwaren, Flightradar24:n, Plane Finderin ja AirNav Radarin, jos haluat ne. Se pitää käynnissä täsmälleen yhden MLAT-asiakasohjelman ja laskee ne komennolla `zenithboard status`. Kaikki on oletuksena pois päältä ja peruttavissa: jokaisella *päällä*-valinnalla on *pois*-valinta, joka palauttaa asiat ennalleen, ennen mitään tuhoavaa tehdään varmuuskopio, ja valikosta pääsee aina ulos.
 
 Vastaanottimen vahvistusta voi säätää valikosta tai konsolista askel kerrallaan, ja tilastoista näkee, auttoiko se. Valinnaiset tilastot säilyttävät kuukauden ajalta viestit tunneittain sekä kantaman ja ilma-alukset päivittäin; **graphs1090** piirtää niitä vuosien ajalta.
 

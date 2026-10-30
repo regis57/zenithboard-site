@@ -3,7 +3,7 @@ title: "ZenithBoard — 你頭頂的天空，即時呈現"
 description: "你頭頂的天空，由你解碼，與全世界分享。"
 lang: zh-Hant
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: false
 next:
   label: "從這裡開始：什麼是 ADS-B"
@@ -22,7 +22,7 @@ next:
 
 **需要**第一次大約一小時、一台 Raspberry Pi、一個牆上插座和你家的 Wi-Fi。你不需要會寫程式。你只要輸入幾個指令，而指令都會提供給你。
 
-**得到**的是你周圍的飛機，顯示在你自己的螢幕上，中間沒有任何人經手。如果你分享你的資料，追蹤網路會給你回饋：FlightAware 開通免費的 Enterprise 帳號，Flightradar24 提供免費的 Contributor 方案，Plane Finder 讓你免費使用其網站和 App 的進階功能，而 ADS-B Exchange 會在其網站上顯示你的資料流。如果你開啟 ZenithBoard 的分享功能，飛越你天空的飛機會以你那面牆的圖片發佈到 Bluesky。
+**得到**的是你周圍的飛機，顯示在你自己的螢幕上，中間沒有任何人經手。如果你分享你的資料，追蹤網路會給你回饋：FlightAware 開通免費的 Enterprise 帳號，Flightradar24 提供免費的 Contributor 方案，Plane Finder 讓你免費使用其網站和 App 的進階功能，AirNav Radar 給你一個 Business 帳號，而 ADS-B Exchange 會在其網站上顯示你的資料流。如果你開啟 ZenithBoard 的分享功能，飛越你天空的飛機會以你那面牆的圖片發佈到 Bluesky。
 
 ## 把限制說清楚
 
