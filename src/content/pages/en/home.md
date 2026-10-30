@@ -3,7 +3,7 @@ title: "ZenithBoard — the sky above you, live"
 description: "The sky above you, decoded by you, shared with the world."
 lang: en
 page: home
-updated: 2026-10-22
+updated: 2026-10-30
 reviewed: true
 next:
   label: "Start here: what is ADS-B"
@@ -22,7 +22,7 @@ This site explains three things, in order: what that signal is, how to build a r
 
 **It takes** about an hour the first time, a Raspberry Pi, a wall socket and your home Wi-Fi. You do not need to know how to program. You will type a few commands, which are given to you.
 
-**It gives** the aircraft around you, on your own screen, with no one in between. If you share your data, the tracking networks give something back: FlightAware opens a free Enterprise account, Flightradar24 a free Contributor plan, Plane Finder free premium use of its site and apps, and ADS-B Exchange shows your feed on its site. And if you turn ZenithBoard's sharing on, the aircraft crossing your sky get posted to Bluesky, as a picture of your wall.
+**It gives** the aircraft around you, on your own screen, with no one in between. If you share your data, the tracking networks give something back: FlightAware opens a free Enterprise account, Flightradar24 a free Contributor plan, Plane Finder free premium use of its site and apps, AirNav Radar a Business account, and ADS-B Exchange shows your feed on its site. And if you turn ZenithBoard's sharing on, the aircraft crossing your sky get posted to Bluesky, as a picture of your wall.
 
 ## The limits, said plainly
 

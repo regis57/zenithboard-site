@@ -14,7 +14,7 @@ next:
 
 ## In one sentence
 
-ZenithBoard turns a Raspberry Pi and a USB radio stick into an ADS-B receiver that feeds the four networks, and shows the aircraft right above your house on an old tablet, as a lit dot-matrix sign or an airport split-flap board. It is free software, under the GPL, and it runs every day on the author's own Pi 3B, outdoors, on Wi-Fi, in Moselle.
+ZenithBoard turns a Raspberry Pi and a USB radio stick into an ADS-B receiver that feeds the five networks, and shows the aircraft right above your house on an old tablet, as a lit dot-matrix sign or an airport split-flap board. It is free software, under the GPL, and it runs every day on the author's own Pi 3B, outdoors, on Wi-Fi, in Moselle.
 
 ![The dot-matrix wall in amber: a Tunisair Airbus A320 with its two flags, the aircraft drawn in dots beside the text, then the next flight](/img/zb-wall.webp)
 
@@ -34,9 +34,9 @@ Beside the text, a silhouette of the aircraft drawn in dots, two small flags (wh
 
 You can try the wall with no hardware at all: the repository ships a demo with invented airlines and an example of everything, from an A380 to a helicopter, that runs on any computer with Python.
 
-## The receiver, and the four networks
+## The receiver, and the five networks
 
-ZenithBoard installs **readsb** as the decoder, with its map **tar1090**, and the feeders you tick: ADS-B Exchange always, FlightAware, Flightradar24 and Plane Finder if you want them. It keeps exactly one MLAT client running and counts them in `zenithboard status`. Everything is off by default and reversible: every *on* has an *off* that puts things back, a backup is made before anything destructive, and the menu always has a way out.
+ZenithBoard installs **readsb** as the decoder, with its map **tar1090**, and the feeders you tick: ADS-B Exchange always, FlightAware, Flightradar24, Plane Finder and AirNav Radar if you want them. It keeps exactly one MLAT client running and counts them in `zenithboard status`. Everything is off by default and reversible: every *on* has an *off* that puts things back, a backup is made before anything destructive, and the menu always has a way out.
 
 The receiver's gain can be tuned from the menu or the console, one step at a time, with the statistics to see whether it helped. Optional statistics keep a month of messages per hour, range and aircraft per day; **graphs1090** draws years of them.
 
