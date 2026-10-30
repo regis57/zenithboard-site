@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "旧平板上的点阵墙或机场翻页牌、网页控制台、Bluesky 上的帖子。免费、开源，一个菜单装好一切。"
 lang: zh-Hans
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "安装它：github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 候选版本。** 自 2026 年 10 月 25 日起，0.99 版已冻结：一个月内只合入修复，作者的 Pi 保持不动地运行。如果没有遗留问题，1.0 最早将于 2026 年 11 月 25 日发布。现在试用就是帮忙：欢迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上反馈。
+> **1.0 候选版本。** 自 2026 年 10 月 25 日起，0.99 版已冻结：一个月内只合入修复，作者的 Pi 保持不动地运行。10 月 30 日加入了两项功能：AirNav Radar 和 Telegram 消息，因此一个月重新计算。如果没有遗留问题，1.0 最早将于 2026 年 11 月 29 日发布。现在试用就是帮忙：欢迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上反馈。
 
 ## 一句话概括
 

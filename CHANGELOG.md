@@ -3,6 +3,12 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-30 — The release candidate's month starts again
+
+- The notice at the top of the *ZenithBoard* page, in all twenty-two languages: on 30 October two features came in
+  (ZenithBoard 0.99.6: AirNav Radar and Telegram messages), so the month starts again, and 1.0 follows on
+  29 November 2026 at the earliest, no longer 25 November. Text only, in the existing callout.
+
 ## 2026-10-25 — ZenithBoard is a release candidate for 1.0
 
 - A short notice at the top of the *ZenithBoard* page, in all twenty-two languages: since 25 October 2026 version

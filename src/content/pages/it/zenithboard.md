@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Il tabellone a puntini o quello a palette da aeroporto su un vecchio tablet, la console web, i post su Bluesky. Gratuito, aperto, un solo menu per installare tutto."
 lang: it
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Installalo: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Release candidate per la 1.0.** Dal 25 ottobre 2026 la versione 0.99 è congelata: per un mese entrano solo correzioni, mentre il Pi dell'autore gira senza essere toccato. Se non resta nulla di aperto, la 1.0 arriverà il 25 novembre 2026 al più presto. Provarla ora aiuta: una segnalazione su [GitHub](https://github.com/regis57/ZenithBoard/issues) è benvenuta.
+> **Release candidate per la 1.0.** Dal 25 ottobre 2026 la versione 0.99 è congelata: per un mese entrano solo correzioni, mentre il Pi dell'autore gira senza essere toccato. Il 30 ottobre sono entrate due funzioni, AirNav Radar e i messaggi Telegram, quindi il mese ricomincia. Se non resta nulla di aperto, la 1.0 arriverà il 29 novembre 2026 al più presto. Provarla ora aiuta: una segnalazione su [GitHub](https://github.com/regis57/ZenithBoard/issues) è benvenuta.
 
 ## In una frase
 
