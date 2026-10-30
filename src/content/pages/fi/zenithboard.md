@@ -50,6 +50,10 @@ Versiosta 0.39 lähtien `http://<the Pi>:8080/console` näyttää asetukset sein
 
 Valinnainen, oletuksena pois päältä. Päälle kytkettynä Pi julkaisee julkaisun arvoiset ilma-alukset Blueskyhin: sotilastankkerin, Belugan, tyypin, jota se ei ole nähnyt kuukauteen, kuukauden kaukaisimman. Jokainen julkaisu on kuva seinätaulusta ilma-aluksen reittikartan vieressä, molemmat Pin itsensä piirtämiä, lyhyen tekstin kera: lento, tyyppi, reitti, korkeus ja kaupunkisi nimi, ei koskaan sijaintiasi. Bluesky-sovellussalasanasi pysyy Pillä tiedostossa, jonka vain palvelu voi lukea; se ei koskaan näy lokissa eikä seinätaululla.
 
+## Telegram
+
+Valinnainen, oletuksena pois päältä, versiosta 0.99.6 lähtien. Pi voi myös kirjoittaa omaan Telegram-keskusteluusi tai -ryhmääsi botin kautta, jonka teet minuutissa @BotFatherin avulla: ilma-alukset, jotka lentävät jakamisen säteen läpi, kustakin yksi viesti, jossa on lento, malli, rekisteritunnus ja sen lippu, reitti, korkeus ja nopeus, sekä transponderin hätäkoodit 7500, 7600 ja 7700 kaikkialta, minne antenni kuulee, mukana koodin merkitys ja lähin paikkakunta. Vain tekstiä, vain sinulle: hätäkoodia ei koskaan julkaista Blueskyhin. Botin tunniste eli token kirjoitetaan kerran terminaaliin, ja se pysyy Pillä; kaikki muu asetetaan konsolissa.
+
 ## Rakennettu niin, ettei se mene pieleen
 
 ZenithBoard toimii root-oikeuksin, kuuntelee verkkoasi ja asentaa muiden ihmisten ohjelmistoja, joten se on rakennettu rajoittamaan sitä, mikä voi mennä pieleen. Seinätaulu vastaa vain kotiverkkoosi ja antaa kaikille muille 403-virheen, oli portti ohjattu tai ei; nähdäksesi sen ulkoa valikko neuvoo VPN:n avoimen portin sijaan. Jokainen palvelu toimii systemd-hiekkalaatikossa, jossa on vain se, mitä sen tehtävä tarvitsee. Pakettien allekirjoituksia ei koskaan poisteta käytöstä. Debianin tietoturvakorjaukset voivat asentua itsestään päivittäin. Kaksi vahtikoiraa käynnistää uudelleen sen, mikä jumiutuu, ja *health*-komento kertoo yhdellä ruudulla, onko kaikki hyvin.

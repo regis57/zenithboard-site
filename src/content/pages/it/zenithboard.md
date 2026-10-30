@@ -50,6 +50,10 @@ Dalla versione 0.39, `http://<the Pi>:8080/console` mostra le impostazioni con l
 
 Facoltativo, spento per impostazione predefinita. Una volta attivato, il Pi pubblica su Bluesky gli aerei che meritano un post: un'aerocisterna militare, un Beluga, un tipo che non vede da un mese, il più lontano del mese. Ogni post è un'immagine del tabellone accanto a una mappa della traccia dell'aereo, entrambe disegnate dal Pi stesso, con un breve testo: il volo, il tipo, la rotta, l'altitudine, e il nome della tua città, mai la tua posizione. La password dell'app Bluesky resta sul Pi, in un file che solo il servizio può leggere; non compare mai in un log né sul tabellone.
 
+## Telegram
+
+Facoltativo, spento per impostazione predefinita, dalla versione 0.99.6. Il Pi può anche scrivere nella tua chat o nel tuo gruppo Telegram, tramite un bot che crei in un minuto con @BotFather: gli aerei che attraversano il raggio dei post, un messaggio ciascuno con il volo, il modello, l'immatricolazione e la sua bandiera, la rotta, l'altitudine e la velocità, e i codici transponder di emergenza, 7500, 7600 e 7700, ricevuti ovunque arrivi l'antenna, con il significato del codice e la località più vicina. Solo testo, solo per te: un codice di emergenza non viene mai pubblicato su Bluesky. Il token del bot si digita una volta nel terminale e resta sul Pi; tutto il resto si imposta nella console.
+
 ## Costruito per non andare storto
 
 ZenithBoard gira come root, ascolta sulla tua rete e installa software di altri, quindi è costruito per limitare ciò che può andare storto. Il tabellone risponde solo alla tua rete domestica e dà a tutti gli altri un 403, porta inoltrata o no; per vederlo da fuori, il menu spiega una VPN anziché una porta aperta. Ogni servizio gira in una sandbox systemd con solo ciò di cui il suo compito ha bisogno. Le firme dei pacchetti non sono mai disabilitate. Le correzioni di sicurezza di Debian possono installarsi da sole ogni giorno. Due watchdog riavviano ciò che si blocca, e un comando *health* ti dice in una sola schermata se tutto va bene.

@@ -50,6 +50,10 @@ Nuo 0.39 versijos `http://<the Pi>:8080/console` rodo nustatymus sienos išvaizd
 
 Neprivaloma, pagal numatytuosius nustatymus išjungta. Įjungus, Pi skelbia Bluesky įrašo vertus orlaivius: karinį degalų papildymo lėktuvą, Beluga, tipą, kurio nematė mėnesį, tolimiausią mėnesio orlaivį. Kiekvienas įrašas – tai sienos nuotrauka šalia orlaivio trajektorijos žemėlapio, abu nupiešti paties Pi, su trumpu tekstu: skrydis, tipas, maršrutas, aukštis ir jūsų miesto pavadinimas, niekada – jūsų padėtis. Jūsų Bluesky programėlės slaptažodis lieka Pi, faile, kurį gali skaityti tik tarnyba; jis niekada nepasirodo nei žurnale, nei sienoje.
 
+## Telegram
+
+Neprivaloma, pagal numatytuosius nustatymus išjungta, nuo 0.99.6 versijos. Pi taip pat gali rašyti į jūsų pačių Telegram pokalbį ar grupę per botą, kurį per minutę susikuriate su @BotFather: apie orlaivius, kertančius dalijimosi spindulį, po vieną žinutę kiekvienam, nurodant skrydį, modelį, registracijos ženklą ir jo vėliavą, maršrutą, aukštį ir greitį, ir apie avarinius atsakiklio kodus 7500, 7600 ir 7700, priimtus visur, kur siekia antena, nurodant kodo reikšmę ir artimiausią gyvenvietę. Tik tekstas, tik jums: avarinis atsakiklio kodas niekada neskelbiamas Bluesky. Boto žetonas vieną kartą įvedamas terminale ir lieka Pi; visa kita nustatoma konsolėje.
+
 ## Sukurta taip, kad nesugestų
 
 ZenithBoard veikia kaip root, klausosi jūsų tinkle ir diegia kitų žmonių programinę įrangą, todėl sukurta taip, kad ribotų tai, kas gali nepavykti. Siena atsako tik jūsų namų tinklui, o visiems kitiems duoda 403, nesvarbu, ar prievadas persiųstas, ar ne; norint ją matyti iš išorės, meniu paaiškina VPN, o ne atvirą prievadą. Kiekviena tarnyba veikia systemd smėlio dėžėje, tik su tuo, ko reikia jos darbui. Paketų parašai niekada neišjungiami. Debian saugumo pataisos gali įsidiegti pačios kasdien. Du prižiūrėtojai paleidžia iš naujo tai, kas užstrigo, o *health* komanda viename ekrane pasako, ar viskas gerai.

@@ -50,6 +50,10 @@ Depuis la version 0.39, `http://<the Pi>:8080/console` affiche les réglages dan
 
 Facultatif, désactivé par défaut. Une fois activé, le Pi publie sur Bluesky les avions qui méritent une publication : un ravitailleur militaire, un Beluga, un type qu'il n'a pas vu depuis un mois, le plus lointain du mois. Chaque publication est une image du mur à côté d'une carte de la trajectoire de l'avion, toutes deux dessinées par le Pi lui-même, avec un court texte : le vol, le type, la route, l'altitude, et le nom de votre ville, jamais votre position. Votre mot de passe d'application Bluesky reste sur le Pi, dans un fichier que seul le service peut lire ; il n'apparaît jamais dans un journal ni sur le mur.
 
+## Telegram
+
+Facultatif, désactivé par défaut, depuis la version 0.99.6. Le Pi peut aussi écrire dans votre propre discussion ou groupe Telegram, par un bot que vous créez en une minute avec @BotFather : les avions qui traversent le rayon de partage, un message chacun avec le vol, le modèle, l'immatriculation et son drapeau, la route, l'altitude et la vitesse, et les codes transpondeur d'urgence, 7500, 7600 et 7700, entendus partout où porte l'antenne, avec ce que signifie le code et la ville la plus proche. Du texte seulement, pour vous seul : un code d'urgence n'est jamais publié sur Bluesky. Le jeton du bot se tape une fois dans le terminal et reste sur le Pi ; tout le reste se règle dans la console.
+
 ## Conçu pour ne pas mal tourner
 
 ZenithBoard tourne en root, écoute sur votre réseau et installe les logiciels d'autres personnes, alors il est conçu pour limiter ce qui peut mal tourner. Le mur ne répond qu'à votre réseau domestique et renvoie un 403 à tous les autres, port redirigé ou non ; pour le voir de l'extérieur, le menu explique un VPN plutôt qu'un port ouvert. Chaque service tourne dans un bac à sable systemd avec seulement ce dont sa tâche a besoin. Les signatures des paquets ne sont jamais désactivées. Les correctifs de sécurité de Debian peuvent s'installer d'eux-mêmes chaque jour. Deux chiens de garde redémarrent ce qui se fige, et une commande *health* vous dit en un écran si tout va bien.

@@ -50,6 +50,10 @@ Since version 0.39, `http://<the Pi>:8080/console` shows the settings in the wal
 
 Optional, off by default. Switched on, the Pi posts the aircraft worth a post to Bluesky: a military tanker, a Beluga, a type it has not seen in a month, the farthest of the month. Each post is a picture of the wall beside a map of the aircraft's track, both drawn by the Pi itself, with a short text: the flight, the type, the route, the altitude, and the name of your town, never your position. Your Bluesky app password stays on the Pi, in a file that only the service can read; it never appears in a log or on the wall.
 
+## Telegram
+
+Optional, off by default, since version 0.99.6. The Pi can also write to your own Telegram chat or group, through a bot you make in a minute with @BotFather: the aircraft crossing the sharing radius, one message each with the flight, the model, the registration and its flag, the route, the altitude and the speed, and the emergency squawks, 7500, 7600 and 7700, heard anywhere the antenna reaches, with what the code means and the nearest town. Text only, to you alone: an emergency squawk is never posted to Bluesky. The bot's token is typed once in the terminal and stays on the Pi; everything else is set in the console.
+
 ## Built to not go wrong
 
 ZenithBoard runs as root, listens on your network and installs other people's software, so it is built to limit what can go wrong. The wall answers your home network only and gives everyone else a 403, forwarded port or not; to see it from outside, the menu explains a VPN rather than an open port. Every service runs in a systemd sandbox with only what its job needs. Package signatures are never disabled. Debian's security fixes can install themselves daily. Two watchdogs restart what freezes, and a *health* command tells you in one screen whether all is well.

@@ -50,6 +50,10 @@ Alates versioonist 0.39 näitab `http://<the Pi>:8080/console` seadeid seina vä
 
 Valikuline, vaikimisi väljas. Sisselülitatuna postitab Pi Bluesky'sse postitust väärt lennukid: sõjaväe tankurlennuki, Beluga, tüübi, mida ta pole kuu aega näinud, kuu kaugeima. Iga postitus on pilt seinast lennuki trajektoori kaardi kõrval, mõlemad joonistab Pi ise, koos lühikese tekstiga: lend, tüüp, marsruut, kõrgus ja sinu linna nimi, mitte kunagi sinu asukoht. Sinu Bluesky rakenduse parool jääb Pi peale, faili, mida ainult teenus saab lugeda; see ei ilmu kunagi logis ega seinal.
 
+## Telegram
+
+Valikuline, vaikimisi väljas, alates versioonist 0.99.6. Pi saab kirjutada ka sinu enda Telegrami vestlusse või gruppi, boti kaudu, mille lood minutiga @BotFatheri abil: jagamise raadiusest läbi lendavad lennukid, igaühe kohta üks sõnum lennu, mudeli, registreerimistunnuse ja selle lipu, marsruudi, kõrguse ja kiirusega, ning hädaolukorra transpondrikoodid 7500, 7600 ja 7700 kõikjalt, kuhu antenn ulatub, koos koodi tähenduse ja lähima asulaga. Ainult tekst, ainult sulle: hädaolukorra transpondrikoodi ei postitata kunagi Bluesky'sse. Boti pääsuluba sisestatakse üks kord terminalis ja see jääb Pi peale; kõik muu seadistatakse konsoolis.
+
 ## Ehitatud nii, et ei läheks valesti
 
 ZenithBoard jookseb root-õigustes, kuulab sinu võrku ja paigaldab teiste inimeste tarkvara, seega on see ehitatud piirama seda, mis võib valesti minna. Sein vastab ainult sinu koduvõrgule ja annab kõigile teistele 403, olgu port edastatud või mitte; selle väljastpoolt nägemiseks selgitab menüü VPN-i, mitte avatud porti. Iga teenus jookseb systemd liivakastis ainult sellega, mida tema töö vajab. Pakettide allkirju ei keelata kunagi. Debiani turvaparandused võivad end iga päev ise paigaldada. Kaks valvurit taaskäivitavad selle, mis hangub, ja *health* käsk ütleb sulle ühel ekraanil, kas kõik on korras.

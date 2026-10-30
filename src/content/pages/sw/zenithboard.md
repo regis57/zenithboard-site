@@ -50,6 +50,10 @@ Tangu toleo 0.39, `http://<the Pi>:8080/console` inaonyesha mipangilio kwa mwone
 
 Ya hiari, imezimwa kwa chaguo-msingi. Ikiwashwa, Pi inachapisha kwenye Bluesky ndege zinazostahili chapisho: ndege ya kijeshi ya kujaza mafuta, Beluga, aina ambayo haijaona kwa mwezi mmoja, ya mbali zaidi ya mwezi. Kila chapisho ni picha ya ukuta kando ya ramani ya njia ya ndege, zote zikichorwa na Pi yenyewe, pamoja na maandishi mafupi: safari, aina, njia, mwinuko, na jina la mji wako, kamwe si nafasi yako. Nenosiri la programu yako ya Bluesky linabaki kwenye Pi, kwenye faili ambalo huduma pekee inaweza kusoma; halionekani kamwe kwenye kumbukumbu au kwenye ukuta.
 
+## Telegram
+
+Ya hiari, imezimwa kwa chaguo-msingi, tangu toleo 0.99.6. Pi inaweza pia kuandika kwenye gumzo au kikundi chako mwenyewe cha Telegram, kupitia boti unayounda kwa dakika moja na @BotFather: ndege zinazopita ndani ya nusukipenyo cha kushiriki, ujumbe mmoja kwa kila moja wenye safari, modeli, usajili na bendera yake, njia, mwinuko na kasi, na misimbo ya dharura ya transponda, 7500, 7600 na 7700, inayopokelewa popote antena inapofika, pamoja na maana ya msimbo na mji ulio karibu zaidi. Maandishi pekee, kwako peke yako: msimbo wa dharura hauchapishwi kamwe kwenye Bluesky. Tokeni ya boti huandikwa mara moja kwenye terminal na hubaki kwenye Pi; kila kitu kingine huwekwa kwenye konsoli.
+
 ## Imejengwa isiende vibaya
 
 ZenithBoard inaendeshwa kama root, inasikiliza kwenye mtandao wako na inasakinisha programu za watu wengine, kwa hiyo imejengwa kupunguza kinachoweza kwenda vibaya. Ukuta unajibu mtandao wa nyumbani kwako tu na unampa kila mtu mwingine 403, mlango ukiwa umeelekezwa au la; ili kuuona kutoka nje, menyu inaeleza VPN badala ya mlango wazi. Kila huduma inaendeshwa kwenye sanduku la mchanga la systemd ikiwa na kile tu kazi yake inachohitaji. Saini za vifurushi hazizimwi kamwe. Marekebisho ya usalama ya Debian yanaweza kujisakinisha yenyewe kila siku. Walinzi wawili wanaanzisha upya kinachoganda, na amri ya *health* inakuambia kwa skrini moja kama yote ni sawa.
