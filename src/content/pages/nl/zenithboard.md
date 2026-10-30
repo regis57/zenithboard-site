@@ -50,6 +50,10 @@ Sinds versie 0.39 toont `http://<the Pi>:8080/console` de instellingen in het ui
 
 Optioneel, standaard uit. Ingeschakeld plaatst de Pi de vliegtuigen die een post waard zijn op Bluesky: een militaire tanker, een Beluga, een type dat hij een maand lang niet heeft gezien, het verste van de maand. Elke post is een foto van de wall naast een kaart van het spoor van het vliegtuig, allebei door de Pi zelf getekend, met een korte tekst: de vlucht, het type, de route, de hoogte, en de naam van je woonplaats, nooit je positie. Je Bluesky-appwachtwoord blijft op de Pi, in een bestand dat alleen de service kan lezen; het verschijnt nooit in een logboek of op de wall.
 
+## Telegram
+
+Optioneel, standaard uit, sinds versie 0.99.6. De Pi kan ook naar je eigen Telegram-chat of -groep schrijven, via een bot die je in een minuut maakt met @BotFather: de vliegtuigen die de straal voor berichten doorkruisen, één bericht per vliegtuig met de vlucht, het type, de registratie en de vlag daarvan, de route, de hoogte en de snelheid, en de noodcodes van de transponder, 7500, 7600 en 7700, opgevangen overal waar de antenne reikt, met wat de code betekent en de dichtstbijzijnde plaats. Alleen tekst, alleen voor jou: een noodcode wordt nooit op Bluesky geplaatst. Het token van de bot wordt één keer in de terminal ingetypt en blijft op de Pi; al het andere stel je in de console in.
+
 ## Gebouwd om niet mis te gaan
 
 ZenithBoard draait als root, luistert op je netwerk en installeert software van anderen, dus het is gebouwd om te beperken wat er mis kan gaan. De wall antwoordt alleen je thuisnetwerk en geeft alle anderen een 403, doorgestuurde poort of niet; om haar van buiten te zien legt het menu een VPN uit in plaats van een open poort. Elke service draait in een systemd-sandbox met alleen wat zijn taak nodig heeft. Pakkethandtekeningen worden nooit uitgeschakeld. De beveiligingsupdates van Debian kunnen zichzelf dagelijks installeren. Twee watchdogs herstarten wat vastloopt, en een *health*-opdracht vertelt je in één scherm of alles in orde is.

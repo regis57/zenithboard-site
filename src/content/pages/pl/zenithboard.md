@@ -50,6 +50,10 @@ Od wersji 0.39 `http://<the Pi>:8080/console` pokazuje ustawienia w stylu tablic
 
 Opcjonalne, domyślnie wyłączone. Po włączeniu Pi publikuje na Bluesky samoloty warte wpisu: wojskowy tankowiec, Belugę, typ, którego nie widziało od miesiąca, najdalszy w miesiącu. Każdy wpis to obraz tablicy obok mapy trasy samolotu, oba narysowane przez samo Pi, z krótkim tekstem: lot, typ, trasa, wysokość i nazwa twojej miejscowości, nigdy twoja pozycja. Twoje hasło aplikacji Bluesky zostaje na Pi, w pliku, który może odczytać tylko ta usługa; nigdy nie pojawia się w logu ani na tablicy.
 
+## Telegram
+
+Opcjonalne, domyślnie wyłączone, od wersji 0.99.6. Pi może też pisać na twój własny czat lub do twojej grupy w Telegramie, przez bota, którego tworzysz w minutę za pomocą @BotFather: o samolotach przecinających promień publikowania, po jednej wiadomości na każdy, z lotem, modelem, znakami rejestracyjnymi i ich flagą, trasą, wysokością i prędkością, oraz o kodach alarmowych transpondera 7500, 7600 i 7700, odebranych wszędzie, dokąd sięga antena, ze znaczeniem kodu i najbliższą miejscowością. Tylko tekst, tylko dla ciebie: kod alarmowy nigdy nie jest publikowany na Bluesky. Token bota wpisuje się raz w terminalu i zostaje na Pi; wszystko inne ustawia się w konsoli.
+
 ## Zbudowane tak, żeby nie zawodzić
 
 ZenithBoard działa jako root, nasłuchuje w twojej sieci i instaluje cudze oprogramowanie, więc jest zbudowany tak, by ograniczyć to, co może pójść nie tak. Tablica odpowiada tylko twojej sieci domowej, a wszystkim innym daje 403, z przekierowanym portem czy bez; żeby zobaczyć ją z zewnątrz, menu objaśnia VPN zamiast otwartego portu. Każda usługa działa w piaskownicy systemd tylko z tym, czego wymaga jej zadanie. Podpisy pakietów nigdy nie są wyłączane. Poprawki bezpieczeństwa Debiana mogą instalować się same codziennie. Dwa watchdogi restartują to, co się zawiesi, a polecenie *health* mówi ci na jednym ekranie, czy wszystko jest w porządku.

@@ -50,6 +50,10 @@ Sejak versi 0.39, `http://<the Pi>:8080/console` menampilkan pengaturan dalam ta
 
 Opsional, nonaktif secara bawaan. Jika diaktifkan, Pi mengunggah pesawat yang layak diunggah ke Bluesky: pesawat tanker militer, Beluga, tipe yang belum dilihatnya sebulan, yang terjauh bulan itu. Setiap unggahan adalah gambar dinding di samping peta jejak pesawat, keduanya digambar oleh Pi sendiri, dengan teks singkat: penerbangan, tipe, rute, ketinggian, dan nama kota Anda, tidak pernah posisi Anda. Kata sandi aplikasi Bluesky Anda tetap di Pi, dalam berkas yang hanya bisa dibaca oleh layanan itu; ia tidak pernah muncul di log atau di dinding.
 
+## Telegram
+
+Opsional, nonaktif secara bawaan, sejak versi 0.99.6. Pi juga bisa menulis ke obrolan atau grup Telegram Anda sendiri, lewat bot yang Anda buat dalam semenit dengan @BotFather: pesawat yang melintasi radius berbagi, satu pesan untuk masing-masing berisi penerbangan, model, registrasi beserta benderanya, rute, ketinggian, dan kecepatan, serta kode transponder darurat, 7500, 7600, dan 7700, yang tertangkap di mana pun dalam jangkauan antena, dengan arti kode itu dan kota terdekat. Hanya teks, hanya untuk Anda: kode transponder darurat tidak pernah diunggah ke Bluesky. Token bot diketik sekali di terminal dan tetap di Pi; semua yang lain diatur di konsol.
+
 ## Dibangun agar tidak salah jalan
 
 ZenithBoard berjalan sebagai root, mendengarkan di jaringan Anda dan memasang perangkat lunak orang lain, jadi ia dibangun untuk membatasi apa yang bisa salah. Dinding hanya menjawab jaringan rumah Anda dan memberi semua orang lain 403, port diteruskan atau tidak; untuk melihatnya dari luar, menu menjelaskan VPN alih-alih port terbuka. Setiap layanan berjalan dalam sandbox systemd hanya dengan apa yang dibutuhkan tugasnya. Tanda tangan paket tidak pernah dinonaktifkan. Perbaikan keamanan Debian bisa terpasang sendiri setiap hari. Dua watchdog memulai ulang apa yang membeku, dan perintah *health* memberi tahu Anda dalam satu layar apakah semuanya baik-baik saja.

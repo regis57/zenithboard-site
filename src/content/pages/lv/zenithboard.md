@@ -50,6 +50,10 @@ Kopš versijas 0.39, `http://<the Pi>:8080/console` rāda iestatījumus tablo iz
 
 Pēc izvēles, pēc noklusējuma izslēgts. Ieslēgts, Pi publicē Bluesky lidmašīnas, kas ir ieraksta vērtas: militāro tankeri, Beluga, tipu, ko tas nav redzējis mēnesi, mēneša tālāko. Katrs ieraksts ir tablo attēls blakus lidmašīnas trajektorijas kartei, abus zīmē pats Pi, ar īsu tekstu: lidojums, tips, maršruts, augstums un tavas pilsētas nosaukums, nekad tava pozīcija. Tava Bluesky lietotnes parole paliek uz Pi, failā, ko var lasīt tikai pats serviss; tā nekad neparādās ne žurnālā, ne uz tablo.
 
+## Telegram
+
+Pēc izvēles, pēc noklusējuma izslēgts, kopš versijas 0.99.6. Pi var arī rakstīt tavā Telegram tērzēšanā vai grupā, izmantojot botu, ko izveido minūtes laikā ar @BotFather: par lidmašīnām, kas šķērso kopīgošanas rādiusu, pa vienai ziņai katrai ar lidojumu, modeli, reģistrācijas zīmi un tās karogu, maršrutu, augstumu un ātrumu, un par avārijas transpondera kodiem 7500, 7600 un 7700, kas uztverti jebkur, kur sniedzas antena, ar koda nozīmi un tuvāko apdzīvoto vietu. Tikai teksts, tikai tev: avārijas transpondera kods nekad netiek publicēts Bluesky. Bota marķieris tiek ievadīts vienreiz terminālī un paliek uz Pi; viss pārējais tiek iestatīts konsolē.
+
 ## Būvēts, lai nenoietu greizi
 
 ZenithBoard darbojas kā root, klausās tavā tīklā un instalē citu cilvēku programmatūru, tāpēc tas ir būvēts tā, lai ierobežotu to, kas var noiet greizi. Tablo atbild tikai tavam mājas tīklam un visiem pārējiem dod 403, ar pārsūtītu portu vai bez; lai to redzētu no ārpuses, izvēlne izskaidro VPN, nevis atvērtu portu. Katrs serviss darbojas systemd smilškastē tikai ar to, kas tā darbam nepieciešams. Pakotņu paraksti nekad netiek atspējoti. Debian drošības labojumi var instalēties paši katru dienu. Divi sargsuņi pārstartē to, kas iesalst, un *health* komanda vienā ekrānā pasaka, vai viss ir kārtībā.

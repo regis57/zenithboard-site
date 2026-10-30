@@ -50,6 +50,10 @@ Seit Version 0.39 zeigt `http://<the Pi>:8080/console` die Einstellungen im Look
 
 Optional, standardmäßig aus. Eingeschaltet postet der Pi die Flugzeuge, die einen Post wert sind, auf Bluesky: einen militärischen Tanker, einen Beluga, einen Typ, den er seit einem Monat nicht gesehen hat, das entfernteste des Monats. Jeder Post ist ein Bild der Wand neben einer Karte mit der Flugspur des Flugzeugs, beides vom Pi selbst gezeichnet, mit einem kurzen Text: der Flug, der Typ, die Route, die Höhe und der Name Ihres Ortes, nie Ihre Position. Ihr Bluesky-App-Passwort bleibt auf dem Pi, in einer Datei, die nur der Dienst lesen kann; es taucht nie in einem Protokoll oder auf der Wand auf.
 
+## Telegram
+
+Optional, standardmäßig aus, seit Version 0.99.6. Der Pi kann auch in Ihren eigenen Telegram-Chat oder Ihre Gruppe schreiben, über einen Bot, den Sie in einer Minute mit @BotFather anlegen: die Flugzeuge, die den Radius für Beiträge durchqueren, je eine Nachricht mit Flug, Typ, Kennzeichen und dessen Flagge, Route, Höhe und Geschwindigkeit, und die Transponder-Notfallcodes 7500, 7600 und 7700, überall empfangen, wohin die Antenne reicht, mit der Bedeutung des Codes und dem nächstgelegenen Ort. Nur Text, nur an Sie: Ein Notfallcode wird nie auf Bluesky gepostet. Das Token des Bots wird einmal im Terminal eingegeben und bleibt auf dem Pi; alles andere stellen Sie in der Konsole ein.
+
 ## Gebaut, damit nichts schiefgeht
 
 ZenithBoard läuft als root, lauscht in Ihrem Netz und installiert Software anderer Leute, deshalb ist es so gebaut, dass möglichst wenig schiefgehen kann. Die Wand antwortet nur Ihrem Heimnetz und gibt allen anderen eine 403, weitergeleiteter Port hin oder her; um sie von außen zu sehen, erklärt das Menü ein VPN statt eines offenen Ports. Jeder Dienst läuft in einer systemd-Sandbox mit nur dem, was seine Aufgabe braucht. Paketsignaturen werden nie abgeschaltet. Die Sicherheitskorrekturen von Debian können sich täglich selbst installieren. Zwei Watchdogs starten neu, was einfriert, und ein *health*-Befehl sagt Ihnen auf einem Bildschirm, ob alles in Ordnung ist.

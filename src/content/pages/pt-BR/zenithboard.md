@@ -50,6 +50,10 @@ Desde a versão 0.39, `http://<the Pi>:8080/console` mostra as configurações n
 
 Opcional, desligado por padrão. Ligado, o Pi publica no Bluesky as aeronaves que merecem uma publicação: um avião-tanque militar, um Beluga, um tipo que ele não vê há um mês, a mais distante do mês. Cada publicação é uma imagem do painel ao lado de um mapa da trajetória da aeronave, ambos desenhados pelo próprio Pi, com um texto curto: o voo, o tipo, a rota, a altitude e o nome da sua cidade, nunca a sua posição. A senha de aplicativo do seu Bluesky fica no Pi, em um arquivo que só o serviço pode ler; ela nunca aparece em um log nem no painel.
 
+## Telegram
+
+Opcional, desligado por padrão, desde a versão 0.99.6. O Pi também pode escrever no seu próprio chat ou grupo do Telegram, por meio de um bot que você cria em um minuto com o @BotFather: as aeronaves que cruzam o raio das postagens, uma mensagem para cada uma com o voo, o modelo, a matrícula e a bandeira dela, a rota, a altitude e a velocidade, e os códigos de emergência do transponder, 7500, 7600 e 7700, captados em qualquer lugar que a antena alcance, com o que o código significa e a localidade mais próxima. Só texto, só para você: um código de emergência nunca é postado no Bluesky. O token do bot é digitado uma vez no terminal e fica no Pi; todo o resto se ajusta no console.
+
 ## Feito para não dar errado
 
 O ZenithBoard roda como root, escuta na sua rede e instala software de outras pessoas, então foi feito para limitar o que pode dar errado. O painel responde apenas à sua rede doméstica e dá um 403 a todo o resto, com porta encaminhada ou não; para vê-lo de fora, o menu explica uma VPN em vez de uma porta aberta. Cada serviço roda em uma sandbox do systemd com apenas o que a sua tarefa precisa. As assinaturas de pacotes nunca são desativadas. As correções de segurança do Debian podem se instalar sozinhas diariamente. Dois vigias reiniciam o que travar, e um comando *health* diz a você em uma única tela se está tudo bem.

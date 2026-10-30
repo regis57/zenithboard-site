@@ -50,6 +50,10 @@ Desde la versión 0.39, `http://<the Pi>:8080/console` muestra la configuración
 
 Opcional, desactivado por defecto. Una vez activado, la Pi publica en Bluesky los aviones que merecen una publicación: un avión cisterna militar, un Beluga, un tipo que no ha visto en un mes, el más lejano del mes. Cada publicación es una imagen del panel junto a un mapa de la trayectoria del avión, ambos dibujados por la propia Pi, con un texto corto: el vuelo, el tipo, la ruta, la altitud y el nombre de tu localidad, nunca tu posición. Tu contraseña de aplicación de Bluesky se queda en la Pi, en un archivo que solo el servicio puede leer; nunca aparece en un registro ni en el panel.
 
+## Telegram
+
+Opcional, desactivado por defecto, desde la versión 0.99.6. La Pi también puede escribir en tu propio chat o grupo de Telegram, a través de un bot que creas en un minuto con @BotFather: los aviones que cruzan el radio de publicación, un mensaje por cada uno con el vuelo, el modelo, la matrícula y su bandera, la ruta, la altitud y la velocidad, y los códigos de emergencia del transpondedor, 7500, 7600 y 7700, captados en cualquier lugar al que llegue la antena, con lo que significa el código y la localidad más cercana. Solo texto, solo para ti: un código de emergencia nunca se publica en Bluesky. El token del bot se escribe una vez en el terminal y se queda en la Pi; todo lo demás se ajusta en la consola.
+
 ## Hecho para que no falle
 
 ZenithBoard se ejecuta como root, escucha en tu red e instala software de otros, así que está construido para limitar lo que puede salir mal. El panel responde solo a tu red doméstica y a todos los demás les devuelve un 403, con o sin puerto redirigido; para verlo desde fuera, el menú explica una VPN (red privada virtual) en lugar de un puerto abierto. Cada servicio se ejecuta en un entorno aislado de systemd con solo lo que su trabajo necesita. Las firmas de los paquetes nunca se desactivan. Las correcciones de seguridad de Debian pueden instalarse solas cada día. Dos vigilantes reinician lo que se bloquea, y un comando *health* te dice en una sola pantalla si todo va bien.

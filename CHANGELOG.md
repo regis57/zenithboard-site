@@ -3,6 +3,12 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-30 — Telegram messages
+
+- The *ZenithBoard* page gains a *Telegram* section after *Bluesky*, in all twenty-two languages: ZenithBoard 0.99.6's
+  messages to your own chat (the crossings of the sharing radius, the emergency squawks anywhere in range, never posted
+  to Bluesky; the bot's token kept on the Pi). The words follow the console's own translations. Text only.
+
 ## 2026-10-30 — AirNav Radar's claim page, said as a registration
 
 - *Join the community*, AirNav Radar's paragraph: the page where the station is linked to an account is now called
