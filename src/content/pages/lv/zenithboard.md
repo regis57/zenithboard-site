@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Punktu tablo vai lidostas pārkrītošo plākšņu tablo uz veca planšetdatora, tīmekļa konsole, ieraksti Bluesky. Bezmaksas, atvērts, viena izvēlne visam."
 lang: lv
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Uzinstalē to: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Laidiena kandidāts versijai 1.0.** Kopš 2026. gada 25. oktobra versija 0.99 ir iesaldēta: mēnesi tajā nonāk tikai labojumi, kamēr autora Pi darbojas neaizskarts. Ja nekas nepaliek atvērts, 1.0 iznāks ne agrāk kā 2026. gada 25. novembrī. Izmēģināt to tagad palīdz: ziņojums [GitHub](https://github.com/regis57/ZenithBoard/issues) ir gaidīts.
+> **Laidiena kandidāts versijai 1.0.** Kopš 2026. gada 25. oktobra versija 0.99 ir iesaldēta: mēnesi tajā nonāk tikai labojumi, kamēr autora Pi darbojas neaizskarts. 30. oktobrī tika pievienotas divas funkcijas – AirNav Radar un Telegram ziņas –, tāpēc mēnesis sākas no jauna. Ja nekas nepaliek atvērts, 1.0 iznāks ne agrāk kā 2026. gada 29. novembrī. Izmēģināt to tagad palīdz: ziņojums [GitHub](https://github.com/regis57/ZenithBoard/issues) ir gaidīts.
 
 ## Vienā teikumā
 

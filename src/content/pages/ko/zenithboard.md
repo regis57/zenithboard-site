@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "오래된 태블릿 위의 점 월 또는 공항 플랩식 안내판, 웹 콘솔, Bluesky 게시물. 무료, 공개, 메뉴 하나로 전부 설치."
 lang: ko
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "설치하기: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 릴리스 후보.** 2026년 10월 25일부터 0.99 버전은 동결되었습니다. 한 달 동안은 수정만 들어가며, 그동안 작성자의 Pi는 손대지 않고 돌아갑니다. 남은 문제가 없으면 1.0은 빨라도 2026년 11월 25일에 나옵니다. 지금 써 보시는 것이 도움이 됩니다. [GitHub](https://github.com/regis57/ZenithBoard/issues)에 보고해 주시면 반갑겠습니다.
+> **1.0 릴리스 후보.** 2026년 10월 25일부터 0.99 버전은 동결되었습니다. 한 달 동안은 수정만 들어가며, 그동안 작성자의 Pi는 손대지 않고 돌아갑니다. 10월 30일에 AirNav Radar와 Telegram 메시지라는 두 기능이 들어와 한 달을 다시 셉니다. 남은 문제가 없으면 1.0은 빨라도 2026년 11월 29일에 나옵니다. 지금 써 보시는 것이 도움이 됩니다. [GitHub](https://github.com/regis57/ZenithBoard/issues)에 보고해 주시면 반갑겠습니다.
 
 ## 한 문장으로
 

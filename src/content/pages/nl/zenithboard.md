@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "De wall van stippen of het klapperbord van de luchthaven op een oude tablet, de webconsole, de posts op Bluesky. Gratis, open, één menu om alles te installeren."
 lang: nl
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Installeer het: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Release candidate voor 1.0.** Sinds 25 oktober 2026 is versie 0.99 bevroren: een maand lang komen er alleen reparaties bij, terwijl de Pi van de auteur onaangeroerd draait. Blijft er niets open, dan volgt 1.0 op zijn vroegst op 25 november 2026. Nu uitproberen helpt: een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
+> **Release candidate voor 1.0.** Sinds 25 oktober 2026 is versie 0.99 bevroren: een maand lang komen er alleen reparaties bij, terwijl de Pi van de auteur onaangeroerd draait. Op 30 oktober kwamen er twee functies bij, AirNav Radar en Telegram-berichten, dus de maand begint opnieuw. Blijft er niets open, dan volgt 1.0 op zijn vroegst op 29 november 2026. Nu uitproberen helpt: een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
 
 ## In één zin
 

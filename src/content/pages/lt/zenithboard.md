@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Taškų siena arba oro uosto perverčiamų plokštelių lenta senoje planšetėje, žiniatinklio konsolė, įrašai Bluesky. Nemokama, atvira, vienas meniu viskam įdiegti."
 lang: lt
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Įdiekite: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 versijos kandidatė.** Nuo 2026 m. spalio 25 d. 0.99 versija užšaldyta: mėnesį į ją patenka tik pataisymai, o autoriaus Pi veikia jo neliečiant. Jei niekas neliks atvira, 1.0 pasirodys ne anksčiau kaip 2026 m. lapkričio 25 d. Išbandyti ją dabar padeda: pranešimas [GitHub](https://github.com/regis57/ZenithBoard/issues) laukiamas.
+> **1.0 versijos kandidatė.** Nuo 2026 m. spalio 25 d. 0.99 versija užšaldyta: mėnesį į ją patenka tik pataisymai, o autoriaus Pi veikia jo neliečiant. Spalio 30 d. buvo pridėtos dvi funkcijos – AirNav Radar ir Telegram žinutės, todėl mėnuo skaičiuojamas iš naujo. Jei niekas neliks atvira, 1.0 pasirodys ne anksčiau kaip 2026 m. lapkričio 29 d. Išbandyti ją dabar padeda: pranešimas [GitHub](https://github.com/regis57/ZenithBoard/issues) laukiamas.
 
 ## Vienu sakiniu
 

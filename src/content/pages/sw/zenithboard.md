@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Ukuta wa nukta au ubao wa herufi zinazogeuka wa uwanja wa ndege kwenye kompyuta kibao ya zamani, konsoli ya wavuti, machapisho kwenye Bluesky. Bure, huru, menyu moja kusakinisha yote."
 lang: sw
 page: zenithboard
-updated: 2026-10-25
+updated: 2026-10-30
 reviewed: false
 next:
   label: "Isakinishe: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Toleo tarajiwa la 1.0.** Tangu tarehe 25 Oktoba 2026, toleo la 0.99 limegandishwa: kwa mwezi mmoja ni marekebisho pekee yanayoingia, huku Pi ya mwandishi ikiendelea bila kuguswa. Ikiwa hakuna kinachobaki wazi, 1.0 itafuata tarehe 25 Novemba 2026 mapema kabisa. Kulijaribu sasa kunasaidia: ripoti kwenye [GitHub](https://github.com/regis57/ZenithBoard/issues) inakaribishwa.
+> **Toleo tarajiwa la 1.0.** Tangu tarehe 25 Oktoba 2026, toleo la 0.99 limegandishwa: kwa mwezi mmoja ni marekebisho pekee yanayoingia, huku Pi ya mwandishi ikiendelea bila kuguswa. Tarehe 30 Oktoba vipengele viwili viliongezwa, AirNav Radar na jumbe za Telegram, kwa hiyo mwezi unaanza upya. Ikiwa hakuna kinachobaki wazi, 1.0 itafuata tarehe 29 Novemba 2026 mapema kabisa. Kulijaribu sasa kunasaidia: ripoti kwenye [GitHub](https://github.com/regis57/ZenithBoard/issues) inakaribishwa.
 
 ## Kwa sentensi moja
 
