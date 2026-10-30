@@ -3,6 +3,13 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-30 — AirNav Radar's claim page, said as a registration
+
+- *Join the community*, AirNav Radar's paragraph: the page where the station is linked to an account is now called
+  its registration page in every language but English, at the owner's word (*enregistrement*). The words chosen for
+  *claim* read as *demand* or *complaint* in several languages (Japanese クレーム, Spanish *reclamar*), or needed
+  the English word in brackets (Japanese and Korean).
+
 ## 2026-10-30 — AirNav Radar, the fifth network
 
 - ZenithBoard 0.99.6 feeds AirNav Radar too. In all twenty-two languages: *Join the community* says five networks,

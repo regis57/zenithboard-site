@@ -38,7 +38,7 @@ Il feeder è il **Plane Finder ADS-B Client**. In cambio, Plane Finder concede l
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Il feeder si chiama **rbfeeder** (AirNav Radar un tempo si chiamava RadarBox). In cambio, AirNav Radar dà a chi condivide un account **Business**. Il Pi genera da sé la propria chiave di condivisione; per collegare la stazione al tuo account, accedi al loro sito, apri la pagina per rivendicare una stazione e incolli quella chiave.
+Il feeder si chiama **rbfeeder** (AirNav Radar un tempo si chiamava RadarBox). In cambio, AirNav Radar dà a chi condivide un account **Business**. Il Pi genera da sé la propria chiave di condivisione; per collegare la stazione al tuo account, accedi al loro sito, apri la pagina di registrazione della stazione e incolli quella chiave.
 
 ## Che cosa dai
 

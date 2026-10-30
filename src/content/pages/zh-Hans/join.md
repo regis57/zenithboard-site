@@ -38,7 +38,7 @@ next:
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-馈送程序叫 **rbfeeder**（AirNav Radar 以前叫 RadarBox）。作为回报，AirNav Radar 为分享者提供 **Business** 账户。Pi 会自己生成分享密钥；要把站点关联到你的账户，你需要登录它们的网站，打开认领页面，粘贴这个密钥。
+馈送程序叫 **rbfeeder**（AirNav Radar 以前叫 RadarBox）。作为回报，AirNav Radar 为分享者提供 **Business** 账户。Pi 会自己生成分享密钥；要把站点关联到你的账户，你需要登录它们的网站，打开站点注册页面，粘贴这个密钥。
 
 ## 你给出什么
 

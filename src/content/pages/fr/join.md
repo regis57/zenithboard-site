@@ -38,7 +38,7 @@ Le programme d'envoi est le **Plane Finder ADS-B Client**. En retour, Plane Find
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Le programme d'envoi s'appelle **rbfeeder** (AirNav Radar s'appelait autrefois RadarBox). En retour, AirNav Radar offre un compte **Business** à ceux qui partagent. Le Pi crée sa propre clé de partage ; pour relier la station à votre compte, vous vous connectez sur leur site, ouvrez la page qui permet de revendiquer une station et y collez cette clé.
+Le programme d'envoi s'appelle **rbfeeder** (AirNav Radar s'appelait autrefois RadarBox). En retour, AirNav Radar offre un compte **Business** à ceux qui partagent. Le Pi crée sa propre clé de partage ; pour relier la station à votre compte, vous vous connectez sur leur site, ouvrez la page d'enregistrement de la station et y collez cette clé.
 
 ## Ce que vous donnez
 

@@ -38,7 +38,7 @@ Syöttöohjelma on **Plane Finder ADS-B Client**. Vastineeksi Plane Finder järj
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Syöttöohjelman nimi on **rbfeeder** (AirNav Radar tunnettiin aiemmin nimellä RadarBox). Vastineeksi AirNav Radar antaa jakajille **Business**-tilin. Pi luo itse oman jakoavaimensa; jotta asema liitetään tiliisi, kirjaudut niiden sivustolle, avaat aseman lunastussivun ja liität sinne tuon avaimen.
+Syöttöohjelman nimi on **rbfeeder** (AirNav Radar tunnettiin aiemmin nimellä RadarBox). Vastineeksi AirNav Radar antaa jakajille **Business**-tilin. Pi luo itse oman jakoavaimensa; jotta asema liitetään tiliisi, kirjaudut niiden sivustolle, avaat aseman rekisteröintisivun ja liität sinne tuon avaimen.
 
 ## Mitä annat
 
