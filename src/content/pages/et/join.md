@@ -38,7 +38,7 @@ Söötja on **Plane Finder ADS-B Client**. Vastutasuks korraldab Plane Finder ne
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Söötjat nimetatakse **rbfeeder** (AirNav Radar kandis varem nime RadarBox). Vastutasuks annab AirNav Radar neile, kes jagavad, **Business** konto. Pi loob ise oma jagamisvõtme; jaama oma kontoga sidumiseks logid nende saidile sisse, avad jaama sidumise lehe ja kleebid sinna selle võtme.
+Söötjat nimetatakse **rbfeeder** (AirNav Radar kandis varem nime RadarBox). Vastutasuks annab AirNav Radar neile, kes jagavad, **Business** konto. Pi loob ise oma jagamisvõtme; jaama oma kontoga sidumiseks logid nende saidile sisse, avad jaama registreerimise lehe ja kleebid sinna selle võtme.
 
 ## Mida sa annad
 

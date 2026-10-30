@@ -38,7 +38,7 @@ Siuntiklis yra **Plane Finder ADS-B Client**. Mainais Plane Finder suteikia nemo
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Siuntiklis vadinasi **rbfeeder** (anksčiau AirNav Radar vadinosi RadarBox). Mainais AirNav Radar suteikia **Business** paskyrą tiems, kurie dalijasi. Pi pats susikuria savo dalijimosi raktą; kad susietumėte stotį su savo paskyra, prisijungiate jų svetainėje, atveriate stoties priskyrimo puslapį ir įklijuojate tą raktą.
+Siuntiklis vadinasi **rbfeeder** (anksčiau AirNav Radar vadinosi RadarBox). Mainais AirNav Radar suteikia **Business** paskyrą tiems, kurie dalijasi. Pi pats susikuria savo dalijimosi raktą; kad susietumėte stotį su savo paskyra, prisijungiate jų svetainėje, atveriate stoties registracijos puslapį ir įklijuojate tą raktą.
 
 ## Ką duodate
 

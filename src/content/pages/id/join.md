@@ -38,7 +38,7 @@ Pengumpannya adalah **Plane Finder ADS-B Client**. Sebagai imbalan, Plane Finder
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Pengumpannya bernama **rbfeeder** (AirNav Radar dulunya bernama RadarBox). Sebagai imbalan, AirNav Radar memberi akun **Business** kepada mereka yang berbagi. Pi membuat kunci berbaginya sendiri; untuk menautkan stasiun ke akun Anda, Anda masuk di situs mereka, membuka halaman klaim, lalu menempelkan kunci itu.
+Pengumpannya bernama **rbfeeder** (AirNav Radar dulunya bernama RadarBox). Sebagai imbalan, AirNav Radar memberi akun **Business** kepada mereka yang berbagi. Pi membuat kunci berbaginya sendiri; untuk menautkan stasiun ke akun Anda, Anda masuk di situs mereka, membuka halaman pendaftaran stasiun, lalu menempelkan kunci itu.
 
 ## Apa yang Anda berikan
 

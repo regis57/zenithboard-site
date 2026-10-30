@@ -38,7 +38,7 @@ Mlishaji ni **Plane Finder ADS-B Client**. Kwa kurudisha, Plane Finder inapanga 
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Mlishaji unaitwa **rbfeeder** (AirNav Radar zamani iliitwa RadarBox). Kwa kurudisha, AirNav Radar inawapa wale wanaoshiriki akaunti ya **Business**. Pi inaunda ufunguo wake yenyewe wa kushiriki; ili kuunganisha kituo na akaunti yako, unaingia kwenye tovuti yao, unafungua ukurasa wa kudai kituo na unabandika ufunguo huo.
+Mlishaji unaitwa **rbfeeder** (AirNav Radar zamani iliitwa RadarBox). Kwa kurudisha, AirNav Radar inawapa wale wanaoshiriki akaunti ya **Business**. Pi inaunda ufunguo wake yenyewe wa kushiriki; ili kuunganisha kituo na akaunti yako, unaingia kwenye tovuti yao, unafungua ukurasa wa kusajili kituo na unabandika ufunguo huo.
 
 ## Unachotoa
 

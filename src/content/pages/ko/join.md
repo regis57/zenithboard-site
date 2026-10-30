@@ -38,7 +38,7 @@ next:
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-피더의 이름은 **rbfeeder**예요(AirNav Radar의 예전 이름은 RadarBox였어요). 그 대가로 AirNav Radar는 공유하는 분들께 **Business** 계정을 줘요. 공유 키는 Pi가 스스로 만들어요. 스테이션을 여러분 계정에 연결하려면 그들의 사이트에 로그인해서 등록(claim) 페이지를 열고 그 키를 붙여 넣으면 돼요.
+피더의 이름은 **rbfeeder**예요(AirNav Radar의 예전 이름은 RadarBox였어요). 그 대가로 AirNav Radar는 공유하는 분들께 **Business** 계정을 줘요. 공유 키는 Pi가 스스로 만들어요. 스테이션을 여러분 계정에 연결하려면 그들의 사이트에 로그인해서 스테이션 등록 페이지를 열고 그 키를 붙여 넣으면 돼요.
 
 ## 여러분이 주는 것
 

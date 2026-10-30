@@ -38,7 +38,7 @@ De feeder is de **Plane Finder ADS-B Client**. In ruil daarvoor regelt Plane Fin
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-De feeder heet **rbfeeder** (AirNav Radar heette vroeger RadarBox). In ruil daarvoor geeft AirNav Radar wie deelt een **Business**-account. De Pi maakt zelf zijn deelsleutel aan; om het station aan je account te koppelen, log je in op hun site, open je de pagina om een station te claimen en plak je die sleutel.
+De feeder heet **rbfeeder** (AirNav Radar heette vroeger RadarBox). In ruil daarvoor geeft AirNav Radar wie deelt een **Business**-account. De Pi maakt zelf zijn deelsleutel aan; om het station aan je account te koppelen, log je in op hun site, open je de registratiepagina van het station en plak je die sleutel.
 
 ## Wat je geeft
 

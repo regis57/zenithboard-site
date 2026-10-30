@@ -38,7 +38,7 @@ Padevējs ir **Plane Finder ADS-B Client**. Pretī Plane Finder nodrošina bezma
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-Padevēju sauc **rbfeeder** (AirNav Radar agrāk saucās RadarBox). Pretī AirNav Radar dod **Business** kontu tiem, kas dalās. Pi pats izveido savu dalīšanās atslēgu; lai piesaistītu staciju savam kontam, tu pieslēdzies viņu vietnē, atver stacijas piesaistes lapu un ielīmē tur šo atslēgu.
+Padevēju sauc **rbfeeder** (AirNav Radar agrāk saucās RadarBox). Pretī AirNav Radar dod **Business** kontu tiem, kas dalās. Pi pats izveido savu dalīšanās atslēgu; lai piesaistītu staciju savam kontam, tu pieslēdzies viņu vietnē, atver stacijas reģistrācijas lapu un ielīmē tur šo atslēgu.
 
 ## Ko tu dod
 

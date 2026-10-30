@@ -38,7 +38,7 @@ next:
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-フィーダーは**rbfeeder**という名前です（AirNav Radarは以前RadarBoxという名前でした）。その見返りに、AirNav Radarは共有する人に**Business**アカウントを提供します。共有キーはPiが自分で作成します。ステーションを自分のアカウントに紐づけるには、彼らのサイトにサインインし、ステーションの登録（claim）ページを開いて、そのキーを貼り付けます。
+フィーダーは**rbfeeder**という名前です（AirNav Radarは以前RadarBoxという名前でした）。その見返りに、AirNav Radarは共有する人に**Business**アカウントを提供します。共有キーはPiが自分で作成します。ステーションを自分のアカウントに紐づけるには、彼らのサイトにサインインし、ステーションの登録ページを開いて、そのキーを貼り付けます。
 
 ## 渡すもの
 

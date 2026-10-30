@@ -38,7 +38,7 @@ El alimentador es el **Plane Finder ADS-B Client**. A cambio, Plane Finder ofrec
 
 ### [AirNav Radar](https://www.airnavradar.com/raspberry-pi)
 
-El alimentador se llama **rbfeeder** (AirNav Radar antes se llamaba RadarBox). A cambio, AirNav Radar da a quienes comparten una cuenta **Business**. La Pi genera su propia clave de compartición; para vincular la estación a tu cuenta, inicias sesión en su sitio, abres la página para reclamar una estación y pegas esa clave.
+El alimentador se llama **rbfeeder** (AirNav Radar antes se llamaba RadarBox). A cambio, AirNav Radar da a quienes comparten una cuenta **Business**. La Pi genera su propia clave de compartición; para vincular la estación a tu cuenta, inicias sesión en su sitio, abres la página de registro de la estación y pegas esa clave.
 
 ## Lo que das
 
