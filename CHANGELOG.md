@@ -3,6 +3,14 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-10-30 — AirNav Radar, the fifth network
+
+- ZenithBoard 0.99.6 feeds AirNav Radar too. In all twenty-two languages: *Join the community* says five networks,
+  with a section for AirNav Radar (its feeder rbfeeder, formerly RadarBox; a Business account in return; the station
+  linked to an account by pasting the Pi's sharing key on the claim page), five MLAT clients not four, and AirNav Radar
+  among the free accounts to make; the home page names its Business account among what the networks give back; the
+  *ZenithBoard* page says five networks and lists it among the feeders. Text only.
+
 ## 2026-10-30 — The release candidate's month starts again
 
 - The notice at the top of the *ZenithBoard* page, in all twenty-two languages: on 30 October two features came in
