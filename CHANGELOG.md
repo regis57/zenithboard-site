@@ -3,6 +3,11 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-01 — Commits with the owner's noreply address
+
+- `CLAUDE.md`: a session commits with the owner's GitHub noreply address; GitHub now refuses pushes that expose the
+  private e-mail. Nothing on the site changes.
+
 ## 2026-10-30 — Telegram messages
 
 - The *ZenithBoard* page gains a *Telegram* section after *Bluesky*, in all twenty-two languages: ZenithBoard 0.99.6's
