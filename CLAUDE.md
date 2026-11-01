@@ -16,6 +16,6 @@ file holds the owner's (Régis, regis57) standing rules for a session.
 - **Full local check before pushing**: `npm test` (build, types, HTML, CSP, placeholders, translations, Playwright
   on every page in every language with axe). Then a branch, a pull request, its CI green (check the conclusion is
   `success`), and a squash merge: Cloudflare Workers Builds deploys `main`.
-- **Commit as the owner**: `git -c user.name=regis57 -c user.email=regis.hennequin@gmail.com commit`, with no
+- **Commit as the owner**: `git -c user.name=regis57 -c user.email=8229295+regis57@users.noreply.github.com commit` (GitHub refuses pushes that expose the private e-mail, since 1 November 2026), with no
   `Co-authored-by` and no "Generated with" line (the owner's standing rule, as in ZenithBoard).
 - A CHANGELOG section at the top for every change, dated the day it goes online.
