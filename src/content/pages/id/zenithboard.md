@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Dinding titik-titik atau papan split-flap bandara di tablet lama, konsol web, unggahan di Bluesky. Gratis, terbuka, satu menu untuk memasang semuanya."
 lang: id
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Pasang: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Roda gigi kecil di sudut dinding membuka pengaturannya: satuan, radius, detik pe
 
 Di samping teks, siluet pesawat yang digambar dengan titik-titik, dua bendera kecil (tempat pesawat terdaftar, tempat ia dibuat), dan, jika Anda mau, fotonya dari Planespotters, dengan nama fotografernya. Tanpa logo maskapai, tanpa logo pabrikan: itu merek yang dilindungi, jadi bendera menggantikannya. Rute dan model berasal dari pencarian publik; dinding mengatakan apa yang diketahuinya dan membiarkan barisnya kosong jika tidak tahu.
 
-Anda bisa mencoba dinding tanpa perangkat keras sama sekali: repositorinya menyertakan demo dengan maskapai rekaan dan contoh dari segalanya, dari A380 sampai helikopter, yang berjalan di komputer mana pun dengan Python.
+Anda bisa mencoba dinding tanpa perangkat keras sama sekali: repositorinya menyertakan demo dengan maskapai rekaan dan contoh dari segalanya, dari A380 sampai helikopter, yang berjalan di komputer mana pun dengan Python. Atau tonton dulu dalam video pendek di [kanal YouTube ZenithBoard](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Penerima, dan lima jaringan
 

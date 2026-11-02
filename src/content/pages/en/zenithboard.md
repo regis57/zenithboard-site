@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "The wall of dots or the airport split-flap board on an old tablet, the web console, the posts on Bluesky. Free, open, one menu to install it all."
 lang: en
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: true
 next:
   label: "Install it: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ A small gear in the corner of the wall opens its settings: units, radius, second
 
 Beside the text, a silhouette of the aircraft drawn in dots, two small flags (where the aircraft is registered, where it was built), and, if you want, its photo from Planespotters, with the photographer's name. No airline logo, no manufacturer logo: these are protected marks, so flags stand in for them. Routes and models come from public lookups; the wall says what it knows and leaves the row empty when it does not.
 
-You can try the wall with no hardware at all: the repository ships a demo with invented airlines and an example of everything, from an A380 to a helicopter, that runs on any computer with Python.
+You can try the wall with no hardware at all: the repository ships a demo with invented airlines and an example of everything, from an A380 to a helicopter, that runs on any computer with Python. Or watch it first, in short videos, on [ZenithBoard's YouTube channel](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## The receiver, and the five networks
 

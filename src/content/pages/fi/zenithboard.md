@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Pisteseinä tai lentokentän läppätaulu vanhalla tabletilla, verkkokonsoli, julkaisut Blueskyssä. Ilmainen, avoin, yksi valikko asentaa kaiken."
 lang: fi
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Asenna se: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Pieni hammasratas seinätaulun kulmassa avaa sen asetukset: yksiköt, säde, sek
 
 Tekstin vieressä on pisteistä piirretty ilma-aluksen siluetti, kaksi pientä lippua (missä ilma-alus on rekisteröity, missä se on rakennettu) ja halutessasi sen valokuva Planespottersista, kuvaajan nimen kera. Ei lentoyhtiön logoa, ei valmistajan logoa: ne ovat suojattuja merkkejä, joten liput korvaavat ne. Reitit ja mallit tulevat julkisista hauista; seinätaulu kertoo sen, minkä tietää, ja jättää rivin tyhjäksi, kun ei tiedä.
 
-Voit kokeilla seinätaulua ilman mitään laitteistoa: tietovarasto sisältää demon keksityillä lentoyhtiöillä ja esimerkin kaikesta, A380:stä helikopteriin, ja se pyörii millä tahansa tietokoneella, jossa on Python.
+Voit kokeilla seinätaulua ilman mitään laitteistoa: tietovarasto sisältää demon keksityillä lentoyhtiöillä ja esimerkin kaikesta, A380:stä helikopteriin, ja se pyörii millä tahansa tietokoneella, jossa on Python. Tai katso se ensin lyhyinä videoina [ZenithBoardin YouTube-kanavalta](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Vastaanotin ja viisi verkostoa
 

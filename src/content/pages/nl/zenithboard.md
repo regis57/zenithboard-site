@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "De wall van stippen of het klapperbord van de luchthaven op een oude tablet, de webconsole, de posts op Bluesky. Gratis, open, één menu om alles te installeren."
 lang: nl
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Installeer het: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Een klein tandwiel in de hoek van de wall opent de instellingen: eenheden, straa
 
 Naast de tekst een silhouet van het vliegtuig getekend in stippen, twee kleine vlaggen (waar het vliegtuig is geregistreerd, waar het is gebouwd), en, als je wilt, zijn foto van Planespotters, met de naam van de fotograaf. Geen logo van een luchtvaartmaatschappij, geen logo van een fabrikant: dat zijn beschermde merken, dus vlaggen nemen hun plaats in. Routes en modellen komen uit openbare opzoekingen; de wall zegt wat ze weet en laat de regel leeg als ze het niet weet.
 
-Je kunt de wall helemaal zonder hardware uitproberen: de repository bevat een demo met verzonnen luchtvaartmaatschappijen en een voorbeeld van alles, van een A380 tot een helikopter, die op elke computer met Python draait.
+Je kunt de wall helemaal zonder hardware uitproberen: de repository bevat een demo met verzonnen luchtvaartmaatschappijen en een voorbeeld van alles, van een A380 tot een helikopter, die op elke computer met Python draait. Of bekijk hem eerst in korte video's op [het YouTube-kanaal van ZenithBoard](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## De ontvanger, en de vijf netwerken
 

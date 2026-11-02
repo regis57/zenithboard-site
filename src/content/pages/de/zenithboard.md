@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Die Wand aus Punkten oder die Fallblattanzeige vom Flughafen auf einem alten Tablet, die Web-Konsole, die Posts auf Bluesky. Kostenlos, offen, ein Menü für alles."
 lang: de
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Installieren: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Ein kleines Zahnrad in der Ecke der Wand öffnet ihre Einstellungen: Einheiten, 
 
 Neben dem Text eine Silhouette des Flugzeugs aus Punkten, zwei kleine Flaggen (wo das Flugzeug registriert ist, wo es gebaut wurde) und, wenn Sie möchten, sein Foto von Planespotters, mit dem Namen des Fotografen. Kein Logo einer Fluggesellschaft, kein Logo eines Herstellers: Das sind geschützte Marken, deshalb stehen Flaggen an ihrer Stelle. Routen und Modelle stammen aus öffentlichen Abfragen; die Wand sagt, was sie weiß, und lässt die Zeile leer, wenn sie es nicht weiß.
 
-Sie können die Wand ganz ohne Hardware ausprobieren: Das Repository enthält eine Demo mit erfundenen Fluggesellschaften und einem Beispiel für alles, vom A380 bis zum Hubschrauber, die auf jedem Computer mit Python läuft.
+Sie können die Wand ganz ohne Hardware ausprobieren: Das Repository enthält eine Demo mit erfundenen Fluggesellschaften und einem Beispiel für alles, vom A380 bis zum Hubschrauber, die auf jedem Computer mit Python läuft. Oder sehen Sie ihn sich zuerst in kurzen Videos auf [ZenithBoards YouTube-Kanal](https://www.youtube.com/@ZenithBoard-ADSB) an.
 
 ## Der Empfänger und die fünf Netze
 

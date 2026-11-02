@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Tablica z kropek albo lotniskowa tablica klapkowa na starym tablecie, konsola WWW, wpisy na Bluesky. Darmowe, otwarte, jedno menu instaluje wszystko."
 lang: pl
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Zainstaluj: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Małe koło zębate w rogu tablicy otwiera jej ustawienia: jednostki, promień, 
 
 Obok tekstu sylwetka samolotu narysowana kropkami, dwie małe flagi (gdzie samolot jest zarejestrowany, gdzie został zbudowany) i, jeśli chcesz, jego zdjęcie z Planespotters, z nazwiskiem fotografa. Żadnego logo linii lotniczej, żadnego logo producenta: to chronione znaki, więc zastępują je flagi. Trasy i modele pochodzą z publicznych wyszukiwań; tablica mówi to, co wie, a wiersz zostawia pusty, gdy nie wie.
 
-Tablicę możesz wypróbować zupełnie bez sprzętu: repozytorium zawiera demo z wymyślonymi liniami lotniczymi i przykładem wszystkiego, od A380 po helikopter, które działa na każdym komputerze z Pythonem.
+Tablicę możesz wypróbować zupełnie bez sprzętu: repozytorium zawiera demo z wymyślonymi liniami lotniczymi i przykładem wszystkiego, od A380 po helikopter, które działa na każdym komputerze z Pythonem. Możesz też najpierw obejrzeć ją w krótkich filmach na [kanale ZenithBoard w YouTube](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Odbiornik i pięć sieci
 

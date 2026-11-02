@@ -3,6 +3,12 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-02 — ZenithBoard's YouTube channel
+
+- The footer of every page links [ZenithBoard's YouTube channel](https://www.youtube.com/@ZenithBoard-ADSB) beside
+  ZenithBoard on GitHub, and the *ZenithBoard* page's *The wall* ends with it after the demo: watch it first, in short
+  videos. Both in all twenty-two languages. A link only: nothing is loaded from YouTube, the CSP is unchanged.
+
 ## 2026-11-01 — Commits with the owner's noreply address
 
 - `CLAUDE.md`: a session commits with the owner's GitHub noreply address; GitHub now refuses pushes that expose the

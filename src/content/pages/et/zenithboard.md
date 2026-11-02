@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Täppidest sein või lennujaama klapptabloo vanal tahvelarvutil, veebikonsool, postitused Bluesky's. Tasuta, avatud, üks menüü paigaldab kõik."
 lang: et
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Paigalda see: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Väike hammasratas seina nurgas avab selle seaded: ühikud, raadius, sekundid le
 
 Teksti kõrval on täppidest joonistatud lennuki siluett, kaks väikest lippu (kus lennuk on registreeritud, kus see on ehitatud) ja soovi korral selle foto Planespottersist koos fotograafi nimega. Ei lennufirma logo ega tootja logo: need on kaitstud kaubamärgid, nii et nende asemel on lipud. Marsruudid ja mudelid tulevad avalikest päringutest; sein ütleb, mida ta teab, ja jätab rea tühjaks, kui ei tea.
 
-Sa võid seina proovida ilma igasuguse riistvarata: hoidlaga on kaasas demo väljamõeldud lennufirmadega ja näidisega kõigest, A380-st kuni helikopterini, mis jookseb igal Pythoniga arvutil.
+Sa võid seina proovida ilma igasuguse riistvarata: hoidlaga on kaasas demo väljamõeldud lennufirmadega ja näidisega kõigest, A380-st kuni helikopterini, mis jookseb igal Pythoniga arvutil. Või vaata seda enne lühivideotes [ZenithBoardi YouTube'i kanalil](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Vastuvõtja ja viis võrgustikku
 
