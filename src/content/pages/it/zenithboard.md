@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Il tabellone a puntini o quello a palette da aeroporto su un vecchio tablet, la console web, i post su Bluesky. Gratuito, aperto, un solo menu per installare tutto."
 lang: it
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Installalo: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Un piccolo ingranaggio nell'angolo del tabellone apre le sue impostazioni: unit�
 
 Accanto al testo, una silhouette dell'aereo disegnata a puntini, due piccole bandiere (dove l'aereo è immatricolato, dove è stato costruito) e, se vuoi, la sua foto da Planespotters, con il nome del fotografo. Nessun logo di compagnia, nessun logo di costruttore: sono marchi protetti, quindi al loro posto ci sono le bandiere. Rotte e modelli vengono da consultazioni pubbliche; il tabellone dice ciò che sa e lascia la riga vuota quando non lo sa.
 
-Puoi provare il tabellone senza alcun hardware: il repository include una demo con compagnie inventate e un esempio di tutto, da un A380 a un elicottero, che gira su qualsiasi computer con Python.
+Puoi provare il tabellone senza alcun hardware: il repository include una demo con compagnie inventate e un esempio di tutto, da un A380 a un elicottero, che gira su qualsiasi computer con Python. Oppure guardalo prima, in brevi video, sul [canale YouTube di ZenithBoard](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Il ricevitore, e le cinque reti
 

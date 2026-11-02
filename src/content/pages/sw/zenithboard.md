@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Ukuta wa nukta au ubao wa herufi zinazogeuka wa uwanja wa ndege kwenye kompyuta kibao ya zamani, konsoli ya wavuti, machapisho kwenye Bluesky. Bure, huru, menyu moja kusakinisha yote."
 lang: sw
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Isakinishe: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Gia ndogo kwenye kona ya ukuta hufungua mipangilio yake: vipimo, kipenyo, sekund
 
 Kando ya maandishi, umbo la ndege lililochorwa kwa nukta, bendera mbili ndogo (ndege imesajiliwa wapi, ilitengenezwa wapi), na, ukitaka, picha yake kutoka Planespotters, pamoja na jina la mpiga picha. Hakuna nembo ya shirika la ndege, hakuna nembo ya mtengenezaji: hizi ni alama zinazolindwa, kwa hiyo bendera zinasimama badala yake. Njia na miundo vinatoka kwenye utafutaji wa umma; ukuta unasema kile unachojua na unaacha safu tupu usipojua.
 
-Unaweza kujaribu ukuta bila vifaa vyovyote: hazina inakuja na onyesho lenye mashirika ya ndege ya kubuni na mfano wa kila kitu, kuanzia A380 hadi helikopta, linaloendeshwa kwenye kompyuta yoyote yenye Python.
+Unaweza kujaribu ukuta bila vifaa vyovyote: hazina inakuja na onyesho lenye mashirika ya ndege ya kubuni na mfano wa kila kitu, kuanzia A380 hadi helikopta, linaloendeshwa kwenye kompyuta yoyote yenye Python. Au uutazame kwanza kwa video fupi kwenye [chaneli ya YouTube ya ZenithBoard](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Kipokezi, na mitandao mitano
 

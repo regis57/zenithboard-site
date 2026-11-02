@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Punktu tablo vai lidostas pārkrītošo plākšņu tablo uz veca planšetdatora, tīmekļa konsole, ieraksti Bluesky. Bezmaksas, atvērts, viena izvēlne visam."
 lang: lv
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Uzinstalē to: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Neliels zobrats tablo stūrī atver tā iestatījumus: vienības, rādiusu, seku
 
 Blakus tekstam — lidmašīnas siluets, zīmēts punktos, divi mazi karogi (kur lidmašīna ir reģistrēta, kur tā ir būvēta) un, ja vēlies, tās foto no Planespotters, ar fotogrāfa vārdu. Ne aviokompānijas logo, ne ražotāja logo: tās ir aizsargātas zīmes, tāpēc to vietā stāv karogi. Maršruti un modeļi nāk no publiskiem uzmeklējumiem; tablo saka to, ko zina, un atstāj rindu tukšu, kad nezina.
 
-Tablo vari izmēģināt bez jebkādas aparatūras: repozitorijā ir demo ar izdomātām aviokompānijām un paraugu visam, no A380 līdz helikopteram, kas darbojas uz jebkura datora ar Python.
+Tablo vari izmēģināt bez jebkādas aparatūras: repozitorijā ir demo ar izdomātām aviokompānijām un paraugu visam, no A380 līdz helikopteram, kas darbojas uz jebkura datora ar Python. Vai vispirms noskaties to īsos video [ZenithBoard YouTube kanālā](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Uztvērējs un pieci tīkli
 

@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Taškų siena arba oro uosto perverčiamų plokštelių lenta senoje planšetėje, žiniatinklio konsolė, įrašai Bluesky. Nemokama, atvira, vienas meniu viskam įdiegti."
 lang: lt
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Įdiekite: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Mažas krumpliaratis sienos kampe atveria jos nustatymus: vienetus, spindulį, s
 
 Šalia teksto – taškais nupieštas orlaivio siluetas, dvi mažos vėliavos (kur orlaivis registruotas, kur pagamintas) ir, jei norite, jo nuotrauka iš Planespotters, su fotografo vardu. Jokio oro linijų logotipo, jokio gamintojo logotipo: tai saugomi ženklai, todėl vietoj jų – vėliavos. Maršrutai ir modeliai gaunami iš viešų užklausų; siena sako tai, ką žino, ir palieka eilutę tuščią, kai nežino.
 
-Sieną galite išbandyti visai be įrangos: saugykloje yra demonstracinė versija su išgalvotomis oro linijomis ir visko pavyzdžiu, nuo A380 iki sraigtasparnio, kuri veikia bet kuriame kompiuteryje su Python.
+Sieną galite išbandyti visai be įrangos: saugykloje yra demonstracinė versija su išgalvotomis oro linijomis ir visko pavyzdžiu, nuo A380 iki sraigtasparnio, kuri veikia bet kuriame kompiuteryje su Python. Arba pirmiausia pažiūrėkite trumpus vaizdo įrašus [ZenithBoard YouTube kanale](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Imtuvas ir penki tinklai
 

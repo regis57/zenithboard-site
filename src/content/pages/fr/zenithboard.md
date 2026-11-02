@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "Le mur de points ou le tableau à palettes d'aéroport sur une vieille tablette, la console web, les publications sur Bluesky. Libre, ouvert, un menu pour tout installer."
 lang: fr
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Installez-le : github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Un petit engrenage dans le coin du mur ouvre ses réglages : unités, rayon, sec
 
 À côté du texte, une silhouette de l'avion dessinée en points, deux petits drapeaux (où l'avion est immatriculé, où il a été construit), et, si vous le voulez, sa photo venue de Planespotters, avec le nom du photographe. Pas de logo de compagnie, pas de logo de constructeur : ce sont des marques protégées, alors les drapeaux les remplacent. Les routes et les modèles viennent de consultations publiques ; le mur dit ce qu'il sait et laisse la ligne vide quand il ne sait pas.
 
-Vous pouvez essayer le mur sans aucun matériel : le dépôt fournit une démo avec des compagnies inventées et un exemple de tout, de l'A380 à l'hélicoptère, qui tourne sur n'importe quel ordinateur avec Python.
+Vous pouvez essayer le mur sans aucun matériel : le dépôt fournit une démo avec des compagnies inventées et un exemple de tout, de l'A380 à l'hélicoptère, qui tourne sur n'importe quel ordinateur avec Python. Ou regardez-le d'abord, en courtes vidéos, sur [la chaîne YouTube de ZenithBoard](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## Le récepteur, et les cinq réseaux
 

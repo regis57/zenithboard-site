@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "舊平板上的點陣牆或機場翻板顯示牌、網頁主控台、Bluesky 上的貼文。免費、開放，一個選單裝好一切。"
 lang: zh-Hant
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "安裝它：github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ ZenithBoard 把一台 Raspberry Pi 和一支 USB 無線電接收棒變成一台�
 
 文字旁邊有以點陣畫出的飛機剪影、兩面小旗子（飛機註冊於哪國、製造於哪國），如果你想要，還有來自 Planespotters 的照片，附攝影師的名字。沒有航空公司標誌，沒有製造商標誌：這些是受保護的商標，所以用國旗代替。航線和機型來自公開查詢；牆只說它知道的，不知道的就讓那一列留空。
 
-你可以在完全沒有硬體的情況下試試這面牆：程式庫附有一個示範，用虛構的航空公司，並包含從 A380 到直升機的各種範例，可以在任何裝有 Python 的電腦上執行。
+你可以在完全沒有硬體的情況下試試這面牆：程式庫附有一個示範，用虛構的航空公司，並包含從 A380 到直升機的各種範例，可以在任何裝有 Python 的電腦上執行。也可以先到 [ZenithBoard 的 YouTube 頻道](https://www.youtube.com/@ZenithBoard-ADSB)看看簡短的影片。
 
 ## 接收器，以及五個網路
 

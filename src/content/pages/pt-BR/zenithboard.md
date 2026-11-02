@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "O painel de pontos ou o painel de letras giratórias de aeroporto em um tablet velho, o console web, as publicações no Bluesky. Gratuito, aberto, um menu para instalar tudo."
 lang: pt-BR
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "Instale: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ Uma pequena engrenagem no canto do painel abre as configurações dele: unidades
 
 Ao lado do texto, uma silhueta da aeronave desenhada em pontos, duas bandeirinhas (onde a aeronave está registrada, onde foi construída) e, se você quiser, a foto dela do Planespotters, com o nome do fotógrafo. Nenhum logotipo de companhia aérea, nenhum logotipo de fabricante: são marcas protegidas, então as bandeiras ficam no lugar deles. As rotas e os modelos vêm de consultas públicas; o painel diz o que sabe e deixa a linha vazia quando não sabe.
 
-Você pode experimentar o painel sem nenhum hardware: o repositório traz uma demonstração com companhias aéreas inventadas e um exemplo de tudo, de um A380 a um helicóptero, que roda em qualquer computador com Python.
+Você pode experimentar o painel sem nenhum hardware: o repositório traz uma demonstração com companhias aéreas inventadas e um exemplo de tudo, de um A380 a um helicóptero, que roda em qualquer computador com Python. Ou assista primeiro, em vídeos curtos, no [canal do ZenithBoard no YouTube](https://www.youtube.com/@ZenithBoard-ADSB).
 
 ## O receptor, e as cinco redes
 

@@ -3,7 +3,7 @@ title: "ZenithBoard"
 description: "오래된 태블릿 위의 점 월 또는 공항 플랩식 안내판, 웹 콘솔, Bluesky 게시물. 무료, 공개, 메뉴 하나로 전부 설치."
 lang: ko
 page: zenithboard
-updated: 2026-10-30
+updated: 2026-11-02
 reviewed: false
 next:
   label: "설치하기: github.com/regis57/ZenithBoard"
@@ -32,7 +32,7 @@ ZenithBoard는 Raspberry Pi와 USB 라디오 스틱을 다섯 개의 네트워�
 
 글자 옆에는 점으로 그린 항공기 실루엣, 작은 국기 둘(항공기가 등록된 나라, 만들어진 나라), 그리고 원한다면 Planespotters의 사진이 사진가 이름과 함께 나와요. 항공사 로고도, 제조사 로고도 없어요. 보호되는 상표이기 때문에 국기가 그 자리를 대신해요. 노선과 기종은 공개 조회에서 오고, 월은 아는 것만 말하며 모를 때는 그 줄을 비워 둬요.
 
-하드웨어 없이도 월을 써 볼 수 있어요. 저장소에는 가상의 항공사와 A380부터 헬리콥터까지 모든 것의 예시가 담긴 데모가 들어 있고, Python이 있는 어떤 컴퓨터에서든 돌아가요.
+하드웨어 없이도 월을 써 볼 수 있어요. 저장소에는 가상의 항공사와 A380부터 헬리콥터까지 모든 것의 예시가 담긴 데모가 들어 있고, Python이 있는 어떤 컴퓨터에서든 돌아가요. 먼저 [ZenithBoard의 YouTube 채널](https://www.youtube.com/@ZenithBoard-ADSB)에서 짧은 영상으로 볼 수도 있어요.
 
 ## 수신기, 그리고 다섯 개의 네트워크
 
