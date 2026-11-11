@@ -3,7 +3,7 @@ title: "Apie ir parama"
 description: "Kas kuria ZenithBoard ir šią svetainę, pagal kokias licencijas, su kokia pagarba jums ir kaip padėkoti."
 lang: lt
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Pasigaminkite imtuvą"
@@ -36,4 +36,4 @@ ZenithBoard yra nemokamas ir toks liks. Jei jis padovanojo jums vakarą žiūrin
 
 ## Parašykite autoriui
 
-Klaidos, idėjos ir vertimai keliauja į [ZenithBoard saugyklą](https://github.com/regis57/ZenithBoard) GitHub, kaip problema (issue) arba pakeitimų užklausa (pull request). [Šios svetainės saugykla](https://github.com/regis57/zenithboard-site) yra atskira; jos README paaiškina, kaip puslapis redaguojamas ir skelbiamas.
+Klaidos, idėjos ir vertimai keliauja į [ZenithBoard saugyklą](https://github.com/regis57/ZenithBoard) GitHub, kaip problema (issue) arba pakeitimų užklausa (pull request).

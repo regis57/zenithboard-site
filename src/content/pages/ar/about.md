@@ -3,7 +3,7 @@ title: "عن الموقع والدعم"
 description: "من يصنع ZenithBoard وهذا الموقع، وتحت أي رخص، وبأي احترام لك، وكيف تقول شكرًا."
 lang: ar
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "ابنِ مستقبِلك"
@@ -36,4 +36,4 @@ ZenithBoard مجاني وسيبقى مجانيًا. إن منحك أمسية م�
 
 ## اكتب إلى المؤلّف
 
-الأخطاء والأفكار والترجمات تذهب إلى [مستودع ZenithBoard](https://github.com/regis57/ZenithBoard) على GitHub، على هيئة issue أو pull request. أما [مستودع هذا الموقع](https://github.com/regis57/zenithboard-site) فمنفصل؛ ويشرح ملف README الخاص به كيف تُحرَّر الصفحة وتُنشر.
+الأخطاء والأفكار والترجمات تذهب إلى [مستودع ZenithBoard](https://github.com/regis57/ZenithBoard) على GitHub، على هيئة issue أو pull request.

@@ -3,7 +3,7 @@ title: "परिचय और सहयोग"
 description: "ZenithBoard और यह साइट कौन बनाता है, किन लाइसेंस के तहत, आपके प्रति किस सम्मान के साथ, और धन्यवाद कैसे कहें।"
 lang: hi
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "अपना रिसीवर बनाएँ"
@@ -36,4 +36,4 @@ ZenithBoard मुफ़्त है और मुफ़्त ही रहे
 
 ## लेखक को लिखें
 
-बग, आइडिया और अनुवाद GitHub पर [ZenithBoard रिपॉज़िटरी](https://github.com/regis57/ZenithBoard) में जाते हैं, एक issue या pull request के रूप में। [इस साइट की रिपॉज़िटरी](https://github.com/regis57/zenithboard-site) अलग है; उसकी README बताती है कि कोई पेज कैसे एडिट और प्रकाशित किया जाता है।
+बग, आइडिया और अनुवाद GitHub पर [ZenithBoard रिपॉज़िटरी](https://github.com/regis57/ZenithBoard) में जाते हैं, एक issue या pull request के रूप में।

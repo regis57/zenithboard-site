@@ -3,7 +3,7 @@ title: "소개 및 후원"
 description: "ZenithBoard와 이 사이트를 누가 만드는지, 어떤 라이선스로, 여러분을 어떻게 존중하며, 고마움은 어떻게 전하는지."
 lang: ko
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "수신기 만들기"
@@ -36,4 +36,4 @@ ZenithBoard는 무료이고 앞으로도 무료예요. 하늘을 올려다보는
 
 ## 제작자에게 쓰기
 
-버그, 아이디어, 번역은 GitHub의 [ZenithBoard 저장소](https://github.com/regis57/ZenithBoard)에 이슈나 풀 리퀘스트로 보내 주세요. [이 사이트의 저장소](https://github.com/regis57/zenithboard-site)는 별도이고, README가 페이지를 어떻게 편집하고 게시하는지 설명해요.
+버그, 아이디어, 번역은 GitHub의 [ZenithBoard 저장소](https://github.com/regis57/ZenithBoard)에 이슈나 풀 리퀘스트로 보내 주세요.

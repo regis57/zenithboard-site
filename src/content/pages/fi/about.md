@@ -3,7 +3,7 @@ title: "Tietoja & tuki"
 description: "Kuka tekee ZenithBoardin ja tämän sivuston, millä lisensseillä, millä kunnioituksella sinua kohtaan, ja miten kiittää."
 lang: fi
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Rakenna vastaanottimesi"
@@ -36,4 +36,4 @@ ZenithBoard on ilmainen ja pysyy ilmaisena. Jos se antoi sinulle illan taivaalle
 
 ## Kirjoita tekijälle
 
-Virheet, ideat ja käännökset menevät [ZenithBoardin tietovarastoon](https://github.com/regis57/ZenithBoard) GitHubissa, issuena tai pull requestina. [Tämän sivuston tietovarasto](https://github.com/regis57/zenithboard-site) on erillinen; sen README selittää, miten sivua muokataan ja miten se julkaistaan.
+Virheet, ideat ja käännökset menevät [ZenithBoardin tietovarastoon](https://github.com/regis57/ZenithBoard) GitHubissa, issuena tai pull requestina.

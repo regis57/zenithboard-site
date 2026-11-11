@@ -3,7 +3,7 @@ title: "Kuhusu & msaada"
 description: "Nani anatengeneza ZenithBoard na tovuti hii, chini ya leseni zipi, kwa heshima gani kwako, na jinsi ya kusema asante."
 lang: sw
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Jenga kipokezi chako"
@@ -36,4 +36,4 @@ ZenithBoard ni bure na itabaki bure. Ikiwa ilikupa jioni ya kutazama juu, bia in
 
 ## Mwandikie mwandishi
 
-Hitilafu, mawazo na tafsiri huenda kwenye [hazina ya ZenithBoard](https://github.com/regis57/ZenithBoard) kwenye GitHub, kama issue au pull request. [Hazina ya tovuti hii](https://github.com/regis57/zenithboard-site) ni tofauti; README yake inaeleza jinsi ukurasa unavyohaririwa na kuchapishwa.
+Hitilafu, mawazo na tafsiri huenda kwenye [hazina ya ZenithBoard](https://github.com/regis57/ZenithBoard) kwenye GitHub, kama issue au pull request.

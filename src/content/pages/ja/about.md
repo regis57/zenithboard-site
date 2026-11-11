@@ -3,7 +3,7 @@ title: "このサイトについて・支援"
 description: "ZenithBoardとこのサイトを誰が作っているのか、どのライセンスの下で、あなたにどう配慮し、どうお礼を伝えられるのか。"
 lang: ja
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "受信機を作る"
@@ -36,4 +36,4 @@ ZenithBoardは無料で、これからも無料のままです。空を見上げ
 
 ## 作者に連絡する
 
-バグ、アイデア、翻訳はGitHubの[ZenithBoardリポジトリ](https://github.com/regis57/ZenithBoard)へ、issueまたはpull requestとしてお寄せください。[このサイトのリポジトリ](https://github.com/regis57/zenithboard-site)は別にあり、そのREADMEにページの編集と公開の方法が説明されています。
+バグ、アイデア、翻訳はGitHubの[ZenithBoardリポジトリ](https://github.com/regis57/ZenithBoard)へ、issueまたはpull requestとしてお寄せください。

@@ -3,7 +3,7 @@ title: "О проекте и поддержка"
 description: "Кто делает ZenithBoard и этот сайт, под какими лицензиями, с каким уважением к вам и как сказать спасибо."
 lang: ru
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Соберите свой приёмник"
@@ -36,4 +36,4 @@ ZenithBoard бесплатен и останется бесплатным. Ес�
 
 ## Написать автору
 
-Ошибки, идеи и переводы — в [репозиторий ZenithBoard](https://github.com/regis57/ZenithBoard) на GitHub, в виде issue или pull request. [Репозиторий этого сайта](https://github.com/regis57/zenithboard-site) отдельный; его README объясняет, как страница редактируется и публикуется.
+Ошибки, идеи и переводы — в [репозиторий ZenithBoard](https://github.com/regis57/ZenithBoard) на GitHub, в виде issue или pull request.

@@ -3,7 +3,7 @@ title: "About & support"
 description: "Who makes ZenithBoard and this site, under which licences, with what respect for you, and how to say thank you."
 lang: en
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: true
 next:
   label: "Build your receiver"
@@ -36,4 +36,4 @@ ZenithBoard is free and will stay free. If it gave you an evening of looking up,
 
 ## Write to the author
 
-Bugs, ideas and translations go to the [ZenithBoard repository](https://github.com/regis57/ZenithBoard) on GitHub, as an issue or a pull request. The [repository of this site](https://github.com/regis57/zenithboard-site) is separate; its README explains how a page is edited and published.
+Bugs, ideas and translations go to the [ZenithBoard repository](https://github.com/regis57/ZenithBoard) on GitHub, as an issue or a pull request.

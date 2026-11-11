@@ -3,7 +3,7 @@ title: "Про проєкт і підтримка"
 description: "Хто робить ZenithBoard і цей сайт, під якими ліцензіями, з якою повагою до вас, і як подякувати."
 lang: uk
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Зберіть свій приймач"
@@ -36,4 +36,4 @@ ZenithBoard безкоштовний і залишиться безкоштов�
 
 ## Написати авторові
 
-Помилки, ідеї та переклади надсилайте до [репозиторію ZenithBoard](https://github.com/regis57/ZenithBoard) на GitHub, як issue або pull request. [Репозиторій цього сайту](https://github.com/regis57/zenithboard-site) окремий; його README пояснює, як редагується і публікується сторінка.
+Помилки, ідеї та переклади надсилайте до [репозиторію ZenithBoard](https://github.com/regis57/ZenithBoard) на GitHub, як issue або pull request.
