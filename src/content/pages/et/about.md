@@ -3,7 +3,7 @@ title: "Meist ja toetamine"
 description: "Kes teeb ZenithBoardi ja seda saiti, milliste litsentside all, millise lugupidamisega sinu vastu ja kuidas öelda aitäh."
 lang: et
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Ehita oma vastuvõtja"
@@ -36,4 +36,4 @@ ZenithBoard on tasuta ja jääb tasuta. Kui see kinkis sulle õhtu ülespoole va
 
 ## Kirjuta autorile
 
-Vead, ideed ja tõlked lähevad GitHubis [ZenithBoardi hoidlasse](https://github.com/regis57/ZenithBoard), kas probleemina (issue) või tõmbetaotlusena (pull request). [Selle saidi hoidla](https://github.com/regis57/zenithboard-site) on eraldi; selle README selgitab, kuidas lehte muudetakse ja avaldatakse.
+Vead, ideed ja tõlked lähevad GitHubis [ZenithBoardi hoidlasse](https://github.com/regis57/ZenithBoard), kas probleemina (issue) või tõmbetaotlusena (pull request).

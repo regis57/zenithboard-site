@@ -3,7 +3,7 @@ title: "Par projektu un atbalsts"
 description: "Kas veido ZenithBoard un šo vietni, zem kādām licencēm, ar kādu cieņu pret tevi, un kā pateikt paldies."
 lang: lv
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Uzbūvē savu uztvērēju"
@@ -36,4 +36,4 @@ ZenithBoard ir bezmaksas un tāds arī paliks. Ja tas tev sagādāja vakaru, ska
 
 ## Raksti autoram
 
-Kļūdas, idejas un tulkojumi iet uz [ZenithBoard repozitoriju](https://github.com/regis57/ZenithBoard) GitHub, kā issue vai pull request. [Šīs vietnes repozitorijs](https://github.com/regis57/zenithboard-site) ir atsevišķs; tā README izskaidro, kā lapa tiek rediģēta un publicēta.
+Kļūdas, idejas un tulkojumi iet uz [ZenithBoard repozitoriju](https://github.com/regis57/ZenithBoard) GitHub, kā issue vai pull request.

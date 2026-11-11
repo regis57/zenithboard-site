@@ -3,7 +3,7 @@ title: "關於與支持"
 description: "誰在做 ZenithBoard 和這個網站、採用哪些授權、如何尊重你，以及如何說聲謝謝。"
 lang: zh-Hant
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "打造你的接收器"
@@ -36,4 +36,4 @@ ZenithBoard 是免費的，也會一直免費。如果它給了你一個抬頭�
 
 ## 寫信給作者
 
-錯誤回報、想法和翻譯請送到 GitHub 上的 [ZenithBoard 程式庫](https://github.com/regis57/ZenithBoard)，以 issue 或 pull request 的形式。[本網站的程式庫](https://github.com/regis57/zenithboard-site)是獨立的；它的 README 說明了頁面如何編輯和發佈。
+錯誤回報、想法和翻譯請送到 GitHub 上的 [ZenithBoard 程式庫](https://github.com/regis57/ZenithBoard)，以 issue 或 pull request 的形式。

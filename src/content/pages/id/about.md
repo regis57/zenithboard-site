@@ -3,7 +3,7 @@ title: "Tentang & dukungan"
 description: "Siapa yang membuat ZenithBoard dan situs ini, di bawah lisensi apa, dengan penghormatan seperti apa terhadap Anda, dan cara mengucapkan terima kasih."
 lang: id
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Bangun penerima Anda"
@@ -36,4 +36,4 @@ ZenithBoard gratis dan akan tetap gratis. Jika ia memberi Anda satu malam untuk 
 
 ## Menulis kepada penulis
 
-Bug, ide dan terjemahan dikirim ke [repositori ZenithBoard](https://github.com/regis57/ZenithBoard) di GitHub, sebagai issue atau pull request. [Repositori situs ini](https://github.com/regis57/zenithboard-site) terpisah; README-nya menjelaskan cara sebuah halaman disunting dan diterbitkan.
+Bug, ide dan terjemahan dikirim ke [repositori ZenithBoard](https://github.com/regis57/ZenithBoard) di GitHub, sebagai issue atau pull request.

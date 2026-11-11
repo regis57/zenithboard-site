@@ -3,7 +3,7 @@ title: "Over & steun"
 description: "Wie ZenithBoard en deze site maakt, onder welke licenties, met welk respect voor jou, en hoe je bedankt zegt."
 lang: nl
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Bouw je ontvanger"
@@ -36,4 +36,4 @@ ZenithBoard is gratis en blijft gratis. Als het je een avond omhoogkijken heeft 
 
 ## Schrijf de auteur
 
-Bugs, ideeën en vertalingen gaan naar de [ZenithBoard-repository](https://github.com/regis57/ZenithBoard) op GitHub, als een issue of een pull request. De [repository van deze site](https://github.com/regis57/zenithboard-site) staat los daarvan; de README legt uit hoe een pagina wordt bewerkt en gepubliceerd.
+Bugs, ideeën en vertalingen gaan naar de [ZenithBoard-repository](https://github.com/regis57/ZenithBoard) op GitHub, als een issue of een pull request.

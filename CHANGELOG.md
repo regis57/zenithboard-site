@@ -3,6 +3,12 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-11 — About: the site's repository sentence removed
+
+- The *About* page's *Write to the author* no longer ends with "The repository of this site is separate; its README
+  explains how a page is edited and published": it served only someone editing the site, not a visitor. Bugs, ideas
+  and translations still go to the ZenithBoard repository; the footer's source link stays. All twenty-two languages.
+
 ## 2026-11-02 — ZenithBoard's YouTube channel
 
 - The footer of every page links [ZenithBoard's YouTube channel](https://www.youtube.com/@ZenithBoard-ADSB) beside

@@ -3,7 +3,7 @@ title: "Über uns & Unterstützung"
 description: "Wer ZenithBoard und diese Website macht, unter welchen Lizenzen, mit welchem Respekt vor Ihnen, und wie man Danke sagt."
 lang: de
 page: about
-updated: 2026-10-25
+updated: 2026-11-11
 reviewed: false
 next:
   label: "Bauen Sie Ihren Empfänger"
@@ -36,4 +36,4 @@ ZenithBoard ist kostenlos und bleibt kostenlos. Wenn es Ihnen einen Abend mit Bl
 
 ## Dem Autor schreiben
 
-Fehler, Ideen und Übersetzungen gehen an das [ZenithBoard-Repository](https://github.com/regis57/ZenithBoard) auf GitHub, als Issue oder als Pull Request. Das [Repository dieser Website](https://github.com/regis57/zenithboard-site) ist davon getrennt; seine README erklärt, wie eine Seite bearbeitet und veröffentlicht wird.
+Fehler, Ideen und Übersetzungen gehen an das [ZenithBoard-Repository](https://github.com/regis57/ZenithBoard) auf GitHub, als Issue oder als Pull Request.
