@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Dinding titik-titik atau papan split-flap bandara di tablet lama, konsol web, unggahan di Bluesky. Gratis, terbuka, satu menu untuk memasang semuanya."
 lang: id
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "Pasang: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Kandidat rilis untuk 1.0.** Sejak 25 Oktober 2026, versi 0.99 dibekukan: selama sebulan hanya perbaikan yang masuk, sementara Pi milik penulis berjalan tanpa disentuh. Pada 30 Oktober dua fitur masuk, AirNav Radar dan pesan Telegram, jadi masa sebulan dimulai lagi. Jika tidak ada yang tersisa terbuka, 1.0 menyusul paling cepat pada 29 November 2026. Mencobanya sekarang membantu: laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
+> **Versi 1.0 sudah dirilis (14 November 2026).** Versi ini menyusul kandidat rilis yang berjalan di Pi milik penulis sejak 25 Oktober dan hanya menerima perbaikan. Fitur baru hadir lagi di versi 1.1. Laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
 
 ## Dalam satu kalimat
 

@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Pisteseinä tai lentokentän läppätaulu vanhalla tabletilla, verkkokonsoli, julkaisut Blueskyssä. Ilmainen, avoin, yksi valikko asentaa kaiken."
 lang: fi
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "Asenna se: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Julkaisuehdokas versiolle 1.0.** Versio 0.99 on jäädytetty 25. lokakuuta 2026 alkaen: kuukauden ajan siihen tulee vain korjauksia, kun tekijän Pi pyörii koskemattomana. 30. lokakuuta mukaan tuli kaksi toimintoa, AirNav Radar ja Telegram-viestit, joten kuukausi alkaa alusta. Jos mitään ei jää auki, 1.0 julkaistaan aikaisintaan 29. marraskuuta 2026. Kokeileminen nyt auttaa: palaute [GitHubissa](https://github.com/regis57/ZenithBoard/issues) on tervetullut.
+> **Versio 1.0 on julkaistu (14. marraskuuta 2026).** Sitä edelsi julkaisuehdokas, joka pyöri tekijän Pi:llä 25. lokakuuta alkaen ja johon tuli vain korjauksia. Uusia toimintoja tulee taas versiossa 1.1. Palaute [GitHubissa](https://github.com/regis57/ZenithBoard/issues) on tervetullutta.
 
 ## Yhdellä lauseella
 

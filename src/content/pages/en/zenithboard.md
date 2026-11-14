@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "The wall of dots or the airport split-flap board on an old tablet, the web console, the posts on Bluesky. Free, open, one menu to install it all."
 lang: en
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: true
 next:
   label: "Install it: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Release candidate for 1.0.** Since 25 October 2026, version 0.99 is frozen: for one month only fixes go in, while the author's Pi runs untouched. On 30 October two features came in, AirNav Radar and Telegram messages, so the month starts again. If nothing is left open, 1.0 follows on 29 November 2026 at the earliest. Trying it now helps: a report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
+> **Version 1.0 is out (14 November 2026).** It follows a release candidate that ran on the author's Pi from 25 October, with only fixes going in. New features come again with 1.1. A report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
 
 ## In one sentence
 

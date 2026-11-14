@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "舊平板上的點陣牆或機場翻板顯示牌、網頁主控台、Bluesky 上的貼文。免費、開放，一個選單裝好一切。"
 lang: zh-Hant
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "安裝它：github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 候選版本。** 自 2026 年 10 月 25 日起，0.99 版已凍結：一個月內只合入修正，作者的 Pi 保持不動地運作。10 月 30 日加入了兩項功能：AirNav Radar 和 Telegram 訊息，因此一個月重新計算。如果沒有遺留問題，1.0 最早將於 2026 年 11 月 29 日發布。現在試用就是幫忙：歡迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上回報。
+> **1.0 版已發布（2026 年 11 月 14 日）。** 先前的候選版本自 10 月 25 日起在作者的 Pi 上運作，期間只合入修正。新功能將從 1.1 版起繼續加入。歡迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上回報。
 
 ## 一句話說完
 

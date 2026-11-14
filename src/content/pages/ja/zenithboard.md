@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "古いタブレットに映すドットのウォールや空港の反転フラップ式案内板、ウェブコンソール、Blueskyへの投稿。無料でオープン、メニュー1つで全部インストール。"
 lang: ja
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "インストールする：github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 のリリース候補。** 2026年10月25日から、バージョン 0.99 は凍結されています。作者の Pi に手を触れずに動かし続ける1か月間、入るのは修正だけです。10月30日に AirNav Radar と Telegram メッセージの2つの機能が加わったため、1か月の期間はやり直しになりました。未解決の問題が残らなければ、1.0 は早くても2026年11月29日に公開されます。今試していただくことが助けになります。[GitHub](https://github.com/regis57/ZenithBoard/issues) での報告を歓迎します。
+> **バージョン 1.0 を公開しました（2026年11月14日）。** 10月25日から作者の Pi で動かし続けたリリース候補を経ての公開で、その間に入ったのは修正だけです。新機能は 1.1 から再開します。[GitHub](https://github.com/regis57/ZenithBoard/issues) でのご報告を歓迎します。
 
 ## ひとことで言うと
 
