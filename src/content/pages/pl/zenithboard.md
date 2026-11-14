@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Tablica z kropek albo lotniskowa tablica klapkowa na starym tablecie, konsola WWW, wpisy na Bluesky. Darmowe, otwarte, jedno menu instaluje wszystko."
 lang: pl
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "Zainstaluj: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Wersja kandydująca do 1.0.** Od 25 października 2026 r. wersja 0.99 jest zamrożona: przez miesiąc trafiają do niej tylko poprawki, a Pi autora działa bez ingerencji. 30 października doszły dwie funkcje, AirNav Radar i wiadomości w Telegramie, więc miesiąc liczy się od nowa. Jeśli nic nie zostanie otwarte, 1.0 pojawi się najwcześniej 29 listopada 2026 r. Wypróbowanie jej teraz pomaga: zgłoszenie na [GitHubie](https://github.com/regis57/ZenithBoard/issues) jest mile widziane.
+> **Wersja 1.0 jest już dostępna (14 listopada 2026 r.).** Poprzedziła ją wersja kandydująca, która od 25 października działała na Pi autora i do której trafiały tylko poprawki. Nowe funkcje wrócą w wersji 1.1. Zgłoszenie na [GitHubie](https://github.com/regis57/ZenithBoard/issues) będzie mile widziane.
 
 ## W jednym zdaniu
 

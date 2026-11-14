@@ -3,14 +3,14 @@ title: "ZenithBoard"
 description: "Täppidest sein või lennujaama klapptabloo vanal tahvelarvutil, veebikonsool, postitused Bluesky's. Tasuta, avatud, üks menüü paigaldab kõik."
 lang: et
 page: zenithboard
-updated: 2026-11-02
+updated: 2026-11-14
 reviewed: false
 next:
   label: "Paigalda see: github.com/regis57/ZenithBoard"
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Väljalaskekandidaat versioonile 1.0.** Alates 25. oktoobrist 2026 on versioon 0.99 külmutatud: kuu aja jooksul lisatakse ainult parandusi, samal ajal kui autori Pi töötab puutumata. 30. oktoobril lisandus kaks funktsiooni, AirNav Radar ja Telegrami sõnumid, seega algab kuu uuesti. Kui midagi lahtiseks ei jää, tuleb 1.0 kõige varem 29. novembril 2026. Proovimine praegu aitab: tagasiside [GitHubis](https://github.com/regis57/ZenithBoard/issues) on teretulnud.
+> **Versioon 1.0 on väljas (14. november 2026).** Sellele eelnes väljalaskekandidaat, mis töötas autori Pi-l alates 25. oktoobrist ja kuhu lisati ainult parandusi. Uued funktsioonid tulevad taas versiooniga 1.1. Tagasiside [GitHubis](https://github.com/regis57/ZenithBoard/issues) on teretulnud.
 
 ## Ühe lausega
 

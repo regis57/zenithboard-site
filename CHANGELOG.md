@@ -3,6 +3,12 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-14 — Version 1.0 is out
+
+- The *ZenithBoard* page's notice no longer announces a release candidate and 29 November: ZenithBoard 1.0.0 was
+  published on 14 November 2026. It says so, that the candidate ran on the author's Pi from 25 October with fixes only,
+  and that new features come again with 1.1. All twenty-two languages.
+
 ## 2026-11-11 — About: the site's repository sentence removed
 
 - The *About* page's *Write to the author* no longer ends with "The repository of this site is separate; its README
