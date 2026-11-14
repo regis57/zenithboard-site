@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **La version 1.0 est sortie (14 novembre 2026).** Elle suit une version candidate qui a tourné sur le Pi de l'auteur à partir du 25 octobre, où seules des corrections sont entrées. Les nouvelles fonctions reprennent avec la 1.1. Un retour sur [GitHub](https://github.com/regis57/ZenithBoard/issues) est le bienvenu.
+> **La version 1.1 est sortie (14 novembre 2026).** Elle ajoute le cap de l'avion dans les posts et les messages, et trois fonctions éteintes tant que vous ne les allumez pas : le nom des compagnies pour les vols sans route, une liste d'avions à ne jamais publier, et la distance au plus près dans les messages Telegram. La version 1.0 est sortie le même jour, après une version candidate qui a tourné sur le Pi de l'auteur à partir du 25 octobre. Un retour sur [GitHub](https://github.com/regis57/ZenithBoard/issues) est le bienvenu.
 
 ## En une phrase
 

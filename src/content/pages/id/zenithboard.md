@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versi 1.0 sudah dirilis (14 November 2026).** Versi ini menyusul kandidat rilis yang berjalan di Pi milik penulis sejak 25 Oktober dan hanya menerima perbaikan. Fitur baru hadir lagi di versi 1.1. Laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
+> **Versi 1.1 sudah dirilis (14 November 2026).** Versi ini menambahkan arah pesawat pada postingan dan pesan, serta tiga fitur yang tetap mati sampai Anda menyalakannya: nama maskapai untuk penerbangan tanpa rute, daftar pesawat yang tidak pernah diposting, dan jarak terdekat pada pesan Telegram. Versi 1.0 dirilis pada hari yang sama, setelah kandidat rilis yang berjalan di Pi milik penulis sejak 25 Oktober. Laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
 
 ## Dalam satu kalimat
 
