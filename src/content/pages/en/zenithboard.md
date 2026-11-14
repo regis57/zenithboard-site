@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Version 1.0 is out (14 November 2026).** It follows a release candidate that ran on the author's Pi from 25 October, with only fixes going in. New features come again with 1.1. A report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
+> **Version 1.1 is out (14 November 2026).** It adds where the aircraft is heading to the posts and the messages, and three things that stay off until you turn them on: airline names for flights without a route, a list of aircraft never to post, and the closest distance in the Telegram messages. Version 1.0 came out the same day, after a release candidate that ran on the author's Pi from 25 October. A report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
 
 ## In one sentence
 

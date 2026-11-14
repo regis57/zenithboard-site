@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Version 1.0 ist erschienen (14. November 2026).** Sie folgt auf einen Release Candidate, der ab dem 25. Oktober auf dem Pi des Autors lief und in den nur Fehlerbehebungen kamen. Neue Funktionen gibt es wieder mit 1.1. Eine Rückmeldung auf [GitHub](https://github.com/regis57/ZenithBoard/issues) ist willkommen.
+> **Version 1.1 ist erschienen (14. November 2026).** Sie ergänzt in den Beiträgen und Nachrichten den Kurs des Flugzeugs und bringt drei Funktionen, die aus bleiben, bis Sie sie einschalten: Namen der Fluggesellschaften für Flüge ohne Route, eine Liste von Flugzeugen, die nie gepostet werden, und den geringsten Abstand in den Telegram-Nachrichten. Version 1.0 erschien am selben Tag, nach einem Release Candidate, der ab dem 25. Oktober auf dem Pi des Autors lief. Eine Rückmeldung auf [GitHub](https://github.com/regis57/ZenithBoard/issues) ist willkommen.
 
 ## In einem Satz
 

@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versie 1.0 is uit (14 november 2026).** Ze volgt op een release candidate die vanaf 25 oktober op de Pi van de auteur draaide en waar alleen reparaties bij kwamen. Nieuwe functies komen er weer met 1.1. Een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
+> **Versie 1.1 is uit (14 november 2026).** Ze voegt de koers van het vliegtuig toe aan de posts en de berichten, en drie functies die uit blijven tot je ze aanzet: namen van maatschappijen voor vluchten zonder route, een lijst van vliegtuigen die nooit gepost worden, en de kleinste afstand in de Telegram-berichten. Versie 1.0 kwam dezelfde dag uit, na een release candidate die vanaf 25 oktober op de Pi van de auteur draaide. Een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
 
 ## In één zin
 

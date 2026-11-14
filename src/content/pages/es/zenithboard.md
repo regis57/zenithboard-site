@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Ya está disponible la versión 1.0 (14 de noviembre de 2026).** Llega tras una versión candidata que funcionó en la Raspberry Pi del autor desde el 25 de octubre y en la que solo entraron correcciones. Las nuevas funciones vuelven con la 1.1. Se agradece cualquier aviso en [GitHub](https://github.com/regis57/ZenithBoard/issues).
+> **Ya está disponible la versión 1.1 (14 de noviembre de 2026).** Añade el rumbo de la aeronave en las publicaciones y los mensajes, y tres funciones que siguen apagadas hasta que las active: nombres de aerolíneas para los vuelos sin ruta, una lista de aeronaves que nunca se publican, y la distancia mínima en los mensajes de Telegram. La versión 1.0 salió el mismo día, tras una versión candidata que funcionó en la Raspberry Pi del autor desde el 25 de octubre. Se agradece cualquier aviso en [GitHub](https://github.com/regis57/ZenithBoard/issues).
 
 ## En una frase
 

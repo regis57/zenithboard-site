@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **1.0 版已發布（2026 年 11 月 14 日）。** 先前的候選版本自 10 月 25 日起在作者的 Pi 上運作，期間只合入修正。新功能將從 1.1 版起繼續加入。歡迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上回報。
+> **1.1 版已發布（2026 年 11 月 14 日）。** 它在貼文和訊息中加入了飛機的航向，並帶來三項在你開啟之前保持關閉的功能：為沒有航線的航班顯示航空公司名稱、永不發布的飛機清單，以及 Telegram 訊息中的最近距離。1.0 版於同一天發布，先前的候選版本自 10 月 25 日起在作者的 Pi 上運作。歡迎在 [GitHub](https://github.com/regis57/ZenithBoard/issues) 上回報。
 
 ## 一句話說完
 

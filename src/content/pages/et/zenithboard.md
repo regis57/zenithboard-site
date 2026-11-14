@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versioon 1.0 on väljas (14. november 2026).** Sellele eelnes väljalaskekandidaat, mis töötas autori Pi-l alates 25. oktoobrist ja kuhu lisati ainult parandusi. Uued funktsioonid tulevad taas versiooniga 1.1. Tagasiside [GitHubis](https://github.com/regis57/ZenithBoard/issues) on teretulnud.
+> **Versioon 1.1 on väljas (14. november 2026).** See lisab postitustesse ja sõnumitesse õhusõiduki kursi ning kolm funktsiooni, mis on väljas, kuni te need sisse lülitate: lennufirmade nimed marsruudita lendudele, loend õhusõidukitest, mida kunagi ei postitata, ja lähim kaugus Telegrami sõnumites. Versioon 1.0 ilmus samal päeval pärast väljalaskekandidaati, mis töötas autori Pi-l alates 25. oktoobrist. Tagasiside [GitHubis](https://github.com/regis57/ZenithBoard/issues) on teretulnud.
 
 ## Ühe lausega
 

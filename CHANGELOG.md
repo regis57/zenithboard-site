@@ -3,6 +3,13 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-14 — Version 1.1 is out
+
+- The *ZenithBoard* page's notice announces ZenithBoard 1.1.0, published on 14 November 2026: the aircraft's heading in
+  the posts and the messages, and three things that stay off until turned on (airline names for flights without a
+  route, aircraft never to post, the closest distance in the Telegram messages). It still says 1.0 came out the same
+  day after the release candidate. All twenty-two languages.
+
 ## 2026-11-14 — Version 1.0 is out
 
 - The *ZenithBoard* page's notice no longer announces a release candidate and 29 November: ZenithBoard 1.0.0 was

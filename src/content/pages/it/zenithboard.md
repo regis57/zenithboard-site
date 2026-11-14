@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **È uscita la versione 1.0 (14 novembre 2026).** Segue una release candidate che ha girato sul Pi dell'autore dal 25 ottobre, in cui sono entrate solo correzioni. Le nuove funzioni riprendono con la 1.1. Una segnalazione su [GitHub](https://github.com/regis57/ZenithBoard/issues) è benvenuta.
+> **È uscita la versione 1.1 (14 novembre 2026).** Aggiunge la rotta dell'aereo nei post e nei messaggi, e tre funzioni che restano spente finché non le si accende: i nomi delle compagnie per i voli senza rotta, un elenco di aerei da non pubblicare mai, e la distanza minima nei messaggi Telegram. La versione 1.0 è uscita lo stesso giorno, dopo una release candidate che ha girato sul Pi dell'autore dal 25 ottobre. Una segnalazione su [GitHub](https://github.com/regis57/ZenithBoard/issues) è benvenuta.
 
 ## In una frase
 
