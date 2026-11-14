@@ -22,7 +22,7 @@
     "test": "npm run build && npm run check && npm run lint:html && npm run csp:check && npm run placeholders:check && npm run i18n:check && npm run test:e2e"
   },
   "dependencies": {
-    "astro": "7.4.2"
+    "astro": "7.4.7"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
