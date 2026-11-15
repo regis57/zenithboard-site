@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Version 1.1 ist erschienen (14. November 2026).** Sie ergänzt in den Beiträgen und Nachrichten den Kurs des Flugzeugs und bringt drei Funktionen, die aus bleiben, bis Sie sie einschalten: Namen der Fluggesellschaften für Flüge ohne Route, eine Liste von Flugzeugen, die nie gepostet werden, und den geringsten Abstand in den Telegram-Nachrichten. Version 1.0 erschien am selben Tag, nach einem Release Candidate, der ab dem 25. Oktober auf dem Pi des Autors lief. Eine Rückmeldung auf [GitHub](https://github.com/regis57/ZenithBoard/issues) ist willkommen.
+> **Version 1.2 ist erschienen (15. November 2026).** Sie bringt drei optionale Funktionen: ein Banner auf der Wand, wenn ein Flugzeug einen Notfallcode sendet, mit Angabe, welches Flugzeug und wo; die Wahl des Netzwerks, das MLAT übernimmt; und eine Nachricht in Ihrem Telegram-Chat, wenn der Empfänger taub oder schwach wird. Die Versionen 1.0 und 1.1 erschienen am Vortag. Eine Rückmeldung auf [GitHub](https://github.com/regis57/ZenithBoard/issues) ist willkommen.
 
 ## In einem Satz
 

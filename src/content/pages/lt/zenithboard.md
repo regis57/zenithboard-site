@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Išleista 1.1 versija (2026 m. lapkričio 14 d.).** Ji įrašuose ir žinutėse prideda orlaivio kursą ir tris funkcijas, kurios lieka išjungtos, kol jų neįjungsite: oro linijų pavadinimus skrydžiams be maršruto, orlaivių, kurių niekada neskelbti, sąrašą ir mažiausią atstumą „Telegram“ žinutėse. 1.0 versija išleista tą pačią dieną, po versijos kandidatės, kuri nuo spalio 25 d. veikė autoriaus Pi. Laukiame pranešimų [GitHub](https://github.com/regis57/ZenithBoard/issues).
+> **Išleista 1.2 versija (2026 m. lapkričio 15 d.).** Ji prideda tris pasirenkamas funkcijas: pranešimą sienoje, kai orlaivis siunčia avarinį kodą, nurodant, kuris orlaivis ir kur; pasirinkimą, kuris tinklas atlieka MLAT; ir žinutę jūsų „Telegram“ pokalbyje, kai imtuvas apkursta arba silpsta. 1.0 ir 1.1 versijos išleistos dieną anksčiau. Laukiame pranešimų [GitHub](https://github.com/regis57/ZenithBoard/issues).
 
 ## Vienu sakiniu
 

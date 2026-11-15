@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Version 1.1 is out (14 November 2026).** It adds where the aircraft is heading to the posts and the messages, and three things that stay off until you turn them on: airline names for flights without a route, a list of aircraft never to post, and the closest distance in the Telegram messages. Version 1.0 came out the same day, after a release candidate that ran on the author's Pi from 25 October. A report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
+> **Version 1.2 is out (15 November 2026).** It adds three optional things: a banner on the wall when an aircraft squawks an emergency, saying which aircraft and where; the choice of the network that does MLAT; and a message in your Telegram chat when the receiver goes deaf or weak. Versions 1.0 and 1.1 came out the day before. A report on [GitHub](https://github.com/regis57/ZenithBoard/issues) is welcome.
 
 ## In one sentence
 

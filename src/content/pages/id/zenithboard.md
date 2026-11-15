@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versi 1.1 sudah dirilis (14 November 2026).** Versi ini menambahkan arah pesawat pada postingan dan pesan, serta tiga fitur yang tetap mati sampai Anda menyalakannya: nama maskapai untuk penerbangan tanpa rute, daftar pesawat yang tidak pernah diposting, dan jarak terdekat pada pesan Telegram. Versi 1.0 dirilis pada hari yang sama, setelah kandidat rilis yang berjalan di Pi milik penulis sejak 25 Oktober. Laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
+> **Versi 1.2 sudah dirilis (15 November 2026).** Versi ini menambahkan tiga fitur opsional: spanduk di dinding ketika sebuah pesawat memancarkan kode darurat, yang menyebut pesawat mana dan di mana; pilihan jaringan yang mengerjakan MLAT; dan pesan di obrolan Telegram Anda ketika penerima menjadi tuli atau melemah. Versi 1.0 dan 1.1 dirilis sehari sebelumnya. Laporan di [GitHub](https://github.com/regis57/ZenithBoard/issues) sangat diterima.
 
 ## Dalam satu kalimat
 

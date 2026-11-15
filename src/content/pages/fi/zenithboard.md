@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versio 1.1 on julkaistu (14. marraskuuta 2026).** Se lisää julkaisuihin ja viesteihin koneen lentosuunnan sekä kolme toimintoa, jotka pysyvät pois päältä, kunnes otat ne käyttöön: lentoyhtiöiden nimet lennoille, joilla ei ole reittiä, luettelon koneista, joita ei koskaan julkaista, ja lyhimmän etäisyyden Telegram-viesteissä. Versio 1.0 julkaistiin samana päivänä julkaisuehdokkaan jälkeen, joka pyöri tekijän Pi:llä 25. lokakuuta alkaen. Palaute [GitHubissa](https://github.com/regis57/ZenithBoard/issues) on tervetullutta.
+> **Versio 1.2 on julkaistu (15. marraskuuta 2026).** Se tuo kolme valinnaista toimintoa: seinälle ilmoituksen, kun kone lähettää hätäkoodia, ja se kertoo, mikä kone ja missä; valinnan siitä, mikä verkko hoitaa MLAT:n; sekä viestin Telegram-keskusteluusi, kun vastaanotin mykistyy tai heikkenee. Versiot 1.0 ja 1.1 julkaistiin edellisenä päivänä. Palaute [GitHubissa](https://github.com/regis57/ZenithBoard/issues) on tervetullutta.
 
 ## Yhdellä lauseella
 
