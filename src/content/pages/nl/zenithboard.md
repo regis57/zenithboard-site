@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Versie 1.1 is uit (14 november 2026).** Ze voegt de koers van het vliegtuig toe aan de posts en de berichten, en drie functies die uit blijven tot je ze aanzet: namen van maatschappijen voor vluchten zonder route, een lijst van vliegtuigen die nooit gepost worden, en de kleinste afstand in de Telegram-berichten. Versie 1.0 kwam dezelfde dag uit, na een release candidate die vanaf 25 oktober op de Pi van de auteur draaide. Een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
+> **Versie 1.2 is uit (15 november 2026).** Ze voegt drie optionele functies toe: een banner op de wand wanneer een vliegtuig een noodcode uitzendt, met welk vliegtuig en waar; de keuze van het netwerk dat MLAT doet; en een bericht in je Telegram-chat wanneer de ontvanger doof of zwak wordt. Versies 1.0 en 1.1 kwamen de dag ervoor uit. Een melding op [GitHub](https://github.com/regis57/ZenithBoard/issues) is welkom.
 
 ## In één zin
 

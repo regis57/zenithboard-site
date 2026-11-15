@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Ir iznākusi versija 1.1 (2026. gada 14. novembris).** Tā ierakstiem un ziņām pievieno gaisa kuģa kursu, kā arī trīs funkcijas, kas paliek izslēgtas, līdz tās ieslēdzat: aviokompāniju nosaukumus lidojumiem bez maršruta, sarakstu ar gaisa kuģiem, kurus nekad nepublicēt, un tuvāko attālumu Telegram ziņās. Versija 1.0 iznāca tajā pašā dienā pēc laidiena kandidāta, kas kopš 25. oktobra darbojās autora Pi. Ziņojums [GitHub](https://github.com/regis57/ZenithBoard/issues) ir laipni gaidīts.
+> **Ir iznākusi versija 1.2 (2026. gada 15. novembris).** Tā pievieno trīs izvēles funkcijas: paziņojumu uz sienas, kad gaisa kuģis raida ārkārtas kodu, norādot, kurš gaisa kuģis un kur; izvēli, kurš tīkls veic MLAT; un ziņu jūsu Telegram tērzēšanā, kad uztvērējs kļūst kurls vai vājinās. Versijas 1.0 un 1.1 iznāca dienu iepriekš. Ziņojums [GitHub](https://github.com/regis57/ZenithBoard/issues) ir laipni gaidīts.
 
 ## Vienā teikumā
 

@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Wersja 1.1 jest już dostępna (14 listopada 2026 r.).** Dodaje kurs samolotu do wpisów i wiadomości oraz trzy funkcje, które pozostają wyłączone, dopóki ich nie włączysz: nazwy linii dla lotów bez trasy, listę samolotów, których nigdy nie publikować, oraz najmniejszą odległość w wiadomościach na Telegramie. Wersja 1.0 ukazała się tego samego dnia, po wersji kandydującej, która od 25 października działała na Pi autora. Zgłoszenie na [GitHubie](https://github.com/regis57/ZenithBoard/issues) będzie mile widziane.
+> **Wersja 1.2 jest już dostępna (15 listopada 2026 r.).** Dodaje trzy opcjonalne funkcje: baner na ścianie, gdy samolot nadaje kod alarmowy, z informacją, który samolot i gdzie; wybór sieci, która obsługuje MLAT; oraz wiadomość na czacie Telegram, gdy odbiornik głuchnie lub słabnie. Wersje 1.0 i 1.1 ukazały się dzień wcześniej. Zgłoszenie na [GitHubie](https://github.com/regis57/ZenithBoard/issues) będzie mile widziane.
 
 ## W jednym zdaniu
 

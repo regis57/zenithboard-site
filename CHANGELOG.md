@@ -3,6 +3,13 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-15 — Version 1.2 is out
+
+- The *ZenithBoard* page's notice announces ZenithBoard 1.2.0, published on 15 November 2026: three optional things, the
+  emergency squawk banner on the wall (which aircraft and where), the choice of the network that does MLAT, and a
+  message in the Telegram chat when the receiver goes deaf or weak. It says 1.0 and 1.1 came out the day before. All
+  twenty-two languages.
+
 ## 2026-11-14 — Version 1.1 is out
 
 - The *ZenithBoard* page's notice announces ZenithBoard 1.1.0, published on 14 November 2026: the aircraft's heading in

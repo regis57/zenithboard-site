@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **A versão 1.1 foi lançada (14 de novembro de 2026).** Ela acrescenta o rumo da aeronave às postagens e às mensagens, e três recursos que ficam desligados até você ligá-los: nomes de companhias para voos sem rota, uma lista de aeronaves que nunca são publicadas, e a distância mínima nas mensagens do Telegram. A versão 1.0 saiu no mesmo dia, depois de uma versão candidata que rodou no Pi do autor desde 25 de outubro. Um relato no [GitHub](https://github.com/regis57/ZenithBoard/issues) é bem-vindo.
+> **A versão 1.2 foi lançada (15 de novembro de 2026).** Ela acrescenta três recursos opcionais: um aviso no mural quando uma aeronave transmite um código de emergência, dizendo qual aeronave e onde; a escolha da rede que faz o MLAT; e uma mensagem no seu chat do Telegram quando o receptor fica surdo ou enfraquece. As versões 1.0 e 1.1 saíram no dia anterior. Um relato no [GitHub](https://github.com/regis57/ZenithBoard/issues) é bem-vindo.
 
 ## Em uma frase
 

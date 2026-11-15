@@ -10,7 +10,7 @@ next:
   href: https://github.com/regis57/ZenithBoard
 ---
 
-> **Toleo la 1.1 limetoka (14 Novemba 2026).** Linaongeza mwelekeo wa ndege kwenye machapisho na jumbe, pamoja na vipengele vitatu vinavyobaki vimezimwa hadi uviwashe: majina ya mashirika ya ndege kwa safari zisizo na njia, orodha ya ndege zisizochapishwa kamwe, na umbali wa karibu zaidi kwenye jumbe za Telegram. Toleo la 1.0 lilitoka siku hiyo hiyo, baada ya toleo tarajiwa lililoendeshwa kwenye Pi ya mwandishi tangu tarehe 25 Oktoba. Ripoti kwenye [GitHub](https://github.com/regis57/ZenithBoard/issues) inakaribishwa.
+> **Toleo la 1.2 limetoka (15 Novemba 2026).** Linaongeza vipengele vitatu vya hiari: bango ukutani ndege inapotuma msimbo wa dharura, likisema ni ndege ipi na iko wapi; chaguo la mtandao unaofanya MLAT; na ujumbe kwenye gumzo lako la Telegram kipokezi kinapokuwa kiziwi au kudhoofika. Matoleo ya 1.0 na 1.1 yalitoka siku iliyotangulia. Ripoti kwenye [GitHub](https://github.com/regis57/ZenithBoard/issues) inakaribishwa.
 
 ## Kwa sentensi moja
 
