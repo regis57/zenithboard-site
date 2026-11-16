@@ -3,7 +3,7 @@ title: "Tentang & dukungan"
 description: "Siapa yang membuat ZenithBoard dan situs ini, di bawah lisensi apa, dengan penghormatan seperti apa terhadap Anda, dan cara mengucapkan terima kasih."
 lang: id
 page: about
-updated: 2026-11-11
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Bangun penerima Anda"
@@ -24,7 +24,7 @@ Kode ZenithBoard berada di bawah **GNU General Public License, versi 3 atau yang
 
 ## Penghormatan terhadap orang
 
-Dinding dan unggahan tidak pernah membocorkan posisi penerima. Tidak ada logo maskapai dan tidak ada logo pabrikan yang digambar, dalam titik-titik atau cara lain: itu merek yang dilindungi, dan salinan bertitik tetaplah salinan, jadi bendera negara menggantikannya. Foto pesawat ditampilkan sebagaimana diterbitkan fotografernya, dengan nama mereka dan tautan, dan tidak pernah disalin atau diunggah ke tempat lain. Situs ini tidak memasang cookie, tidak menjalankan analitik, tidak memuat apa pun dari pihak ketiga; warna yang Anda pilih di bagian bawah halaman disimpan di peramban Anda saja.
+Dinding dan unggahan tidak pernah membocorkan posisi penerima. Tidak ada logo maskapai dan tidak ada logo pabrikan yang digambar, dalam titik-titik atau cara lain: itu merek yang dilindungi, dan salinan bertitik tetaplah salinan, jadi bendera negara menggantikannya. Foto pesawat ditampilkan sebagaimana diterbitkan fotografernya, dengan nama mereka dan tautan, dan tidak pernah disalin atau diunggah ke tempat lain. Situs ini tidak memasang cookie, dan satu-satunya pihak ketiganya adalah penghitung kunjungan anonim Cloudflare; warna yang Anda pilih di bagian bawah halaman disimpan di peramban Anda saja.
 
 ## Dua puluh dua bahasa
 
