@@ -3,6 +3,15 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-16 — Security policy, code scanning, a stricter CSP check
+
+- `SECURITY.md`: security problems are reported privately through GitHub's private vulnerability reporting, never in a
+  public issue. CodeQL code scanning (default setup) now runs on every push and pull request.
+- `tools/csp-check.mjs`, after CodeQL's three findings: a page's own origin is told from another by parsing the URL,
+  not by its prefix (`https://zenithboard.app.example.com` no longer passes for the site), and an inline script whose
+  closing tag carries spaces or a line break (`</script >`) is still caught. The built site is unchanged.
+- Dependencies: Astro 7.4.7 (a moderate security alert), html-validate 11.18.0, `@types/node` 26.6.6.
+
 ## 2026-11-15 — Version 1.2 is out
 
 - The *ZenithBoard* page's notice announces ZenithBoard 1.2.0, published on 15 November 2026: three optional things, the
