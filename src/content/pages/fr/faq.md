@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Portée, obstacles, Wi-Fi, mémoire, légalité, vie privée : les questions que l'on se pose avant et après avoir construit un récepteur, avec des réponses franches."
 lang: fr
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Qui fait cela, et comment dire merci"
@@ -64,4 +64,4 @@ Le récepteur et les programmes d'envoi tournent sur n'importe quel ordinateur L
 
 ## Est-ce qu'une partie de tout cela est un produit ?
 
-Non. ZenithBoard est un logiciel libre sous GPL ; le texte de ce site est sous licence Creative Commons ; rien n'est vendu, aucun compte n'est nécessaire, il n'y a pas de télémétrie et ce site ne pose aucun cookie et n'appelle aucun tiers. Le seul argent qui circule est une bière, si le cœur vous en dit, en bas de chaque page.
+Non. ZenithBoard est un logiciel libre sous GPL ; le texte de ce site est sous licence Creative Commons ; rien n'est vendu, aucun compte n'est nécessaire, il n'y a pas de télémétrie et ce site ne pose aucun cookie et son seul tiers est le compteur de visites anonyme de Cloudflare. Le seul argent qui circule est une bière, si le cœur vous en dit, en bas de chaque page.
