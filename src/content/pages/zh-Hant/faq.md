@@ -3,7 +3,7 @@ title: "常見問題"
 description: "距離、障礙物、Wi-Fi、記憶體、合法性、隱私：大家在打造接收器前後會問的問題，直白地回答。"
 lang: zh-Hant
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "誰在做這個，以及如何說聲謝謝"
@@ -64,4 +64,4 @@ MLAT 是 *multilateration*（多點定位）的縮寫。它是網路用來找到
 
 ## 這當中有任何東西是商品嗎？
 
-沒有。ZenithBoard 是 GPL 授權的自由軟體；本網站的文字採用 Creative Commons 授權；沒有任何東西要賣，不需要帳號，沒有遙測，本網站不設定任何 cookie，也不呼叫任何第三方。唯一會流動的錢，是每一頁底部那杯啤酒，如果你有興致的話。
+沒有。ZenithBoard 是 GPL 授權的自由軟體；本網站的文字採用 Creative Commons 授權；沒有任何東西要賣，不需要帳號，沒有遙測，本網站不設定任何 cookie，唯一的第三方是 Cloudflare 的匿名訪客計數器。唯一會流動的錢，是每一頁底部那杯啤酒，如果你有興致的話。
