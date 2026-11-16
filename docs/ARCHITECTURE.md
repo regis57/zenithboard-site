@@ -58,9 +58,10 @@ parts icons) are drawn the same way by `tools/make-mlat.mjs` and `tools/make-fig
 ## What the Content-Security-Policy imposes on the build
 
 `public/_headers` sends `default-src 'none'; script-src 'self' https://static.cloudflareinsights.com;
-style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src https://cloudflareinsights.com; ...`
+style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; ...`
 (the two Cloudflare origins are the visit counter, Cloudflare Web Analytics, the site's one third party; Cloudflare
-inserts its `beacon.min.js` at the edge, so it is never in `dist/`). To stay true to it:
+inserts its `beacon.min.js` at the edge, so it is never in `dist/`, and the beacon reports to the site's own
+`/cdn-cgi/rum`, hence `'self'` in `connect-src`). To stay true to it:
 
 - `build.inlineStylesheets: 'never'`: Astro would otherwise inline small stylesheets;
 - `markdown.syntaxHighlight: false`: Shiki would write `style=""` on every token;
