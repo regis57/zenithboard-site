@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Range, obstacles, Wi-Fi, memory, legality, privacy: the questions people ask before and after building a receiver, answered plainly."
 lang: en
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: true
 next:
   label: "Who makes this, and how to say thank you"
@@ -64,4 +64,4 @@ The receiver and the feeders run on any Linux computer. ZenithBoard itself targe
 
 ## Is any of this a product?
 
-No. ZenithBoard is free software under the GPL; this site's text is under a Creative Commons licence; nothing is sold, no account is needed, there is no telemetry and this site sets no cookie and calls no third party. The only money that moves is a beer, if you feel like it, at the bottom of every page.
+No. ZenithBoard is free software under the GPL; this site's text is under a Creative Commons licence; nothing is sold, no account is needed, there is no telemetry and this site sets no cookie and its only third party is Cloudflare's anonymous visit counter. The only money that moves is a beer, if you feel like it, at the bottom of every page.
