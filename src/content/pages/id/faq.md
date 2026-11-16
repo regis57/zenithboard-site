@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Jangkauan, penghalang, Wi-Fi, memori, legalitas, privasi: pertanyaan yang diajukan orang sebelum dan sesudah membangun penerima, dijawab apa adanya."
 lang: id
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Siapa yang membuat ini, dan cara mengucapkan terima kasih"
@@ -64,4 +64,4 @@ Penerima dan pengumpan berjalan di komputer Linux mana pun. ZenithBoard sendiri 
 
 ## Apakah ada yang berupa produk di sini?
 
-Tidak. ZenithBoard adalah perangkat lunak bebas di bawah GPL; teks situs ini di bawah lisensi Creative Commons; tidak ada yang dijual, tidak perlu akun, tidak ada telemetri dan situs ini tidak memasang cookie dan tidak memanggil pihak ketiga. Satu-satunya uang yang berpindah adalah segelas bir, kalau Anda mau, di bagian bawah setiap halaman.
+Tidak. ZenithBoard adalah perangkat lunak bebas di bawah GPL; teks situs ini di bawah lisensi Creative Commons; tidak ada yang dijual, tidak perlu akun, tidak ada telemetri dan situs ini tidak memasang cookie, dan satu-satunya pihak ketiganya adalah penghitung kunjungan anonim Cloudflare. Satu-satunya uang yang berpindah adalah segelas bir, kalau Anda mau, di bagian bawah setiap halaman.
