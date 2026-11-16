@@ -3,7 +3,7 @@ title: "Over & steun"
 description: "Wie ZenithBoard en deze site maakt, onder welke licenties, met welk respect voor jou, en hoe je bedankt zegt."
 lang: nl
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Bouw je ontvanger"
@@ -24,7 +24,7 @@ De code van ZenithBoard valt onder de **GNU General Public License, versie 3 of 
 
 ## Respect voor mensen
 
-De wall en de posts geven nooit de positie van een ontvanger prijs. Er wordt geen logo van een luchtvaartmaatschappij en geen logo van een fabrikant getekend, in stippen of anderszins: dat zijn beschermde merken, en een kopie in stippen is nog steeds een kopie, dus landsvlaggen nemen hun plaats in. Foto's van vliegtuigen worden getoond zoals hun fotografen ze publiceerden, met hun naam en een link, en worden nooit gekopieerd of elders geplaatst. Deze site plaatst geen cookie, draait geen analytics, laadt niets van een derde partij; de kleur die je onderaan de pagina kiest wordt alleen in je browser bewaard.
+De wall en de posts geven nooit de positie van een ontvanger prijs. Er wordt geen logo van een luchtvaartmaatschappij en geen logo van een fabrikant getekend, in stippen of anderszins: dat zijn beschermde merken, en een kopie in stippen is nog steeds een kopie, dus landsvlaggen nemen hun plaats in. Foto's van vliegtuigen worden getoond zoals hun fotografen ze publiceerden, met hun naam en een link, en worden nooit gekopieerd of elders geplaatst. Deze site plaatst geen cookie en haar enige derde partij is de anonieme bezoekersteller van Cloudflare; de kleur die je onderaan de pagina kiest wordt alleen in je browser bewaard.
 
 ## Tweeëntwintig talen
 

@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Bereik, obstakels, wifi, geheugen, wettelijkheid, privacy: de vragen die mensen stellen vóór en na het bouwen van een ontvanger, eerlijk beantwoord."
 lang: nl
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Wie maakt dit, en hoe je bedankt zegt"
@@ -64,4 +64,4 @@ De ontvanger en de feeders draaien op elke Linux-computer. ZenithBoard zelf rich
 
 ## Is iets hiervan een product?
 
-Nee. ZenithBoard is vrije software onder de GPL; de tekst van deze site valt onder een Creative Commons-licentie; niets wordt verkocht, er is geen account nodig, er is geen telemetrie en deze site plaatst geen cookie en roept geen derde partij aan. Het enige geld dat van hand wisselt is een biertje, als je daar zin in hebt, onderaan elke pagina.
+Nee. ZenithBoard is vrije software onder de GPL; de tekst van deze site valt onder een Creative Commons-licentie; niets wordt verkocht, er is geen account nodig, er is geen telemetrie en deze site plaatst geen cookie en haar enige derde partij is de anonieme bezoekersteller van Cloudflare. Het enige geld dat van hand wisselt is een biertje, als je daar zin in hebt, onderaan elke pagina.
