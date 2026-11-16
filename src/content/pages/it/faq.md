@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Portata, ostacoli, Wi-Fi, memoria, legalità, privacy: le domande che la gente fa prima e dopo aver costruito un ricevitore, con risposte chiare."
 lang: it
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Chi fa tutto questo, e come dire grazie"
@@ -64,4 +64,4 @@ Il ricevitore e i feeder girano su qualsiasi computer Linux. ZenithBoard in sé 
 
 ## Qualcosa di tutto questo è un prodotto?
 
-No. ZenithBoard è software libero sotto GPL; il testo di questo sito è sotto licenza Creative Commons; niente è in vendita, non serve alcun account, non c'è telemetria e questo sito non imposta cookie e non chiama terze parti. L'unico denaro che gira è una birra, se ne hai voglia, in fondo a ogni pagina.
+No. ZenithBoard è software libero sotto GPL; il testo di questo sito è sotto licenza Creative Commons; niente è in vendita, non serve alcun account, non c'è telemetria e questo sito non imposta cookie e la sua unica terza parte è il contatore di visite anonimo di Cloudflare. L'unico denaro che gira è una birra, se ne hai voglia, in fondo a ogni pagina.
