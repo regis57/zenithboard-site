@@ -1,7 +1,7 @@
 ---
 // SPDX-License-Identifier: GPL-3.0-or-later
 // The one layout: the bar (logo, language), the navigation, the page, the foot (colour, beer, licences).
-// No inline script or style anywhere: public/_headers forbids them.
+// No inline script or style anywhere: public/_headers forbids them. One external third-party script: Cloudflare's visit counter.
 import "../styles/site.css";
 import { PUBLISHED, NAV, SITE, DEFAULT_LOCALE, lang as langOf, pathFor, flagSrc } from "../i18n/langs.js";
 import { ui } from "../i18n/ui";
@@ -108,5 +108,7 @@ const THEMES = ["amber", "green", "red", "white", "turquoise"] as const;
       </div>
     </footer>
     <script is:inline defer src="/js/copy-code.js"></script>
+    <!-- The only third party: Cloudflare Web Analytics, a cookieless visit counter (see public/_headers, tools/csp-check.mjs). -->
+    <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "353567916fb54a45822ca24b3a7f336e"}' crossorigin="anonymous"></script>
   </body>
 </html>
