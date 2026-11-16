@@ -3,7 +3,7 @@ title: "KKK"
 description: "Ulatus, takistused, Wi-Fi, mälu, seaduslikkus, privaatsus: küsimused, mida inimesed enne ja pärast vastuvõtja ehitamist küsivad, otse vastatud."
 lang: et
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Kes seda teeb ja kuidas öelda aitäh"
@@ -64,4 +64,4 @@ Vastuvõtja ja söötjad jooksevad igal Linuxi arvutil. ZenithBoard ise on mõel
 
 ## Kas midagi sellest on toode?
 
-Ei. ZenithBoard on vaba tarkvara GPL-i all; selle saidi tekst on Creative Commonsi litsentsi all; midagi ei müüda, kontot pole vaja, telemeetriat ei ole ja see sait ei sea küpsiseid ega pöördu kolmandate osapoolte poole. Ainus raha, mis liigub, on üks õlu, kui sul on selleks tuju, iga lehe allosas.
+Ei. ZenithBoard on vaba tarkvara GPL-i all; selle saidi tekst on Creative Commonsi litsentsi all; midagi ei müüda, kontot pole vaja, telemeetriat ei ole ja see sait ei sea küpsiseid ning selle ainus kolmas osapool on Cloudflare'i anonüümne külastuste loendur. Ainus raha, mis liigub, on üks õlu, kui sul on selleks tuju, iga lehe allosas.
