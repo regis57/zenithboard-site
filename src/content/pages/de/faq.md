@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Reichweite, Hindernisse, WLAN, Speicher, Rechtslage, Privatsphäre: die Fragen, die vor und nach dem Bau eines Empfängers gestellt werden, klar beantwortet."
 lang: de
 page: faq
-updated: 2026-10-23
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Wer das macht, und wie man Danke sagt"
@@ -64,4 +64,4 @@ Der Empfänger und die Feeder laufen auf jedem Linux-Computer. ZenithBoard selbs
 
 ## Ist irgendetwas davon ein Produkt?
 
-Nein. ZenithBoard ist freie Software unter der GPL; der Text dieser Website steht unter einer Creative-Commons-Lizenz; nichts wird verkauft, kein Konto ist nötig, es gibt keine Telemetrie, und diese Website setzt kein Cookie und ruft keinen Drittanbieter auf. Das einzige Geld, das fließt, ist ein Bier, wenn Ihnen danach ist, ganz unten auf jeder Seite.
+Nein. ZenithBoard ist freie Software unter der GPL; der Text dieser Website steht unter einer Creative-Commons-Lizenz; nichts wird verkauft, kein Konto ist nötig, es gibt keine Telemetrie, und diese Website setzt kein Cookie, und ihr einziger Drittanbieter ist der anonyme Besuchszähler von Cloudflare. Das einzige Geld, das fließt, ist ein Bier, wenn Ihnen danach ist, ganz unten auf jeder Seite.

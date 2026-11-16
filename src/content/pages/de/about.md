@@ -3,7 +3,7 @@ title: "Über uns & Unterstützung"
 description: "Wer ZenithBoard und diese Website macht, unter welchen Lizenzen, mit welchem Respekt vor Ihnen, und wie man Danke sagt."
 lang: de
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Bauen Sie Ihren Empfänger"
@@ -24,7 +24,7 @@ Der Code von ZenithBoard steht unter der **GNU General Public License, Version 3
 
 ## Respekt vor den Menschen
 
-Die Wand und die Posts geben die Position eines Empfängers nie preis. Kein Logo einer Fluggesellschaft und kein Logo eines Herstellers wird gezeichnet, in Punkten oder anderswie: Das sind geschützte Marken, und eine gepunktete Kopie ist immer noch eine Kopie, deshalb stehen Länderflaggen an ihrer Stelle. Fotos von Flugzeugen werden so gezeigt, wie ihre Fotografen sie veröffentlicht haben, mit ihrem Namen und einem Link, und nie kopiert oder anderswo gepostet. Diese Website setzt kein Cookie, betreibt keine Analyse, lädt nichts von einem Drittanbieter; die Farbe, die Sie unten auf der Seite wählen, wird allein in Ihrem Browser gespeichert.
+Die Wand und die Posts geben die Position eines Empfängers nie preis. Kein Logo einer Fluggesellschaft und kein Logo eines Herstellers wird gezeichnet, in Punkten oder anderswie: Das sind geschützte Marken, und eine gepunktete Kopie ist immer noch eine Kopie, deshalb stehen Länderflaggen an ihrer Stelle. Fotos von Flugzeugen werden so gezeigt, wie ihre Fotografen sie veröffentlicht haben, mit ihrem Namen und einem Link, und nie kopiert oder anderswo gepostet. Diese Website setzt kein Cookie, und ihr einziger Drittanbieter ist der anonyme Besuchszähler von Cloudflare; die Farbe, die Sie unten auf der Seite wählen, wird allein in Ihrem Browser gespeichert.
 
 ## Zweiundzwanzig Sprachen
 
