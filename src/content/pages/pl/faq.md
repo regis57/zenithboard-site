@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Zasięg, przeszkody, Wi-Fi, pamięć, legalność, prywatność: pytania, które ludzie zadają przed zbudowaniem odbiornika i po nim, z prostymi odpowiedziami."
 lang: pl
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Kto to robi i jak podziękować"
@@ -64,4 +64,4 @@ Odbiornik i feedery działają na każdym komputerze z Linuksem. Sam ZenithBoard
 
 ## Czy cokolwiek z tego jest produktem?
 
-Nie. ZenithBoard to wolne oprogramowanie na licencji GPL; tekst tej strony jest na licencji Creative Commons; nic nie jest sprzedawane, nie trzeba żadnego konta, nie ma telemetrii, a ta strona nie ustawia żadnego ciasteczka i nie łączy się z żadną stroną trzecią. Jedyne pieniądze, jakie tu krążą, to piwo, jeśli masz ochotę, na dole każdej strony.
+Nie. ZenithBoard to wolne oprogramowanie na licencji GPL; tekst tej strony jest na licencji Creative Commons; nic nie jest sprzedawane, nie trzeba żadnego konta, nie ma telemetrii, a ta strona nie ustawia żadnego ciasteczka, a jej jedyną stroną trzecią jest anonimowy licznik odwiedzin Cloudflare. Jedyne pieniądze, jakie tu krążą, to piwo, jeśli masz ochotę, na dole każdej strony.
