@@ -3,7 +3,7 @@ title: "Sobre & apoio"
 description: "Quem faz o ZenithBoard e este site, sob quais licenças, com que respeito por você, e como dizer obrigado."
 lang: pt-BR
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Monte o seu receptor"
@@ -24,7 +24,7 @@ O código do ZenithBoard está sob a **GNU General Public License, versão 3 ou 
 
 ## Respeito pelas pessoas
 
-O painel e as publicações nunca revelam a posição de um receptor. Nenhum logotipo de companhia aérea nem de fabricante é desenhado, em pontos ou de outro jeito: são marcas protegidas, e uma cópia em pontos ainda é uma cópia, então as bandeiras dos países ficam no lugar deles. As fotos de aeronaves são mostradas como os seus fotógrafos as publicaram, com o nome deles e um link, e nunca copiadas ou publicadas em outro lugar. Este site não grava nenhum cookie, não roda nenhuma ferramenta de análise, não carrega nada de terceiros; a cor que você escolhe no fim da página fica guardada só no seu navegador.
+O painel e as publicações nunca revelam a posição de um receptor. Nenhum logotipo de companhia aérea nem de fabricante é desenhado, em pontos ou de outro jeito: são marcas protegidas, e uma cópia em pontos ainda é uma cópia, então as bandeiras dos países ficam no lugar deles. As fotos de aeronaves são mostradas como os seus fotógrafos as publicaram, com o nome deles e um link, e nunca copiadas ou publicadas em outro lugar. Este site não grava nenhum cookie e seu único terceiro é o contador de visitas anônimo da Cloudflare; a cor que você escolhe no fim da página fica guardada só no seu navegador.
 
 ## Vinte e dois idiomas
 
