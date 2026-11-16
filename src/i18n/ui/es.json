@@ -35,7 +35,7 @@
   "beer_title": "Invítame a una cerveza",
   "beer_text": "ZenithBoard es gratuito y su código es público. Una cerveza es una forma de dar las gracias; no desbloquea nada y ayuda a pagar la electricidad.",
   "beer_button": "Invítame a una cerveza",
-  "footer_text": "Texto bajo CC BY-SA 4.0, código bajo GPL-3.0-or-later. Sin cookies, sin rastreadores, sin peticiones a terceros.",
+  "footer_text": "Texto bajo CC BY-SA 4.0, código bajo GPL-3.0-or-later. Sin cookies, sin rastreadores; único tercero: el contador de visitas anónimo de Cloudflare.",
   "footer_source": "Código fuente de este sitio",
   "footer_project": "ZenithBoard en GitHub",
   "footer_youtube": "ZenithBoard en YouTube",

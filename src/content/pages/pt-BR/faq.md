@@ -3,7 +3,7 @@ title: "FAQ"
 description: "Alcance, obstáculos, Wi-Fi, memória, legalidade, privacidade: as perguntas que as pessoas fazem antes e depois de montar um receptor, respondidas com clareza."
 lang: pt-BR
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Quem faz isto, e como dizer obrigado"
@@ -64,4 +64,4 @@ O receptor e os alimentadores rodam em qualquer computador Linux. O ZenithBoard 
 
 ## Alguma coisa disto é um produto?
 
-Não. O ZenithBoard é software livre sob a GPL; o texto deste site está sob uma licença Creative Commons; nada é vendido, nenhuma conta é necessária, não há telemetria, e este site não grava nenhum cookie nem chama nenhum terceiro. O único dinheiro que circula é uma cerveja, se você tiver vontade, no fim de cada página.
+Não. O ZenithBoard é software livre sob a GPL; o texto deste site está sob uma licença Creative Commons; nada é vendido, nenhuma conta é necessária, não há telemetria, e este site não grava nenhum cookie e seu único terceiro é o contador de visitas anônimo da Cloudflare. O único dinheiro que circula é uma cerveja, se você tiver vontade, no fim de cada página.

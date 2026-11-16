@@ -35,7 +35,7 @@
   "beer_title": "Offrez-moi une bière",
   "beer_text": "ZenithBoard est gratuit et son code est public. Une bière dit merci ; elle ne débloque rien et aide à payer l'électricité.",
   "beer_button": "Offrez-moi une bière",
-  "footer_text": "Texte sous CC BY-SA 4.0, code sous GPL-3.0-or-later. Pas de cookie, pas de traceur, aucune requête vers un tiers.",
+  "footer_text": "Texte sous CC BY-SA 4.0, code sous GPL-3.0-or-later. Pas de cookie, pas de traceur ; seul tiers : le compteur de visites anonyme de Cloudflare.",
   "footer_source": "Source de ce site",
   "footer_project": "ZenithBoard sur GitHub",
   "footer_youtube": "ZenithBoard sur YouTube",

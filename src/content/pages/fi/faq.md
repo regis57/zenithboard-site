@@ -3,7 +3,7 @@ title: "UKK"
 description: "Kantama, esteet, Wi-Fi, muisti, laillisuus, yksityisyys: kysymykset, joita ihmiset esittävät ennen vastaanottimen rakentamista ja sen jälkeen, suoraan vastattuina."
 lang: fi
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Kuka tekee tämän, ja miten kiittää"
@@ -64,4 +64,4 @@ Vastaanotin ja syöttöohjelmat toimivat millä tahansa Linux-tietokoneella. Zen
 
 ## Onko mikään tästä tuote?
 
-Ei. ZenithBoard on vapaa ohjelmisto GPL-lisenssillä; tämän sivuston teksti on Creative Commons -lisenssillä; mitään ei myydä, tiliä ei tarvita, telemetriaa ei ole, eikä tämä sivusto aseta evästeitä eikä kutsu kolmansia osapuolia. Ainoa raha, joka liikkuu, on olut, jos siltä tuntuu, jokaisen sivun alareunassa.
+Ei. ZenithBoard on vapaa ohjelmisto GPL-lisenssillä; tämän sivuston teksti on Creative Commons -lisenssillä; mitään ei myydä, tiliä ei tarvita, telemetriaa ei ole, eikä tämä sivusto aseta evästeitä, ja sen ainoa kolmas osapuoli on Cloudflaren nimetön kävijälaskuri. Ainoa raha, joka liikkuu, on olut, jos siltä tuntuu, jokaisen sivun alareunassa.

@@ -22,7 +22,7 @@ only source of truth and GitHub is the only place anyone signs in.
   └──────────────────────────────────────────────┬───────────────────────────────────────────────────┘
                                                  │
                                                  ▼
-                              Visitors: static pages, no cookie, no third-party request
+                              Visitors: static pages, no cookie, one third party (Cloudflare visit counter)
 ```
 
 ## Content
@@ -57,8 +57,10 @@ parts icons) are drawn the same way by `tools/make-mlat.mjs` and `tools/make-fig
 
 ## What the Content-Security-Policy imposes on the build
 
-`public/_headers` sends `default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:;
-font-src 'self'; connect-src 'none'; ...`. To stay true to it:
+`public/_headers` sends `default-src 'none'; script-src 'self' https://static.cloudflareinsights.com;
+style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src https://cloudflareinsights.com; ...`
+(the two Cloudflare origins are the visit counter, Cloudflare Web Analytics, the site's one third party; Cloudflare
+inserts its `beacon.min.js` at the edge, so it is never in `dist/`). To stay true to it:
 
 - `build.inlineStylesheets: 'never'`: Astro would otherwise inline small stylesheets;
 - `markdown.syntaxHighlight: false`: Shiki would write `style=""` on every token;

@@ -3,7 +3,7 @@ title: "BUJ"
 description: "Tālums, šķēršļi, Wi-Fi, atmiņa, likumība, privātums: jautājumi, ko cilvēki uzdod pirms un pēc uztvērēja būvēšanas, atbildēti vienkārši."
 lang: lv
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Kas to veido, un kā pateikt paldies"
@@ -64,4 +64,4 @@ Uztvērējs un padevēji darbojas uz jebkura Linux datora. Pats ZenithBoard ir p
 
 ## Vai kaut kas no tā ir produkts?
 
-Nē. ZenithBoard ir brīvā programmatūra zem GPL; šīs vietnes teksts ir zem Creative Commons licences; nekas netiek pārdots, konts nav vajadzīgs, nav telemetrijas, un šī vietne neuzstāda sīkdatnes un neizsauc trešās puses. Vienīgā nauda, kas kustas, ir alus, ja tev ir tāda vēlme, katras lapas apakšā.
+Nē. ZenithBoard ir brīvā programmatūra zem GPL; šīs vietnes teksts ir zem Creative Commons licences; nekas netiek pārdots, konts nav vajadzīgs, nav telemetrijas, un šī vietne neuzstāda sīkdatnes, un tās vienīgā trešā puse ir Cloudflare anonīmais apmeklējumu skaitītājs. Vienīgā nauda, kas kustas, ir alus, ja tev ir tāda vēlme, katras lapas apakšā.

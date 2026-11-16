@@ -35,7 +35,7 @@
   "beer_title": "請我喝杯啤酒",
   "beer_text": "ZenithBoard 是免費的，程式碼也是公開的。一杯啤酒就是謝意；它不解鎖任何東西，只是幫忙分攤電費。",
   "beer_button": "請我喝杯啤酒",
-  "footer_text": "文字採用 CC BY-SA 4.0，程式碼採用 GPL-3.0-or-later。沒有 cookie、沒有追蹤器、沒有第三方請求。",
+  "footer_text": "文字採用 CC BY-SA 4.0，程式碼採用 GPL-3.0-or-later。沒有 cookie、沒有追蹤器，唯一的第三方是 Cloudflare 的匿名訪客計數器。",
   "footer_source": "本網站的原始碼",
   "footer_project": "GitHub 上的 ZenithBoard",
   "footer_youtube": "YouTube 上的 ZenithBoard",

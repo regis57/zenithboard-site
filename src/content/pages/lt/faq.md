@@ -3,7 +3,7 @@ title: "DUK"
 description: "Nuotolis, kliūtys, Wi-Fi, atmintis, teisėtumas, privatumas: klausimai, kuriuos žmonės užduoda prieš ir po imtuvo gaminimo, atsakyti aiškiai."
 lang: lt
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Kas tai daro ir kaip padėkoti"
@@ -64,4 +64,4 @@ Imtuvas ir siuntikliai veikia bet kuriame Linux kompiuteryje. Pats ZenithBoard s
 
 ## Ar kas nors iš to yra produktas?
 
-Ne. ZenithBoard yra laisva programinė įranga pagal GPL; šios svetainės tekstas yra pagal Creative Commons licenciją; niekas neparduodama, paskyros nereikia, nėra telemetrijos, o ši svetainė nenustato jokių slapukų ir nesikreipia į jokią trečiąją šalį. Vieninteliai pinigai, kurie juda, – alus, jei norite, kiekvieno puslapio apačioje.
+Ne. ZenithBoard yra laisva programinė įranga pagal GPL; šios svetainės tekstas yra pagal Creative Commons licenciją; niekas neparduodama, paskyros nereikia, nėra telemetrijos, o ši svetainė nenustato jokių slapukų, o vienintelė jos trečioji šalis yra anonimiškas „Cloudflare“ lankytojų skaitiklis. Vieninteliai pinigai, kurie juda, – alus, jei norite, kiekvieno puslapio apačioje.
