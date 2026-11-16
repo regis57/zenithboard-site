@@ -35,7 +35,7 @@
   "beer_title": "Угостить пивом",
   "beer_text": "ZenithBoard бесплатен, его код открыт. Пиво — это спасибо; оно ничего не разблокирует и помогает оплатить электричество.",
   "beer_button": "Угостить пивом",
-  "footer_text": "Текст под CC BY-SA 4.0, код под GPL-3.0-or-later. Без cookie, без трекеров, без запросов к третьим сторонам.",
+  "footer_text": "Текст под CC BY-SA 4.0, код под GPL-3.0-or-later. Без cookie, без трекеров; единственная третья сторона — анонимный счётчик посещений Cloudflare.",
   "footer_source": "Исходный код сайта",
   "footer_project": "ZenithBoard на GitHub",
   "footer_youtube": "ZenithBoard на YouTube",
