@@ -3,7 +3,7 @@ title: "Maswali ya mara kwa mara"
 description: "Umbali, vizuizi, Wi-Fi, kumbukumbu, uhalali, faragha: maswali ambayo watu wanauliza kabla na baada ya kujenga kipokezi, yakijibiwa wazi."
 lang: sw
 page: faq
-updated: 2026-10-23
+updated: 2026-11-17
 reviewed: false
 next:
   label: "Nani anatengeneza hiki, na jinsi ya kusema asante"
@@ -64,4 +64,4 @@ Kipokezi na walishaji vinaendeshwa kwenye kompyuta yoyote ya Linux. ZenithBoard 
 
 ## Je, chochote kati ya hivi ni bidhaa?
 
-Hapana. ZenithBoard ni programu huru chini ya GPL; maandishi ya tovuti hii yako chini ya leseni ya Creative Commons; hakuna kinachouzwa, hakuna akaunti inayohitajika, hakuna telemetria na tovuti hii haiweki kuki wala kuita mhusika wa tatu. Pesa pekee inayohamishwa ni bia, ukijisikia, chini ya kila ukurasa.
+Hapana. ZenithBoard ni programu huru chini ya GPL; maandishi ya tovuti hii yako chini ya leseni ya Creative Commons; hakuna kinachouzwa, hakuna akaunti inayohitajika, hakuna telemetria na tovuti hii haiweki kuki, na mhusika wake pekee wa tatu ni kihesabu cha wageni kisichojulikana cha Cloudflare. Pesa pekee inayohamishwa ni bia, ukijisikia, chini ya kila ukurasa.
