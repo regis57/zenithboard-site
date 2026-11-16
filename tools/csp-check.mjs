@@ -7,7 +7,10 @@ import { join } from "node:path";
 
 const root = process.argv[2] || "dist";
 const SITE = "https://zenithboard.app";
-let files = 0, findings = [];
+// The one third party the site accepts: Cloudflare Web Analytics' beacon script, a <script src> with this exact URL
+// (the same origin public/_headers allows in script-src). Nothing else may come from another origin.
+const BEACON = "https://static.cloudflareinsights.com/beacon.min.js";
+let files = 0, beacons = 0, findings = [];
 
 function walk(dir) {
   for (const name of readdirSync(dir)) {
@@ -39,6 +42,7 @@ function check(file) {
       let origin = null;
       try { origin = new URL(url, SITE).origin; } catch { /* unparsable: treated as another origin */ }
       if (origin === SITE) bad("absolute self URL (use a path)", tag);
+      else if (/^<script/i.test(tag) && url === BEACON) beacons++;
       else bad("third-party resource", tag);
     }
   }
@@ -52,4 +56,4 @@ if (findings.length) {
   for (const f of findings) console.error("  " + f);
   process.exit(1);
 }
-console.log(`csp-check: ${files} page(s), no inline code, no third-party resource.`);
+console.log(`csp-check: ${files} page(s), no inline code, no third-party resource but Cloudflare's visit counter (${beacons} script).`);
