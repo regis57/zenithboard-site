@@ -3,7 +3,7 @@ title: "Kuhusu & msaada"
 description: "Nani anatengeneza ZenithBoard na tovuti hii, chini ya leseni zipi, kwa heshima gani kwako, na jinsi ya kusema asante."
 lang: sw
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Jenga kipokezi chako"
@@ -24,7 +24,7 @@ Msimbo wa ZenithBoard uko chini ya **GNU General Public License, toleo la 3 au b
 
 ## Heshima kwa watu
 
-Ukuta na machapisho havitoi kamwe nafasi ya kipokezi. Hakuna nembo ya shirika la ndege wala nembo ya mtengenezaji inayochorwa, kwa nukta au vinginevyo: hizi ni alama zinazolindwa, na nakala ya nukta bado ni nakala, kwa hiyo bendera za nchi zinasimama badala yake. Picha za ndege zinaonyeshwa jinsi wapiga picha wao walivyozichapisha, pamoja na jina lao na kiungo, na hazinakiliwi kamwe wala kuchapishwa kwingineko. Tovuti hii haiweki kuki, haiendeshi uchanganuzi, haipakii chochote kutoka kwa mhusika wa tatu; rangi unayochagua chini ya ukurasa inahifadhiwa kwenye kivinjari chako pekee.
+Ukuta na machapisho havitoi kamwe nafasi ya kipokezi. Hakuna nembo ya shirika la ndege wala nembo ya mtengenezaji inayochorwa, kwa nukta au vinginevyo: hizi ni alama zinazolindwa, na nakala ya nukta bado ni nakala, kwa hiyo bendera za nchi zinasimama badala yake. Picha za ndege zinaonyeshwa jinsi wapiga picha wao walivyozichapisha, pamoja na jina lao na kiungo, na hazinakiliwi kamwe wala kuchapishwa kwingineko. Tovuti hii haiweki kuki, na mhusika wake pekee wa tatu ni kihesabu cha wageni kisichojulikana cha Cloudflare; rangi unayochagua chini ya ukurasa inahifadhiwa kwenye kivinjari chako pekee.
 
 ## Lugha ishirini na mbili
 
