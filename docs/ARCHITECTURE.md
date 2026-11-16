@@ -22,7 +22,7 @@ only source of truth and GitHub is the only place anyone signs in.
   └──────────────────────────────────────────────┬───────────────────────────────────────────────────┘
                                                  │
                                                  ▼
-                              Visitors: static pages, no cookie, no third-party request
+                              Visitors: static pages, no cookie, one third party (Cloudflare visit counter)
 ```
 
 ## Content
@@ -57,16 +57,18 @@ parts icons) are drawn the same way by `tools/make-mlat.mjs` and `tools/make-fig
 
 ## What the Content-Security-Policy imposes on the build
 
-`public/_headers` sends `default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:;
-font-src 'self'; connect-src 'none'; ...`. To stay true to it:
+`public/_headers` sends `default-src 'none'; script-src 'self' https://static.cloudflareinsights.com;
+style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src https://cloudflareinsights.com; ...`
+(the two Cloudflare origins are the visit counter, Cloudflare Web Analytics, the site's one third party). To stay true to it:
 
 - `build.inlineStylesheets: 'never'`: Astro would otherwise inline small stylesheets;
 - `markdown.syntaxHighlight: false`: Shiki would write `style=""` on every token;
-- no `is:inline` code, no `<ClientRouter />`, no `on*=` attribute; the one script is an external file,
-  `<script is:inline src="/js/theme.js">` (here `is:inline` only means "emit the tag as written");
+- no `is:inline` code, no `<ClientRouter />`, no `on*=` attribute; the scripts are external files,
+  `<script is:inline src="/js/theme.js">` (here `is:inline` only means "emit the tag as written") and Cloudflare's
+  `beacon.min.js`, the one script from another origin;
 - `tools/csp-check.mjs` walks `dist/` and fails on any inline `<script>` or `<style>`, `style=` or `on*=`
-  attribute, or resource from another origin. The Playwright tests also record every network request and fail
-  on one to another origin.
+  attribute, or resource from another origin except that one beacon script. The Playwright tests also record every network
+  request and fail on one to another origin (the beacon is answered locally there).
 
 ## Hosting
 
