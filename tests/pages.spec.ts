@@ -14,8 +14,10 @@ for (const l of PUBLISHED) {
     const path = pathFor(l.code, slug);
     test(`${l.code} ${slug}`, async ({ page }, info) => {
       const thirdParty: string[] = [];
+      // Cloudflare's visit counter is the one allowed third party; here it is answered locally, never reached.
+      await page.route(/^https:\/\/(static\.)?cloudflareinsights\.com\//, (r) => r.fulfill({ status: 200, contentType: "text/javascript", headers: { "access-control-allow-origin": "*" }, body: "" }));
       const errors: string[] = [];
-      page.on("request", (r) => { if (!r.url().startsWith(ORIGIN) && !r.url().startsWith("data:")) thirdParty.push(r.url()); });
+      page.on("request", (r) => { if (!r.url().startsWith(ORIGIN) && !r.url().startsWith("data:") && !/^https:\/\/(static\.)?cloudflareinsights\.com\//.test(r.url())) thirdParty.push(r.url()); });
       page.on("console", (m) => { if (m.type() === "error") errors.push(m.text()); });
       page.on("pageerror", (e) => errors.push(String(e)));
 
