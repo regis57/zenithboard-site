@@ -3,7 +3,7 @@ title: "Par projektu un atbalsts"
 description: "Kas veido ZenithBoard un šo vietni, zem kādām licencēm, ar kādu cieņu pret tevi, un kā pateikt paldies."
 lang: lv
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Uzbūvē savu uztvērēju"
@@ -24,7 +24,7 @@ ZenithBoard kods ir zem **GNU General Public License, 3. versijas vai jaunākas*
 
 ## Cieņa pret cilvēkiem
 
-Tablo un ieraksti nekad neatklāj uztvērēja pozīciju. Netiek zīmēts ne aviokompānijas logo, ne ražotāja logo, ne punktos, ne citādi: tās ir aizsargātas zīmes, un punktota kopija joprojām ir kopija, tāpēc to vietā stāv valstu karogi. Lidmašīnu fotogrāfijas tiek rādītas tā, kā to fotogrāfi tās publicējuši, ar viņu vārdu un saiti, un nekad netiek kopētas vai publicētas citur. Šī vietne neuzstāda sīkdatnes, nedarbina analītiku, neielādē neko no trešajām pusēm; krāsa, ko izvēlies lapas apakšā, tiek glabāta tikai tavā pārlūkā.
+Tablo un ieraksti nekad neatklāj uztvērēja pozīciju. Netiek zīmēts ne aviokompānijas logo, ne ražotāja logo, ne punktos, ne citādi: tās ir aizsargātas zīmes, un punktota kopija joprojām ir kopija, tāpēc to vietā stāv valstu karogi. Lidmašīnu fotogrāfijas tiek rādītas tā, kā to fotogrāfi tās publicējuši, ar viņu vārdu un saiti, un nekad netiek kopētas vai publicētas citur. Šī vietne neuzstāda sīkdatnes, un tās vienīgā trešā puse ir Cloudflare anonīmais apmeklējumu skaitītājs; krāsa, ko izvēlies lapas apakšā, tiek glabāta tikai tavā pārlūkā.
 
 ## Divdesmit divas valodas
 
