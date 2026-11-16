@@ -22,7 +22,7 @@ function check(file) {
   const html = readFileSync(file, "utf8");
   const bad = (what, m) => findings.push(`${file}: ${what}: ${m.slice(0, 100)}`);
   // inline scripts: a <script> without src, or with content
-  for (const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
+  for (const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\b[^>]*>/gi)) {
     if (!/\bsrc=/.test(m[1])) bad("inline script", m[0]);
     else if (m[2].trim()) bad("script with content", m[0]);
   }
@@ -34,8 +34,13 @@ function check(file) {
     const tag = m[0];
     if (/^<link/i.test(tag) && /rel="(alternate|canonical|sitemap)"/i.test(tag)) continue; // metadata, not a fetch
     const url = (tag.match(/\s(?:src|href)="([^"]*)"/i) || [])[1];
-    if (url && /^(https?:)?\/\//i.test(url) && !url.startsWith(SITE)) bad("third-party resource", tag);
-    if (url && /^(https?:)?\/\//i.test(url) && url.startsWith(SITE)) bad("absolute self URL (use a path)", tag);
+    if (url && /^(https?:)?\/\//i.test(url)) {
+      // compare origins, not prefixes: https://zenithboard.app.example.com must not pass for the site
+      let origin = null;
+      try { origin = new URL(url, SITE).origin; } catch { /* unparsable: treated as another origin */ }
+      if (origin === SITE) bad("absolute self URL (use a path)", tag);
+      else bad("third-party resource", tag);
+    }
   }
   for (const m of html.matchAll(/url\(\s*['"]?(https?:)?\/\//gi)) bad("url() to another origin", m[0]);
   for (const m of html.matchAll(/<(iframe|object|embed|form)\b/gi)) bad("forbidden element", m[0]);
