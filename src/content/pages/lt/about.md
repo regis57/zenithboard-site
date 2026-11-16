@@ -3,7 +3,7 @@ title: "Apie ir parama"
 description: "Kas kuria ZenithBoard ir šią svetainę, pagal kokias licencijas, su kokia pagarba jums ir kaip padėkoti."
 lang: lt
 page: about
-updated: 2026-11-11
+updated: 2026-11-16
 reviewed: false
 next:
   label: "Pasigaminkite imtuvą"
@@ -24,7 +24,7 @@ ZenithBoard kodas yra pagal **GNU General Public License, 3 ar vėlesnę versij�
 
 ## Pagarba žmonėms
 
-Siena ir įrašai niekada neatskleidžia imtuvo padėties. Nepiešiamas joks oro linijų ir joks gamintojo logotipas, nei taškais, nei kitaip: tai saugomi ženklai, o taškinė kopija vis tiek yra kopija, todėl vietoj jų – šalių vėliavos. Orlaivių nuotraukos rodomos taip, kaip jas paskelbė jų fotografai, su jų vardu ir nuoroda, ir niekada nekopijuojamos ar neskelbiamos kitur. Ši svetainė nenustato jokių slapukų, nevykdo jokios analitikos, nieko neįkelia iš trečiųjų šalių; spalva, kurią pasirenkate puslapio apačioje, saugoma tik jūsų naršyklėje.
+Siena ir įrašai niekada neatskleidžia imtuvo padėties. Nepiešiamas joks oro linijų ir joks gamintojo logotipas, nei taškais, nei kitaip: tai saugomi ženklai, o taškinė kopija vis tiek yra kopija, todėl vietoj jų – šalių vėliavos. Orlaivių nuotraukos rodomos taip, kaip jas paskelbė jų fotografai, su jų vardu ir nuoroda, ir niekada nekopijuojamos ar neskelbiamos kitur. Ši svetainė nenustato jokių slapukų, o vienintelė jos trečioji šalis yra anonimiškas „Cloudflare“ lankytojų skaitiklis; spalva, kurią pasirenkate puslapio apačioje, saugoma tik jūsų naršyklėje.
 
 ## Dvidešimt dvi kalbos
 
