@@ -3,6 +3,11 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-17 — The visit counter may report
+
+- `public/_headers`: `connect-src` also allows `'self'`. Inserted by Cloudflare, the beacon sends its page views to the
+  site's own `/cdn-cgi/rum`, which the policy refused: the counter loaded but could not count. Nothing else changes.
+
 ## 2026-11-17 — An anonymous visit counter (Cloudflare Web Analytics)
 
 - The site now counts its visitors with Cloudflare Web Analytics, the owner's decision: the network figures Cloudflare
