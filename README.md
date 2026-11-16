@@ -6,7 +6,8 @@
 
 The site of [ZenithBoard](https://github.com/regis57/ZenithBoard): what ADS-B is, how to build a receiver with a
 Raspberry Pi, how to join the networks that share the sky, and what ZenithBoard does. Twenty-two languages, one static
-site, nothing running on a server, no cookie, no tracker, no third-party request.
+site, nothing running on a server, no cookie, no tracker, and one third party only: Cloudflare's anonymous,
+cookieless visit counter.
 
 **The sky above you, decoded by you, shared with the world.**
 
