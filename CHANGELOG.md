@@ -3,6 +3,19 @@
 All notable changes to zenithboard.app. The site has no version number of its own: every commit on `main` is a
 release. Dates are the day the change went online.
 
+## 2026-11-16 — An anonymous visit counter (Cloudflare Web Analytics)
+
+- The site now counts its visitors with Cloudflare Web Analytics, the owner's decision: the network figures Cloudflare
+  shows for a zone are mostly scanners and bots, and this counter is the only way to see real people. The beacon sets no
+  cookie and keeps no personal data, and it is the site's one third party.
+- `public/_headers`: the Content-Security-Policy lets `https://static.cloudflareinsights.com` in `script-src` and
+  `https://cloudflareinsights.com` in `connect-src`, and nothing else; both were `'self'` and `'none'` before.
+- `tools/csp-check.mjs` accepts that one script URL and still fails on any other third-party resource;
+  `tests/pages.spec.ts` answers the beacon locally so the tests never reach the network.
+- The sentence "no cookie, no tracker, no third-party request" is rewritten in the footer, *About* and *FAQ* of all
+  twenty-two languages: no cookie, and the only third party is Cloudflare's anonymous visit counter. README and
+  `docs/ARCHITECTURE.md` say the same.
+
 ## 2026-11-16 — Security policy, code scanning, a stricter CSP check
 
 - `SECURITY.md`: security problems are reported privately through GitHub's private vulnerability reporting, never in a
